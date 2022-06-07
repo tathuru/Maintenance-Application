@@ -36,9 +36,9 @@ public class NavAidsActivity extends AppCompatActivity {
     }
 
     public void dvorClicked (View view){
-        // Launch the VHF Equipment Room Activity
 
-
+        Intent intent = new Intent(getApplicationContext(),DvorMakeModelActivity.class);
+        startActivity(intent);
 
     }
 
