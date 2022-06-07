@@ -25,6 +25,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DvorMakeModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ADSBMakeModelActivity"
             android:exported="false" />
         <activity
