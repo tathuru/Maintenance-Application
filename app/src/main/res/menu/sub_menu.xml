@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Put In DB"
+        android:id="@+id/putInDB"></item>
+
+    <item android:title="Delete From DB"
+        android:id="@+id/deleteFromDB"></item>
+
+    <item android:title="Show DB"
+        android:id="@+id/showDB"></item>
+
+    <item android:title="Logout"
+        android:id="@+id/logout"></item>
+
+</menu>

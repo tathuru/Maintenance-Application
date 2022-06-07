@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scrollViewMain">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/beforeLogin"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/aailogo"
+                android:id="@+id/imageView2"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_height="100dp" />
+
+
+
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:hint="Enter Your Username..."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_below="@+id/imageView2" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:hint="Enter Your Password..."
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usernameEditText"/>
+
+            <LinearLayout
+                android:id="@+id/linearLay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordEditText"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="button3Pressed"
+                    android:text="LogIn"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/scanBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="scanButtonClicked"
+                    android:text="A. Login"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                android:layout_below="@+id/linearLay1"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationTextView"
+                android:textColor="?attr/colorAccent"
+                android:textStyle="normal|bold"
+                android:text="Location: "
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView3"/>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/abbd"
+                android:id="@+id/imageView"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_below="@id/locationTextView"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:text="An Initiative by ATSEP's in India"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:typeface="serif"
+                android:textSize="18sp"
+                android:textColor="?attr/colorAccent"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="© 2019-2020 Deepak Singh"
+                android:id="@+id/textView2"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

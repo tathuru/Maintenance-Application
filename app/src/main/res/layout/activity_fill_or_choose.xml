@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_out"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".LogOutActivity">
+
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:text="Choose any one of the option below."
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView53"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Do you want to fill any saved form?&#10;        Press the Button below."
+        android:textColor="@android:color/holo_orange_dark" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2019-2020 Deepak Singh"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/fillSavedForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView55"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Fill Saved Form" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fillSavedForm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Do you want to Fill new Form?&#10;           Press button below."
+        android:textColor="@android:color/holo_green_dark" />
+
+
+    <Button
+        android:id="@+id/fillNewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView56"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Fill New Form" />
+
+
+
+</RelativeLayout>
