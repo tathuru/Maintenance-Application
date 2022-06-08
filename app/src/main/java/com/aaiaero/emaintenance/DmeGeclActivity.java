@@ -36,7 +36,7 @@ public class DmeGeclActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),NavAidsDMEGecl752DailyActivity.class);
         startActivity(intent);
 
 
@@ -44,7 +44,7 @@ public class DmeGeclActivity extends AppCompatActivity {
 
     public void weeklyClicked (View view){
         // Launch the DVR Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),NavAidsDMEGecl752WeeklyActivity.class);
         startActivity(intent);
 
 
