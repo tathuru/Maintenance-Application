@@ -48,6 +48,8 @@ public class DvorMakeModelActivity extends AppCompatActivity {
         mopiens.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),DvorMopiensActivity.class);
+                startActivity(intent);
 
             }
         });

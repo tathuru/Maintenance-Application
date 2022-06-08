@@ -16,7 +16,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class VEATListDataActivity extends AppCompatActivity {
+public class ListDataActivity extends AppCompatActivity {
 
     private static final String TAG = "ListDataActivity";
 
@@ -74,7 +74,7 @@ public class VEATListDataActivity extends AppCompatActivity {
                     Intent editScreenIntent;
                     switch (receivedData[1]) {
                         case "SurvADSBComsoftDailyActivity": //Add all activities here in the case
-                            editScreenIntent = new Intent(VEATListDataActivity.this, SurvADSBComsoftDailyActivity.class);
+                            editScreenIntent = new Intent(ListDataActivity.this, SurvADSBComsoftDailyActivity.class);
                             editScreenIntent.putExtra("id", itemID);
                             editScreenIntent.putExtra("name", receivedData[0]);
                             editScreenIntent.putExtra("editTextData", receivedData[2]);
@@ -85,7 +85,7 @@ public class VEATListDataActivity extends AppCompatActivity {
 
 
                         case "ADSBComsoftDailyActivity":
-                            editScreenIntent = new Intent(VEATListDataActivity.this, ADSBComsoftDailyActivity.class);
+                            editScreenIntent = new Intent(ListDataActivity.this, ADSBComsoftDailyActivity.class);
                             editScreenIntent.putExtra("id",itemID);
                             editScreenIntent.putExtra("name",receivedData[0]);
                             editScreenIntent.putExtra("editTextData",receivedData[2]);
@@ -95,7 +95,7 @@ public class VEATListDataActivity extends AppCompatActivity {
                             break;
 
                         case "ADSBDailyActivity":
-                            editScreenIntent = new Intent(VEATListDataActivity.this, ADSBDailyActivity.class);
+                            editScreenIntent = new Intent(ListDataActivity.this, ADSBDailyActivity.class);
                             editScreenIntent.putExtra("id",itemID);
                             editScreenIntent.putExtra("name",receivedData[0]);
                             editScreenIntent.putExtra("editTextData",receivedData[2]);

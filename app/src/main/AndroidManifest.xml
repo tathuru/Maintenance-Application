@@ -25,6 +25,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DvorMopiensActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DmeGeclActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NormarcActivity"
+            android:exported="false" />
+        <activity
             android:name=".AmssActivity"
             android:exported="false" />
         <activity

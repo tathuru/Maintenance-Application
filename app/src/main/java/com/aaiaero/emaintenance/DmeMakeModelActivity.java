@@ -39,8 +39,8 @@ public class DmeMakeModelActivity extends AppCompatActivity {
         gecl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(),DmeGeclActivity.class);
+                startActivity(intent);
             }
         });
 
