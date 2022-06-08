@@ -57,7 +57,9 @@ public class ERActivity extends AppCompatActivity {
     }
 
     public void vcsClicked (View view){
-        // Launch the VCS Equipment Room Activity
+
+        Intent intent = new Intent(getApplicationContext(),VcsMakeModelActivity.class);
+        startActivity(intent);
 
 
 

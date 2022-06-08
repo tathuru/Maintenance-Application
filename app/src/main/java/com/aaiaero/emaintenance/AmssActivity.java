@@ -31,7 +31,7 @@ public class AmssActivity extends AppCompatActivity {
 
     public void ecilClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(),DvorMakeModelActivity.class);
+        Intent intent = new Intent(getApplicationContext(),AmssEcilActivity.class);
         startActivity(intent);
 
     }
