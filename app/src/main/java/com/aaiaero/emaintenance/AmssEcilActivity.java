@@ -40,15 +40,15 @@ public class AmssEcilActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
+       // startActivity(intent);
 
 
     }
 
     public void weeklyClicked (View view){
         // Launch the DVR Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),AmssEcilWeeklyActivity.class);
         startActivity(intent);
 
 
