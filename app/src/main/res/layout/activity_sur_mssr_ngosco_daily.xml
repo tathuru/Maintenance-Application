@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SurMssrNgoscoDailyActivity">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="338dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Airports Authority Of India"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="120dp"
+                    android:layout_height="91dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/logoaai" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="CNS Vol VII Part 3"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center_horizontal"
+            android:text="Preventive Daily Maintenance schedule"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="20dp"
+            android:text="Name:"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="20dp"
+            android:text="Desig:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="20dp"
+            android:text="Emp No:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="20dp"
+            android:text="Location:"
+            android:textStyle="bold" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:text="MAKE: NGOSCO"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text="STATION:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="2"
+                android:ems="8"
+                android:hint="Enter Station "
+                android:textColorHint="#757575" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+
+                android:text="Parameters to be Checked"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Normal Status"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="1.0 General"
+            android:textSize="20sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="22dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:showText="true"
+                android:text="1.1 Online Channel"
+                android:textOff="2"
+                android:textOn="1" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="1.2 Online Channel Status" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:entries="@array/MssrDailyStatus"
+                android:textAlignment="viewEnd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="1.3 Status of Local Terminal"
+                android:textOff="OK"
+                android:textOn="NOT OK" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="1.4 Status of Remote Terminal"
+                android:textOff="OK"
+                android:textOn="NOT OK" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="1.5 Status of PC Rappi"
+                android:textOff="OK"
+                android:textOn="NOT OK" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="1.6 Status of CPMEs"
+                android:textOff="OK"
+                android:textOn="NOT OK" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="1.7 Change of Channels(1 to 2 vice versa) "
+                android:textOff="OK"
+                android:textOn="NOT OK" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="1.8 Room Temperature" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:hint="18 - 22" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="1.9 Shelter Cleanliness"
+                android:textOff="Dust Free"
+                android:textOn="Dusty" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="1.10 Equipment Cleanliness"
+                android:textOff="Dust Free"
+                android:textOn="Dusty" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:text="2.0 INTERROGATOR Panel"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch9"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="Check the lamp indications for input three phase supply"
+                android:textOff="Glowing"
+                android:textOn="NOT Glowing" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+            <Switch
+                android:id="@+id/switch10"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1"
+                android:showText="true"
+                android:splitTrack="true"
+                android:text="Check the status of Breaker Alarm Switch"
+                android:textOff="ON"
+                android:textOn="OFF" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Check if any fault Monitor Lamp is glowing" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:hint="OK" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Check all lamps using Lamp test" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:hint="OK" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:text="3.0"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.1 SLS ATCRBS Tx Power" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.2 Main Normal Mode S Tx Power" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.3 SLS Normal Mode S Tx Power" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.4 Main High Mode S Tx Power" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.5 SLS High Mode S Tx Power" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.6 Main ATCRBS Tx Power " />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.7 Sum Channel Gain " />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.8 Delta Channel Gain " />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.9 Omni Channel Gain" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.10 Sum Channel Noise " />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.11 Delta Channel Noise " />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.12 Omni Channel Noise" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.13 VSWR Main Transmitter" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.14 VSWR Aux. Transmitter" />
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.15 Cabinet Temperature-1" />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.16 Cabinet Temperature-2" />
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.17 Cabinet Temperature-3 " />
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.18 Cabinet Temperature-4" />
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.19 Cabinet Temperature-5" />
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.20 Cabinet Temperature-6" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.21 Cabinet Temperature-7" />
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="3.22 Cabinet Temperature-8" />
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:text="4.0"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.1 SLS ATCRBS Tx Power" />
+
+            <EditText
+                android:id="@+id/editText27"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.2 Main Normal Mode S Tx Power" />
+
+            <EditText
+                android:id="@+id/editText28"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.3 SLS Normal Mode S Tx Power" />
+
+            <EditText
+                android:id="@+id/editText29"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.4 Main High Mode S Tx Power" />
+
+            <EditText
+                android:id="@+id/editText30"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.5 SLS High Mode S Tx Power" />
+
+            <EditText
+                android:id="@+id/editText31"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.6 Main ATCRBS Tx Power " />
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.7 Sum Channel Gain " />
+
+            <EditText
+                android:id="@+id/editText33"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.8 Delta Channel Gain " />
+
+            <EditText
+                android:id="@+id/editText34"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.9 Omni Channel Gain" />
+
+            <EditText
+                android:id="@+id/editText35"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.10 Sum Channel Noise " />
+
+            <EditText
+                android:id="@+id/editText36"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.11 Delta Channel Noise " />
+
+            <EditText
+                android:id="@+id/editText37"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.12 Omni Channel Noise" />
+
+            <EditText
+                android:id="@+id/editText38"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.13 VSWR Main Transmitter" />
+
+            <EditText
+                android:id="@+id/editText39"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.14 VSWR Aux. Transmitter" />
+
+            <EditText
+                android:id="@+id/editText40"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.15 Cabinet Temperature-1" />
+
+            <EditText
+                android:id="@+id/editText41"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.16 Cabinet Temperature-2" />
+
+            <EditText
+                android:id="@+id/editText42"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.17 Cabinet Temperature-3 " />
+
+            <EditText
+                android:id="@+id/editText43"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.18 Cabinet Temperature-4" />
+
+            <EditText
+                android:id="@+id/editText44"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.19 Cabinet Temperature-5" />
+
+            <EditText
+                android:id="@+id/editText45"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.20 Cabinet Temperature-6" />
+
+            <EditText
+                android:id="@+id/editText46"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.21 Cabinet Temperature-7" />
+
+            <EditText
+                android:id="@+id/editText47"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="4.22 Cabinet Temperature-8" />
+
+            <EditText
+                android:id="@+id/editText48"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:gravity="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:text="5 BUILT IN TEST STATUS"
+                android:textSize="20sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="5.1 Interrogator 1 Built in Test" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:entries="@array/MssrDailyStatus"
+                android:textAlignment="viewEnd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="5.2 Interrogator 2 Built in Test" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:entries="@array/MssrDailyStatus"
+                android:textAlignment="viewEnd" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="5.3 DPS Channel 1 Built in Test" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:entries="@array/MssrDailyStatus"
+                android:textAlignment="viewEnd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="5.4 DPS Channel 2 Built in Test" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:entries="@array/MssrDailyStatus"
+                android:textAlignment="viewEnd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="5.5 DPS I/O Built in Test" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:entries="@array/MssrDailyStatus"
+                android:textAlignment="viewEnd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="22dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="5.6 System Built in Test" />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_span="2"
+                android:layout_weight="1.5"
+                android:entries="@array/MssrDailyStatus"
+                android:textAlignment="viewEnd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:weightSum="1"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+
+            <EditText
+                android:id="@+id/editText49"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:gravity="top"
+                android:scrollbars="vertical"
+                android:hint="Write Remarks here(If any)"
+                android:inputType="textMultiLine"
+                android:isScrollContainer="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="3dp"
+            android:weightSum="1">
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Sign" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:layout_weight=".5"
+                android:text="submit" />
+        </TableRow>
+
+
+        <TextView
+            android:id="@+id/textViewWatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Form Created by - T Karthik Kumar"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="@color/teal_700" />
+
+    </TableLayout>
+</ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

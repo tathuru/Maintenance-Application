@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
+import android.graphics.Typeface;
 import android.os.Environment;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -168,6 +169,13 @@ public class MySignature extends AppCompatActivity {
         @Override
         protected void onDraw(Canvas canvas) {
             canvas.drawPath(path, paint);
+            Paint titlePaint = new Paint();
+            titlePaint.setTextSize(40);
+            titlePaint.setTypeface(Typeface.DEFAULT_BOLD);
+            canvas.drawText("Name : "+PersonalDetailsActivity.naam,10,450 ,titlePaint);
+            canvas.drawText("Designation : " +PersonalDetailsActivity.design,10,510 ,titlePaint);
+            canvas.drawText("Emp. ID : " +PersonalDetailsActivity.EmpID,10,570 ,titlePaint);
+            canvas.drawText("Location : " +MainActivity.latLong1,10,630 ,titlePaint);
         }
 
         @Override

@@ -25,6 +25,21 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".SurMssrNgoscoDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SurMssrNgoscoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SurMssrMakeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SurveillanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VcsSittiM600sDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".VcsSittiDailyIPTBB"
             android:exported="false" />
         <activity
