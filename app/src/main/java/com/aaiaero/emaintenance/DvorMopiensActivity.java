@@ -40,7 +40,7 @@ public class DvorMopiensActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),DVORMopiensDailyActivity.class);
         startActivity(intent);
 
 

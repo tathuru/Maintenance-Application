@@ -1,0 +1,2133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    tools:context=".DVORMopiensDailyActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="170dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".4"
+                    android:text="Airports Authority of India"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".2"
+                    app:srcCompat="@drawable/logoaai" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight=".4"
+                    android:text="CNS Manual Vol.VII Part 2"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name: "
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Desig: "
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Emp No.: "
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location: "
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Preventive Maintenance Schedule - Daily (DVOR-MARU-220) "
+                    android:textAlignment="center"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".17"
+                    android:text="Station:"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".33"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".2"
+                    android:text="Region: "
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".3"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".17"
+                    android:text="Freq(Mhz): "
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".17"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".17"
+                    android:text="IDENT: "
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".17"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".17"
+                    android:text="DATE: "
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".15"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="S. No: "
+                    android:textColor="@color/textViewColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Parameters "
+                    android:textColor="@color/textViewColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:text="Observed Status "
+                    android:textColor="@color/textViewColor"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.0"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".91"
+                    android:text="GENERAL "
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.1 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Equipment Shelter Cleanliness "
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="Dust Free"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.2 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Status of the Air Conditioners"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="Serviceable"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".09"
+                    android:text="1.3 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight=".36">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Equipment Shelter Condition"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="(a) Temp"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="(b) Humidity"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight=".55">
+
+                    <EditText
+                        android:id="@+id/editText8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:layout_marginTop="48dp"
+                        android:inputType="number"
+                        android:hint="22\u00BA \u00B1 2\u00BA C"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textSize="14sp"
+                        android:hint="\u003c 60\u0025"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".09"
+                    android:text="1.4 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight=".36">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Main Power Supply"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="(a) Voltage"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="(b) Frequency"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight=".55">
+
+                    <EditText
+                        android:id="@+id/editText10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:layout_marginTop="48dp"
+                        android:inputType="number"
+                        android:hint="220V \u00B1 10\u0025"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textSize="14sp"
+                        android:hint="50Hz \u00B1 2.5\u0025"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.5 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="UPS/ Stabilizer Output"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText12"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="220V \u00B1 5V"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.6 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Status of Monitor"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText13"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="OK"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".09"
+                    android:text="1.7 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight=".36">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Status of DVOR Remote indications at:"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="(a) Equipment room"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="(b) ATC"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight=".55">
+
+                    <EditText
+                        android:id="@+id/editText14"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:layout_marginTop="48dp"
+                        android:inputType="text"
+                        android:hint="OK"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText15"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textSize="14sp"
+                        android:hint="OK"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.8 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Transmitter Active"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText16"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="1/2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.9 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Any unusual noise/ Abnormality recieved"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText17"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="No"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.10 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Status of Electrical Fittings(Light \u0026 Fan)"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText18"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="OK"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.11 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Status of Mast Light"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText19"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="OK"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="1.12 "
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Status of Critical/ Surrounding areas"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText20"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".55"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="No grass \u0026 Vegetation etc."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.0"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Monitor (using LMMS) "
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:text="Monitor-1 "
+                    android:textAlignment="center"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:textAlignment="center"
+                    android:text="Monitor-2"
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.1"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Azimuth Angle "
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText21"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="Nominal \u00B1 1\u00BA"/>
+
+                <EditText
+                    android:id="@+id/editText22"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="Nominal \u00B1 1\u00BA"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.2"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="9960 Hz (FM Index)"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText23"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="11 - 17"/>
+
+                <EditText
+                    android:id="@+id/editText24"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="11 -17"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.3"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="30 Hz AM Modulation Depth"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText25"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="30 \u00b1 4.5\u0025"/>
+
+                <EditText
+                    android:id="@+id/editText26"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="30 \u00b1 4.5\u0025"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.4"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="9960 Hz Modulation Depth"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText27"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="30 \u00b1 4.5\u0025"/>
+
+                <EditText
+                    android:id="@+id/editText28"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="30 \u00b1 4.5\u0025"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.5"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Ident 1020 Hz Modulation Depth"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText29"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="\u003C 10\u0025"/>
+
+                <EditText
+                    android:id="@+id/editText30"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:hint="\u003C 10\u0025"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.6"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Ident Code"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText31"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="OK/ Not OK"/>
+
+                <EditText
+                    android:id="@+id/editText32"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp"
+                    android:hint="OK/ Not OK"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.7"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Frequency - Carrier"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText33"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText34"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.8"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Frequency - USB"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText35"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText36"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.9"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Frequency - LSB"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText37"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText38"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.10"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Output Power -Carrier"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText39"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText40"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="2.11"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="RF input level"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText41"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText42"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".275"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".09"
+                    android:text="3.0"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".36"
+                    android:text="Status Indication "
+                    android:textColor="@color/teal_700"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight=".55">
+
+                    <TextView
+                        android:id="@+id/textView76"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Observed Status"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textColor="@color/teal_700"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:textColor="@color/teal_700"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:textColor="@color/teal_700"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".09"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.1"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView80"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.2"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.3"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".14">
+
+                    <TextView
+                        android:id="@+id/textView82"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="PDC"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".22"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView83"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Power"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView84"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Tx-1"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Tx-2"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".55"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText43"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="ON"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText44"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="ON/OFF"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText45"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="ON/OFF"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".09"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.4"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.5"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".14">
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CSP"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".22"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Tx Fault"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Mon Alarm"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".275"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText46"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="OFF"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText47"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="OFF"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".275"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText48"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="OFF"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText49"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="OFF"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".09"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.6"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView92"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.7"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView93"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.8"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".14">
+
+                    <TextView
+                        android:id="@+id/textView94"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="AC/DC"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".22"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView95"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="DC Current"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView96"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Normal"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView97"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Alarm"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".275"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText50"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText51"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="ON"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText52"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="OFF"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="144dp"
+                    android:layout_weight=".275"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText53"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText54"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="ON"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText55"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="OFF"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".09"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView98"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.9"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView99"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="3.10"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".14">
+
+                    <TextView
+                        android:id="@+id/textView100"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="DC/DC"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".22"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView101"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Normal"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView102"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="Alarm"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".275"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText56"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="ON"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText57"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="OFF"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="96dp"
+                    android:layout_weight=".275"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editText58"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="ON"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editText59"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="OFF"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:text="   4.0 Remarks : "
+                    android:textColor="@color/textViewColor" />
+
+                <EditText
+                    android:id="@+id/editText60"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/textViewColor" />
+
+            </LinearLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Submit Schedule" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Sign Document" />
+
+            </GridLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/textViewColor"
+                    android:text="Form Created by -Vipin K Singh"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
