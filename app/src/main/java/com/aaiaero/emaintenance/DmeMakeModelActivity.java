@@ -1,26 +1,25 @@
-
 package com.aaiaero.emaintenance;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-        import android.content.Intent;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.widget.Button;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
-public class DvorMakeModelActivity extends AppCompatActivity {
+public class DmeMakeModelActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dvor_make_model);
+        setContentView(R.layout.activity_dme_make_model);
 
-        Button thales, selex, gecl, mopiens;
+        Button thales, mopiens, gecl, other;
 
         thales = (Button) findViewById(R.id.thales);
-        selex = (Button) findViewById(R.id.selex);
-        gecl = (Button) findViewById(R.id.gecl);
         mopiens = (Button) findViewById(R.id.mopiens);
+        gecl = (Button) findViewById(R.id.gecl);
+        other = (Button) findViewById(R.id.other);
 
         thales.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,7 +29,7 @@ public class DvorMakeModelActivity extends AppCompatActivity {
             }
         });
 
-        selex.setOnClickListener(new View.OnClickListener() {
+        mopiens.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -45,7 +44,7 @@ public class DvorMakeModelActivity extends AppCompatActivity {
             }
         });
 
-        mopiens.setOnClickListener(new View.OnClickListener() {
+        other.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

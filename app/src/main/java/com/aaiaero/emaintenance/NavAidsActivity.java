@@ -43,16 +43,18 @@ public class NavAidsActivity extends AppCompatActivity {
     }
 
     public void dmeClicked (View view){
-        // Launch the DVR Equipment Room Activity
+
+        Intent intent = new Intent(getApplicationContext(),DmeMakeModelActivity.class);
+        startActivity(intent);
 
 
 
     }
 
     public void llzClicked (View view){
-        // Launch the DATISEquipment Room Activity
 
-
+        Intent intent = new Intent(getApplicationContext(),LlzMakeModelActivity.class);
+        startActivity(intent);
 
     }
 
@@ -79,8 +81,8 @@ public class NavAidsActivity extends AppCompatActivity {
 
     public void markerClicked (View view){
         // Launch the ADSB Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(),ADSBMakeModelActivity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(getApplicationContext(),ADSBMakeModelActivity.class);
+       // startActivity(intent);
 
 
 

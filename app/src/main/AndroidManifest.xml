@@ -25,6 +25,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".AmssActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzMakeModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DmeMakeModelActivity"
+            android:exported="false" />
+        <activity
             android:name=".DvorMakeModelActivity"
             android:exported="false" />
         <activity
