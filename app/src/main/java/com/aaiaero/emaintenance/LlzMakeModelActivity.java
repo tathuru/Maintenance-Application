@@ -24,7 +24,7 @@ public class LlzMakeModelActivity extends AppCompatActivity {
         normarc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),NormarcActivity.class);
+                Intent intent = new Intent(getApplicationContext(), LlzNormarcActivity.class);
                 startActivity(intent);
             }
         });

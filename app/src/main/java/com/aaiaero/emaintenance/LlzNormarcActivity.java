@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class DmeGeclActivity extends AppCompatActivity {
+public class LlzNormarcActivity extends AppCompatActivity {
 
     Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
@@ -16,9 +16,9 @@ public class DmeGeclActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dme_gecl);
+        setContentView(R.layout.activity_llz_normarc);
 
-        setTitle("GECL DME  Maintenance");
+        setTitle("Normarc LLZ Maintenance");
 
         daily = (Button) findViewById(R.id.daily);
         weekly = (Button) findViewById(R.id.weekly);
@@ -36,7 +36,7 @@ public class DmeGeclActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),NavAidsDMEGecl752DailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),LlzNormarcDailyActivity.class);
         startActivity(intent);
 
 
@@ -44,7 +44,7 @@ public class DmeGeclActivity extends AppCompatActivity {
 
     public void weeklyClicked (View view){
         // Launch the DVR Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(),NavAidsDMEGecl752WeeklyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
         startActivity(intent);
 
 

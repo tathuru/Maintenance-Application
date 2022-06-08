@@ -3,16 +3,12 @@ package com.aaiaero.emaintenance;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import java.io.ByteArrayOutputStream;
-
-public class VcsSittiActivity extends AppCompatActivity {
+public class VcsSittiM800ipActivity extends AppCompatActivity {
 
     Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
@@ -20,9 +16,9 @@ public class VcsSittiActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vcs_sitti);
+        setContentView(R.layout.activity_vcs_sitti_m800ip);
 
-        setTitle("VCS SITTI Maintenance");
+        setTitle("VCS SITTI M600S Maintenance");
 
         daily = (Button) findViewById(R.id.daily);
         weekly = (Button) findViewById(R.id.weekly);
@@ -40,7 +36,7 @@ public class VcsSittiActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),VcsSittiDailyIPTBB.class);
         startActivity(intent);
 
 
@@ -48,8 +44,8 @@ public class VcsSittiActivity extends AppCompatActivity {
 
     public void weeklyClicked (View view){
         // Launch the DVR Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
+       // startActivity(intent);
 
 
     }

@@ -3,13 +3,9 @@ package com.aaiaero.emaintenance;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import java.io.ByteArrayOutputStream;
 
 public class ERActivity extends AppCompatActivity {
 
@@ -58,7 +54,7 @@ public class ERActivity extends AppCompatActivity {
 
     public void vcsClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(),VcsMakeModelActivity.class);
+        Intent intent = new Intent(getApplicationContext(), VcsMakeActivity.class);
         startActivity(intent);
 
 

@@ -3,16 +3,12 @@ package com.aaiaero.emaintenance;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import java.io.ByteArrayOutputStream;
-
-public class NormarcActivity extends AppCompatActivity {
+public class VcsSittiM600sActivity extends AppCompatActivity {
 
     Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
@@ -20,9 +16,9 @@ public class NormarcActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_normarc);
+        setContentView(R.layout.activity_vcs_sitti_m600s);
 
-        setTitle("Normarc LLZ Maintenance");
+        setTitle("VCS SITTI M600S Maintenance");
 
         daily = (Button) findViewById(R.id.daily);
         weekly = (Button) findViewById(R.id.weekly);
@@ -40,7 +36,7 @@ public class NormarcActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),LlzNormarcDailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
         startActivity(intent);
 
 

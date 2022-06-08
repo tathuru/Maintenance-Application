@@ -25,6 +25,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".VcsSittiDailyIPTBB"
+            android:exported="false" />
+        <activity
+            android:name=".VcsSittiM800ipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VcsSittiModelActivity"
+            android:exported="false" />
+        <activity
             android:name=".NavAidsDMEGecl752WeeklyActivity"
             android:exported="false" />
         <activity
@@ -40,10 +49,10 @@
             android:name=".LlzNormarcDailyActivity"
             android:exported="false" />
         <activity
-            android:name=".VcsSittiActivity"
+            android:name=".VcsSittiM600sActivity"
             android:exported="false" />
         <activity
-            android:name=".VcsMakeModelActivity"
+            android:name=".VcsMakeActivity"
             android:exported="false" />
         <activity
             android:name=".AmssEcilActivity"
@@ -55,7 +64,7 @@
             android:name=".DmeGeclActivity"
             android:exported="false" />
         <activity
-            android:name=".NormarcActivity"
+            android:name=".LlzNormarcActivity"
             android:exported="false" />
         <activity
             android:name=".AmssActivity"

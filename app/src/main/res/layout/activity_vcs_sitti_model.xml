@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_vcs_make_model"
+    android:id="@+id/activity_vcs_sitti_model"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".VcsMakeModelActivity">
+    tools:context=".VcsSittiModelActivity">
 
 
     <TextView
@@ -29,7 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
-        android:text="Select Make of VCS to perform Maintenance."
+        android:text="Select Model of SITTI VCS to perform Maintenance."
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/holo_blue_bright"
@@ -45,10 +45,10 @@
         android:layout_alignParentStart="true">
 
         <Button
-            android:text="SITTI"
+            android:text="M600S"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/sitti"
+            android:id="@+id/m600s"
             android:layout_row="0"
             android:layout_column="0"
             android:layout_gravity="fill"
@@ -57,41 +57,16 @@
             android:textSize="12sp" />
 
         <Button
-            android:text="SCHMID"
+            android:text="M800IP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/schmid"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="12sp" />
-        <Button
-            android:text="DRAKE"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/drake"
+            android:id="@+id/m800ip"
             android:layout_row="1"
             android:layout_column="0"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="12sp" />
-
-        <Button
-            android:text="FREQUENTIS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/frequentis"
-            android:layout_row="1"
-            android:layout_column="1"
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="12sp" />
-
-
 
     </GridLayout>
 

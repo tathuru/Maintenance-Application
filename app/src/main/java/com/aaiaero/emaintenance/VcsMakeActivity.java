@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class VcsMakeModelActivity extends AppCompatActivity {
+public class VcsMakeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vcs_make_model);
+        setContentView(R.layout.activity_vcs_make);
 
         Button sitti, schmid, drake, frequentis;
 
@@ -24,7 +24,7 @@ public class VcsMakeModelActivity extends AppCompatActivity {
         sitti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),VcsSittiActivity.class);
+                Intent intent = new Intent(getApplicationContext(),VcsSittiModelActivity.class);
                 startActivity(intent);
             }
         });
@@ -39,8 +39,7 @@ public class VcsMakeModelActivity extends AppCompatActivity {
         drake.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),DmeGeclActivity.class);
-                startActivity(intent);
+
             }
         });
 
