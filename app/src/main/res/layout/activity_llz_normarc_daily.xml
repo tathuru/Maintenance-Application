@@ -1,0 +1,3054 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LlzNormarcDailyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewLlzNormarcDaily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:text="Preventive maintenance Schedule- Daily(Localizer)"
+                android:textStyle="bold"
+                android:textColor="@color/textViewColor" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:text="Name: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:text="Desig: "
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/textView118"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:text="Emp No.: "
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:text="Location: "
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/textViewLllzNormarcDailyEquip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:textColor="@color/textViewColor"
+                    android:text="Equipment: LOCALIZER" />
+                <TextView
+                    android:id="@+id/textViewLlzNormarcDailyMake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textViewColor"
+                    android:layout_marginStart="30dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:text="Make: NORMAC" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/editTextLlzNormarcDailyStation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:hint="Station"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/editTextLlzNormarcDailyModel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:hint="Model: 70XX "
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/editTextLlzNormarcDailyRWY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="RWY"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/editTextLlzNormarcDailyCat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:hint="Cat "
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/editTextLlzNormarcDailyFrequency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Frequency (MHz) "
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/editTextLlzNormarcDailyIdent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="IDENT: "
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewLlzNormarcDailyDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Date and Time" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="S. No."
+                        android:layout_weight="0.2"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.1"/>
+
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.3" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily4"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.4" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="111dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.5" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily6"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="58dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.6" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.7" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily8"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.8" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily9"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:layout_marginTop="50dp"
+                        android:text="1.9" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily10"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.10" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily11"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.11" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily12"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.12" />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyParameter"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Parameter"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyRoomClean"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="General Cleanliness of Equip. Room " />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStatusAc"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Status of Air Conditioners"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStatusMast"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Status of obstruction Light"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyAmbient"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Ambient Condition of Equip. Room"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyRoomTemp"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="(a) Temperature "
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyRoomHumidity"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:text="(b) Humidity "
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMainsVoltage"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Mains Supply Measurement\n(a) Voltage "
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMainsFreq"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="(b) Frequency "
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyEquipmentHoldsOnUps"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Equip. holds On UPS with mains OFF"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyTxOnAir"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="TX On Air"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStatusMonitorExe"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Status of Monitor\n    (a) Executive "
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStatusMonitorStandby"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="    (b) StandBy (If Hot S/By) "
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStatusNearField"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Status of Near Field/ Far Field Monitor (if installed)"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStatusBirdSpike"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Status of Bird Spike on Radiating and Monitor ant."
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStatusCriticalArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Status of Critical Area (Check Grass Growth)"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyRemoteStatusER"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Remote Status Indication\n                  (a) E/Room "
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyRemoteStatusAtc"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="                  (b) ATC UNIT "
+                        android:textColor="@color/textViewColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="Status" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyRoomClean"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not SAT "
+                            android:textOff="Not Sat"
+                            android:textOn="Sat"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyRoomCleanOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="6"
+                            android:text="SAT"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyStatusAc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not SAT "
+                            android:textOff="Not Sat"
+                            android:textOn="Sat"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyStatusAcOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="SAT"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyStatusMast"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOff="Not Ok"
+                            android:textOn="Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyStatusMastOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyRoomTemp"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="10"
+                        android:hint="&lt; 22°C"
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyHumidity"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint="&lt; 60% "
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyMainsVoltage"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint="Nominal ± 10%"
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyMainsFreq"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint="Nominal ± 2.5%"
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyEquipmentHoldsOnUps"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOff="Not Ok"
+                            android:textOn="Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyEquipmentHoldsOnUpsOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyTxOnAir"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint="Tx-1/Tx-2"
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyStatusMonitorExe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            android:text="Not OK "/>
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyStatusMonitorExeOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyStatusMonitorStandby"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOff="Not Ok"
+                            android:textOn="Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyStatusMonitorStandbyOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyStatusNearField"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOff="Not Ok"
+                            android:textOn="Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyStatusNearFieldOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyStatusBirdSpike"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOff="Not Ok"
+                            android:textOn="Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyStatusBirdSpikeOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyStatusCriticalArea"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOff="Not Ok"
+                            android:textOn="Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyStatusCriticalAreaOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyRemoteStatusER"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOff="Not Ok"
+                            android:textOn="Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyRemoteStatusEROk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyRemoteStatusAtc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOff="Not Ok"
+                            android:textOn="Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyRemoteStatusAtcOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySNo2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:text="2"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="174dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="2.1"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="154dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="2.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily23"
+                        android:layout_width="match_parent"
+                        android:layout_height="174dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="2.3" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="154dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="2.4" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="174dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="2.5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyParameter2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Parameter"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="174dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:text="CL " />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyDS"
+                                android:layout_width="match_parent"
+                                android:layout_height="154dp"
+                                android:layout_marginTop="5dp"
+                                android:text="DS"
+                                android:textColor="@color/textViewColor" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyNF"
+                                android:layout_width="match_parent"
+                                android:layout_height="174dp"
+                                android:layout_marginTop="5dp"
+                                android:text="NF"
+                                android:textColor="@color/textViewColor" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyCLR"
+                                android:layout_width="match_parent"
+                                android:layout_height="154dp"
+                                android:layout_marginTop="5dp"
+                                android:text="CLR"
+                                android:textColor="@color/textViewColor" />
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyFFM"
+                                android:layout_width="match_parent"
+                                android:layout_height="174dp"
+                                android:layout_marginTop="5dp"
+                                android:text="FFM \n(if inst\nalled)"
+                                android:textColor="@color/textViewColor" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyCLDDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="68dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:text="DDM % \nCat1 (0±1.55)%\nCat2 (0±1.2)% \nCat3 (0±0.9)% " />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyCLSDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="SDM %\n(40±4)%"
+                                android:textColor="@color/textViewColor" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyCLRF"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="RF V\n 3.0V -0.35/+0.47V"
+                                android:textColor="@color/textViewColor" />
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyDSDDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:text="DDM %\nNominal±2.63%" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyDSSDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="SDM %\n(40±4)%"
+                                android:textColor="@color/textViewColor" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyDSRF"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="RF V\n 3.0±1.5 V"
+                                android:textColor="@color/textViewColor" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyNFDDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="68dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:text="DDM % \nCat1 (0±1.55)%\nCat2 (0±1.2)% \nCat3 (0±0.9)%" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyNFSDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="SDM %\n(40±4)%"
+                                android:textColor="@color/textViewColor" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyNFRF"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="RF V\n3.0±1.5 V"
+                                android:textColor="@color/textViewColor" />
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyCLRDDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:text="DDM %\nNominal ±4% " />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyCLRSDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="SDM %\n(40±4)%"
+                                android:textColor="@color/textViewColor" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyCLRRF"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="RF V\n3.0V -0.37/+0.44V"
+                                android:textColor="@color/textViewColor" />
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyFFMDDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="68dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:text="DDM % \nCat1 (0±1.55)%\nCat2 (0±1.2)% \nCat3 (0±0.9)%" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyFFMSDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="SDM %\n(40±4)%"
+                                android:textColor="@color/textViewColor" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyFFMRF"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="RF V\nNominal ±20%"
+                                android:textColor="@color/textViewColor" />
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Mon 1 main-CH"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLDDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLSDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRFMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSDDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSSDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSRFMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFDDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFSDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFRFMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRDDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRSDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRRFMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMDDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMSDMMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMRFMainMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Mon 2 main-CH"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLDDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLSDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRFMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSDDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSSDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSRFMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFDDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFSDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFRFMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRDDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRSDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRRFMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMDDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMSDMMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMRFMainMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Mon 1 S/By-CH"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLDDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLSDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRFStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSDDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSSDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSRFStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFDDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFSDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFRFStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRDDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRSDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRRFStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMDDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMSDMStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMRFStbMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Mon 2 S/By-CH"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLDDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLSDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRFStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSDDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSSDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyDSRFStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFDDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFSDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyNFRFStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRDDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRSDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyCLRRFStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMDDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="DDM %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMSDMStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="(40±4) %"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzNormarcDailyFFMRFStbMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="4"
+                        android:hint="RF V"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySNo3"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="3"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="3.1"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="3.2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyParameter3"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Parameter"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyDF"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="DF (Difference of frequency)" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyDCLoop"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="DL (DC Loop Status)"
+                        android:textColor="@color/textViewColor" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:text="MON-1"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyNominalMon1"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="Nominal Value" />
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyNominal10KHzMon1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="10KHz"
+                                android:gravity="center"
+                                android:textColor="@color/textViewColor" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyDCLoop1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint="DL-1"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyDisplayMon1"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:text="Displayed Value" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyDfMon1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint="10KHz"
+                                android:textAlignment="center"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyDCLoop2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint="DL-2"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:text="MON-2"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyNominalMon2"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:text="Nominal Value" />
+
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyNominal10KHzMon2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:text="10KHz"
+                                android:gravity="center"
+                                android:textColor="@color/textViewColor" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyDCLoop3"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint="DL-3"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyDisplayMon2"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="Displayed Value" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyDfMon2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint="10KHz"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyDCLoop4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint="DL-4"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewLlzNormarcDailyParameter4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/teal_700"
+                android:textSize="14sp"
+                android:text="4 Field Modulation Measurement (For Cat-II and Cat-III ILS only)"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyAzimuth"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:text="Azimuth \nParameter"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyAzimuthCL"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="CL"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyAzimuthWidth90"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Width (90Hz)" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyAzimuth150"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Width (150Hz)" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyAzimuthTx1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center"
+                        android:text="TX-I"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyAzimuthTx1DDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:text="% DDM" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1DDMCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1DDMWidth90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1DDMWidth150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyAzimuthTx1SDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="% SDM" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1SDMCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1SDMWidth90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1SDMWidth150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyAzimuthTx1RF"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="% RF" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1RFCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1RFWidth90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx1RFWidth150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyAzimuthTx2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center"
+                        android:text="TX-II"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyAzimuthTx2DDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="% DDM" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2DDMCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2DDMWidth90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2DDMWidth150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyAzimuthTx2SDM"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:text="% SDM" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2SDMCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2SDMWidth90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2SDMWidth150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailyAzimuthTx2RF"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="% RF" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2RFCL"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2RFWidth90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailyAzimuthTx2RFWidth150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySNo5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:text="5.0"
+                        android:gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily51"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.1"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily52"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily53"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.3" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily54"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.4" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily55"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.5" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily56"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySystemStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="System Status Indication"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyParam"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="PARAM"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyDisagr"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="DISAGR"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyBatt"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="BATT"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyIdent"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="IDENT"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMaint"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="MAINT"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStandby"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="STANDBY"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySystemStatusNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center_vertical"
+                        android:text="Normal Status (LED OFF)"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyParamNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="OK"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyDisagrNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="OK"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyBattNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="OK"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyIdentNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="OK"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMaintNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="OK"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyStandbyNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="OK"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyObservedStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Observed Status" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyParam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            android:text="Not OK "/>
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyParamOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyDisagr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyDisagrOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyBatt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyBattOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyIdent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyIdentOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyMaint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyMaintOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyStandby"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Not OK "
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyStandbyOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySNo6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:text="6.0"
+                        android:gravity="center_vertical"
+                        android:layout_weight="0.2"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily61"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6.1"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily62"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily63"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6.3" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily64"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6.4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyTxParameter"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="System Status Indication"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyCourse"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="COURSE (CSR)"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyClearance"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="CLEARANCE (CLR)"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyTxtoAir"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="TX TO AIR"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="MAIN"
+                        android:textColor="@color/textViewColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyTXParameterNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Normal Status (LED ON)"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyCourseNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="OK"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyClearanceNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="OK"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyTxtoAirNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="OK"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyMainNml"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="OK"
+                        android:textColor="@color/textViewColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyIndicationTx1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:text="TX-I (LED Indication ON/OFF)" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyCourseTx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:textOn="ON"
+                            android:textOff="OFF"
+                            android:text="OFF"/>
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyCourseTx1Ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="ON"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyClearanceTx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="OFF"
+                            android:textOn="ON"
+                            android:textOff="OFF" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyClearanceTx1Ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="ON"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyTxtoAirTx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="OFF "
+                            android:textOn="ON"
+                            android:textOff="OFF" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyTxtoAirTx1Ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="ON"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyMainTx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="OFF "
+                            android:textOn="ON"
+                            android:textOff="OFF" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyMainTx1Ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="ON"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyIndicationTx2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="TX-II (LED Indication ON/OFF)" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyCourseTx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:textOn="ON"
+                            android:textOff="OFF"
+                            android:text="OFF"/>
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyCourseTx2Ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="ON"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyClearanceTx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="OFF"
+                            android:textOn="ON"
+                            android:textOff="OFF" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyClearanceTx2Ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="ON"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyTxtoAirTx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="OFF "
+                            android:textOn="ON"
+                            android:textOff="OFF" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyTxtoAirTx2Ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="ON"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzNormarcDailyMainTx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="OFF "
+                            android:textOn="ON"
+                            android:textOff="OFF" />
+                        <TextView
+                            android:id="@+id/textViewLlzNormarcDailyMainTx2Ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="ON"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySNo7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:text="7.0"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDaily71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7.1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyParameter7"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Parameter"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzDailyNormarcDailySMPS"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="SMPS (Power Supply)" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailyParameter7Nominal"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center"
+                        android:text="Nominal Value"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzDailyNormarcDailySMPSNominal"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:textColor="@color/textViewColor"
+                        android:text="26 V DC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzNormarcDailySMPSObs"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:text="Observed Value"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailySMPSPS1"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="PS-1" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailySMPSPS1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint="24-28 V"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzNormarcDailySMPSPS2"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="PS-2" />
+                            <EditText
+                                android:id="@+id/editTextLlzNormarcDailySMPSPS2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="4"
+                                android:hint="24-28 V"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/editTextLlzNormarcDailyRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="4"
+                android:hint="Remarks:"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/teal_700"
+                android:text="Submit Schedule"/>
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Sign Document"/>
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:textStyle="italic"
+                android:text="Form Created by- Shubham Jain"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

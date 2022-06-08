@@ -25,6 +25,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DVORMopiensDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzNormarcDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".VcsSittiActivity"
             android:exported="false" />
         <activity
