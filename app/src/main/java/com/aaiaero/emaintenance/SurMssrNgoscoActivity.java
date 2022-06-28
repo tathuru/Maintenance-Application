@@ -22,7 +22,7 @@ public class SurMssrNgoscoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sur_mssr_ngosco);
 
-        setTitle("ADS-B Maintenance");
+        setTitle("NGOSCO MSSR Maintenance");
 
         daily = (Button) findViewById(R.id.daily);
         weekly = (Button) findViewById(R.id.weekly);
