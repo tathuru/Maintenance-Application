@@ -33,6 +33,8 @@ public class ERActivity extends AppCompatActivity {
 
     public void vhfClicked (View view){
         // Launch the VHF Equipment Room Activity
+        Intent intent = new Intent(getApplicationContext(), VhfMakeActivity.class);
+        startActivity(intent);
 
 
 

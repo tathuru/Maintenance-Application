@@ -25,6 +25,21 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".EcilTxRxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JotronTxRxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaeTxRxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OteTxRxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfMakeActivity"
+            android:exported="false" />
+        <activity
             android:name=".SurMssrNgoscoDailyActivity"
             android:exported="false" />
         <activity
