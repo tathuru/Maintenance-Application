@@ -24,7 +24,7 @@ public class VhfMakeActivity extends AppCompatActivity {
         ote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),OteTxRxActivity.class);
+                Intent intent = new Intent(getApplicationContext(), VhfOteTxRxActivity.class);
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class VhfMakeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(getApplicationContext(),PaeTxRxActivity.class);
+                Intent intent = new Intent(getApplicationContext(), VhfPaeTxRxActivity.class);
                 startActivity(intent);
 
             }
@@ -43,7 +43,7 @@ public class VhfMakeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(getApplicationContext(),JotronTxRxActivity.class);
+                Intent intent = new Intent(getApplicationContext(), VhfJotronTxRxActivity.class);
                 startActivity(intent);
 
             }
@@ -53,7 +53,7 @@ public class VhfMakeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(getApplicationContext(),EcilTxRxActivity.class);
+                Intent intent = new Intent(getApplicationContext(), VhfEcilTxRxActivity.class);
                 startActivity(intent);
 
             }

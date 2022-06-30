@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PaeTxRxActivity extends AppCompatActivity {
+public class VhfPaeTxRxActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pae_tx_rx);
+        setContentView(R.layout.activity_vhf_pae_tx_rx);
 
         Button tx, rx;
 

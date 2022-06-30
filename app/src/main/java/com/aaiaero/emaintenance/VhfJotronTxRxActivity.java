@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class JotronTxRxActivity extends AppCompatActivity {
+public class VhfJotronTxRxActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_jotron_tx_rx);
+        setContentView(R.layout.activity_vhf_jotron_tx_rx);
 
         Button tx, rx;
 

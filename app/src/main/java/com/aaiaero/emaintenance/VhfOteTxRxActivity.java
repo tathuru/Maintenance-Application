@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class EcilTxRxActivity extends AppCompatActivity {
+public class VhfOteTxRxActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ecil_tx_rx);
+        setContentView(R.layout.activity_vhf_ote_tx_rx);
 
         Button tx, rx;
 
@@ -23,7 +23,7 @@ public class EcilTxRxActivity extends AppCompatActivity {
         tx.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),VcsSittiModelActivity.class);
+                Intent intent = new Intent(getApplicationContext(),VhfOteTxActivity.class);
                 startActivity(intent);
             }
         });
@@ -31,6 +31,9 @@ public class EcilTxRxActivity extends AppCompatActivity {
         rx.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent intent = new Intent(getApplicationContext(),VhfOteRxActivity.class);
+                startActivity(intent);
 
             }
         });

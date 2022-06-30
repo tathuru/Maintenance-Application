@@ -25,6 +25,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".VhfOteRxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfOteTxActivity"
+            android:exported="false" />
+        <activity
             android:name=".NavigationGpThales420Activity"
             android:exported="false" />
         <activity
@@ -34,16 +40,16 @@
             android:name=".NavigationLlzThales420Activity"
             android:exported="false" />
         <activity
-            android:name=".EcilTxRxActivity"
+            android:name=".VhfEcilTxRxActivity"
             android:exported="false" />
         <activity
-            android:name=".JotronTxRxActivity"
+            android:name=".VhfJotronTxRxActivity"
             android:exported="false" />
         <activity
-            android:name=".PaeTxRxActivity"
+            android:name=".VhfPaeTxRxActivity"
             android:exported="false" />
         <activity
-            android:name=".OteTxRxActivity"
+            android:name=".VhfOteTxRxActivity"
             android:exported="false" />
         <activity
             android:name=".VhfMakeActivity"
