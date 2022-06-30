@@ -36,7 +36,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-public class LlzNormarcDailyActivity extends AppCompatActivity {
+public class LlzNormarc7000DailyActivity extends AppCompatActivity {
 
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
     private MySignature mySignature = new MySignature(this);
@@ -45,12 +45,12 @@ public class LlzNormarcDailyActivity extends AppCompatActivity {
     private EditText[] editTextArray;//Copy
     private Switch[] switchArray;//Copy
     private Spinner[] spinnerArray;//Copy
-    private String thisActivityName = "LlzNormarcDailyActivity"; //Change Here as per your class name
+    private String thisActivityName = "LlzNormarc7000DailyActivity"; //Change Here as per your class name
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_llz_normarc_daily);
+        setContentView(R.layout.activity_llz_normarc7000_daily);
 
         //Define and Initialize all EditTexts serially here
         EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,

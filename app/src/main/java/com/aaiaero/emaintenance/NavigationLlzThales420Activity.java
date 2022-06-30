@@ -1,14 +1,14 @@
 package com.aaiaero.emaintenance;
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.util.Log;
+        import android.view.View;
+        import android.widget.Button;
 
-public class LlzNormarcActivity extends AppCompatActivity {
+public class NavigationLlzThales420Activity extends AppCompatActivity {
 
     Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
@@ -16,9 +16,9 @@ public class LlzNormarcActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_llz_normarc);
+        setContentView(R.layout.activity_navigation_llz_thales420);
 
-        setTitle("Normarc LLZ Maintenance");
+        setTitle("Thales LLZ Maintenance");
 
         daily = (Button) findViewById(R.id.daily);
         weekly = (Button) findViewById(R.id.weekly);
@@ -36,7 +36,7 @@ public class LlzNormarcActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),LlzNormarcDailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), LlzNormarc7000DailyActivity.class);
         startActivity(intent);
 
 

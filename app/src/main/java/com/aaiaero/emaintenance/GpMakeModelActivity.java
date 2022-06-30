@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class LlzMakeModelActivity extends AppCompatActivity {
+public class GpMakeModelActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_llz_make_model);
+        setContentView(R.layout.activity_gp_make_model);
 
         Button normarc70, normarc35, asii, thales;
 
@@ -49,7 +49,7 @@ public class LlzMakeModelActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(getApplicationContext(), NavigationLlzThales420Activity.class);
+                Intent intent = new Intent(getApplicationContext(), NavigationGpThales420Activity.class);
                 startActivity(intent);
 
             }

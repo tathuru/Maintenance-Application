@@ -25,6 +25,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".NavigationGpThales420Activity"
+            android:exported="false" />
+        <activity
+            android:name=".GpMakeModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationLlzThales420Activity"
+            android:exported="false" />
+        <activity
             android:name=".EcilTxRxActivity"
             android:exported="false" />
         <activity
@@ -76,7 +85,7 @@
             android:name=".DVORMopiensDailyActivity"
             android:exported="false" />
         <activity
-            android:name=".LlzNormarcDailyActivity"
+            android:name=".LlzNormarc7000DailyActivity"
             android:exported="false" />
         <activity
             android:name=".VcsSittiM600sActivity"
@@ -94,7 +103,7 @@
             android:name=".DmeGeclActivity"
             android:exported="false" />
         <activity
-            android:name=".LlzNormarcActivity"
+            android:name=".NavigationLlzNormarc7000Activity"
             android:exported="false" />
         <activity
             android:name=".AmssActivity"

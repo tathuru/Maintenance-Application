@@ -14,7 +14,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class ListDataActivity extends AppCompatActivity {
 
@@ -104,8 +103,8 @@ public class ListDataActivity extends AppCompatActivity {
                             startActivity(editScreenIntent);
                             break;
 
-                        case "LlzNormarcDailyActivity":
-                            editScreenIntent = new Intent(ListDataActivity.this, LlzNormarcDailyActivity.class);
+                        case "LlzNormarc7000DailyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, LlzNormarc7000DailyActivity.class);
                             editScreenIntent.putExtra("id",itemID);
                             editScreenIntent.putExtra("name",receivedData[0]);
                             editScreenIntent.putExtra("editTextData",receivedData[2]);

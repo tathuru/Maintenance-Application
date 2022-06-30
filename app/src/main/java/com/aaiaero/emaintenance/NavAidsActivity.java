@@ -61,6 +61,9 @@ public class NavAidsActivity extends AppCompatActivity {
     public void gpClicked (View view){
         // Launch the VCS Equipment Room Activity
 
+        Intent intent = new Intent(getApplicationContext(),GpMakeModelActivity.class);
+        startActivity(intent);
+
 
 
     }

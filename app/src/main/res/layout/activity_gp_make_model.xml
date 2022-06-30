@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_llz_make_model"
+    android:id="@+id/activity_gp_make_model"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".LlzMakeModelActivity">
+    tools:context=".GpMakeModelActivity">
 
 
     <TextView
@@ -29,7 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
-        android:text="Select Make of LLZ to perform Maintenance."
+        android:text="Select Make of GP to perform Maintenance."
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/holo_blue_bright"
