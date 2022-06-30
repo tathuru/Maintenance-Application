@@ -23,14 +23,19 @@ public class VhfJotronTxRxActivity extends AppCompatActivity {
         tx.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),VcsSittiModelActivity.class);
+
+                Intent intent = new Intent(getApplicationContext(),VhfJotronTxActivity.class);
                 startActivity(intent);
+
             }
         });
 
         rx.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent intent = new Intent(getApplicationContext(),VhfJotronRxActivity.class);
+                startActivity(intent);
 
             }
         });

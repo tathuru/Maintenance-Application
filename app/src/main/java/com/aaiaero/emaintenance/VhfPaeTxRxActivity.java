@@ -23,7 +23,8 @@ public class VhfPaeTxRxActivity extends AppCompatActivity {
         tx.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),VcsSittiModelActivity.class);
+
+                Intent intent = new Intent(getApplicationContext(),VhfPaeTxActivity.class);
                 startActivity(intent);
             }
         });
@@ -31,6 +32,9 @@ public class VhfPaeTxRxActivity extends AppCompatActivity {
         rx.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent intent = new Intent(getApplicationContext(),VhfPaeRxActivity.class);
+                startActivity(intent);
 
             }
         });

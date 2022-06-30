@@ -25,11 +25,17 @@
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vcs_make.xml" value="0.55" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vcs_sitti_daily_iptbb.xml" value="0.3254237288135593" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vcs_sitti_m600s_daily.xml" value="0.3482849604221636" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ecil_tx.xml" value="0.3453125" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ecil_tx_rx.xml" value="0.3453125" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_jotron_rx.xml" value="0.3453125" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_jotron_tx.xml" value="0.33125" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_jotron_tx_rx.xml" value="0.3453125" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_make.xml" value="0.3453125" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ote_rx.xml" value="0.33125" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ote_tx.xml" value="0.3453125" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ote_tx_rx.xml" value="0.3453125" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_pae_rx.xml" value="0.3453125" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_pae_tx.xml" value="0.3453125" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_pae_tx_rx.xml" value="0.3453125" />
         <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_adsb.xml" value="0.16" />
         <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_adsbcomsoft_daily.xml" value="0.25416666666666665" />
