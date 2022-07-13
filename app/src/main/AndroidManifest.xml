@@ -25,6 +25,24 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".VhfRxOteSixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfRxOteMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfRxOteDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxOteSixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxOteMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxOteDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".VhfEcilRxActivity"
             android:exported="false" />
         <activity
