@@ -25,6 +25,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".VhfRxPaeMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfRxPaeDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".VhfRxOteSixActivity"
             android:exported="false" />
         <activity
