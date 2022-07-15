@@ -4,9 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_adsbmake_model.xml" value="0.6636871508379888" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_dvormopiens_annually.xml" value="0.55" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_dvormopiens_monthly.xml" value="0.55" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_dvormopiens_sixmonthly.xml" value="0.55" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_dvormopiens_weekly.xml" value="0.55" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_ecil_tx_rx.xml" value="0.5359375" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_er.xml" value="0.23703703703703705" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_gp_make.xml" value="0.5359375" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_gp_thales_daily.xml" value="0.55" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_gp_thales_weekly.xml" value="0.55" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_jotron_tx_rx.xml" value="0.5359375" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_make_model.xml" value="0.55" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_normarc.xml" value="0.55" />
@@ -17,6 +23,7 @@
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_navigatioo_gp_thales420.xml" value="0.55" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_ote_tx_rx.xml" value="0.33125" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_pae_tx_rx.xml" value="0.55" />
+        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_personal_details.xml" value="0.55" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_sur_mssr_make.xml" value="0.55" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_sur_mssr_ngosco.xml" value="0.55" />
         <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_sur_mssr_ngosco_daily.xml" value="0.55" />

@@ -25,6 +25,24 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DVORMopiensAnnuallyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DVORMopiensSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DVORMopiensMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DVORMopiensWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpThalesWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpThalesDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".VhfRxPaeMonthlyActivity"
             android:exported="false" />
         <activity

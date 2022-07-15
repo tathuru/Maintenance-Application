@@ -1,12 +1,15 @@
 package com.aaiaero.emaintenance;
 
+import android.app.AlertDialog;
 import android.app.Application;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Switch;
@@ -54,6 +57,21 @@ public class MyFunctions {
             //Log.i("outputData",outputEditTextData);
             AddData(formName ,activityName,outputEditTextData,getSwitchStatus(switchArray), getSpinnerStatus(spinnerArray) ); //Calls AddData function to put data in Local DB
         }else {// If some edit Text not filled by user show toast
+            //------------------------------------------------------------------------
+            new AlertDialog.Builder(context)
+                    .setIcon(android.R.drawable.ic_dialog_alert)
+                    .setTitle("Data Missing Alert!")
+                    .setMessage("Do you really want to save this form in Local DB with some empty/missing fields?")
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            AddData(formName ,activityName,outputEditTextData,getSwitchStatus(switchArray), getSpinnerStatus(spinnerArray) ); //Calls AddData function to put data in Local DB
+                        }
+                    })
+                    .setNegativeButton("No", null)
+                    .show();
+            //------------------------------------------------------------------------
+
             toastMessage("Some fields Missing");
         }
     }
@@ -72,12 +90,24 @@ public class MyFunctions {
 
         for (EditText editText : editTexts) {
 
-            if (editText.getText().toString().isEmpty()) {
+            /*if (editText.getText().toString().isEmpty()) {
 
                 editText.setError("This filed can't be Blanked");
                 allDataEntered = false;
 
             } else {
+
+                outputEditTextData = outputEditTextData + editText.getText().toString() + mergeFrom;
+            }*/
+
+            if (editText.getText().toString().isEmpty()) {
+
+                outputEditTextData = outputEditTextData + " " + mergeFrom;
+                editText.setError("This filed can't be Blanked");
+                allDataEntered = false;
+
+            } else {
+
                 outputEditTextData = outputEditTextData + editText.getText().toString() + mergeFrom;
             }
 
@@ -182,7 +212,7 @@ public class MyFunctions {
             }
         });
         //SurvADSBComsoftDailyActivity.dataUploaded = true;
-    return uploadedToServer[0];
+        return uploadedToServer[0];
     }
 
     public byte[] convertPDFToByteArray(String pathPDF) {

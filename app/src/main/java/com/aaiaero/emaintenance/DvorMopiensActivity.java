@@ -38,7 +38,7 @@ public class DvorMopiensActivity extends AppCompatActivity {
     }
 
     public void dailyClicked (View view){
-        // Launch the VHF Equipment Room Activity
+
 
         Intent intent = new Intent(getApplicationContext(),DVORMopiensDailyActivity.class);
         startActivity(intent);
@@ -47,8 +47,9 @@ public class DvorMopiensActivity extends AppCompatActivity {
     }
 
     public void weeklyClicked (View view){
-        // Launch the DVR Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
+
+
+        Intent intent = new Intent(getApplicationContext(),DVORMopiensWeeklyActivity.class);
         startActivity(intent);
 
 
@@ -62,11 +63,8 @@ public class DvorMopiensActivity extends AppCompatActivity {
     }
 
     public void monthlyClicked (View view){
-        // Launch the VCS Equipment Room Activity
-
-        Log.i("Monthly ", "Clicked");
-        //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(),DVORMopiensMonthlyActivity.class);
+        startActivity(intent);
 
     }
 
@@ -78,16 +76,17 @@ public class DvorMopiensActivity extends AppCompatActivity {
     }
 
     public void halfYearlyClicked (View view){
-        // Launch the UAH Equipment Room Activity
 
+        Intent intent = new Intent(getApplicationContext(),DVORMopiensSixMonthlyActivity.class);
+        startActivity(intent);
 
 
     }
 
     public void yearlyClicked (View view){
-        // Launch the ADSB Equipment Room Activity
-        //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
-        //startActivity(intent);
+
+        Intent intent = new Intent(getApplicationContext(),DVORMopiensAnnuallyActivity.class);
+        startActivity(intent);
 
 
 

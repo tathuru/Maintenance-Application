@@ -36,7 +36,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
     private static final int MY_CAMERA_PERMISSION_CODE = 100;
     public static Bitmap photo, sigNature;
     EditText editText;
-    boolean imageTaken = false;
+    boolean imageTaken = true;
     Spinner spinnerP;
     EditText email, empppID;
 
@@ -69,7 +69,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
         TextView locationTextView = (TextView) findViewById(R.id.locationTextView);
         locationTextView.setText("Location: " + MainActivity.latLong1);
 
-        this.imageView = (ImageView)this.findViewById(R.id.imageViewSelf);
+        this.imageView = (ImageView)this.findViewById(R.id.imageViewSelf); // aai logo in hindi
         Button photoButton = (Button) this.findViewById(R.id.button1);
 
         RelativeLayout relativeLayoutPersonal = (RelativeLayout) findViewById(R.id.relativeLayoutPersonal);
@@ -89,7 +89,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
             }
         });
 
-        ActivityCompat.requestPermissions(this,new String[]{ android.Manifest.permission.CAMERA}, PackageManager.PERMISSION_GRANTED);
+         /*ActivityCompat.requestPermissions(this,new String[]{ android.Manifest.permission.CAMERA}, PackageManager.PERMISSION_GRANTED);
 
         photoButton.setOnClickListener(new View.OnClickListener() {
 
@@ -108,7 +108,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
                     startActivityForResult(cameraIntent, CAMERA_REQUEST);
                 }
             }
-        });
+        });*/
 
 
     }
@@ -125,7 +125,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
 
     }
 
-    @Override
+   /* @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CAMERA_REQUEST && resultCode == Activity.RESULT_OK) {
@@ -154,7 +154,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
         }
 
 
-    }
+    }*/
 
     public void verifyClicked (View view){
 
