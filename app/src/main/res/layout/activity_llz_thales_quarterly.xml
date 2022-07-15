@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LlzThalesQuarterlyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="Airports Authority of India"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/logoaai" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="CNS MANUAL VOL.VII Part 2"
+                    android:textAlignment="textEnd"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Name: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Desig: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Emp No.: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Location: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewLlzThalesQuarterly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:text="PREVENTIVE MAINTENANCE SCHEDULE- QUARTERLY (LOCALIZER)"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/textViewLllzThalesQuarterlyEquip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/textViewColor"
+                    android:text="Equipment: LOCALIZER" />
+
+                <TextView
+                    android:id="@+id/textViewDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:text="Date:" />
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/textViewColor"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/editTextLlzThalesQuarterlyStation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:hint="Station"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/textViewLlzThalesQuarterlyMake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textViewColor"
+                    android:layout_marginStart="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="Make/Model: THALES/421" />
+                <EditText
+                    android:id="@+id/editTextLlzThalesQuarterlyRWY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="RWY"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/editTextLlzThalesQuarterlyCat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:hint="Cat "
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+                <EditText
+                    android:id="@+id/editTextLlzThalesQuarterlyFrequency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Frequency (MHz) "
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/editTextLlzThalesQuarterlyIdent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="IDENT: "
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlySNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center_vertical"
+                        android:text="S No."
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="2"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="3"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="53dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="4"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="8"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="9"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="10"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="11"/>
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterly12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="12"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyParameter31"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center_vertical"
+                        android:text="Parameter*"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Frequency" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Spurious Modulation" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Carrier Modulation \n -balance" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara31"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text=" -Depth" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Carrier modulation frequency" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Carrier modulation harmonic content (90 Hz)" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Carrier modulation harmonic content (150 Hz)" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Unwanted Modulation" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Sum of modulation depths" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara9"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Course Alignment" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Identification tone frequency" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Identification modulation depth" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyPara12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="identification repetition rate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyMeasured3"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center_vertical"
+                        android:text="Nominal/ \nTolerance"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="CR = Fc + 4KHz \n CLR= Fc - 4KHz \n Dual freq. 0.002%" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="DDM Deviation &lt; 0.005 \nDDM peak-to-peak" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="DDM Depth within 10\u00B5A of the balance value \n20% " />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml31"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="18-22% " />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="90Hz, 150Hz \nCat-I: ±2.5% /Cat-II: ±1.5% \nCat-III: ±1%" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml5"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Cat-I &amp; Cat-II &lt; 10% \nCat-III &lt; 5%" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml6"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Cat-I &amp; Cat-II &lt; 10% \nCat-III &lt; 5%" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml7"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Mod Depth &lt; 0.5%" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml8"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="40% \nMod depth &lt; 60% &amp; &gt; 30%" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml9"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Cat-I &lt; 10.5m (35ft)\nCat-II &lt; 7.5m (25ft)\nCat-III &lt; 3m (10ft)" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml10"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1020 Hz ± 50 Hz" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml11"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="10% (5 to 15%)" />
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyNml12"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="not less than 6 per minute" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzThalesQuarterlyMeasured4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:text="Measured Value"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzThalesQuarterlyMSTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="TX-I" />
+
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyFrequencyTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlySpuModTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyModBalTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyModDepthTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyModFreqTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyHar90Tx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyHar150Tx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyUnModTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlySumModTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyCourseTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="only for Cat-I/II/III"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyIdenFreqTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyIdenModTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyIdenRRTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzThalesQuarterlyMSTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="TX-II" />
+
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyFrequencyTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlySpuModTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyModBalTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyModDepthTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyModFreqTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyHar90Tx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyHar150Tx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyUnModTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlySumModTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyCourseTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="only for Cat-I/II/III"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyIdenFreqTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyIdenModTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzThalesQuarterlyIdenRRTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint=""
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewLlzThalesQuarterlyParameter2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/teal_700"
+                android:text="*Parameter to be checked by using appropriate Test Equipment" />
+            <EditText
+                android:id="@+id/editTextLlzThalesQuarterlyRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:ems="4"
+                android:hint="Remarks:"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Sign Document" />
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Submit Schedule" />
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:textStyle="italic"
+                android:textColor="@color/teal_700"
+                android:text="Form Created by- Shubham Jain"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

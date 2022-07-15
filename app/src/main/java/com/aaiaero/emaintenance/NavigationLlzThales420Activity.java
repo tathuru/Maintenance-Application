@@ -34,63 +34,62 @@ public class NavigationLlzThales420Activity extends AppCompatActivity {
     }
 
     public void dailyClicked (View view){
-        // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(), LlzNormarc7000DailyActivity.class);
+
+        Intent intent = new Intent(getApplicationContext(), LlzThalesDailyActivity.class);
         startActivity(intent);
 
 
     }
 
     public void weeklyClicked (View view){
-        // Launch the DVR Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
+
+        Intent intent = new Intent(getApplicationContext(),LlzThalesWeeklyActivity.class);
         startActivity(intent);
 
 
     }
 
     public void fortnightlyClicked (View view){
-        // Launch the DATISEquipment Room Activity
+
 
 
 
     }
 
     public void monthlyClicked (View view){
-        // Launch the VCS Equipment Room Activity
 
-        Log.i("Monthly ", "Clicked");
-        //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(),LlzThalesMonthlyActivity.class);
+        startActivity(intent);
+
 
     }
 
     public void quaterlyClicked (View view){
-        // Launch the RCAG Equipment Room Activity
+
+        Intent intent = new Intent(getApplicationContext(),LlzThalesQuarterlyActivity.class);
+        startActivity(intent);
 
 
 
     }
 
     public void halfYearlyClicked (View view){
-        // Launch the UAH Equipment Room Activity
+
 
 
 
     }
 
     public void yearlyClicked (View view){
-        // Launch the ADSB Equipment Room Activity
-        //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
-        //startActivity(intent);
 
-
+        Intent intent = new Intent(getApplicationContext(),LlzThalesAnnualActivity.class);
+        startActivity(intent);
 
     }
 
     public void miscellaneousClicked (View view){
-        // Launch the Others Equipment Room Activity
+        // Launch the Others  Activity
 
 
 

@@ -34,7 +34,6 @@ public class NavigationGpThales420Activity extends AppCompatActivity {
     }
 
     public void dailyClicked (View view){
-        // Launch the VHF Equipment Room Activity
 
         Intent intent = new Intent(getApplicationContext(), GpThalesDailyActivity.class);
         startActivity(intent);
@@ -43,7 +42,7 @@ public class NavigationGpThales420Activity extends AppCompatActivity {
     }
 
     public void weeklyClicked (View view){
-        // Launch the DVR Equipment Room Activity
+
         Intent intent = new Intent(getApplicationContext(),GpThalesWeeklyActivity.class);
         startActivity(intent);
 
@@ -51,18 +50,14 @@ public class NavigationGpThales420Activity extends AppCompatActivity {
     }
 
     public void fortnightlyClicked (View view){
-        // Launch the DATISEquipment Room Activity
+
 
 
 
     }
 
     public void monthlyClicked (View view){
-        // Launch the VCS Equipment Room Activity
 
-        Log.i("Monthly ", "Clicked");
-        //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
-        //startActivity(intent);
 
     }
 

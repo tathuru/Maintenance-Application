@@ -38,7 +38,6 @@ public class SurMssrNgoscoActivity extends AppCompatActivity {
     }
 
     public void dailyClicked (View view){
-        // Launch the VHF Equipment Room Activity
 
         Intent intent = new Intent(getApplicationContext(),SurMssrNgoscoDailyActivity.class);
         startActivity(intent);

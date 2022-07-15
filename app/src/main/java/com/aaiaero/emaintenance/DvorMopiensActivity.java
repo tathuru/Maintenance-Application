@@ -56,7 +56,6 @@ public class DvorMopiensActivity extends AppCompatActivity {
     }
 
     public void fortnightlyClicked (View view){
-        // Launch the DATISEquipment Room Activity
 
 
 
@@ -69,7 +68,6 @@ public class DvorMopiensActivity extends AppCompatActivity {
     }
 
     public void quaterlyClicked (View view){
-        // Launch the RCAG Equipment Room Activity
 
 
 

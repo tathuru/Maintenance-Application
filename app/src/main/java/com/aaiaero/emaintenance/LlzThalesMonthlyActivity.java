@@ -35,7 +35,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-public class GpThalesDailyActivity extends AppCompatActivity {
+public class LlzThalesMonthlyActivity extends AppCompatActivity {
 
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
     private MySignature mySignature = new MySignature(this);
@@ -44,116 +44,69 @@ public class GpThalesDailyActivity extends AppCompatActivity {
     private EditText[] editTextArray;//Copy
     private Switch[] switchArray;//Copy
     private Spinner[] spinnerArray = {};//Copy
-    private String thisActivityName = "GpThalesDailyActivity"; //Change Here as per your class name
+    private String thisActivityName = "LlzThalesMonthlyActivity"; //Change Here as per your class name
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gp_thales_daily);
+        setContentView(R.layout.activity_llz_thales_monthly);
 
         //Define and Initialize all EditTexts serially here
-        EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
-                editText17, editText18, editText19, editText20, editText21, editText22, editText23, editText24,editText25, editText26, editText27, editText28, editText29, editText30, editText31, editText32,
-                editText33, editText34, editText35, editText36, editText37, editText38, editText39, editText40, editText41, editText42, editText43, editText44, editText45, editText46, editText47, editText48,
-                editText49, editText50, editText51, editText52, editText53, editText54, editText55, editText56, editText57, editText58,editText59, editText60,editText61, editText62,editText63, editText64,
-                editText65, editText66, editText67, editText68,editText69, editText70, editText71, editText72, editText73, editText74, editText75, editText76, editText77, editText78, editText79, editText80;
+        EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16, editText17, editText18,
+                editText19, editText20, editText21, editText22, editText23, editText24,editText25, editText26, editText27;
 
         editTextArray = new EditText[]{
-                editText1 = (EditText) findViewById(R.id.editTextGpThalesDailyStation),
-                editText2 = (EditText) findViewById(R.id.editTextGpThalesDailyRWY),
-                editText3 = (EditText) findViewById(R.id.editTextGpThalesDailyCat),
-                editText4 = (EditText) findViewById(R.id.editTextGpThalesDailyFrequency),
-                editText5 = (EditText) findViewById(R.id.editTextGpThalesDailyRoomTemp),
-                editText6 = (EditText) findViewById(R.id.editTextGpThalesDailyHumidity),
-                editText7 = (EditText) findViewById(R.id.editTextGpThalesDailyTxOnAir),
-                editText8 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosRFMainMon1),
-                editText9 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosRFMainMon2),
-                editText10 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosRFStbMon1),
-                editText11 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosRFStbMon2),
-                editText12 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosDDMMainMon1),
-                editText13 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosDDMMainMon2),
-                editText14 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosDDMStbMon1),
-                editText15 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosDDMStbMon2),
-                editText16 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosSDMMainMon1),
-                editText17 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosSDMMainMon2),
-                editText18 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosSDMStbMon1),
-                editText19 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSPosSDMStbMon2),
-                editText20 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthRFMainMon1),
-                editText21 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthRFMainMon2),
-                editText22 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthRFStbMon1),
-                editText23 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthRFStbMon2),
-                editText24 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthDDMMainMon1),
-                editText25 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthDDMMainMon2),
-                editText26 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthDDMStbMon1),
-                editText27 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthDDMStbMon2),
-                editText28 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthSDMMainMon1),
-                editText29 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthSDMMainMon2),
-                editText30 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthSDMStbMon1),
-                editText31 = (EditText) findViewById(R.id.editTextGpThalesDailyCRSWidthSDMStbMon2),
-                editText32 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRRFMainMon1),
-                editText33 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRRFMainMon2),
-                editText34 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRRFStbMon1),
-                editText35 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRRFStbMon2),
-                editText36 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRDDMMainMon1),
-                editText37 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRDDMMainMon2),
-                editText38 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRDDMStbMon1),
-                editText39 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRDDMStbMon2),
-                editText40 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRSDMMainMon1),
-                editText41 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRSDMMainMon2),
-                editText42 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRSDMStbMon1),
-                editText43 = (EditText) findViewById(R.id.editTextGpThalesDailyCLRSDMStbMon2),
-                editText44 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMRFMainMon1),
-                editText45 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMRFMainMon2),
-                editText46 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMRFStbMon1),
-                editText47 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMRFStbMon2),
-                editText48 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMDDMMainMon1),
-                editText49 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMDDMMainMon2),
-                editText50 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMDDMStbMon1),
-                editText51 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMDDMStbMon2),
-                editText52 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMSDMMainMon1),
-                editText53 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMSDMMainMon2),
-                editText54 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMSDMStbMon1),
-                editText55 = (EditText) findViewById(R.id.editTextGpThalesDailyNFMSDMStbMon2),
-                editText56 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx1LCVCSB),
-                editText57 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx1MVCSB),
-                editText58 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx2LCVCSB),
-                editText59 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx2MVCSB),
-                editText60 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx1LCVSBOFwrd),
-                editText61 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx1MVSBOFwrd),
-                editText62 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx2LCVSBOFwrd),
-                editText63 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx2MVSBOFwrd),
-                editText64 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx1LCVSBOSig),
-                editText65 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx1MVSBOSig),
-                editText66 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx2LCVSBOSig),
-                editText67 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCRSTx2MVSBOSig),
-                editText68 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx1LCVCSB),
-                editText69 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx1MVCSB),
-                editText70 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx2LCVCSB),
-                editText71 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx2MVCSB),
-                editText72 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx1LCVSBOFwrd),
-                editText73 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx1MVSBOFwrd),
-                editText74 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx2LCVSBOFwrd),
-                editText75 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx2MVSBOFwrd),
-                editText76 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx1LCVSBOSig),
-                editText77 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx1MVSBOSig),
-                editText78 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx2LCVSBOSig),
-                editText79 = (EditText) findViewById(R.id.editTextGpThalesDailyTxCLRTx2MVSBOSig),
-                editText80 = (EditText) findViewById(R.id.editTextGpThalesDailyRemarks)};
+                editText1 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyStation),
+                editText2 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyRWY),
+                editText3 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyCat),
+                editText4 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyFrequency),
+                editText5 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyIdent),
+                editText6 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyTime),
+                editText7 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyPhyAnt),
+                editText8 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyCourseTx1),
+                editText9 = (EditText)  findViewById(R.id.editTextLlzThalesMonthlyCourseTx2),
+                editText10 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyCourseShiftTx1),
+                editText11 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyCourseShiftTx2),
+                editText12 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyDisSenTx1),
+                editText13 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyDisSenTx2),
+                editText14 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyCLRSigTx1),
+                editText15 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyCLRSigTx2),
+                editText16 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyRedPowerTx1),
+                editText17 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyRedPowerTx2),
+                editText18 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyTotalTimeTx1),
+                editText19 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyTotalTimeTx2),
+                editText20 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyRackER),
+                editText21 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyAntER),
+                editText22 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyNFER),
+                editText23 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyFFMER),
+                editText24 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyENVolt),
+                editText25 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyERLP),
+                editText26 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyERSPD),
+                editText27 = (EditText) findViewById(R.id.editTextLlzThalesMonthlyRemarks)};
 
         //Define and Initialize all Switches serially here
-        Switch  switch1,switch2,switch3,switch4,switch5,switch6,switch7;
+        Switch  switch1,switch2, switch3;
         switchArray = new Switch[]{
-                switch1 = (Switch) findViewById(R.id.switchGpThalesDailyRoomClean),
-                switch2 = (Switch) findViewById(R.id.switchGpThalesDailyStatusAc),
-                switch3 = (Switch) findViewById(R.id.switchGpThalesDailyStatusMast),
-                switch4 = (Switch) findViewById(R.id.switchGpThalesDailyEquipHoldsOnUps),
-                switch5 = (Switch) findViewById(R.id.switchGpThalesDailyStatusMonitorExe),
-                switch6 = (Switch) findViewById(R.id.switchGpThalesDailyStatusMonitorStandby),
-                switch7 = (Switch) findViewById(R.id.switchGpThalesDailyStatusCriticalArea)};
+                switch1 = (Switch) findViewById(R.id.switchLlzThalesMonthlyStatusLP),
+                switch2 = (Switch) findViewById(R.id.switchLlzThalesMonthlySPDER),
+                switch3 = (Switch) findViewById(R.id.switchLlzThalesMonthlySPDATS)};
 
         //Define and Initialize all Spinners serially here
+//        Spinner spinner1,spinner2,spinner3,spinner4,spinner5,spinner6,spinner7,spinner8,spinner9;
+//        spinnerArray = new Spinner[]{
+//                spinner9 = (Spinner) findViewById(R.id.spinner9),
+//                spinner6 = (Spinner) findViewById(R.id.spinner6),
+//                spinner8 = (Spinner) findViewById(R.id.spinner8),
+//                spinner5 = (Spinner) findViewById(R.id.spinner5),
+//                spinner7 = (Spinner) findViewById(R.id.spinner7),
+//                spinner4 = (Spinner) findViewById(R.id.spinner4),
+//                spinner3 = (Spinner) findViewById(R.id.spinner3),
+//                spinner2 = (Spinner) findViewById(R.id.spinner2),
+//                spinner1 = (Spinner) findViewById(R.id.spinner1)};
 
         //---------------------To Set View in Current Activity------------------
+        // Fixed for all the activity---------------------------------------------------------------
+
         TextView textView7 = (TextView) findViewById(R.id.textView7);
         textView7.setText("Name: " + PersonalDetailsActivity.naam);
         TextView textView8 = (TextView) findViewById(R.id.textView8);
@@ -216,8 +169,8 @@ public class GpThalesDailyActivity extends AppCompatActivity {
             }
         });
         // Fixed for all activity-------------------------------------------------------------------
-
     }
+
 
     private void generatePDF(){
 
@@ -251,20 +204,16 @@ public class GpThalesDailyActivity extends AppCompatActivity {
 
         Bitmap bmp,scaledbmp;
 
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.gpthalesdaily1);
+        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.llzthalesmonthly1);
         scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {131,96,215,347,630,630,630,365,455,536,620,365,455,536,620,365,455,536,620,365,455,536,620,365,455,536,620,
-                365,455,536,620,365,455,536,620,365,455,536,620,365,455,536,620};
-        int[] editTextYPixel = {158,180,183,183,334,360,401,602,602,602,602,628,628,628,628,655,655,655,655,681,681,681,681,708,708,708,708,
-                735,735,735,735,761,761,761,761,796,796,796,796,832,832,832,832};
+        int[] editTextXPixel = {124,96,184,315,467,485,485,432,510,432,510,432,510,432,510,432,510,432,510};
+        int[] editTextYPixel = {184,205,205,208,208,385,465,428,428,590,590,670,670,730,730,815,815,885,885};
 
-        int[] switchXPixel = {630,630,630,630,630,630,630};
-        int[] switchYPixel = {261,288,312,386,417,430,462};
 
 
         // Change till here as per requirements ----------------------------------------------------
@@ -275,9 +224,6 @@ public class GpThalesDailyActivity extends AppCompatActivity {
             canvas.drawText( editTextDataForPDF[i],editTextXPixel[i],editTextYPixel[i],titlePaint);
         }
 
-        for(int i = 0; i < switchXPixel.length; i++){
-            canvas.drawText( switchDataForPDF[i],switchXPixel[i],switchYPixel[i],titlePaint);
-        }
 
     /*    for(int i = 0; i < spinnerDataForPDF.length; i++){
             canvas.drawText( spinnerDataForPDF[i],spinnerXPixel[i],spinnerYPixel[i],titlePaint);
@@ -292,7 +238,7 @@ public class GpThalesDailyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,540,183,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,586,207,titlePaint);//Printing Date on PDF
 
         myPdfdocument.finishPage(myPage1);
 
@@ -307,25 +253,31 @@ public class GpThalesDailyActivity extends AppCompatActivity {
         PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
 
         canvas = myPage2.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.gpthalesdaily2);
+        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.llzthalesmonthly2);
         scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel2 = {364,448,535,618,364,448,535,618,364,448,535,618,356,436,522,625,356,436,522,625,356,436,522,625,
-                356,436,522,625,356,436,522,625,356,436,522,625,158};
-        int[] editTextYPixel2 = {130,130,130,130,160,160,160,160,187,187,187,187,340,340,340,340,385,385,385,385,420,420,420,420,
-                565,565,565,565,601,601,601,601,641,641,641,641,689};
+        int[] editTextXPixel2 = {485,485,485,485,485,485,485,178};
+        int[] editTextYPixel2 = {267,290,320,345,374,430,464,595};
+
+        int[] switchXPixel = {495,495,495};
+        int[] switchYPixel = {490,515,542};
 
         for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+43],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+19],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
         }
+
+        for(int i = 0; i < switchXPixel.length; i++){
+            canvas.drawText( switchDataForPDF[i],switchXPixel[i],switchYPixel[i],titlePaint);
+        }
+
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 75, 760, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 75, 655, paint);
 
         myPdfdocument.finishPage(myPage2);
 
@@ -338,14 +290,14 @@ public class GpThalesDailyActivity extends AppCompatActivity {
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
 
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Navigation/GPThales/Daily/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Navigation/LLZThales/Monthly/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "Daily GP Thales " + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "Monthly LLZ Thales " + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -360,12 +312,12 @@ public class GpThalesDailyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"GP Thales","Daily",outputEditText,specificCode);// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"LLZ Thales","Monthly",outputEditText,specificCode);// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
         myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-                "Daily Maintenance of Thales GP done.",//Change Here-----------------------------
+                "Monthly Maintenance of Thales LLZ done.",//Change Here-----------------------------
                 "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
 
 

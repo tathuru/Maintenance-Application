@@ -29,7 +29,7 @@ public class SurveillanceActivity extends AppCompatActivity {
     }
 
     public void psrClicked (View view){
-        // Launch the VHF Equipment Room Activity
+
 
 
 
@@ -44,7 +44,7 @@ public class SurveillanceActivity extends AppCompatActivity {
     }
 
     public void asmgcsClicked (View view){
-        // Launch the DATISEquipment Room Activity
+
 
 
 

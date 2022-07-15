@@ -25,6 +25,21 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".LlzThalesAnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzThalesQuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzThalesMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzThalesWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzThalesDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".DVORMopiensAnnuallyActivity"
             android:exported="false" />
         <activity
