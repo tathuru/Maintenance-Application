@@ -42,8 +42,8 @@ public class VhfTxOteMonthlyActivity extends AppCompatActivity {
     private int selectedID;//Copy
     private String selectedName;//Copy
     private EditText[] editTextArray;//Copy
-    private Switch[] switchArray;//Copy
-    private Spinner[] spinnerArray;//Copy
+    private Switch[] switchArray = {};//Copy
+    private Spinner[] spinnerArray = {};//Copy
     private String thisActivityName = "VhfTxOteMonthlyActivity"; //Change Here as per your class name
 
     @Override

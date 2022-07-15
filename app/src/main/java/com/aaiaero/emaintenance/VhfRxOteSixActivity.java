@@ -41,8 +41,8 @@ public class VhfRxOteSixActivity extends AppCompatActivity {
     private int selectedID;//Copy
     private String selectedName;//Copy
     private EditText[] editTextArray;//Copy
-    private Switch[] switchArray;//Copy
-    private Spinner[] spinnerArray;//Copy
+    private Switch[] switchArray = {};//Copy
+    private Spinner[] spinnerArray = {};//Copy
     private String thisActivityName = "VhfRxOteSixActivity"; //Change Here as per your class name
     @Override
     protected void onCreate(Bundle savedInstanceState) {

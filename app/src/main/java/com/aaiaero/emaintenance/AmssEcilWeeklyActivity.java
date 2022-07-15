@@ -43,8 +43,8 @@ public class AmssEcilWeeklyActivity extends AppCompatActivity {
     private int selectedID;//Copy
     private String selectedName;//Copy
     private EditText[] editTextArray;//Copy
-    private Switch[] switchArray;//Copy
-    private Spinner[] spinnerArray;//Copy
+    private Switch[] switchArray = {};//Copy
+    private Spinner[] spinnerArray = {};//Copy
 
     private String thisActivityName = "AmssEcilWeeklyActivity"; //Change Here as per your class name
 
