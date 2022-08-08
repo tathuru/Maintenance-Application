@@ -24,8 +24,8 @@ public class DmeMakeModelActivity extends AppCompatActivity {
         thales.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(),DmeThalesActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -39,7 +39,7 @@ public class DmeMakeModelActivity extends AppCompatActivity {
         gecl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),DmeGeclActivity.class);
+                Intent intent = new Intent(getApplicationContext(), DmeGcelActivity.class);
                 startActivity(intent);
             }
         });

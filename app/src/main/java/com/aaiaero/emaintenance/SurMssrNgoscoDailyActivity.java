@@ -437,19 +437,19 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
         }
         myPdfdocument.close();
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
+
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        /*myFunctions.saveToParse(targetPdf, fileName,"MSSR","Daily",outputEditText,specificCode);
-         Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"MSSR","Daily",outputEditText,specificCode);
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
-      //  myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-            //    "Daily Maintenance of NGOSCO MSSR done.",//Change Here-----------------------------
-              //  "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
+        myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
+              "Daily Maintenance of NGOSCO MSSR done.",//Change Here-----------------------------
+               "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
 
 
-      myFunctions.toLogoutActivity();*/
+      myFunctions.toLogoutActivity();
     }
 
     //Copy this function in your activity completely without any change

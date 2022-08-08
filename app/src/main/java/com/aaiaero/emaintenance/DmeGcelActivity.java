@@ -4,11 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class DmeGeclActivity extends AppCompatActivity {
+public class DmeGcelActivity extends AppCompatActivity {
 
     Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
@@ -16,7 +15,7 @@ public class DmeGeclActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dme_gecl);
+        setContentView(R.layout.activity_dme_gcel);
 
         setTitle("GECL DME  Maintenance");
 
@@ -34,17 +33,16 @@ public class DmeGeclActivity extends AppCompatActivity {
     }
 
     public void dailyClicked (View view){
-        // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),NavAidsDMEGecl752DailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEGcel752DailyActivity.class);
         startActivity(intent);
 
 
     }
 
     public void weeklyClicked (View view){
-        // Launch the DVR Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(),NavAidsDMEGecl752WeeklyActivity.class);
+
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEGcel752WeeklyActivity.class);
         startActivity(intent);
 
 
@@ -58,25 +56,23 @@ public class DmeGeclActivity extends AppCompatActivity {
     }
 
     public void monthlyClicked (View view){
-        // Launch the VCS Equipment Room Activity
 
-        Log.i("Monthly ", "Clicked");
-        //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEGcel752MonthlyActivity.class);
+        startActivity(intent);
 
     }
 
     public void quaterlyClicked (View view){
-        // Launch the RCAG Equipment Room Activity
+
 
 
 
     }
 
     public void halfYearlyClicked (View view){
-        // Launch the UAH Equipment Room Activity
 
-
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEGcel752SixMonthlyActivity.class);
+        startActivity(intent);
 
     }
 

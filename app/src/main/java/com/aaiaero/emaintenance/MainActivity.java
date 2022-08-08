@@ -148,6 +148,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
 
+    public void signUpButtonClicked(View view){
+        Intent intent = new Intent(getApplicationContext(),SignupActivity.class);
+        startActivity(intent);
+    }
+
+    public void forgotButtonClicked(View view){
+        Intent intent = new Intent(getApplicationContext(),ForgotPasswordActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -328,7 +338,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }*/
 
-                ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
+                ParseUser.logInInBackground(usernameEditText.getText().toString() + "@aai.aero", passwordEditText.getText().toString(), new LogInCallback() {
                     @Override
                     public void done(ParseUser user, ParseException e) {
 
@@ -364,12 +374,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED)
+            {
+                getCurrentLocation();
+            }
 
-                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
 
         }
 
+
+
+
     }
+
+
 
     public boolean checkAndRequestPermissions() {
         int permissionCamera = ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA);
@@ -396,6 +413,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             ActivityCompat.requestPermissions(this, listPermissionsNeeded.toArray(new String[listPermissionsNeeded.size()]), REQUEST_ID_MULTIPLE_PERMISSIONS);
             return false;
         }
+
+
         return true;
     }
 /*

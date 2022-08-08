@@ -10,8 +10,8 @@
     <string name="hint_save">Save</string>
 
     <!-- Paste BOTH strings as required -->
-    <string name="back4app_app_id">XXLKduzIZDw83YPwE4smDzkjvVysK74e7rnQLvHt</string>
-    <string name="back4app_client_key">Ln4GdQy0D1ky7WssPSzIzsG4gHeV76UskpRsfAiZ</string>
+    <string name="back4app_app_id">0de29PdxQvtzuePiA7C5gxALCaFg62dEDp1UGDn5</string>
+    <string name="back4app_client_key">WbgNUrg16W5tZj61mzfhHsiiWAnZH0MX9ah5L3pS</string>
 
     <string-array name="c_state">
         <item>Select</item>
