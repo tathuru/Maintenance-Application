@@ -34,47 +34,43 @@ public class VhfJotronRxActivity extends AppCompatActivity {
     }
 
     public void dailyClicked (View view){
-        // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),VcsSittiDailyIPTBB.class);
+
+        Intent intent = new Intent(getApplicationContext(),VhfRxJotDailyActivity.class);
         startActivity(intent);
 
 
     }
 
     public void weeklyClicked (View view){
-        // Launch the DVR Equipment Room Activity
-        //Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
-        // startActivity(intent);
+
+        Intent intent = new Intent(getApplicationContext(),VhfRxJotWeeklyActivity.class);
+        startActivity(intent);
 
 
     }
 
     public void fortnightlyClicked (View view){
-        // Launch the DATISEquipment Room Activity
+
 
 
 
     }
 
     public void monthlyClicked (View view){
-        // Launch the VCS Equipment Room Activity
 
-        Log.i("Monthly ", "Clicked");
-        //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
-        //startActivity(intent);
-
+        Intent intent = new Intent(getApplicationContext(),VhfRxJotMonthlyActivity.class);
+        startActivity(intent);
     }
 
     public void quaterlyClicked (View view){
-        // Launch the RCAG Equipment Room Activity
 
 
 
     }
 
     public void halfYearlyClicked (View view){
-        // Launch the UAH Equipment Room Activity
+
 
 
 

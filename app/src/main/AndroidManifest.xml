@@ -25,6 +25,27 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".VhfRxJotMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfRxJotWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfRxJotDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxPaeYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxPaeMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxPaeDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfRxPaeYearlyActivity"
+            android:exported="false" />
+        <activity
             android:name=".DmeMopiensActivity"
             android:exported="false" />
         <activity
