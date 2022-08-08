@@ -25,6 +25,27 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DmeMopiensActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEMaru310and320MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEMaru310and320WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEThales415and435AnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEThales415and435SixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEThales415and435WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEThales415and435DailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity

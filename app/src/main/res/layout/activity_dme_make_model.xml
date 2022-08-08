@@ -58,7 +58,7 @@
             android:textSize="12sp" />
 
         <Button
-            android:text="MOPIANS"
+            android:text="MOPIANS&#10; MARU 310/320"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/mopiens"

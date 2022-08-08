@@ -1,13 +1,13 @@
 package com.aaiaero.emaintenance;
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.view.View;
+        import android.widget.Button;
 
-public class DmeThalesActivity extends AppCompatActivity {
+public class DmeMopiensActivity extends AppCompatActivity {
 
     Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
@@ -15,9 +15,9 @@ public class DmeThalesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dme_thales);
+        setContentView(R.layout.activity_dme_mopiens);
 
-        setTitle("THALES DME  Maintenance");
+        setTitle("MOPIENS DME  Maintenance");
 
         daily = (Button) findViewById(R.id.daily);
         weekly = (Button) findViewById(R.id.weekly);
@@ -42,7 +42,7 @@ public class DmeThalesActivity extends AppCompatActivity {
 
     public void weeklyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435WeeklyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEMaru310and320WeeklyActivity.class);
         startActivity(intent);
 
 
@@ -57,7 +57,7 @@ public class DmeThalesActivity extends AppCompatActivity {
 
     public void monthlyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435MonthlyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEMaru310and320MonthlyActivity.class);
         startActivity(intent);
 
     }
