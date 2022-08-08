@@ -58,29 +58,28 @@ public class NavigationGpThales420Activity extends AppCompatActivity {
 
     public void monthlyClicked (View view){
 
+        Intent intent = new Intent(getApplicationContext(),GpThalesMonthlyActivity.class);
+        startActivity(intent);
 
     }
 
     public void quaterlyClicked (View view){
-        // Launch the RCAG Equipment Room Activity
 
-
+        Intent intent = new Intent(getApplicationContext(),GpThalesQuarterlyActivity.class);
+        startActivity(intent);
 
     }
 
     public void halfYearlyClicked (View view){
-        // Launch the UAH Equipment Room Activity
 
 
 
     }
 
     public void yearlyClicked (View view){
-        // Launch the ADSB Equipment Room Activity
-        //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
-        //startActivity(intent);
 
-
+        Intent intent = new Intent(getApplicationContext(),GpThalesAnnualActivity.class);
+        startActivity(intent);
 
     }
 

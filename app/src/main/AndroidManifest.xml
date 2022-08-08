@@ -25,6 +25,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".GpThalesAnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpThalesQuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpThalesMonthlyActivity"
+            android:exported="false" />
+        <activity
             android:name=".VhfRxJotMonthlyActivity"
             android:exported="false" />
         <activity
