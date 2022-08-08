@@ -25,6 +25,42 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvorGcelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DmeThalesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel755SixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel755QuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel755MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel755WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel755DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEThales415and435MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEGcel752SixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEGcel752MonthlyActivity"
+            android:exported="false" />
+        <activity
             android:name=".LlzThalesAnnualActivity"
             android:exported="false" />
         <activity
@@ -154,10 +190,10 @@
             android:name=".VcsSittiModelActivity"
             android:exported="false" />
         <activity
-            android:name=".NavAidsDMEGecl752WeeklyActivity"
+            android:name=".NavAidsDMEGcel752WeeklyActivity"
             android:exported="false" />
         <activity
-            android:name=".NavAidsDMEGecl752DailyActivity"
+            android:name=".NavAidsDMEGcel752DailyActivity"
             android:exported="false" />
         <activity
             android:name=".AmssEcilWeeklyActivity"
@@ -181,7 +217,7 @@
             android:name=".DvorMopiensActivity"
             android:exported="false" />
         <activity
-            android:name=".DmeGeclActivity"
+            android:name=".DmeGcelActivity"
             android:exported="false" />
         <activity
             android:name=".NavigationLlzNormarc7000Activity"

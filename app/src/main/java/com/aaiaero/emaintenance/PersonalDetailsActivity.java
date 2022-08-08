@@ -1,8 +1,13 @@
 package com.aaiaero.emaintenance;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -12,8 +17,11 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.Settings;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
@@ -34,6 +42,10 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
     private static final int CAMERA_REQUEST = 1888;
     private ImageView imageView;
     private static final int MY_CAMERA_PERMISSION_CODE = 100;
+    //PERMISSION request constant, assign any value
+    private static final int STORAGE_PERMISSION_CODE = 100;
+
+    //private static final String TAG = "PERMISSION_TAG";
     public static Bitmap photo, sigNature;
     EditText editText;
     boolean imageTaken = true;
@@ -54,6 +66,8 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
         Intent intent = getIntent();
 
         setTitle("Personal Details");
+
+        if (!checkPermission()) requestPermission();
 
         email = (EditText) findViewById(R.id.editTextEmail);
 
@@ -243,6 +257,100 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
         emailTo = email.getText().toString();
         //myEdit.putInt("age", Integer.parseInt(age.getText().toString()));
         myEdit.apply();
+    }
+
+    private void requestPermission(){
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R){
+            //Android is 11(R) or above
+            try {
+                Log.d(TAG, "requestPermission: try");
+
+                Intent intent = new Intent();
+                intent.setAction(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+                Uri uri = Uri.fromParts("package", this.getPackageName(), null);
+                intent.setData(uri);
+                storageActivityResultLauncher.launch(intent);
+            }
+            catch (Exception e){
+                Log.e(TAG, "requestPermission: catch", e);
+                Intent intent = new Intent();
+                intent.setAction(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION);
+                storageActivityResultLauncher.launch(intent);
+            }
+        }
+        else {
+            //Android is below 11(R)
+            ActivityCompat.requestPermissions(
+                    this,
+                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE},
+                    STORAGE_PERMISSION_CODE
+            );
+        }
+    }
+
+    private ActivityResultLauncher<Intent> storageActivityResultLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    Log.d(TAG, "onActivityResult: ");
+                    //here we will handle the result of our intent
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R){
+                        //Android is 11(R) or above
+                        if (Environment.isExternalStorageManager()){
+                            //Manage External Storage Permission is granted
+                            Log.d(TAG, "onActivityResult: Manage External Storage Permission is granted");
+                            //createFolder();
+                        }
+                        else{
+                            //Manage External Storage Permission is denied
+                            Log.d(TAG, "onActivityResult: Manage External Storage Permission is denied");
+                            //Toast.makeText(MainActivity.this, "Manage External Storage Permission is denied", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                    else {
+                        //Android is below 11(R)
+                    }
+                }
+            }
+    );
+
+    public boolean checkPermission(){
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R){
+            //Android is 11(R) or above
+            return Environment.isExternalStorageManager();
+        }
+        else{
+            //Android is below 11(R)
+            int write = ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            int read = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE);
+
+            return write == PackageManager.PERMISSION_GRANTED && read == PackageManager.PERMISSION_GRANTED;
+        }
+    }
+
+    /*Handle permission request results*/
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == STORAGE_PERMISSION_CODE){
+            if (grantResults.length > 0){
+                //check each permission if granted or not
+                boolean write = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+                boolean read = grantResults[1] == PackageManager.PERMISSION_GRANTED;
+
+                if (write && read){
+                    //External Storage permissions granted
+                    Log.d(TAG, "onRequestPermissionsResult: External Storage permissions granted");
+                    //createFolder();
+                }
+                else{
+                    //External Storage permission denied
+                    Log.d(TAG, "onRequestPermissionsResult: External Storage permission denied");
+                    Toast.makeText(this, "External Storage permission denied", Toast.LENGTH_SHORT).show();
+                }
+            }
+        }
     }
 
 

@@ -3,81 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_adsbmake_model.xml" value="0.6636871508379888" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_dvormopiens_annually.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_dvormopiens_monthly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_dvormopiens_sixmonthly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_dvormopiens_weekly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_ecil_tx_rx.xml" value="0.5359375" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_er.xml" value="0.23703703703703705" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_gp_make.xml" value="0.5359375" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_gp_thales_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_gp_thales_weekly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_jotron_tx_rx.xml" value="0.5359375" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_make_model.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_normarc.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_normarc_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_thales_annual.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_thales_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_thales_monthly.xml" value="0.3125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_thales_quarterly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_llz_thales_weekly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_nav_aids_dmegecl_752_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_navigation_llz_thales.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_navigation_llz_thales420.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_navigatioo_gp_thales420.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_ote_tx_rx.xml" value="0.33125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_pae_tx_rx.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_personal_details.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_sur_mssr_make.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_sur_mssr_ngosco.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_sur_mssr_ngosco_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_surveillance.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_tx_rx.xml" value="0.5359375" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vcs_make.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vcs_sitti_daily_iptbb.xml" value="0.3254237288135593" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vcs_sitti_m600s_daily.xml" value="0.3482849604221636" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ecil_rx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ecil_tx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ecil_tx_rx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_jotron_rx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_jotron_tx.xml" value="0.33125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_jotron_tx_rx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_make.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ote_rx.xml" value="0.33125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ote_tx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_ote_tx_rx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_pae_rx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_pae_tx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_pae_tx_rx.xml" value="0.3453125" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_rx_ote_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_rx_ote_monthly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_rx_ote_six.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_rx_pae_daily.xml" value="0.5359375" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_rx_pae_monthly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_tx_ote_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_tx_ote_monthly.xml" value="0.55" />
-        <entry key="..\:/Project work/emaintenance/app/src/main/res/layout/activity_vhf_tx_ote_six.xml" value="0.55" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_adsb.xml" value="0.16" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_adsbcomsoft_daily.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_adsbdaily.xml" value="0.2" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_adsbmake_model.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_check_schedules.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_demo.xml" value="0.2" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_er.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_eractivity.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_fill_or_choose.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_list_data.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_log_out.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_personal_details.xml" value="0.2" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_surv_adsbcomsoft_daily.xml" value="0.4" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_toolbar.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/activity_unit_selection.xml" value="0.264" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/custom_dialog.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/layout/dialog_signature.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/menu/main_menu.xml" value="0.1" />
-        <entry key="..\:/Users/dksin/AndroidStudioProjects/emaintenance/app/src/main/res/menu/sub_menu.xml" value="0.1" />
+        <entry key="..\:/Project Development/Back4app Server/emaintenance/app/src/main/res/layout/activity_forgot_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project Development/Back4app Server/emaintenance/app/src/main/res/layout/activity_log_out.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project Development/Back4app Server/emaintenance/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Project Development/Back4app Server/emaintenance/app/src/main/res/layout/activity_signup.xml" value="0.1" />
       </map>
     </option>
   </component>
