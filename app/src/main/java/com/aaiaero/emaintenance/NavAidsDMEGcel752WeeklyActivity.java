@@ -21,7 +21,6 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -38,7 +37,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-public class NavAidsDMEGecl752WeeklyActivity extends AppCompatActivity {
+public class NavAidsDMEGcel752WeeklyActivity extends AppCompatActivity {
 
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
     private MySignature mySignature = new MySignature(this);
@@ -72,7 +71,7 @@ public class NavAidsDMEGecl752WeeklyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nav_aids_dmegecl752_weekly);
+        setContentView(R.layout.activity_nav_aids_dmegcel752_weekly);
 
 
         EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,
@@ -383,7 +382,7 @@ public class NavAidsDMEGecl752WeeklyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-      /*  myFunctions.saveToParse(targetPdf, fileName,"DME_GCEL_752","Weekly",outputEditText,specificCode);// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"DME_GCEL_752","Weekly",outputEditText,specificCode);// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
 
@@ -394,7 +393,7 @@ public class NavAidsDMEGecl752WeeklyActivity extends AppCompatActivity {
 
 
 
-        myFunctions.toLogoutActivity();*/
+        myFunctions.toLogoutActivity();
 
 
     }
