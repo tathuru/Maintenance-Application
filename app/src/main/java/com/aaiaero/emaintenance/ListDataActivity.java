@@ -613,6 +613,36 @@ public class ListDataActivity extends AppCompatActivity {
                             startActivity(editScreenIntent);
                             break;
 
+                        case "LlzIndra70DailyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, LlzIndra70DailyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "LlzIndra70WeeklyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, LlzIndra70WeeklyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "LlzIndra70MonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, LlzIndra70MonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
 
                     }
                 }

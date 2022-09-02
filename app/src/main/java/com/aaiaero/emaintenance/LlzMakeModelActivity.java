@@ -14,12 +14,13 @@ public class LlzMakeModelActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_llz_make_model);
 
-        Button normarc70, normarc35, asii, thales;
+        Button normarc70, normarc35, asii, thales, indra;
 
         normarc70 = (Button) findViewById(R.id.normarc70);
         normarc35 = (Button) findViewById(R.id.normarc35);
         asii = (Button) findViewById(R.id.asii);
         thales = (Button) findViewById(R.id.thales);
+        indra = (Button) findViewById(R.id.indra);
 
         normarc70.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,6 +51,16 @@ public class LlzMakeModelActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(getApplicationContext(), NavigationLlzThales420Activity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        indra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(getApplicationContext(), NavigationLlzIndra70Activity.class);
                 startActivity(intent);
 
             }

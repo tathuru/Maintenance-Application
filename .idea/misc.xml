@@ -1,34 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Project Development/Back4app Server/emaintenance/app/src/main/res/layout/activity_forgot_password.xml" value="0.25416666666666665" />
-        <entry key="..\:/Project Development/Back4app Server/emaintenance/app/src/main/res/layout/activity_log_out.xml" value="0.25416666666666665" />
-        <entry key="..\:/Project Development/Back4app Server/emaintenance/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Project Development/Back4app Server/emaintenance/app/src/main/res/layout/activity_signup.xml" value="0.1" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_dme_make_model.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_dme_mopiens.xml" value="0.3109375" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_dme_thales.xml" value="0.3109375" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_gp_thales_annual.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_gp_thales_monthly.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_gp_thales_quarterly.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_nav_aids_dmemaru310and320_monthly.xml" value="0.3109375" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_nav_aids_dmemaru310and320_weekly.xml" value="0.3109375" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_nav_aids_dmethales415and435_annual.xml" value="0.3109375" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_nav_aids_dmethales415and435_daily.xml" value="0.28541666666666665" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_nav_aids_dmethales415and435_six_monthly.xml" value="0.3109375" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_nav_aids_dmethales415and435_weekly.xml" value="0.3109375" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_vhf_rx_jot_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_vhf_rx_jot_monthly.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_vhf_rx_jot_weekly.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_vhf_rx_pae_yearly.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_vhf_tx_pae_daily.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_vhf_tx_pae_monthly.xml" value="0.55" />
-        <entry key="..\:/Project work/MostUpdatedeMaintenance08_08_22/emaintenance/app/src/main/res/layout/activity_vhf_tx_pae_yearly.xml" value="0.55" />
-      </map>
-    </option>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

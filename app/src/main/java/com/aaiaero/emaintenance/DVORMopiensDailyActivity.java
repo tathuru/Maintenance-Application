@@ -306,7 +306,7 @@ public class DVORMopiensDailyActivity extends AppCompatActivity  {
             canvas.drawText( editTextDataForPDF[i],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
         }
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.photo, 210, 270, false), 93, 480, paint);
+        //canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.photo, 210, 270, false), 93, 480, paint);
         canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature, 290, 270, false), 343, 480, paint);
         myPdfdocument.finishPage(myPage2);
 

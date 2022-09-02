@@ -25,6 +25,18 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".LlzIndra70MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationLlzIndra70Activity"
+            android:exported="false" />
+        <activity
             android:name=".GpThalesAnnualActivity"
             android:exported="false" />
         <activity
