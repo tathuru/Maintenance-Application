@@ -15,6 +15,8 @@ import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
@@ -28,6 +30,12 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.IsoFields;
 import java.util.Date;
 import java.util.Locale;
 
@@ -165,7 +173,7 @@ public class MyFunctions {
         return seperatedData;
     }
 
-    public Boolean saveToParse(String targetPdf, String fileName, String Equipment, String Schedule_Type,String EditTextData, String specificCode){
+    public Boolean saveToParse(String targetPdf, String fileName, String Equipment, String Schedule_Type,String EditTextData, String specificCode, String SwitchData, String SpinnerData){
 
         final Boolean[] uploadedToServer = {false};
 
@@ -180,11 +188,13 @@ public class MyFunctions {
         ParseObject test = new ParseObject("TestPdf");
         if ((MainActivity.a_log).matches("")) {
             test.put("username", ParseUser.getCurrentUser().getUsername());
-            test.put("Station", ParseUser.getCurrentUser().getUsername());
+            //test.put("Station", ParseUser.getCurrentUser().getUsername());
+            test.put("Station", PersonalDetailsActivity.airportNameICAO);
 
         } else {
             test.put("username", MainActivity.a_log);
-            test.put("Station", MainActivity.a_log);
+            //test.put("Station", MainActivity.a_log);
+            test.put("Station", PersonalDetailsActivity.airportNameICAO);
         }
 
         //test.put("username","VEAT-Others");
@@ -194,6 +204,9 @@ public class MyFunctions {
         test.put("SpecificCode", specificCode);
         test.put("Schedule_Type", Schedule_Type);
         test.put("EditTextData", EditTextData);
+
+        test.put("SwitchData", SwitchData);
+        test.put("SpinnerData", SpinnerData);
         test.put("pdfFile", file1);
         test.saveInBackground(new SaveCallback() {
             @Override
@@ -376,5 +389,51 @@ public class MyFunctions {
         String[] seperatedSpinnerData = spinnerData.split("__XY__");
         return seperatedSpinnerData;
     }
+
+    static public String specificCode(String string){
+
+        String output;
+
+        ZonedDateTime now = ZonedDateTime.ofInstant(Instant.now(), ZoneId.systemDefault());
+        int weekNo = now.get(IsoFields.WEEK_OF_WEEK_BASED_YEAR);
+        Date date = new Date();
+        LocalDate today = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        int dayNo = today.getDayOfMonth();
+        int monthNo = today.getMonthValue();
+        int yearNo = today.getYear();
+        String formattedDate = today.format(DateTimeFormatter. ofPattern("dd-MM-yyyy"));
+
+        switch(string) {
+            case "w": // For Weekly Code
+                output = String.valueOf(weekNo) + "/" + String.valueOf(yearNo);
+                break;
+            case "fn": // For Fort Nightly Code
+                int fortNightlyNo = dayNo / 15 + 1;
+                output = String.valueOf(fortNightlyNo) + "/" + String.valueOf(monthNo) + "/" + String.valueOf(yearNo);
+                break;
+            case "m": // For Monthly Code
+                output = String.valueOf(monthNo) + "/" + String.valueOf(yearNo);
+                break;
+            case "q": // For Quarterly Code
+                int quarterNo = monthNo / 3 + 1;
+                output = String.valueOf(quarterNo) + "/" + String.valueOf(yearNo);
+                break;
+            case "sm": // For Six Monthly Code
+                int sixMonthNo = monthNo / 6 + 1;
+                output = String.valueOf(sixMonthNo) + "/" + String.valueOf(yearNo);
+                break;
+            case "y": // For Yearly Code
+                output = String.valueOf(yearNo);
+                break;
+
+            case "d":  // For daily Code
+            default:
+                output = formattedDate;
+                break;
+        }
+
+        return output;
+    }
+
 
 }

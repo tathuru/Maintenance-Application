@@ -185,7 +185,7 @@ public class VcsSittiDailyIPTBB extends AppCompatActivity {
         //canvas.drawText("Desig: " + PersonalDetailsActivity.design ,1500,64,titlePaint);
         //canvas.drawText("Emp No.: " + PersonalDetailsActivity.EmpID ,1500,96,titlePaint);
         //canvas.drawText("Location: " + MainActivity.latLong1,1500,128,titlePaint);
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.photo,210,270, false), 90, 755, paint);
+        //canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.photo,210,270, false), 90, 755, paint);
         //--------------------------------Change as per your requirement------------------------------------------------------
         canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 470, 755, paint);
         titlePaint.setTextSize(15);
@@ -261,7 +261,7 @@ public class VcsSittiDailyIPTBB extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"VCCS","Daily",outputEditText,specificCode);// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"VCCS","Daily",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

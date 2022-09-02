@@ -97,7 +97,7 @@ public class ADSBDailyActivity extends AppCompatActivity {
             //---------------------To Set View in Current Activity------------------
             // Fixed for all the activity---------------------------------------------------------------
             ImageView imageView10 = (ImageView) findViewById(R.id.imageView10);
-            imageView10.setImageBitmap(PersonalDetailsActivity.photo);
+            //imageView10.setImageBitmap(PersonalDetailsActivity.photo);
             TextView textView7 = (TextView) findViewById(R.id.textView7);
             textView7.setText("Name: " + PersonalDetailsActivity.naam);
             TextView textView8 = (TextView) findViewById(R.id.textView8);
@@ -290,7 +290,7 @@ public class ADSBDailyActivity extends AppCompatActivity {
             //This function saves all the data to parse Server
             //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-            myFunctions.saveToParse(targetPdf, fileName,"ADSB","Weekly",outputEditText,specificCode);// Change Here-----------------------
+            myFunctions.saveToParse(targetPdf, fileName,"ADSB","Weekly",outputEditText,MyFunctions.specificCode("d"),outputSwitch, outputSpinner);// Change Here-----------------------
 
             // This function will send eMail using JavaMailAPI
             //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

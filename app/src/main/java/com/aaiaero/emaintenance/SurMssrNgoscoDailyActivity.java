@@ -440,7 +440,7 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
 
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"MSSR","Daily",outputEditText,specificCode);
+        myFunctions.saveToParse(targetPdf, fileName,"MSSR","Daily",outputEditText,MyFunctions.specificCode("d"),outputSwitch, outputSpinner);
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

@@ -113,7 +113,7 @@ public class AmssEcilWeeklyActivity extends AppCompatActivity {
         //---------------------To Set View in Current Activity------------------
         // Fixed for all the activity---------------------------------------------------------------
         ImageView imageView10 = (ImageView) findViewById(R.id.imageView10);
-        imageView10.setImageBitmap(PersonalDetailsActivity.photo);
+        //imageView10.setImageBitmap(PersonalDetailsActivity.photo);
         TextView textView7 = (TextView) findViewById(R.id.textView7);
         textView7.setText("Name: " + PersonalDetailsActivity.naam);
         TextView textView8 = (TextView) findViewById(R.id.textView8);
@@ -257,7 +257,7 @@ public class AmssEcilWeeklyActivity extends AppCompatActivity {
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
         titlePaint.setTextSize(15);
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.photo,210,270, false), 100, 440, paint);
+        //canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.photo,210,270, false), 100, 440, paint);
         paint.setTextAlign(Paint.Align.LEFT);
         canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 445, 440, paint);
 
@@ -301,7 +301,7 @@ public class AmssEcilWeeklyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"AMSS ECIL","Weekly",outputEditText,specificCode);// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"AMSS ECIL","Weekly",outputEditText,MyFunctions.specificCode("w"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

@@ -238,7 +238,7 @@ public class SurvADSBComsoftDailyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());
         //This function saves all the data to parse Server
         //saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"ADSB","Daily",outputEditText,specificCode);
+        myFunctions.saveToParse(targetPdf, fileName,"ADSB","Daily",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");
         //if (uploadedToServer) Toast.makeText(this, "Data uploaded to Server.", Toast.LENGTH_SHORT).show();
         //else Toast.makeText(this, "Server is not available.", Toast.LENGTH_SHORT).show();
         //Log.i("target Path", targetPdf);

@@ -392,7 +392,7 @@ public class NavAidsDMEGcel752DailyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         // myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-       myFunctions.saveToParse(targetPdf, fileName,"DME_GCEL_752","Daily",outputEditText,specificCode);// Change Here-----------------------
+       myFunctions.saveToParse(targetPdf, fileName,"DME_GCEL_752","Daily",outputEditText,MyFunctions.specificCode("d"),outputSwitch, "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
 

@@ -79,9 +79,10 @@
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/textView8"
+                android:layout_below="@id/textView71"
                 android:layout_alignParentBottom="false"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
                 android:layout_marginBottom="40dp"
                 android:onClick="verifyClicked"
                 android:text="Verify" />
@@ -169,6 +170,18 @@
                 android:text="Emp No."
                 android:textColor="@color/colorAccent" />
 
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="AIRPORT Designator"
+                android:textColor="@color/colorAccent" />
+
             <EditText
                 android:id="@+id/editTextEmpID"
                 android:layout_width="wrap_content"
@@ -181,6 +194,24 @@
                 android:layout_alignParentRight="true"
                 android:ems="10"
                 android:hint="Employee ID"
+                android:inputType="textPersonName"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/editTextAirportName"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView71"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignBottom="@+id/textView71"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="61dp"
+                android:layout_marginLeft="61dp"
+                android:layout_marginBottom="-11dp"
+                android:ems="10"
+                android:hint="Airport ICAO Designator"
                 android:inputType="textPersonName"
                 android:textSize="14sp" />
 

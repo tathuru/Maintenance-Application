@@ -97,7 +97,7 @@ public class ADSBComsoftDailyActivity extends AppCompatActivity {
         //---------------------To Set View in Current Activity------------------
         // Fixed for all the activity---------------------------------------------------------------
         ImageView imageView10 = (ImageView) findViewById(R.id.imageView10);
-        imageView10.setImageBitmap(PersonalDetailsActivity.photo);
+        //imageView10.setImageBitmap(PersonalDetailsActivity.photo);
         TextView textView7 = (TextView) findViewById(R.id.textView7);
         textView7.setText("Name: " + PersonalDetailsActivity.naam);
         TextView textView8 = (TextView) findViewById(R.id.textView8);
@@ -200,7 +200,7 @@ public class ADSBComsoftDailyActivity extends AppCompatActivity {
         canvas.drawText("Desig: " + PersonalDetailsActivity.design ,1500,64,titlePaint);
         canvas.drawText("Emp No.: " + PersonalDetailsActivity.EmpID ,1500,96,titlePaint);
         canvas.drawText("Location: " + MainActivity.latLong1,1500,128,titlePaint);
-        canvas.drawBitmap(PersonalDetailsActivity.photo, 1630, 130, paint);
+        //canvas.drawBitmap(PersonalDetailsActivity.photo, 1630, 130, paint);
         canvas.drawBitmap(PersonalDetailsActivity.sigNature, 1325, 2720, paint);
         titlePaint.setTextSize(30);
 
@@ -289,7 +289,7 @@ public class ADSBComsoftDailyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"ADSB","Daily",outputEditText,specificCode);// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"ADSB","Daily",outputEditText,MyFunctions.specificCode("d"),outputSwitch, outputSpinner);// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

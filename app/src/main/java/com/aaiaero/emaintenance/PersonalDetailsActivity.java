@@ -50,12 +50,12 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
     EditText editText;
     boolean imageTaken = true;
     Spinner spinnerP;
-    EditText email, empppID;
+    EditText email, empppID,airportName;
 
     public static String naam, design;
 
     private TextView textView;
-    public static String emailTo, EmpID;
+    public static String emailTo, EmpID, airportNameICAO;
     private final String TAG = "TextEditor";
 
     @Override
@@ -71,6 +71,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
 
         email = (EditText) findViewById(R.id.editTextEmail);
 
+        airportName = (EditText) findViewById(R.id.editTextAirportName);
 
 
         Button button = (Button) findViewById(R.id.button);
@@ -227,12 +228,16 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
         SharedPreferences sh = getSharedPreferences("MySharedPref", MODE_PRIVATE);
 
         String s1 = sh.getString("name", "");
+        String s2 = sh.getString("airportname", "");
         //int a = sh.getInt("age", 0);
 
         // Setting the fetched data
         // in the EditTexts
         email.setText(s1);
         emailTo = email.getText().toString();
+
+        airportName.setText(s2);
+        airportNameICAO = airportName.getText().toString();
         //age.setText(String.valueOf(a));
     }
 
@@ -256,6 +261,8 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
 
         emailTo = email.getText().toString();
         //myEdit.putInt("age", Integer.parseInt(age.getText().toString()));
+        myEdit.putString("airportname", airportName.getText().toString());
+        airportNameICAO = airportName.getText().toString();
         myEdit.apply();
     }
 
