@@ -45,6 +45,10 @@
         <activity
             android:name=".GpThalesMonthlyActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".NavAidsNDBSAC100MonthlyActivity"
+            android:exported="true" />
         <activity
             android:name=".VhfRxJotMonthlyActivity"
             android:exported="false" />
