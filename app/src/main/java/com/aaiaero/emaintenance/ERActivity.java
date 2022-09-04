@@ -30,6 +30,7 @@ public class ERActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         //Test
+        //test2
 
     }
 
