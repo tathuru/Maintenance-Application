@@ -29,6 +29,8 @@ public class ERActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
+        //Test
+
     }
 
     public void vhfClicked (View view){
