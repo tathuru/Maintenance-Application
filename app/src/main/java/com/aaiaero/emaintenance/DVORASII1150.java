@@ -36,8 +36,8 @@ public class DVORASII1150 extends AppCompatActivity {
 
     public void weeklyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(),NavAidsDVORASII1150WeeklyActivity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(getApplicationContext(),NavAidsDVORASII1150WeeklyActivity.class);
+        //startActivity(intent);
 
 
     }
