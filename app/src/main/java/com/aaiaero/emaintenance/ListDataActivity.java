@@ -85,7 +85,7 @@ public class ListDataActivity extends AppCompatActivity {
                             break;
 
 
-                        /*case "NavAidsDVORASII1150WeeklyActivity": //Add all activities here in the case
+                        case "NavAidsDVORASII1150WeeklyActivity": //Add all activities here in the case
                             editScreenIntent = new Intent(ListDataActivity.this, NavAidsDVORASII1150WeeklyActivity.class);
                             editScreenIntent.putExtra("id", itemID);
                             editScreenIntent.putExtra("name", receivedData[0]);
@@ -93,10 +93,10 @@ public class ListDataActivity extends AppCompatActivity {
                             editScreenIntent.putExtra("switchData", receivedData[3]);
                             editScreenIntent.putExtra("spinnerData", receivedData[4]);
                             startActivity(editScreenIntent);
-                            break;*/
+                            break;
 
 
-                        /*case "NavAidsNDBSAC100QuarterlyActivity": //Add all activities here in the case
+                        case "NavAidsNDBSAC100QuarterlyActivity": //Add all activities here in the case
                             editScreenIntent = new Intent(ListDataActivity.this, NavAidsNDBSAC100QuarterlyActivity.class);
                             editScreenIntent.putExtra("id", itemID);
                             editScreenIntent.putExtra("name", receivedData[0]);
@@ -104,11 +104,11 @@ public class ListDataActivity extends AppCompatActivity {
                             editScreenIntent.putExtra("switchData", receivedData[3]);
                             editScreenIntent.putExtra("spinnerData", receivedData[4]);
                             startActivity(editScreenIntent);
-                            break;*/
+                            break;
 
 
 
-                      /*  case "NavAidsNDBSAC100WeeklyActivity": //Add all activities here in the case
+                       case "NavAidsNDBSAC100WeeklyActivity": //Add all activities here in the case
                             editScreenIntent = new Intent(ListDataActivity.this, NavAidsNDBSAC100WeeklyActivity.class);
                             editScreenIntent.putExtra("id", itemID);
                             editScreenIntent.putExtra("name", receivedData[0]);
@@ -161,7 +161,7 @@ public class ListDataActivity extends AppCompatActivity {
                             editScreenIntent.putExtra("switchData", receivedData[3]);
                             editScreenIntent.putExtra("spinnerData", receivedData[4]);
                             startActivity(editScreenIntent);
-                            break; */
+                            break;
 
 
 
