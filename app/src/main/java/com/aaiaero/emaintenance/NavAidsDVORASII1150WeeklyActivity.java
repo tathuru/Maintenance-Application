@@ -270,6 +270,8 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
                 editText183 = (EditText) findViewById(R.id.editText183),
                 editText184 = (EditText) findViewById(R.id.editText184),
                 editText185 = (EditText) findViewById(R.id.editText185)};
+
+
         TextView textViewN = (TextView) findViewById(R.id.textViewN);
         textViewN.setText("Name: " + PersonalDetailsActivity.naam);
         TextView textViewD = (TextView) findViewById(R.id.textViewD);
@@ -516,7 +518,7 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        myFunctions.saveToParse(targetPdf, fileName, "GCEL_ASII_1150", "Weekly", outputEditText, MyFunctions.specificCode("w"),outputSwitch, "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "GCEL_ASII_1150", "Weekly", outputEditText, MyFunctions.specificCode("w"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

@@ -9,27 +9,17 @@ import android.widget.Button;
 
 public class DVORASII1150 extends AppCompatActivity {
 
-    Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dvorasii1150);
 
-        daily = (Button) findViewById(R.id.daily);
-        weekly = (Button) findViewById(R.id.weekly);
-        //fortnightly = (Button) findViewById(R.id.fortnightly);
-        monthly = (Button) findViewById(R.id.monthly);
-       // quarterly = (Button) findViewById(R.id.quarterly);
-        halfYearly = (Button) findViewById(R.id.halfYearly);
-        yearly = (Button) findViewById(R.id.annual);
-       // miscellaneous = (Button) findViewById(R.id.miscellaneous);
-
     }
     public void dailyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435DailyActivity.class);
-        startActivity(intent);
+       // Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435DailyActivity.class);
+      //  startActivity(intent);
 
 
     }
@@ -44,9 +34,16 @@ public class DVORASII1150 extends AppCompatActivity {
 
 
 
-    public void monthlyClicked (View view){
+    public void monthly (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435MonthlyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDVORASII1150MonthlyActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void quarterly (View view){
+
+        Intent intent = new Intent(getApplicationContext(), NavAidsDVORASII1150QuarterlyActivity.class);
         startActivity(intent);
 
     }
@@ -55,20 +52,12 @@ public class DVORASII1150 extends AppCompatActivity {
 
     public void halfYearlyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435SixMonthlyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), DVORASII1150SixMonthly.class);
         startActivity(intent);
 
     }
 
-    public void yearlyClicked (View view){
-
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435AnnualActivity.class);
-        startActivity(intent);
 
 
 
     }
-
-
-
-}

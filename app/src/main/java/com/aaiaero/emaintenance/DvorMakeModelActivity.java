@@ -26,8 +26,8 @@ public class DvorMakeModelActivity extends AppCompatActivity {
         thales.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(),DVORTHALES432.class);
+                startActivity(intent);
             }
         });
 
