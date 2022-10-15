@@ -201,7 +201,7 @@ public class ListDataActivity extends AppCompatActivity {
 
 
 
-                        case "NavAidsNDBSAC100WeeklyActivity": //Add all activities here in the case
+                       case "NavAidsNDBSAC100WeeklyActivity": //Add all activities here in the case
                             editScreenIntent = new Intent(ListDataActivity.this, NavAidsNDBSAC100WeeklyActivity.class);
                             editScreenIntent.putExtra("id", itemID);
                             editScreenIntent.putExtra("name", receivedData[0]);
