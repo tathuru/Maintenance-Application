@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView2"
-                android:hint="Enter Your Username without @aai.aero"
+                android:hint="Enter Your Email Address"
                 android:inputType="textPersonName" />
 
             <EditText

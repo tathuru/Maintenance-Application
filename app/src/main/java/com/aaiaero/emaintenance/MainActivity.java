@@ -341,7 +341,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }*/
 
-                ParseUser.logInInBackground(usernameEditText.getText().toString() + "@aai.aero", passwordEditText.getText().toString(), new LogInCallback() {
+                //ParseUser.logInInBackground(usernameEditText.getText().toString() + "@gmail.com", passwordEditText.getText().toString(), new LogInCallback() {
+                ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
                     @Override
                     public void done(ParseUser user, ParseException e) {
 

@@ -55,7 +55,8 @@ public class ForgotPasswordActivity extends AppCompatActivity {
     }
 
     private void resetPassword(String userName){
-        ParseUser.requestPasswordResetInBackground(userName + "@aai.aero", new RequestPasswordResetCallback() {
+        //ParseUser.requestPasswordResetInBackground(userName + "@gmail.com", new RequestPasswordResetCallback() {
+        ParseUser.requestPasswordResetInBackground(userName, new RequestPasswordResetCallback() {
             public void done(ParseException e) {
                 if (e == null) {
                     textViewReply.setText("An email was successfully sent with reset instructions.");
