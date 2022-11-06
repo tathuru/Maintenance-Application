@@ -3,16 +3,11 @@ package com.aaiaero.emaintenance;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import java.io.ByteArrayOutputStream;
-
-public class DvorGcelActivity extends AppCompatActivity {
+public class DvorGcel755Activity extends AppCompatActivity {
 
     Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
@@ -20,7 +15,7 @@ public class DvorGcelActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dvor_gcel);
+        setContentView(R.layout.activity_dvor_gcel755);
 
         setTitle("GCEL DVOR  Maintenance");
 
@@ -55,25 +50,23 @@ public class DvorGcelActivity extends AppCompatActivity {
 
     }
 
-    public void fortnightlyClicked (View view){
 
 
-
-    }
-
-    public void monthlyClicked (View view){
+    public void monthly (View view){
 
         Intent intent = new Intent(getApplicationContext(),NavAidsDVORGcel755MonthlyActivity.class);
         startActivity(intent);
 
     }
 
-    public void quaterlyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(),NavAidsDVORGcel755QuarterlyActivity.class);
+    public void monthlygc (View view){
+
+        Intent intent = new Intent(getApplicationContext(),NavAidsDVORGcel755MonthlyGroundChecksActivity.class);
         startActivity(intent);
 
     }
+
 
     public void halfYearlyClicked (View view){
 
@@ -83,19 +76,6 @@ public class DvorGcelActivity extends AppCompatActivity {
 
     }
 
-    public void yearlyClicked (View view){
-
-        Intent intent = new Intent(getApplicationContext(),NavAidsDVORGcel755SixMonthlyActivity.class);
-        startActivity(intent);
 
 
-
-    }
-
-    public void miscellaneousClicked (View view){
-        // Launch the Others Equipment Room Activity
-
-
-
-    }
 }

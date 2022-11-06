@@ -41,7 +41,7 @@ public class DvorMakeModelActivity extends AppCompatActivity {
         gecl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),DvorGcelActivity.class);
+                Intent intent = new Intent(getApplicationContext(), DvorGcel755Activity.class);
                 startActivity(intent);
             }
         });

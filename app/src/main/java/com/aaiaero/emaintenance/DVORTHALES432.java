@@ -16,9 +16,23 @@ public class DVORTHALES432 extends AppCompatActivity {
 
     }
 
+    public void monthly (View view){
+
+        Intent intent = new Intent(getApplicationContext(), NavAidsDVORThales432MonthlyActivity.class);
+        startActivity(intent);
+
+    }
+
     public void quarterly (View view){
 
         Intent intent = new Intent(getApplicationContext(), NavAidsDVORThales432QuarterlyActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void sixmonthly (View view){
+
+        Intent intent = new Intent(getApplicationContext(), NavAidsDVORThales432SixMonthlyActivity.class);
         startActivity(intent);
 
     }

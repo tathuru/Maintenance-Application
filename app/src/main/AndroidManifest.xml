@@ -25,6 +25,21 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DVRRetia"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel755MonthlyGroundChecksActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VHFDVRRETIADailyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORThales432SixMonthlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORThales432MonthlyActivity"
+            android:exported="true" />
+        <activity
             android:name=".DMEASII1118AND1119"
             android:exported="false" />
         <activity
@@ -38,6 +53,10 @@
             android:exported="true" />
         <activity
             android:name=".NavAidsDVORThales432DailyActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".NavAidsDVORASII1150DailyActivity"
             android:exported="true" />
         <activity
             android:name=".NavAidsDMEASII1118and1119QuarterlyActivity"
@@ -148,7 +167,7 @@
             android:name=".SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".DvorGcelActivity"
+            android:name=".DvorGcel755Activity"
             android:exported="false" />
         <activity
             android:name=".DmeThalesActivity"
@@ -395,7 +414,7 @@
             android:exported="false" />
         <activity
             android:name=".ERActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".CheckSchedules"
             android:exported="false" />

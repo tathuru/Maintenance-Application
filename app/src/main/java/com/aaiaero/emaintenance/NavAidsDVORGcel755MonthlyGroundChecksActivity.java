@@ -1,5 +1,7 @@
 package com.aaiaero.emaintenance;
 
+import static java.util.Collections.*;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
@@ -24,6 +26,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -33,25 +36,26 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.Date;
 import java.util.Locale;
 
-public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
-
+public class NavAidsDVORGcel755MonthlyGroundChecksActivity extends AppCompatActivity {
 
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
     private MySignature mySignature = new MySignature(this);
     private int selectedID;//Copy
     private String selectedName;//Copy
     private EditText[] editTextArray;//Copy
-    private Switch[] switchArray= {};//Copy
+    private Switch[] switchArray ={};//Copy
     private Spinner[] spinnerArray = {};//Copy
 
     public  String Date;
+    TextView textView1,textView2,textView3,textView4;
 
-    private String thisActivityName = "NavAidsDVORASII1150WeeklyActivity"; //Change Here as per your class name
-
+    private String thisActivityName = "NavAidsDVORGcel755MonthlyGroundChecksActivity"; //Change Here as per your class name
 
     public void click(View view1) {
         View view = this.getCurrentFocus();
@@ -66,26 +70,35 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nav_aids_dvorasii1150_weekly);
+        setContentView(R.layout.activity_nav_aids_dvorgcel755_monthly_ground_checks);
 
-       EditText editText1,editText2,editText3,editText4,editText5,editText6,editText7,editText8,
-                editText9,editText10,editText11,editText12,editText13,editText14,editText15,
-                editText16,editText17,editText18,editText19,editText20,editText21,editText22,editText23,editText24,editText25,editText26,editText27,
-                editText28,editText29,editText30,editText31,editText32,editText33,editText34,editText35,editText36,editText37,editText38,editText39,
-                editText40,editText41,editText42,editText43,editText44,editText45,editText46,editText47,editText48,editText49,editText50,editText51,editText52,
-                editText53,editText54,editText55,editText56,editText57,editText58,editText59,editText60,editText61,editText62,editText63,editText64,editText65,
-                editText66,editText67,editText68,editText69,editText70,editText71,editText72,editText73,editText74,editText75,editText76,editText77,editText78,
-                editText79,editText80,editText81,editText82,editText83,editText84,editText85,editText86,editText87,editText88,editText89,editText90,editText91,
-                editText92,editText93,editText94,editText95,editText96,editText97,editText98,editText99,editText100,editText101,editText102,editText103,editText104,
-                editText105,editText106,editText107,editText108,editText109,editText110,editText111,editText112,editText113,editText114,editText115,editText116,
-                editText117,editText118,editText119,editText120,editText121,editText122,editText123,editText124,editText125,editText126,editText127,editText128,
-                editText129,editText130,editText131,editText132,editText133,editText134,editText135,editText136,editText137,editText138,editText139,editText140,
-                editText141,editText142,editText143,editText144,editText145,editText146,editText147,editText148,editText149,editText150,editText151,editText152,
-                editText153,editText154,editText155,editText156,editText157,editText158,editText159,editText160,editText161,editText162,editText163,editText164,
-                editText165,editText166,editText167,editText168,editText169,editText170,editText171,editText172,editText173,editText174,editText175,editText176,
-                editText177,editText178,editText179,editText180,editText181,editText182,editText183,editText184,editText185;
+        EditText editText1,editText2,editText3,editText4,editText5,editText6,editText7,editText8,editText9,editText10,
+                editText11,editText12,editText13,editText14,editText15,editText16,editText17,editText18,editText19,
+                editText20,editText21,editText22,editText23,editText24,editText25,editText26,editText27,editText28,
+                editText29,editText30,editText31,editText32,editText33,editText34,editText35,editText36,editText37,
+                editText38,editText39,editText40,editText41,editText42,editText43,editText44,editText45,editText46,
+                editText47,editText48,editText49,editText50,editText51,editText52,editText53,editText54,editText55,
+                editText56,editText57,editText58,editText59,editText60,editText61,editText62,editText63,editText64,
+                editText65,editText66,editText67,editText68,editText69,editText70,editText71,editText72,editText73,
+                editText74,editText75,editText76,editText77,editText78,editText79,editText80,editText81,editText82,
+                editText83,editText84,editText85,editText86,editText87,editText88,editText89,editText90,editText91,
+                editText92,editText93,editText94,editText95,editText96,editText97,editText98,editText99,editText100,
+                editText101,editText102,editText103,editText104,editText105,editText106,editText107,editText108,
+                editText109,editText110,editText111,editText112,editText113,editText114,editText115,editText116,
+                editText117,editText118,editText119,editText120,editText121,editText122,editText123,editText124,
+                editText125,editText126,editText127,editText128,editText129,editText130,editText131,editText132,
+                editText133,editText134,editText135,editText136,editText137,editText138,editText139,editText140,
+                editText141,editText142,editText143,editText144,editText145,editText146,editText147,editText148,
+                editText149,editText150,editText151,editText152,editText153,editText154,editText155,editText156,
+                editText157,editText158,editText159,editText160,editText161,editText162,editText163,editText164,
+                editText165,editText166,editText167,editText168,editText169,editText170,editText171,editText172,
+                editText173,editText174,editText175,editText176,editText177,editText178,editText179,editText180,
+                editText181,editText182,editText183,editText184,editText185,editText186,editText187,editText188,
+                editText189,editText190,editText191,editText192,editText193,editText194,editText195,editText196,editText197;
 
-        editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText1),
+     editTextArray = new EditText[]{
+
+                editText1 = (EditText) findViewById(R.id.editText1),
                 editText2 = (EditText) findViewById(R.id.editText2),
                 editText3 = (EditText) findViewById(R.id.editText3),
                 editText4 = (EditText) findViewById(R.id.editText4),
@@ -156,14 +169,14 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
                 editText69 = (EditText) findViewById(R.id.editText69),
                 editText70 = (EditText) findViewById(R.id.editText70),
                 editText71 = (EditText) findViewById(R.id.editText71),
-                editText72 = (EditText) findViewById(R.id.editText75),
-                editText73 = (EditText) findViewById(R.id.editText76),
-                editText74 = (EditText) findViewById(R.id.editText77),
-                editText75 = (EditText) findViewById(R.id.editText78),
-                editText76 = (EditText) findViewById(R.id.editText79),
-                editText77 = (EditText) findViewById(R.id.editText72),
-                editText78 = (EditText) findViewById(R.id.editText73),
-                editText79 = (EditText) findViewById(R.id.editText74),
+                editText72 = (EditText) findViewById(R.id.editText72),
+                editText73 = (EditText) findViewById(R.id.editText73),
+                editText74 = (EditText) findViewById(R.id.editText74),
+                editText75 = (EditText) findViewById(R.id.editText75),
+                editText76 = (EditText) findViewById(R.id.editText76),
+                editText77 = (EditText) findViewById(R.id.editText77),
+                editText78 = (EditText) findViewById(R.id.editText78),
+                editText79 = (EditText) findViewById(R.id.editText79),
                 editText80 = (EditText) findViewById(R.id.editText80),
                 editText81 = (EditText) findViewById(R.id.editText81),
                 editText82 = (EditText) findViewById(R.id.editText82),
@@ -249,11 +262,11 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
                 editText162 = (EditText) findViewById(R.id.editText162),
                 editText163 = (EditText) findViewById(R.id.editText163),
                 editText164 = (EditText) findViewById(R.id.editText164),
-                editText165 = (EditText) findViewById(R.id.editText168),
-                editText166 = (EditText) findViewById(R.id.editText169),
-                editText167 = (EditText) findViewById(R.id.editText165),
-                editText168 = (EditText) findViewById(R.id.editText166),
-                editText169 = (EditText) findViewById(R.id.editText167),
+                editText165 = (EditText) findViewById(R.id.editText165),
+                editText166 = (EditText) findViewById(R.id.editText166),
+                editText167 = (EditText) findViewById(R.id.editText167),
+                editText168 = (EditText) findViewById(R.id.editText168),
+                editText169 = (EditText) findViewById(R.id.editText169),
                 editText170 = (EditText) findViewById(R.id.editText170),
                 editText171 = (EditText) findViewById(R.id.editText171),
                 editText172 = (EditText) findViewById(R.id.editText172),
@@ -269,7 +282,21 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
                 editText182 = (EditText) findViewById(R.id.editText182),
                 editText183 = (EditText) findViewById(R.id.editText183),
                 editText184 = (EditText) findViewById(R.id.editText184),
-                editText185 = (EditText) findViewById(R.id.editText185)};
+                editText185 = (EditText) findViewById(R.id.editText185),
+                editText186 = (EditText) findViewById(R.id.editText186),
+                editText187 = (EditText) findViewById(R.id.editText187),
+                editText188 = (EditText) findViewById(R.id.editText188),
+                editText189 = (EditText) findViewById(R.id.editText189),
+                editText190 = (EditText) findViewById(R.id.editText190),
+                editText191 = (EditText) findViewById(R.id.editText191),
+                editText192 = (EditText) findViewById(R.id.editText192),
+                editText193 = (EditText) findViewById(R.id.editText193),
+                editText194 = (EditText) findViewById(R.id.editText194),
+                editText195 = (EditText) findViewById(R.id.editText195),
+                editText196 = (EditText) findViewById(R.id.editText196),
+                editText197 = (EditText) findViewById(R.id.editText197)};
+
+
 
 
         TextView textViewN = (TextView) findViewById(R.id.textViewN);
@@ -282,6 +309,12 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
         textViewL.setText("Location: " + MainActivity.latLong1);
 
         TextView textView = (TextView) findViewById(R.id.textViewDate);
+
+        textView1 = findViewById(R.id.textView1);
+
+        textView2 = findViewById(R.id.textView2);
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
 
         SimpleDateFormat date1 = new SimpleDateFormat("dd.MM.yyyy, HH:mm");
         Date = date1.format(new Date());
@@ -315,6 +348,8 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
 
         Button signDocument = (Button) findViewById(R.id.button11);
         Button submitSchedule = (Button) findViewById(R.id.button10);
+        Button error1 = (Button) findViewById(R.id.button1);
+        Button error2 = (Button) findViewById(R.id.button2);
 
         submitSchedule.setVisibility(View.INVISIBLE);
         signDocument.setVisibility(View.VISIBLE);
@@ -337,7 +372,113 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
             }
 
         });
+
+        error1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+               e1();
+
+            }
+        });
+
+        error2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                e2();
+
+            }
+        });
+
+
+
     }
+
+    public void e1 () {
+
+        float a = 0f;
+        float min = 0f, max = 0f;
+        int i;
+
+        for (i = 0; i < 48; i++) {
+
+            try {
+
+            editTextArray[i + 50].setText(String.valueOf(a - Float.parseFloat(editTextArray[2 + i].getText().toString())));
+            a = a + 7.5f;
+
+
+                for (int j = 0; j < editTextArray[i + 50].length(); j++) {
+
+                    if (Float.parseFloat(editTextArray[i + 50].getText().toString()) < min) {
+
+                        min = Float.parseFloat(editTextArray[i + 50].getText().toString());
+                    }
+                }
+                for (int k = 0; k < editTextArray[i + 50].length(); k++) {
+
+                    if (Float.parseFloat(editTextArray[i + 50].getText().toString()) > max) {
+
+                        max = Float.parseFloat(editTextArray[i + 50].getText().toString());
+                    }
+                }
+
+                editTextArray[98].setText(String.valueOf(max - min));
+            }
+
+            catch (NumberFormatException ex){
+
+                a = a + 7.5f;
+                editTextArray[i + 50].setText("-");
+
+
+            }
+        }
+
+    }
+
+
+    public void e2 () {
+
+        float a=0f;
+        float min = 0f, max =0f;
+        int i;
+
+        for (i = 0; i < 48; i++) {
+            try {
+                editTextArray[i + 147].setText(String.valueOf(a - Float.parseFloat(editTextArray[99 + i].getText().toString())));
+                a = a + 7.5f;
+
+                for (int j = 0; j < editTextArray[i + 147].length(); j++) {
+
+                    if (Float.parseFloat(editTextArray[i + 147].getText().toString()) < min) {
+
+                        min = Float.parseFloat(editTextArray[i + 147].getText().toString());
+                    }
+                }
+                for (int k = 0; k < editTextArray[i + 147].length(); k++) {
+
+                    if (Float.parseFloat(editTextArray[i + 147].getText().toString()) > max) {
+
+                        max = Float.parseFloat(editTextArray[i + 147].getText().toString());
+                    }
+                }
+
+                editTextArray[195].setText(String.valueOf(max - min));
+            }
+            catch (NumberFormatException ex){
+                a = a + 7.5f;
+                editTextArray[i + 147].setText("-");
+
+              
+            }
+        }
+
+
+        }
+
+
     private void generatePDF() {
 
         // Fixed for all activity-------------------------------------------------------------------
@@ -346,13 +487,6 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
 
         String[] editTextDataForPDF = myFunctions.seperateEditText(outputEditText);
 
-        String outputSwitch = myFunctions.getSwitchStatusForPDF(switchArray);
-
-        String[] switchDataForPDF = myFunctions.seperateSwitchData(outputSwitch);
-
-        //  String outputSpinner = myFunctions.getSpinnerStatusForPDF(spinnerArray);
-
-        //String[] spinnerDataForPDF = myFunctions.seperateSpinnerData(outputSpinner);
 
         PdfDocument myPdfdocument = new PdfDocument();
 
@@ -361,7 +495,7 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
 
         // Change below as per requirement-----------------------------------------------------------
         // crate a page description
-        PdfDocument.PageInfo myPageInfo1 = new PdfDocument.PageInfo.Builder(1269, 1796, 1).create();
+        PdfDocument.PageInfo myPageInfo1 = new PdfDocument.PageInfo.Builder(723, 1023, 1).create();
 
         // start a page
         PdfDocument.Page myPage1 = myPdfdocument.startPage(myPageInfo1);
@@ -372,29 +506,27 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
 
 
 //--------------------------------------------------------------------------------------------
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorasii1150weekly1);
-        scaledbmp = Bitmap.createScaledBitmap(bmp, 1269, 1796, false);
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorgcel755monthlygc1);
+        scaledbmp = Bitmap.createScaledBitmap(bmp, 723, 1023, false);
 //--------------------------------------------------------------------------------------------
         canvas.drawBitmap(scaledbmp, 0, 0, paint);
 
 
-        titlePaint.setTextSize(20);
+        titlePaint.setTextSize(13);
         paint.setTextAlign(Paint.Align.LEFT);
-        //canvas.drawText("Name: " + PersonalDetailsActivity.naam ,1500,32,titlePaint);
-        //canvas.drawText("Desig: " + PersonalDetailsActivity.design ,1500,64,titlePaint);
-        //canvas.drawText("Emp No.: " + PersonalDetailsActivity.EmpID ,1500,96,titlePaint);
-        //canvas.drawText("Location: " + MainActivity.latLong1,1500,128,titlePaint);
-        //canvas.drawBitmap(PersonalDetailsActivity.photo, 540, 21, paint);
-        //--------------------------------Change as per your requirement------------------------------------------------------
 
-        //canvas.drawBitmap(PersonalDetailsActivity.sigNature, 1325, 2720, paint);
-        titlePaint.setTextSize(20);
+        titlePaint.setTextSize(13);
 
-        int[] editTextXPixel1 = {231,674,765,765,765,765,765,945,945,945,945,945,765,765,765,765,945,945,945,945,765,765,765,765,765,765,765,765,765,765,765,765,765,765,765,765,765,765,
-                945,945,945,945,945,945,945,945,945,945,945,945,945,945,945,945,945,945,765,765,765,765,765,945,945,945,945,945,765,765,765,765,765,945,945,945,945,945};
-        int[] editTextYPixel1 = {303,303,419,442,467,494,521,419,442,467,494,521,571,598,623,649,571,598,623,649,705,736,765,794,826,856,888,917,944,975,1006,1034,1065,1097,
-        1128,1157,1188,1215,705,736,765,794,826,856,888,917,944,975,1006,1034,1065,1097,1128,1157,1188,1215,1265,1292,1318,1342,1367,1265,1292,1318,1342,1367,1419,1443,1469,1496,1522
-                ,1419,1443,1469,1496,1522};
+        int[] editTextXPixel1 = {150,344,247,247,247,247,247,247,247,247,247,247,247,247,247,247,
+                247,247,247,247,247,247,247,247,247,247,535,535,535,535,535,535,535,535
+                ,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,327,327,327,327,327,327,327,327,327,327,327
+                ,327,327,327,327,327,327,327,327,327,327,327,327,327,614,614,614,614,614
+                ,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,250};
+        int[] editTextYPixel1 = {201,201,386,404,421,438,457,472,490,507,525,542,559,576,594,612,
+                630,646,664,682,699,716,734,751,767,785,386,404,421,438,457,472,490,507,525,542,559,576,594,612,
+                630,646,664,682,699,716,734,751,767,785,386,404,421,438,457,472,490,507,525,542,559,576,594,612,
+                630,646,664,682,699,716,734,751,767,785,386,404,421,438,457,472,490,507,525,542,559,576,594,612,
+                630,646,664,682,699,716,734,751,767,785,819};
 
 
 
@@ -408,46 +540,44 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
         }
 
 
-
-
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("dd_MM_yyyy_HH_mm");
         String strData = sdf.format(calendar.getTime());
         // Fixed till here--------------------------------------------------------------------------
 
         // Change as per your requirement-----------------------------------------------------------
-        titlePaint.setTextSize(20);
+        titlePaint.setTextSize(13);
 
-        canvas.drawText(Date, 955, 303, titlePaint);//Printing Date on PDF
+        canvas.drawText(Date, 547, 201, titlePaint);//Printing Date on PDF
 
         //canvas.drawBitmap(PersonalDetailsActivity.photo, 550, 21, paint);
 
         myPdfdocument.finishPage(myPage1);
 
 
-        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(1269, 1796, 2).create();
+        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(723, 1023, 2).create();
 
         // start a page
         PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
 
         canvas = myPage2.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorasii1150weekly2);
-        scaledbmp = Bitmap.createScaledBitmap(bmp, 1269, 1796, false);
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorgcel755monthlygc2);
+        scaledbmp = Bitmap.createScaledBitmap(bmp, 723, 1023, false);
         canvas.drawBitmap(scaledbmp, 0, 0, paint);
 
-        titlePaint.setTextSize(20);  //Change here
+        titlePaint.setTextSize(13);  //Change here
         paint.setTextAlign(Paint.Align.LEFT);
 
-        int[] editTextXPixel2 = {765,765,765,935,935,935,765,765,765,765,935,935,935,935,765,765,765,765,765,765,765,935,935,935,935,935,
-                935,935,765,765,765,765,765,765,935,935,935,935,935,935,765,765,765,765,765,765,935,935,935,935,935,935,765,765,765,765,
-                765,765,765,765,765,765,765,765,935,935,935,935,935,935,935,935,935,935,935,935,765,765,765,765,765,935,935,935,935,935,
-                765,765,935,935};
-        int[] editTextYPixel2 = {216,242,266,216,242,266,318,344,371,395,318,344,371,395,447,474,497,523,548,574,602,447,474,497,523,548,
-                574,602,652,676,702,726,753,779,652,676,702,726,753,779,836,861,885,910,938,963,836,861,885,910,938,963,1014,1040,1066,1092,
-                1118,1142,1167,1195,1219,1247,1270,1296,1014,1040,1066,1092,1118,1142,1167,1195,1219,1247,1270,1296,1345,1372,1396,1422,1451,
-                1345,1372,1396,1422,1451,1503,1528,1503,1528};
-
-
+        int[] editTextXPixel2 = {247,247,247,247,247,247,247,247,247,247,247,247,247,247,
+                247,247,247,247,247,247,247,247,247,247,535,535,535,535,535,535,535,535
+                ,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,535,327,327,327,327,327,327,327,327,327,327,327
+                ,327,327,327,327,327,327,327,327,327,327,327,327,327,614,614,614,614,614
+                ,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,614,254,91};
+        int[] editTextYPixel2= {261,278,295,312,330,348,365,382,400,417,435,451,467,486,503,520,538,554,
+                572,590,608,625,642,659,261,278,295,312,330,348,365,382,400,417,435,451,467,486,503,520,538,554,
+                572,590,608,625,642,659,261,278,295,312,330,348,365,382,400,417,435,451,467,486,503,520,538,554,
+                572,590,608,625,642,659,261,278,295,312,330,348,365,382,400,417,435,451,467,486,503,520,538,554,
+                572,590,608,625,642,659,676,711};
 
         // Change till here as per requirements ----------------------------------------------------
 
@@ -457,37 +587,9 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
             canvas.drawText(editTextDataForPDF[i + editTextXPixel1.length], editTextXPixel2[i], editTextYPixel2[i], titlePaint);
         }
 
+
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,300,253, false), 429, 740, paint);
         myPdfdocument.finishPage(myPage2);
-
-        PdfDocument.PageInfo myPageInfo3 = new PdfDocument.PageInfo.Builder(1269, 1796, 3).create();
-
-        // start a page
-        PdfDocument.Page myPage3 = myPdfdocument.startPage(myPageInfo3);
-
-        canvas = myPage3.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorasii1150weekly3);
-        scaledbmp = Bitmap.createScaledBitmap(bmp, 1269, 1796, false);
-        canvas.drawBitmap(scaledbmp, 0, 0, paint);
-
-        titlePaint.setTextSize(20);  //Change here
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        int[] editTextXPixel3 = {770,770,770,940,940,940,770,770,770,770,770,770,940,940,940,940,940,940,187};
-        int[] editTextYPixel3 = {217,242,268,217,242,268,344,369,393,420,445,470,344,369,393,420,445,470,679};
-
-
-
-        // Change till here as per requirements ----------------------------------------------------
-
-        //Fixed for all activity--------------------------------------------------------------------
-
-        for (int i = 0; i < editTextXPixel3.length; i++) {
-            canvas.drawText(editTextDataForPDF[i + editTextXPixel1.length+editTextXPixel2.length], editTextXPixel3[i], editTextYPixel3[i], titlePaint);
-        }
-
-
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,400,410, false), 700, 1000, paint);
-        myPdfdocument.finishPage(myPage3);
 
 
         ActivityCompat.requestPermissions(this, new String[]{
@@ -495,14 +597,14 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
         //----------------------Change-----------------------------------------------------------------------------
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Nav - Aids/DVOR/ASII - 1150/Weekly/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Nav - Aids/DVOR/GCEL - 755/Monthly - Ground Checks/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DVOR_ASII_1150_Weekly_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DVOR_GCEL_755_Monthly_Ground_Checks_" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -518,19 +620,19 @@ public class NavAidsDVORASII1150WeeklyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        myFunctions.saveToParse(targetPdf, fileName, "DVOR_ASII_1150", "Weekly", outputEditText, MyFunctions.specificCode("w"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        //myFunctions.saveToParse(targetPdf, fileName, "DVOR_ASII_1150", "Monthly", outputEditText, MyFunctions.specificCode("m"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
 
 
-        myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-                "Weekly Maintenance of DVOR ASII - 1150 done.",//Change Here-----------------------------
-                "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
+        // myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
+        //   "Monthly Ground Checks -  Maintenance of DVOR GCEL - 755 done.",//Change Here-----------------------------
+        //  "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
         //---------------------------------------------------------------------------------------------------------
 
 
-        myFunctions.toLogoutActivity();
+        // myFunctions.toLogoutActivity();
     }
     @Override
     public boolean onCreateOptionsMenu (Menu menu){
