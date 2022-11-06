@@ -45,9 +45,11 @@ public class SignupActivity extends AppCompatActivity {
     private void signUP(String userName, String passWord){
 
         ParseUser user = new ParseUser();
-        user.setUsername(userName + "@aai.aero");
+        //user.setUsername(userName + "@gmail.com");
+        user.setUsername(userName);
         user.setPassword(passWord);
-        user.setEmail(userName + "@aai.aero");
+        //user.setEmail(userName + "@gmail.com");
+        user.setEmail(userName);
 
         user.signUpInBackground(new SignUpCallback() {
             public void done(ParseException e) {

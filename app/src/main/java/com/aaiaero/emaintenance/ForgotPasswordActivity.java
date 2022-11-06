@@ -11,9 +11,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.parse.FindCallback;
 import com.parse.ParseException;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.RequestPasswordResetCallback;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ForgotPasswordActivity extends AppCompatActivity {
 
@@ -39,6 +44,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
             textViewReply.setVisibility(View.VISIBLE);
             Toast.makeText(ForgotPasswordActivity.this, "Please enter email to reset password.", Toast.LENGTH_SHORT).show();
         } else resetPassword(editText.getText().toString());
+
     }
 
     public void loginPageClicked(View view){
@@ -49,7 +55,8 @@ public class ForgotPasswordActivity extends AppCompatActivity {
     }
 
     private void resetPassword(String userName){
-        ParseUser.requestPasswordResetInBackground(userName + "@aai.aero", new RequestPasswordResetCallback() {
+        //ParseUser.requestPasswordResetInBackground(userName + "@gmail.com", new RequestPasswordResetCallback() {
+        ParseUser.requestPasswordResetInBackground(userName, new RequestPasswordResetCallback() {
             public void done(ParseException e) {
                 if (e == null) {
                     textViewReply.setText("An email was successfully sent with reset instructions.");

@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView11"
-                android:hint="Enter Your Username without @aai.aero"
+                android:hint="Enter Your Email Address"
                 android:inputType="textPersonName"
                 android:minHeight="48dp" />
 
@@ -123,7 +123,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="Username must be registered at @aai.aero"
+                android:text="Enter a valid Email address."
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textColor="?attr/colorAccent"
                 android:textSize="18sp"

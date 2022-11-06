@@ -41,6 +41,7 @@ public class NDBSAC100 extends AppCompatActivity {
 
     public void monthlyClicked (View view){
 
+
         Intent intent = new Intent(getApplicationContext(), NavAidsNDBSAC100MonthlyActivity.class);
         startActivity(intent);
 
