@@ -620,19 +620,19 @@ public class NavAidsDVORGcel755MonthlyGroundChecksActivity extends AppCompatActi
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        //myFunctions.saveToParse(targetPdf, fileName, "DVOR_ASII_1150", "Monthly", outputEditText, MyFunctions.specificCode("m"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "DVOR_ASII_1150", "Monthly", outputEditText, MyFunctions.specificCode("m"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
-        //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
+       // myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
 
 
-        // myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-        //   "Monthly Ground Checks -  Maintenance of DVOR GCEL - 755 done.",//Change Here-----------------------------
-        //  "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
+         myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
+           "Monthly Ground Checks -  Maintenance of DVOR GCEL - 755 done.",//Change Here-----------------------------
+          "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
         //---------------------------------------------------------------------------------------------------------
 
 
-        // myFunctions.toLogoutActivity();
+         myFunctions.toLogoutActivity();
     }
     @Override
     public boolean onCreateOptionsMenu (Menu menu){

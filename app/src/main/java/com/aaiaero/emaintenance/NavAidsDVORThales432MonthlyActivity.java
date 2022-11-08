@@ -301,7 +301,7 @@ public class NavAidsDVORThales432MonthlyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         // myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        /*myFunctions.saveToParse(targetPdf, fileName, "DVOR_Thales_432", "Monthly", outputEditText, MyFunctions.specificCode("m"), outputSwitch, "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "DVOR_Thales_432", "Monthly", outputEditText, MyFunctions.specificCode("m"), outputSwitch, "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
 
@@ -310,7 +310,7 @@ public class NavAidsDVORThales432MonthlyActivity extends AppCompatActivity {
                 "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
         //---------------------------------------------------------------------------------------------------------
 
-        myFunctions.toLogoutActivity();*/
+        myFunctions.toLogoutActivity();
 
     }
 
