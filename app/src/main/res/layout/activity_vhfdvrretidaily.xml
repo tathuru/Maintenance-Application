@@ -518,7 +518,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -528,7 +528,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -537,7 +537,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -546,7 +546,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -567,7 +567,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -577,7 +577,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -586,7 +586,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -605,7 +605,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -615,7 +615,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -624,7 +624,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -633,7 +633,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -654,7 +654,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -664,7 +664,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -673,7 +673,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1017,7 +1017,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1027,7 +1027,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1036,7 +1036,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1045,7 +1045,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1055,7 +1055,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1065,7 +1065,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1074,7 +1074,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1092,7 +1092,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1102,7 +1102,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1112,7 +1112,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1122,7 +1122,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1131,7 +1131,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1156,7 +1156,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1166,7 +1166,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1175,7 +1175,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1184,7 +1184,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1194,7 +1194,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1204,7 +1204,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1213,7 +1213,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1232,7 +1232,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1242,7 +1242,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1252,7 +1252,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1262,7 +1262,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1271,7 +1271,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1513,7 +1513,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1523,7 +1523,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1532,7 +1532,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1541,7 +1541,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1563,7 +1563,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1573,7 +1573,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1582,7 +1582,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1591,7 +1591,7 @@ data. Each media, USB and DVD shall given unique serial number manually; this ma
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
