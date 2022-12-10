@@ -830,6 +830,15 @@ public class ListDataActivity extends AppCompatActivity {
                             editScreenIntent.putExtra("spinnerData", receivedData[4]);
                             startActivity(editScreenIntent);
                             break;
+                        case "DatisAcamsDailyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, DatisAcamsDailyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
                         case "VccsDrakeDailyActivity":
                             editScreenIntent = new Intent(ListDataActivity.this, VccsDrakeDailyActivity.class);
                             editScreenIntent.putExtra("id",itemID);

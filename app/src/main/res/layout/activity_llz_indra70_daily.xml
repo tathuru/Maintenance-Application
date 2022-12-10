@@ -618,7 +618,7 @@
                         android:layout_height="48dp"
                         android:layout_marginTop="50dp"
                         android:ems="10"
-                        android:hint="&lt; 22°C"
+                        android:hint="22°C ± 4°C"
                         android:minHeight="48dp"
                         android:textSize="14sp" />
                     <EditText
@@ -627,7 +627,7 @@
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:ems="10"
-                        android:hint="&lt; 60% "
+                        android:hint="&lt; 70% "
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
@@ -998,7 +998,7 @@
                                 android:layout_height="68dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
-                                android:text="DDM % \nCat1 (0±1.55)%\nCat2 (0±1.2)% \nCat3 (0±0.9)% " />
+                                android:text="DDM % \nCat1 (0±1.54)%\nCat2 (0±1.1)% \nCat3 (0±0.88)% " />
 
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyCLSDM"
@@ -1045,7 +1045,7 @@
                                 android:layout_height="68dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
-                                android:text="DDM % \nCat1 (0±1.55)%\nCat2 (0±1.2)% \nCat3 (0±0.9)%" />
+                                android:text="DDM % \nCat1 (0±1.54)%\nCat2 (0±1.1)% \nCat3 (0±0.88)% " />
 
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyNFSDM"
@@ -1085,13 +1085,14 @@
                                 android:layout_marginTop="5dp"
                                 android:text="RF V\n3.0V -0.37/+0.44V"
                                 android:textColor="@color/textViewColor" />
+
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyFFMDDM"
                                 android:layout_width="match_parent"
                                 android:layout_height="68dp"
                                 android:layout_marginTop="5dp"
-                                android:textColor="@color/textViewColor"
-                                android:text="DDM % \nCat1 (0±1.55)%\nCat2 (0±1.2)% \nCat3 (0±0.9)%" />
+                                android:text="DDM % \nCat1 (0±1.54)%\nCat2 (0±1.1)% \nCat3 (0±0.88)% "
+                                android:textColor="@color/textViewColor" />
 
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyFFMSDM"
@@ -1108,10 +1109,6 @@
                                 android:layout_marginTop="5dp"
                                 android:text="RF V\nNominal ±20%"
                                 android:textColor="@color/textViewColor" />
-
-
-
-
                         </LinearLayout>
                     </LinearLayout>
 
@@ -1633,7 +1630,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="10KHz"
+                                android:text="10KHz ± 4KHz"
                                 android:gravity="center"
                                 android:textColor="@color/textViewColor" />
                             <EditText
@@ -1642,7 +1639,7 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="4"
-                                android:hint="DL-1"
+                                android:hint="DL-0"
                                 android:textSize="14sp"/>
                         </LinearLayout>
                         <LinearLayout
@@ -1665,7 +1662,7 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="4"
-                                android:hint="10KHz"
+                                android:hint="10KHz ± 4KHz"
                                 android:textAlignment="center"
                                 android:textSize="14sp"/>
                             <EditText
@@ -1674,7 +1671,7 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="4"
-                                android:hint="DL-2"
+                                android:hint="DL-1"
                                 android:textSize="14sp"/>
                         </LinearLayout>
                     </LinearLayout>
@@ -1718,7 +1715,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="10KHz"
+                                android:text="10KHz ± 4KHz"
                                 android:gravity="center"
                                 android:textColor="@color/textViewColor" />
                             <EditText
@@ -1727,7 +1724,7 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="4"
-                                android:hint="DL-3"
+                                android:hint="DL-2"
                                 android:textSize="14sp"/>
                         </LinearLayout>
                         <LinearLayout
@@ -1750,7 +1747,7 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="4"
-                                android:hint="10KHz"
+                                android:hint="10KHz ± 4KHz"
                                 android:textSize="14sp"/>
                             <EditText
                                 android:id="@+id/editTextLlzIndra70DailyDCLoop4"
@@ -1758,7 +1755,7 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="4"
-                                android:hint="DL-4"
+                                android:hint="DL-3"
                                 android:textSize="14sp"/>
                         </LinearLayout>
                     </LinearLayout>
@@ -2932,7 +2929,7 @@
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
-                        android:hint="24-28 V"
+                        android:hint="23-28 V"
                         android:textSize="14sp"/>
 
                     <EditText
@@ -2941,7 +2938,7 @@
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
-                        android:hint="24-28 V"
+                        android:hint="23-28 V"
                         android:textSize="14sp"/>
                 </LinearLayout>
             </LinearLayout>
