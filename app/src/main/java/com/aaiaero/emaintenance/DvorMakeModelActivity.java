@@ -35,6 +35,9 @@ public class DvorMakeModelActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                Intent intent = new Intent(getApplicationContext(), DVORSELEX1150.class);
+                startActivity(intent);
+
             }
         });
 

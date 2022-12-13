@@ -24,27 +24,39 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".DVORTHALESMONTHLY"
+            android:exported="false" />
+        <activity
+            android:name=".DVORSELEX1150"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150DailyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORThales432AnnualActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORThales432MonthlyAnnex1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORThales432WeeklyActivity"
+            android:exported="true" />
         <activity
             android:name=".NavAidsDVORASII1150DailyActivity"
             android:exported="false" />
-
         <activity
             android:name=".VHFDVRRETIADailyActivity"
             android:exported="false" />
-
         <activity
             android:name=".DVRRetia"
             android:exported="false" />
-
         <activity
             android:name=".NavAidsDVORGcel755MonthlyGroundChecksActivity"
             android:exported="false" />
-
         <activity
             android:name=".NavAidsDVORThales432MonthlyActivity"
             android:exported="false" />
-
         <activity
             android:name=".NavAidsDVORThales432SixMonthlyActivity"
             android:exported="false" />
