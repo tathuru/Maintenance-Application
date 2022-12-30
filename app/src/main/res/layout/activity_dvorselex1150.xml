@@ -58,21 +58,24 @@
             android:onClick="weeklyClicked"
             android:text="WEEKLY" />
 
-        <Button
-            android:id="@+id/monthly"
-            android:layout_width="wrap_content"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:backgroundTint="@color/teal_700"
-            android:layout_row="2"
-            android:layout_column="0"
-            android:layout_margin="2dp"
-            android:onClick="monthly"
-            android:layout_height="wrap_content"
-            android:text="MONTHLY" />
+
 
         <Button
+            android:id="@+id/yearly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:layout_columnSpan="2"
+            android:onClick="YearlyClicked"
+            android:backgroundTint="@color/teal_700"
+            android:text="YEARLY" />
+
+      <!--  <Button
             android:id="@+id/sixmonthly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -85,7 +88,7 @@
             android:layout_columnSpan="2"
             android:onClick="halfYearlyClicked"
             android:backgroundTint="@color/teal_700"
-            android:text="SIX MONTHLY" />
+            android:text="SIX MONTHLY" /> -->
 
         <Button
             android:id="@+id/quarterly"
@@ -93,14 +96,27 @@
             android:layout_height="wrap_content"
             android:layout_row="2"
             android:layout_rowWeight="1"
-            android:layout_column="1"
+            android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="2dp"
-
             android:onClick="quarterly"
             android:backgroundTint="@color/teal_700"
             android:text="QUARTERLY" />
+
+        <Button
+            android:id="@+id/monthly"
+            android:layout_width="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/teal_700"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="2dp"
+            android:onClick="halfyearly"
+            android:layout_height="wrap_content"
+            android:text="HALF YEARLY" />
 
         <TextView
             android:layout_width="match_parent"

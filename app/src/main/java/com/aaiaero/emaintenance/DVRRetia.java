@@ -17,6 +17,14 @@ public class DVRRetia extends AppCompatActivity {
 
     }
 
+    public void recording (View view){
+
+        Intent intent = new Intent(getApplicationContext(),VHFDVRRETIADailyRecordingActivity.class);
+        startActivity(intent);
+
+    }
+
+
     public void monthly (View view){
 
        // Intent intent = new Intent(getApplicationContext(), NavAidsDVORThales432MonthlyActivity.class);

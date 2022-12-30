@@ -23,7 +23,7 @@ public class DVORSELEX1150 extends AppCompatActivity {
 
     }
 
-   /* public void weeklyClicked (View view){
+   public void weeklyClicked (View view){
 
         Intent intent = new Intent(getApplicationContext(),NavAidsDVORSELEX1150WeeklyActivity.class);
         startActivity(intent);
@@ -31,9 +31,9 @@ public class DVORSELEX1150 extends AppCompatActivity {
 
     }
 
-    public void monthly (View view){
+   public void halfyearly (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDVORSELEX1150MonthlyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDVORSELEX1150HalfYearlyActivity.class);
         startActivity(intent);
 
     }
@@ -47,12 +47,12 @@ public class DVORSELEX1150 extends AppCompatActivity {
 
 
 
-    public void halfYearlyClicked (View view){
+    public void YearlyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(), DVORSELEX1150SixMonthly.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDVORSELEX1150YearlyActivity.class);
         startActivity(intent);
 
-    }*/
+    }
 
 }
 

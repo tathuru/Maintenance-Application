@@ -25,11 +25,32 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DMESELEX1118AAND1119A"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMESELEX1118Aand1119ADailyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VHFDVRRETIADailyRecordingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150HalfYearlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150YearlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150QuarterlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150WeeklyActivity"
+            android:exported="true" />
+        <activity
             android:name=".DVORTHALESMONTHLY"
             android:exported="false" />
         <activity
             android:name=".DVORSELEX1150"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".NavAidsDVORSELEX1150DailyActivity"
             android:exported="true" />

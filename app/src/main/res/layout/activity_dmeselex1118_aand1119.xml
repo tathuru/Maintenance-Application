@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DMEASII1118AND1119">
+    tools:context=".DMESELEX1118AAND1119A">
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,7 +23,7 @@
             android:layout_columnSpan="2"
             android:layout_column="0"
             android:layout_height="wrap_content"
-            android:text="DME ASII 1118/1119 Schedules"
+            android:text="DME SELEX 1119A/1118A Schedules"
             android:textAlignment="center"
             android:textColor="@color/teal_700"
             android:textSize="18sp"
@@ -106,3 +106,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
