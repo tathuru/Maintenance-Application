@@ -1,0 +1,2808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VccsDrakeWeeklyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="Airports Authority of India"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/logoaai" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="CNS MANUAL VOL.VII Part 1"
+                    android:textAlignment="textEnd"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Name: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Desig: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Emp No.: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Location: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewVccsDrakeWeekly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:text="PREVENTIVE MAINTENANCE SCHEDULE- WEEKLY\n (VCCS-Drake)"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/editTextVccsDrakeWeeklyStation"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:hint="Station"
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/editTextVccsDrakeWeeklyRegion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Region"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/textViewMake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:textColor="@color/textViewColor"
+                    android:gravity="center_vertical"
+                    android:text="Equipment Make/Model: Drake VCCS" />
+                <TextView
+                    android:id="@+id/textViewDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1.3"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:text="Date:" />
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textViewColor"
+                    android:text="" />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyParameter31"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center_vertical"
+                        android:text="Parameter*"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly1"
+                                android:layout_width="match_parent"
+                                android:layout_height="255dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="DMC-01 \nPDE 4601 "/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly2"
+                                android:layout_width="match_parent"
+                                android:layout_height="255dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="DMC-02 \nPDE 4601"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly3"
+                                android:layout_width="match_parent"
+                                android:layout_height="207dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="MPC-01 \nPDE 4662"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly4"
+                                android:layout_width="match_parent"
+                                android:layout_height="207dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="MPC-02 \nPDE 4662"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly5"
+                                android:layout_width="match_parent"
+                                android:layout_height="154dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="CODEC 01 \nPDE 4631"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly6"
+                                android:layout_width="match_parent"
+                                android:layout_height="154dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="CODEC 02 \nPDE 4631"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly7"
+                                android:layout_width="match_parent"
+                                android:layout_height="154dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="CODEC 03 \nPDE 4631"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly8"
+                                android:layout_width="match_parent"
+                                android:layout_height="366dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="HI-QUE 01 \nPDE-4649B"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly9"
+                                android:layout_width="match_parent"
+                                android:layout_height="366dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="HI-QUE 02 \nPDE-4649B"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly10"
+                                android:layout_width="match_parent"
+                                android:layout_height="366dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="HI-QUE 03 \nPDE-4649B"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly11"
+                                android:layout_width="match_parent"
+                                android:layout_height="260dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="RADIO CARD \nQty 10"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly12"
+                                android:layout_width="match_parent"
+                                android:layout_height="260dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="PBX CARD \nQty 12"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly13"
+                                android:layout_width="match_parent"
+                                android:layout_height="260dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="ASU CARD \nQty 14"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly14"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="LED in PDU 1 \nFor Fuses 01 to 12"/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="LED in PDU 2 \nFor Fuses 01 to 12 "/>
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeekly16"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="FAN Status"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="5dp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D5" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D4" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara3"
+                                android:layout_width="match_parent"
+                                android:layout_height="96dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D3" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara39"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D2" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D5" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara5"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D4" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara6"
+                                android:layout_width="match_parent"
+                                android:layout_height="96dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D3" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara7"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D2" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara8"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D1" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara9"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="D2" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara10"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D3" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara11"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D4" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara12"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D1" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara13"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="D2" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara14"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D3" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D4" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara16"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="482dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D15" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara17"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D16" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara18"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D14" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara19"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D07" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara20"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="D09" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara21"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D11" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara22"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D10" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara23"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D15" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara24"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D16" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara25"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D14" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara26"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D07" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara27"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="D09" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara28"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D11" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara29"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D10" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara30"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D15" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara31"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D16" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara32"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D14" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara33"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D07" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara34"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/textViewColor"
+                                android:text="D09" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara35"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D11" />
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklyPara36"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:gravity="center_vertical"
+                                android:text="D10" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyParameter1"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center_vertical"
+                        android:text="LED Color"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara41"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara42"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara43"
+                        android:layout_width="match_parent"
+                        android:layout_height="96dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Red" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara44"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara45"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara46"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara47"
+                        android:layout_width="match_parent"
+                        android:layout_height="96dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Red" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara48"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara49"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara50"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara51"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara52"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Red" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara53"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara54"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara55"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara56"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Red" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara57"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara58"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara59"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara60"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara61"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara62"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara63"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara64"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara65"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara66"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara67"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara68"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara69"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara70"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Red" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara71"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara72"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Yellow" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara73"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara74"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara75"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara76"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara77"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Red" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara78"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara79"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Yellow" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara80"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara81"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara82"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara83"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara84"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Red" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara85"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara86"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Yellow" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara87"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara88"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara89"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Orange" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara90"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara91"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Orange" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara92"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara93"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara94"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Orange" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara95"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara96"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Orange" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara97"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara98"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara99"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Orange" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara100"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Green" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara101"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Orange" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara102"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Red" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyPara103"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:gravity="center_vertical"
+                        android:text="Red" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyMeasured3"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:gravity="center_vertical"
+                        android:text="Expected Status"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml3"
+                        android:layout_width="match_parent"
+                        android:layout_height="96dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text= "1. Quick Flash = Nml operation
+                        2. Slow Flash= Problem with any  of the 4 audio processor on the card
+                        3.No Flash = Fault indication or Matrix Resetting" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Card in use \nOff = Stand By" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml7"
+                        android:layout_width="match_parent"
+                        android:layout_height="96dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text= "1. Quick Flash = Nml operation
+                        2. Slow Flash= Problem with any  of the 4 audio processor on the card
+                        3.No Flash = Fault indication or Matrix Resetting" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Card in use \nOff = Stand By" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml9"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml10"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml11"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml12"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Processor control is master" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml13"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml14"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml15"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml16"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Processor control is master" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml17"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml18"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml19"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if card is recognized by the system" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml20"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml21"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml22"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if card is recognized by the system" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml23"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml24"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml25"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if card is recognized by the system" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml26"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml27"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml28"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml29"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Flashing = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml30"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml31"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Off = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml32"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Off = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml33"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml34"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml35"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml36"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Flashing = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml37"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml38"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Off = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml39"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Off = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml40"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if +5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml41"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if -5V is Present" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml42"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml43"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Flashing = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml44"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml45"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Off = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml46"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Off = Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml47"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if Power Status Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml48"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System A in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml49"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System A not in Operation " />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml50"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System B in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml51"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System B not in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml52"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if Power Status Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml53"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System A in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml54"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System A not in Operation " />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml55"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System B in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml56"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System B not in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml57"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On if Power Status Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml58"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System A in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml59"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System A not in Operation " />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml60"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System B in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml61"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- System B not in Operation" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml62"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- if Fuse Blown \nOff- if Fuses are Ok" />
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyNml63"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="On- if Fuse Blown \nOff- if Fuses are Ok" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewVccsDrakeWeeklyMeasured4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:text="Actual Status"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklySysA"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="SYS A" />
+
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysADMC01D5"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysADMC01D4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/ Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysADMC01D3"
+                                android:layout_width="match_parent"
+                                android:layout_height="96dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="1/2/3"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysADMC01D2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysADMC02D5"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysADMC02D4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/ Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysADMC02D3"
+                                android:layout_width="match_parent"
+                                android:layout_height="96dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="1/2/3"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysADMC02D2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAMPC1D1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAMPC1D2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAMPC1D3"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/ Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAMPC1D4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAMPC2D1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAMPC2D2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAMPC2D3"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/ Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAMPC2D4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD15V"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD25"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD25V"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD35"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD35V"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysACOD3"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI1D15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI1D16"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI1D14"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI1D7"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI1D9"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI1D11"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI1D10"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI2D15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI2D16"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI2D14"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI2D7"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI2D9"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI2D11"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI2D10"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI3D15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI3D16"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI3D14"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI3D7"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI3D9"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI3D11"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAHI3D10"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysARadioPS"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysARadioA"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys A in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysARadioB"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys B in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAPBXPS"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAPBXA"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys A in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAPBXB"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys B in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAASUPS"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAASUA"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys A in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAASUB"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys B in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAPDU1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAPDU2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysAFan"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/Not OK"
+                                android:textSize="14sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewVccsDrakeWeeklySysB"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/textViewColor"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="SYS B" />
+
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBDMC01D5"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBDMC01D4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/ Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBDMC01D3"
+                                android:layout_width="match_parent"
+                                android:layout_height="96dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="1/2/3"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBDMC01D2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBDMC02D5"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBDMC02D4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/ Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBDMC02D3"
+                                android:layout_width="match_parent"
+                                android:layout_height="96dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="1/2/3"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBDMC02D2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBMPC1D1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBMPC1D2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBMPC1D3"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/ Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBMPC1D4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBMPC2D1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBMPC2D2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBMPC2D3"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/ Not OK"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBMPC2D4"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD15V"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD25"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD25V"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD35"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD35V"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBCOD3"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI1D15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI1D16"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI1D14"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI1D7"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI1D9"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI1D11"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI1D10"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI2D15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI2D16"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI2D14"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI2D7"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI2D9"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI2D11"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI2D10"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI3D15"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI3D16"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI3D14"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI3D7"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI3D9"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI3D11"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBHI3D10"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBRadioPS"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBRadioA"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys A in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBRadioB"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys B in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBPBXPS"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBPBXA"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys A in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBPBXB"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys B in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBASUPS"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Ok/Not Ok"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBASUA"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys A in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBASUB"
+                                android:layout_width="match_parent"
+                                android:layout_height="101dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="Sys B in ops or not"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBPDU1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBPDU2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="ON/OFF"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextVccsDrakeWeeklySysBFan"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="6"
+                                android:hint="OK/Not OK"
+                                android:textSize="14sp"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/editTextVccsDrakeWeeklyRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:ems="4"
+                android:inputType="textMultiLine"
+                android:hint="Remarks:"
+                android:textSize="14sp"/>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Sign Document" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Submit Schedule" />
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:textStyle="italic"
+                android:textColor="@color/teal_700"
+                android:text="Form Created by- Shubham Jain"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

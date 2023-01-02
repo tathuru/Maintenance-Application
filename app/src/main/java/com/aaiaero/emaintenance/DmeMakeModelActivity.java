@@ -9,6 +9,16 @@ import android.widget.Button;
 
 public class DmeMakeModelActivity extends AppCompatActivity {
 
+    public void asii1118 (View view){
+
+        Intent intent = new Intent(getApplicationContext(),DMEASII1118AND1119.class);
+        startActivity(intent);
+
+
+    }
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

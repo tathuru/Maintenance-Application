@@ -26,46 +26,88 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".AutomationDrfNeptunoRecordingCheck"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".AutomationUPS5kvaDailyActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".AutomationIndraB2cQuarterlyActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".AutomationIndraB2cMonthlyActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".IndraB2cActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".AutomationActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+            android:exported="false" />
         </activity>
+            android:name=".AutomationIndraB2cDaily"
+            android:exported="false" />
+         <activity
+            android:name=".DatisAcamsDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutomationIndraB2cUPS15KVA"
+            android:exported="false" />
+        <activity
+            android:name=".VccsDrakeWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatisAcamsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatisMakeActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".VccsDrakeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VccsDrakeDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatisAcamsMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DMEASII1118AND1119"
+            android:exported="false" />
+        <activity
+            android:name=".DVORTHALES432"
+            android:exported="false" />
+        <activity
+            android:name=".DVORASII1150SixMonthly"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORThales432QuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORThales432DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEASII1118and1119QuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEASII1118and1119MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEASII1118and1119WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEASII1118and1119DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORASII1150SixMonthlyVSWRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORASII1150SixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NDBSAC100"
+            android:exported="false" />
+        <activity
+            android:name=".DVORASII1150"
+            android:exported="false" />
         <activity
             android:name=".LlzIndra70MonthlyActivity"
             android:exported="false" />
@@ -116,16 +158,31 @@
             android:exported="false" />
         <activity
             android:name=".NavAidsDMEMaru310and320WeeklyActivity"
-            android:exported="false" />
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsNDBSAC100WeeklyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsNDBSAC100MonthlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsNDBSAC100DailyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDMEMaru310and320AnnualActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDMEMaru310and320SixMonthlyActivity"
+            android:exported="true" />
         <activity
             android:name=".NavAidsDMEThales415and435AnnualActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".NavAidsDMEThales415and435SixMonthlyActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".NavAidsDMEThales415and435WeeklyActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".NavAidsDMEThales415and435DailyActivity"
             android:exported="false" />
@@ -156,6 +213,9 @@
         <activity
             android:name=".NavAidsDVORGcel755DailyActivity"
             android:exported="false" />
+        <activity
+            android:name=".NavAidsDMEMaru310and320DailyActivity"
+            android:exported="true" />
         <activity
             android:name=".NavAidsDMEThales415and435MonthlyActivity"
             android:exported="false" />
@@ -343,6 +403,18 @@
             android:name=".NavAidsActivity"
             android:exported="false" />
         <activity
+            android:name=".NavAidsDVORASII1150WeeklyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORASII1150MonthlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORASII1150QuarterlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsNDBSAC100QuarterlyActivity"
+            android:exported="true" />
+        <activity
             android:name=".ADSBMakeModelActivity"
             android:exported="false" />
         <activity
@@ -374,7 +446,7 @@
             android:exported="false" />
         <activity
             android:name=".UnitSelectionActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".PersonalDetailsActivity"
             android:exported="false" />
