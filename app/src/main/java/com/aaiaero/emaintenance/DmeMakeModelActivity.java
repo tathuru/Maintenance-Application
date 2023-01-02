@@ -17,6 +17,14 @@ public class DmeMakeModelActivity extends AppCompatActivity {
 
     }
 
+    public void selex1118 (View view){
+
+        Intent intent = new Intent(getApplicationContext(),DMESELEX1118AAND1119A.class);
+        startActivity(intent);
+
+
+    }
+
 
 
     @Override

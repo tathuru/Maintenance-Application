@@ -25,6 +25,63 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DMESELEX1118AAND1119A"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMESELEX1118Aand1119ADailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VHFDVRRETIADailyRecordingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150HalfYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150YearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150QuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DVORTHALESMONTHLY"
+            android:exported="false" />
+        <activity
+            android:name=".DVORSELEX1150"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORSELEX1150DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORThales432AnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORThales432MonthlyAnnex1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORThales432WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORASII1150DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VHFDVRRETIADailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DVRRetia"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel755MonthlyGroundChecksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORThales432MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORThales432SixMonthlyActivity"
+            android:exported="false"/>
+        <activity
             android:name=".AutomationDrfNeptunoRecordingCheck"
             android:exported="false"/>
         <activity
@@ -193,7 +250,7 @@
             android:name=".SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".DvorGcelActivity"
+            android:name=".DvorGcel755Activity"
             android:exported="false" />
         <activity
             android:name=".DmeThalesActivity"
