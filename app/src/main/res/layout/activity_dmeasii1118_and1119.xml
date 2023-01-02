@@ -23,7 +23,7 @@
             android:layout_columnSpan="2"
             android:layout_column="0"
             android:layout_height="wrap_content"
-            android:text="DVOR ASII 1150 Schedules"
+            android:text="DME ASII 1118/1119 Schedules"
             android:textAlignment="center"
             android:textColor="@color/teal_700"
             android:textSize="18sp"

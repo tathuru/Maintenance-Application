@@ -14,12 +14,12 @@
 
 
     <TextView
-        android:text="© 2019-2020 Deepak Singh"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="© 2019-2020 Deepak Singh" />
 
     <TextView
         android:text="Select ADS-B Schedule to perform Maintenance."
