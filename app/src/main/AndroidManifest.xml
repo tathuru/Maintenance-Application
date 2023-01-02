@@ -25,6 +25,24 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".AutomationDrfNeptunoRecordingCheck"
+            android:exported="false"/>
+        <activity
+            android:name=".AutomationUPS5kvaDailyActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AutomationIndraB2cQuarterlyActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AutomationIndraB2cMonthlyActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".IndraB2cActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutomationActivity"
+            android:exported="false" />
+        </activity>
             android:name=".AutomationIndraB2cDaily"
             android:exported="false" />
          <activity
