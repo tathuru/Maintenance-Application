@@ -23,7 +23,7 @@ public class AmssActivity extends AppCompatActivity {
         setTitle("AMSS Components");
 
         ecil = (Button) findViewById(R.id.ecil);
-        others = (Button) findViewById(R.id.others);
+        others = (Button) findViewById(R.id.others1);
 
         Intent intent = getIntent();
 
