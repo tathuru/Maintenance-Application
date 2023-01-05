@@ -16,11 +16,10 @@ public class DVORASII1150 extends AppCompatActivity {
         setContentView(R.layout.activity_dvorasii1150);
 
     }
-    public void dailyClicked (View view){
+    public void daily (View view){
 
-       // Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435DailyActivity.class);
-      //  startActivity(intent);
-
+       Intent intent = new Intent(getApplicationContext(), NavAidsDVORASII1150DailyActivity.class);
+       startActivity(intent);
 
     }
 
@@ -31,8 +30,6 @@ public class DVORASII1150 extends AppCompatActivity {
 
 
     }
-
-
 
     public void monthly (View view){
 
@@ -56,8 +53,5 @@ public class DVORASII1150 extends AppCompatActivity {
         startActivity(intent);
 
     }
-
-
-
 
     }

@@ -14,12 +14,12 @@
 
 
     <TextView
-        android:text="© 2022-2023 Sunny Chaurasiya"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="© 2022-2023 Akshay Bele" />
 
     <TextView
         android:id="@+id/textView3"
@@ -29,7 +29,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginLeft="348dp"
+        android:layout_marginTop="70dp"
         android:text="Select Make of DME to perform Maintenance."
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -65,6 +67,19 @@
             android:layout_row="2"
             android:onClick="asii1118"
             android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="12sp" />
+
+        <Button
+            android:text="SELEX 1119A/1118A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selex"
+            android:layout_row="2"
+            android:onClick="selex1118"
+            android:layout_column="1"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"

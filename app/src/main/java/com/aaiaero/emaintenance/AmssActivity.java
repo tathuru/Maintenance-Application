@@ -24,7 +24,9 @@ public class AmssActivity extends AppCompatActivity {
 
         ecil = (Button) findViewById(R.id.ecil);
         others = (Button) findViewById(R.id.others1);
+
         IpAmssInhouse = (Button) findViewById(R.id.IpAmssInhouse);
+
         Intent intent = getIntent();
 
             }

@@ -22,7 +22,8 @@ public class DatisAcamsActivity extends AppCompatActivity {
         daily.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getApplicationContext(),DatisAcamsDailyActivity.class);
+                startActivity(intent);
             }
         });
 

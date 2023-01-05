@@ -3,14 +3,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_dvor_gcel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".DvorGcelActivity">
+    tools:context=".IndraB2cActivity">
 
 
     <TextView
@@ -22,7 +21,7 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="Select GCEL DVOR Schedule to perform Maintenance."
+        android:text="Select INDRA B2C Schedule to perform Maintenance."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -56,29 +55,29 @@
             android:onClick="dailyClicked"
             android:textSize="12sp" />
         <Button
-            android:text="Weekly"
+            android:text="15 KVA UPS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/weekly"
+            android:id="@+id/ups15kva"
             android:layout_row="0"
             android:layout_column="1"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="12sp"
-            android:onClick="weeklyClicked" />
+            android:onClick="ups15kvaClicked" />
 
         <Button
-            android:text="fort&#10;nightly"
+            android:text="5 KVA UPS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/fortnightly"
+            android:id="@+id/ups5kva"
             android:layout_row="1"
             android:layout_column="0"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:onClick="fortnightlyClicked"
+            android:onClick="ups5kvaClicked"
             android:textSize="12sp" />
 
         <Button
@@ -108,17 +107,17 @@
             android:onClick="quaterlyClicked"/>
 
         <Button
-            android:text="half&#10;Yearly"
+            android:text="DRF NEPTUNO&#10;RECORDING CHECK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/halfYearly"
+            android:id="@+id/drfneptunorecordingcheck"
             android:layout_row="2"
             android:layout_column="1"
             android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:textSize="12sp"
-            android:onClick="halfYearlyClicked" />
+            android:onClick="drfneptunorecordingcheckClicked" />
 
         <Button
             android:text="Yearly"

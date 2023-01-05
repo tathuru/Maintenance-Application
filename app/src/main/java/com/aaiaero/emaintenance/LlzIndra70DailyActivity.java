@@ -281,13 +281,11 @@ public class LlzIndra70DailyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {95,570,73,168,288,443,575,575,575,575,575,575,575,575,316,400,488,
-                316,400,488,316,400,488,316,400,488,316,400,488,316,400,488};
-        int[] editTextYPixel = {119,120,153,153,153,153,265,285,310,334,390,437,470,515,685,685,685,
-                720,720,720,747,747,747,777,777,777,807,807,807,835,835,835};
+        int[] editTextXPixel = {124,595,100,193,314,472,585,585,585,585,585,585,585,585};
+        int[] editTextYPixel = {165,165,198,198,198,198,370,395,432,465,547,597,647,705};
 
-        int[] switchXPixel = {575,575,575,575,575,575,575,575,575,575,575};
-        int[] switchYPixel = {212,229,245,262,421,456,485,498,542,563,578};
+        int[] switchXPixel = {585,585,585,585,585,585,585,585,585,585,585};
+        int[] switchYPixel = {288,310,336,516,578,631,673,687,745,775,795};
 
 
         // Change till here as per requirements ----------------------------------------------------
@@ -315,7 +313,7 @@ public class LlzIndra70DailyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,545,153,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,570,198,titlePaint);//Printing Date on PDF
 
         myPdfdocument.finishPage(myPage1);
 
@@ -337,18 +335,19 @@ public class LlzIndra70DailyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel2 = {316,401,489,316,401,489,316,401,489,316,401,489,316,401,489,316,401,489,316,401,489,316,401,489,316,401,489,
-                340,555,235,345,440,555,140,230,323,403,500,583};
-        int[] editTextYPixel2 = {95,95,95,130,130,130,160,160,160,182,182,182,208,208,208,237,237,237,267,267,267,301,301,301,324,324,324,
-                473,473,596,596,596,596,828,828,828,828,828,828};
+        int[] editTextXPixel2 = {334,421,509,334,421,509,334,421,509,334,421,509,334,421,509,334,421,509,334,421,509,334,421,509,334,421,509,
+                                334,421,509,334,421,509,334,421,509,334,421,509,334,421,509,334,421,509};
+        int[] editTextYPixel2 = {222,222,222,282,282,282,313,313,313,344,344,344,376,376,376,407,407,407,450,450,450,505,505,505,535,535,535,
+                                563,563,563,588,588,588,617,617,617,665,665,665,712,712,712,743,743,743};
 
         for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+32],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+14],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
         }
 
         myPdfdocument.finishPage(myPage2);
 
         //-------------------------End of Page 2-----------------
+
         //----------------------Page 3---------------------
 
         PdfDocument.PageInfo myPageInfo3 = new PdfDocument.PageInfo.Builder(723, 1024, 3).create();
@@ -364,15 +363,15 @@ public class LlzIndra70DailyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel3 = {140,230,323,405,498,583,140,230,323,405,498,583};
-        int[] editTextYPixel3 = {92,92,92,92,92,92,130,130,130,130,130,130};
+        int[] editTextXPixel3 = {357,570,255,358,453,570,162,250,340,415,504,585,162,250,340,415,504,585,162,250,340,415,504,585};
+        int[] editTextYPixel3 = {190,190,320,320,320,320,547,547,547,547,547,547,584,584,584,584,584,584,618,618,618,618,618,618};
 
-        int[] switchXPixel3 = {360,360,360,360,360,360,365,475,365,475,365,475};
-        int[] switchYPixel3 = {280,330,380,430,480,530,740,740,790,790,840,840};
+        int[] switchXPixel3 = {390,390};
+        int[] switchYPixel3 = {780,830};
 
 
         for(int i = 0; i < editTextXPixel3.length; i++){
-            canvas.drawText( editTextDataForPDF[i+71],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+59],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
         }
 
 
@@ -380,10 +379,10 @@ public class LlzIndra70DailyActivity extends AppCompatActivity {
             canvas.drawText( switchDataForPDF[i+11],switchXPixel3[i],switchYPixel3[i],titlePaint);
         }
 
-
         myPdfdocument.finishPage(myPage3);
 
         //-------------------------End of Page 3-----------------
+
         //----------------------Page 4---------------------
 
         PdfDocument.PageInfo myPageInfo4 = new PdfDocument.PageInfo.Builder(723, 1024, 4).create();
@@ -398,31 +397,49 @@ public class LlzIndra70DailyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel4 = {440,440,45};
-        int[] editTextYPixel4 = {225,275,367};
+        int[] editTextXPixel4 = {465,465};
+        int[] editTextYPixel4 = {689,736};
 
-        int[] switchXPixel4 = {365,475};
-        int[] switchYPixel4 = {95,95};
+        int[] switchXPixel4 = {390,390,390,390,380,490,380,490,380,490,380,490};
+        int[] switchYPixel4 = {120,172,222,273,438,438,490,490,543,543,590,590};
 
 
         for(int i = 0; i < editTextXPixel4.length; i++){
             canvas.drawText( editTextDataForPDF[i+83],editTextXPixel4[i],editTextYPixel4[i],titlePaint);
         }
 
-
         for(int i = 0; i < switchXPixel4.length; i++){
-            canvas.drawText( switchDataForPDF[i+23],switchXPixel4[i],switchYPixel4[i],titlePaint);
+            canvas.drawText( switchDataForPDF[i+13],switchXPixel4[i],switchYPixel4[i],titlePaint);
         }
-
-        titlePaint.setTextSize(12);
-        paint.setTextAlign(Paint.Align.LEFT);
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 75, 425, paint);
-
-
 
         myPdfdocument.finishPage(myPage4);
 
         //-------------------------End of Page 4-----------------
+
+        //----------------------Page 5---------------------
+
+        PdfDocument.PageInfo myPageInfo5 = new PdfDocument.PageInfo.Builder(723, 1024, 5).create();
+
+        // start a page
+        PdfDocument.Page myPage5 = myPdfdocument.startPage(myPageInfo5);
+
+        canvas = myPage5.getCanvas();
+        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.llzindra70daily5);
+        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
+        canvas.drawBitmap(scaledbmp,0 , 0, paint);
+
+        titlePaint.setTextSize(12);
+
+        canvas.drawText( editTextDataForPDF[85],70,125,titlePaint);
+
+        titlePaint.setTextSize(12);
+        paint.setTextAlign(Paint.Align.LEFT);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 70, 190, paint);
+
+
+        myPdfdocument.finishPage(myPage5);
+
+        //-------------------------End of Page 5-----------------
 
 
 

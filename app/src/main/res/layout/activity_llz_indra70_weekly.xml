@@ -778,14 +778,7 @@
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="(ii)  UPS Output Frequency(Hz)" />
-                    <TextView
-                        android:id="@+id/textViewLlzIndra70WeeklyBatteryVolt"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="(iii) UPS Battery Voltage (with mains off) " />
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -818,14 +811,7 @@
                         android:ems="6"
                         android:hint="in Hz"
                         android:textSize="14sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatteryVolt1"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint="in volts"
-                        android:textSize="14sp"/>
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -858,174 +844,7 @@
                         android:ems="6"
                         android:hint="in Hz"
                         android:textSize="14sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatteryVolt2"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint="in volts"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-            </LinearLayout>
 
-            <TextView
-                android:id="@+id/textViewLlzIndra70WeeklyParameter5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="10dp"
-                android:textSize="16sp"
-                android:textColor="@color/teal_700"
-                android:text="5. System Operation on Battery Back-up (Voltage check at RMM)"
-                android:textStyle="bold"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-                    <TextView
-                        android:id="@+id/textViewLlzIndra70WeeklyBlank1"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
-                        android:text="" />
-
-                    <TextView
-                        android:id="@+id/textViewLlzIndra70WeeklyBatteryBD"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="Battery Voltage before discharge(V)" />
-                    <TextView
-                        android:id="@+id/textViewLlzIndra70Weekly10"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
-                        android:gravity="center_vertical"
-                        android:text="Operation on batteries for 10min approx." />
-                    <TextView
-                        android:id="@+id/textViewLlzIndra70WeeklyBatteryAD"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="Battery Voltage after discharge(V)" />
-                    <TextView
-                        android:id="@+id/textViewLlzIndra70WeeklyBatteryClean"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="Battery Terminals cleaned/ tightened " />
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-                    <TextView
-                        android:id="@+id/textViewLlzIndra70WeeklySMPSTx1"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:text="Battery Voltage 1" />
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatteryBD1"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint="in Volts"
-                        android:textSize="14sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatt10min1"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint=""
-                        android:textSize="14sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatteryAD1"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint="in volts"
-                        android:textSize="14sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatteryClean1"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint="Done/Ok"
-                        android:textSize="14sp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-                    <TextView
-                        android:id="@+id/textViewLlzIndra70WeeklySMPSTx2"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:text="Battery Voltage 2" />
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatteryBD2"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint="in volts"
-                        android:textSize="14sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatt10min2"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint=""
-                        android:textSize="14sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatteryAD2"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint="in volts"
-                        android:textSize="14sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzIndra70WeeklyBatteryClean2"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint="Done/Ok"
-                        android:textSize="14sp"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -1037,7 +856,7 @@
                 android:layout_marginStart="10dp"
                 android:textColor="@color/teal_700"
                 android:textSize="16sp"
-                android:text="6. Change of Operating Channel and Remote Control Operation"
+                android:text="5. Change of Operating Channel and Remote Control Operation"
                 android:textStyle="bold"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1176,18 +995,50 @@
                 android:layout_marginStart="10dp"
                 android:textSize="16sp"
                 android:textColor="@color/teal_700"
-                android:text="7. To be check at RMM"
+                android:text="6. To be check at RMM"
                 android:textStyle="bold"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6.1"/>
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6.2"/>
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6.3"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
+
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklyParameter71"
                         android:layout_width="match_parent"
@@ -1390,16 +1241,71 @@
                 android:layout_marginStart="10dp"
                 android:textColor="@color/teal_700"
                 android:textSize="16sp"
-                android:text="8. Measurement Analysis(*As per 'LLZ Field Reading- Weekly')\nFor Cat-I, II, III ILS"
+                android:text="7. Measurement Analysis(*As per 'LLZ Field Reading- Weekly')\nFor Cat-I, II, III ILS"
                 android:textStyle="bold"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="75dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7.1"/>
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly72"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7.2"/>
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7.3"/>
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly74"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7.4"/>
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7.5"/>
+                    <TextView
+                        android:id="@+id/textViewLlzIndra70Weekly76"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7.6"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
                     android:layout_weight="1.2"
                     android:orientation="vertical">
                     <TextView
@@ -1442,7 +1348,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="Max. Deviation in RF reading" />
+                        android:text="7.4Max. Deviation in RF reading" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70DevDDMSW90"
                         android:layout_width="match_parent"
@@ -1683,7 +1589,7 @@
                 android:layout_marginStart="10dp"
                 android:textColor="@color/teal_700"
                 android:textSize="16sp"
-                android:text="9. To be check at RMM"
+                android:text="8. To be check at RMM"
                 android:textStyle="bold"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1701,7 +1607,7 @@
                         android:textColor="@color/teal_700"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:text="9.0"
+                        android:text="8.0"
                         android:layout_weight="0.2"
                         android:textStyle="bold"/>
                     <TextView
@@ -1712,7 +1618,7 @@
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:textStyle="bold"
-                        android:text="9.1"/>
+                        android:text="8.1"/>
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo12"
                         android:layout_width="wrap_content"
@@ -1720,7 +1626,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.11" />
+                        android:text="8.11" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo13"
                         android:layout_width="wrap_content"
@@ -1728,7 +1634,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.12" />
+                        android:text="8.12" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo14"
                         android:layout_width="wrap_content"
@@ -1736,7 +1642,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.13" />
+                        android:text="8.13" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo15"
                         android:layout_width="wrap_content"
@@ -1744,7 +1650,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.14" />
+                        android:text="8.14" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo16"
                         android:layout_width="wrap_content"
@@ -1752,7 +1658,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.15" />
+                        android:text="8.15" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo17"
                         android:layout_width="wrap_content"
@@ -1760,7 +1666,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.16" />
+                        android:text="8.16" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo18"
                         android:layout_width="wrap_content"
@@ -1768,7 +1674,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.17" />
+                        android:text="8.17" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo19"
                         android:layout_width="match_parent"
@@ -1777,7 +1683,7 @@
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:textStyle="bold"
-                        android:text="9.2" />
+                        android:text="8.2" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo20"
                         android:layout_width="wrap_content"
@@ -1785,7 +1691,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.21" />
+                        android:text="8.21" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo21"
                         android:layout_width="wrap_content"
@@ -1793,7 +1699,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.22" />
+                        android:text="8.22" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo22"
                         android:layout_width="wrap_content"
@@ -1801,7 +1707,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.23" />
+                        android:text="8.23" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo23"
                         android:layout_width="wrap_content"
@@ -1809,7 +1715,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.24" />
+                        android:text="8.24" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo24"
                         android:layout_width="wrap_content"
@@ -1817,7 +1723,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.25" />
+                        android:text="8.25" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo25"
                         android:layout_width="wrap_content"
@@ -1825,7 +1731,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.26" />
+                        android:text="8.26" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo26"
                         android:layout_width="wrap_content"
@@ -1833,7 +1739,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="9.27" />
+                        android:text="8.27" />
 
                 </LinearLayout>
 
@@ -2408,7 +2314,7 @@
                         android:layout_height="40dp"
                         android:textColor="@color/teal_700"
                         android:layout_marginTop="5dp"
-                        android:text="10.0"
+                        android:text="9.0"
                         android:gravity="center_vertical"
                         android:layout_weight="0.2"
                         android:textStyle="bold"/>
@@ -2419,7 +2325,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.1"/>
+                        android:text="9.1"/>
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo33"
                         android:layout_width="wrap_content"
@@ -2427,7 +2333,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.2" />
+                        android:text="9.2" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo34"
                         android:layout_width="wrap_content"
@@ -2435,7 +2341,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.3" />
+                        android:text="9.3" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo35"
                         android:layout_width="wrap_content"
@@ -2443,7 +2349,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.4" />
+                        android:text="9.4" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo36"
                         android:layout_width="wrap_content"
@@ -2451,7 +2357,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.5" />
+                        android:text="9.5" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo37"
                         android:layout_width="match_parent"
@@ -2459,7 +2365,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.6" />
+                        android:text="9.6" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo38"
                         android:layout_width="wrap_content"
@@ -2467,7 +2373,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.7" />
+                        android:text="9.7" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo39"
                         android:layout_width="wrap_content"
@@ -2475,7 +2381,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.8" />
+                        android:text="9.8" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo30"
                         android:layout_width="wrap_content"
@@ -2483,7 +2389,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.9" />
+                        android:text="9.9" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo40"
                         android:layout_width="wrap_content"
@@ -2491,7 +2397,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.10" />
+                        android:text="9.10" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo41"
                         android:layout_width="wrap_content"
@@ -2499,7 +2405,7 @@
                         android:layout_marginTop="40dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.11"/>
+                        android:text="9.11"/>
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo42"
                         android:layout_width="wrap_content"
@@ -2507,7 +2413,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.12" />
+                        android:text="9.12" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo43"
                         android:layout_width="wrap_content"
@@ -2515,7 +2421,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.13" />
+                        android:text="9.13" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklySNo44"
                         android:layout_width="wrap_content"
@@ -2523,7 +2429,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="10.14" />
+                        android:text="9.14" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -2687,8 +2593,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="" />
+                        android:text="3V" />
                     <TextView
                         android:id="@+id/textViewLlzIndra70WeeklyNmlValue3"
                         android:layout_width="match_parent"
