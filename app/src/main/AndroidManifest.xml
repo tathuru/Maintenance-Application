@@ -26,6 +26,24 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
 
+        
+        <activity
+            android:name=".AmssIpInhouseWeeklyActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AmssIpInhouseDailyActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AmssIpInhouseActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AmssIpInhouseMonthlyActivity"
+            android:exported="false"/>
+            
+        <activity
+            android:name=".VccsDrakeWeeklyActivity"
+            android:exported="false"/>
+
         <activity
             android:name=".DatisAcamsDailyActivity"
             android:exported="false">
