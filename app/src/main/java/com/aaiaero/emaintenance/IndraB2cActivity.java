@@ -37,7 +37,7 @@ public class IndraB2cActivity extends AppCompatActivity {
 
     }
 
-    public void dailyClicked (View view){
+   /* public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
         Intent intent = new Intent(getApplicationContext(),AutomationIndraB2cDaily.class);
@@ -87,7 +87,7 @@ public class IndraB2cActivity extends AppCompatActivity {
 
 
 
-    }
+    }*/
 
     public void miscellaneousClicked (View view){
         // Launch the Others Equipment Room Activity

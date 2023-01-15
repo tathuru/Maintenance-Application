@@ -254,7 +254,7 @@ public class ListDataActivity extends AppCompatActivity {
                             startActivity(editScreenIntent);
                             break;
 
-                        case "AutomationUPS5kvaDailyActivity":
+                        /*case "AutomationUPS5kvaDailyActivity":
                             editScreenIntent = new Intent(ListDataActivity.this, AutomationUPS5kvaDailyActivity.class);
                             editScreenIntent.putExtra("id",itemID);
                             editScreenIntent.putExtra("name",receivedData[0]);
@@ -262,7 +262,7 @@ public class ListDataActivity extends AppCompatActivity {
                             editScreenIntent.putExtra("switchData", receivedData[3]);
                             editScreenIntent.putExtra("spinnerData", receivedData[4]);
                             startActivity(editScreenIntent);
-                            break;
+                            break;*/
                         case "AutomationDrfNeptunoRecordingCheck":
                             editScreenIntent = new Intent(ListDataActivity.this, AutomationDrfNeptunoRecordingCheck.class);
                             editScreenIntent.putExtra("id",itemID);
