@@ -654,7 +654,7 @@ public class NavAidsDVORSELEX1150HalfYearlyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        myFunctions.saveToParse(targetPdf, fileName, "DVOR_SELEX_1150", "Half Yearly", outputEditText, MyFunctions.specificCode("sm"),outputSwitch, "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "DVOR", "Half Yearly", outputEditText, MyFunctions.specificCode("sm"),outputSwitch, "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

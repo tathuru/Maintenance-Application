@@ -468,7 +468,7 @@ public class NavAidsDVORThales432MonthlyAnnex1Activity extends AppCompatActivity
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName, "DVOR_Thales_432", "Monthly Annex - 1", outputEditText, MyFunctions.specificCode("m"), "outputSwitch", "outputSpinner");// C// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "DVOR", "Monthly Annex - 1", outputEditText, MyFunctions.specificCode("m"), "outputSwitch", "outputSpinner");// C// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
 
