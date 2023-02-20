@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class NavigationGpIndra70Activity extends AppCompatActivity {
 
-    Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
+    Button daily, weekly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,6 @@ public class NavigationGpIndra70Activity extends AppCompatActivity {
 
         daily = (Button) findViewById(R.id.daily);
         weekly = (Button) findViewById(R.id.weekly);
-        fortnightly = (Button) findViewById(R.id.fortnightly);
         monthly = (Button) findViewById(R.id.monthly);
         quarterly = (Button) findViewById(R.id.quarterly);
         halfYearly = (Button) findViewById(R.id.halfYearly);
@@ -44,14 +43,7 @@ public class NavigationGpIndra70Activity extends AppCompatActivity {
 
     }
 
-    public void fortnightlyClicked (View view){
-
-
-
-
-    }
-
-    public void monthlyClicked (View view){
+      public void monthlyClicked (View view){
 
         Intent intent = new Intent(getApplicationContext(),GpIndra70MonthlyActivity.class);
         startActivity(intent);
@@ -67,7 +59,8 @@ public class NavigationGpIndra70Activity extends AppCompatActivity {
 
     public void halfYearlyClicked (View view){
 
-
+        Intent intent = new Intent(getApplicationContext(),GpIndra70SixActivity.class);
+        startActivity(intent);
 
     }
 

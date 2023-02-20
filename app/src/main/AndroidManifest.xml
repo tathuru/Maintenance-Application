@@ -24,6 +24,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".LlzIndra70MfrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70WfrActivity"
+            android:exported="false" />
+        <activity
             android:name=".DMESELEX1118AAND1119A"
             android:exported="false" />
         <activity
@@ -79,19 +85,21 @@
             android:exported="false" />
         <activity
             android:name=".NavAidsDVORThales432SixMonthlyActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".AutomationDrfNeptunoRecordingCheck"
-            android:exported="false"/>
-        <!--<activity
+            android:exported="false" />
+        <!--
+<activity
             android:name=".AutomationUPS5kvaDailyActivity"
-            android:exported="false"/> -->
+            android:exported="false"/>
+        -->
         <activity
             android:name=".AutomationIndraB2cQuarterlyActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".AutomationIndraB2cMonthlyActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".IndraB2cActivity"
             android:exported="false" />
@@ -101,9 +109,11 @@
         <activity
             android:name=".DatisAcamsDailyActivity"
             android:exported="false" />
-       <!-- <activity
+        <!--
+ <activity
             android:name=".AutomationIndraB2cUPS15KVA"
-            android:exported="false" /> -->
+            android:exported="false" />
+        -->
         <activity
             android:name=".VccsDrakeWeeklyActivity"
             android:exported="false" />
@@ -112,7 +122,7 @@
             android:exported="false" />
         <activity
             android:name=".DatisMakeActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".VccsDrakeActivity"
             android:exported="false" />
@@ -160,6 +170,33 @@
             android:exported="false" />
         <activity
             android:name=".DVORASII1150"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70AnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70QuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70SixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70SixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70AnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70QuarterlyActivity"
             android:exported="false" />
         <activity
             android:name=".LlzIndra70MonthlyActivity"
@@ -361,6 +398,9 @@
             android:exported="false" />
         <activity
             android:name=".NavigationGpThales420Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationGpIndra70Activity"
             android:exported="false" />
         <activity
             android:name=".GpMakeModelActivity"
