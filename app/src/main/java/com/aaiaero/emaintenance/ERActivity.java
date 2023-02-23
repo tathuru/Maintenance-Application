@@ -45,7 +45,7 @@ public class ERActivity extends AppCompatActivity {
 
     public void dvrClicked (View view){
         // Launch the DVR Equipment Room Activity
-        Intent intent = new Intent(getApplicationContext(), DVRRetia.class);
+        Intent intent = new Intent(getApplicationContext(), DVRActivity.class);
         startActivity(intent);
 
 

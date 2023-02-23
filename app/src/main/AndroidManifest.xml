@@ -24,6 +24,42 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DvrVoxtronicDynalogDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrVoxtronicDynalogMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrVoxtronicAaeonMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrVoxtronicAaeonDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DVRVoxtronic"
+            android:exported="false" />
+        <activity
+            android:name=".DVRRicochetIP"
+            android:exported="false" />
+        <activity
+            android:name=".DVRRicochet"
+            android:exported="false" />
+        <activity
+            android:name=".DVRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrRicochetIpMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrRicochetIpDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrRicochetMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrRicochetDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".LlzIndra70MfrActivity"
             android:exported="false" />
         <activity

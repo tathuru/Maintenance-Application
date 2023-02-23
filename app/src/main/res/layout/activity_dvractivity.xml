@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DVRActivity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_row="0"
+            android:layout_columnSpan="2"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:text="Select DVR Make/Model Maintenance Schedules"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Retia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/teal_700"
+            android:onClick="retiaClicked"
+            android:text="RETIA" />
+
+        <Button
+            android:id="@+id/Ricochet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/teal_700"
+            android:onClick="ricochetClicked"
+            android:text="RICOCHET" />
+
+        <Button
+            android:id="@+id/RicochetIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/teal_700"
+            android:onClick="ricochetipClicked"
+            android:text="RICOCHET IP" />
+
+        <Button
+            android:id="@+id/VoxtronicAaeon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/teal_700"
+            android:onClick="voxtronicClicked"
+            android:text="Voxtronic " />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:text="© 2022-2023 Shubham Jain"
+            android:textAlignment="center"
+            android:textStyle="italic|bold"
+            android:textColor="@color/teal_700"
+            android:layout_columnSpan="2"
+            android:layout_column="0"
+            android:id="@+id/textView2" />
+
+
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

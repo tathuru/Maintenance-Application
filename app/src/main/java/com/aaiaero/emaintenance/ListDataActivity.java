@@ -191,6 +191,78 @@ public class ListDataActivity extends AppCompatActivity {
                             editScreenIntent.putExtra("spinnerData", receivedData[4]);
                             startActivity(editScreenIntent);
                             break;
+                        case "DvrRicochetDailyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this, DvrRicochetDailyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+                        case "DvrRicochetMonthlyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this, DvrRicochetMonthlyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+                        case "DvrRicochetIpDailyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this, DvrRicochetIpDailyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+                        case "DvrRicochetIpMonthlyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this, DvrRicochetIpMonthlyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+                        case "DvrVoxtronixAaeonDailyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this, DvrVoxtronicAaeonDailyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+                        case "DvrVoxtronixAaeonMonthlyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this, DvrVoxtronicAaeonMonthlyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+                        case "DvrVoxtronixDynalogDailyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this, DvrVoxtronicDynalogDailyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+                        case "DvrVoxtronixDynalogMonthlyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this, DvrVoxtronicDynalogMonthlyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
 
                         case "NavAidsDVORASII1150DailyActivity": //Add all activities here in the case
                             editScreenIntent = new Intent(ListDataActivity.this, NavAidsDVORASII1150DailyActivity.class);
