@@ -48,6 +48,46 @@
             android:name=".NavAidsDMESELEX1118Aand1119AQuarterlyActivity"
             android:exported="false" />
         <activity
+            android:name=".DvrVoxtronicDynalogMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrVoxtronicAaeonMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrVoxtronicAaeonDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DVRVoxtronic"
+            android:exported="false" />
+        <activity
+            android:name=".DVRRicochetIP"
+            android:exported="false" />
+        <activity
+            android:name=".DVRRicochet"
+            android:exported="false" />
+        <activity
+            android:name=".DVRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrRicochetIpMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrRicochetIpDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrRicochetMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrRicochetDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70MfrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70WfrActivity"
+             android:exported="false"
+            android:exported="false" />
+        <activity
             android:name=".DMESELEX1118AAND1119A"
             android:exported="false" />
         <activity
@@ -188,6 +228,33 @@
             android:exported="false" />
         <activity
             android:name=".DVORASII1150"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70AnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70QuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70WeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpIndra70SixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70SixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70AnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzIndra70QuarterlyActivity"
             android:exported="false" />
         <activity
             android:name=".LlzIndra70MonthlyActivity"
@@ -389,6 +456,9 @@
             android:exported="false" />
         <activity
             android:name=".NavigationGpThales420Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationGpIndra70Activity"
             android:exported="false" />
         <activity
             android:name=".GpMakeModelActivity"
