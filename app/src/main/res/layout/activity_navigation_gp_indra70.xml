@@ -68,18 +68,7 @@ tools:context=".NavigationGpIndra70Activity">
         android:textSize="12sp"
         android:onClick="weeklyClicked" />
 
-    <Button
-        android:text="fort&#10;nightly"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/fortnightly"
-        android:layout_row="1"
-        android:layout_column="0"
-        android:layout_gravity="fill"
-        android:layout_rowWeight="1"
-        android:layout_columnWeight="1"
-        android:onClick="fortnightlyClicked"
-        android:textSize="12sp" />
+
 
     <Button
         android:text="Monthly"
@@ -87,7 +76,7 @@ tools:context=".NavigationGpIndra70Activity">
         android:layout_height="wrap_content"
         android:id="@+id/monthly"
         android:layout_row="1"
-        android:layout_column="1"
+        android:layout_column="0"
         android:layout_gravity="fill"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
@@ -99,8 +88,8 @@ tools:context=".NavigationGpIndra70Activity">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/quarterly"
-        android:layout_row="2"
-        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_column="1"
         android:layout_gravity="fill"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
@@ -108,12 +97,12 @@ tools:context=".NavigationGpIndra70Activity">
         android:onClick="quaterlyClicked"/>
 
     <Button
-        android:text="half&#10;Yearly"
+        android:text="Six&#10;Monthly"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/halfYearly"
         android:layout_row="2"
-        android:layout_column="1"
+        android:layout_column="0"
         android:layout_gravity="fill"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
@@ -125,8 +114,8 @@ tools:context=".NavigationGpIndra70Activity">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/yearly"
-        android:layout_row="3"
-        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_column="1"
         android:layout_gravity="fill"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
@@ -139,7 +128,7 @@ tools:context=".NavigationGpIndra70Activity">
         android:layout_height="wrap_content"
         android:id="@+id/miscellaneous"
         android:layout_row="3"
-        android:layout_column="1"
+        android:layout_column="0"
         android:layout_gravity="fill"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
