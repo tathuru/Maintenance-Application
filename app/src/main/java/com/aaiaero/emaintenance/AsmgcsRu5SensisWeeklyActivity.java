@@ -35,7 +35,7 @@ package com.aaiaero.emaintenance;
         import java.util.Date;
         import java.util.Locale;
 
-public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
+public class AsmgcsRu5SensisWeeklyActivity extends AppCompatActivity {
 
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
     private MySignature mySignature = new MySignature(this);
@@ -44,18 +44,23 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
     private EditText[] editTextArray;//Copy
     private Switch[] switchArray={};//Copy
     private Spinner[] spinnerArray={};//Copy
-    private String thisActivityName = "SurveilanceMssrIndraAnnualyActivity"; //Change Here as per your class name
+    private String thisActivityName = "AsmgcsRu5SensisWeeklyActivity"; //Change Here as per your class name
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_surveilance_mssr_indra_annualy);
+        setContentView(R.layout.activity_asmgcs_ru5_sensis_weekly);
         //Define and Initialize all EditTexts serially here
         EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
-                editText17, editText18, editText19, editText20, editText21, editText22, editText23, editText24,editText25, editText26, editText27, editText28, editText29, editText30, editText31, editText32,
-                editText33, editText34, editText35, editText36, editText37, editText38, editText39, editText40, editText41, editText42, editText43, editText44, editText45, editText46,editText47,editText48,
-                editText49, editText50, editText51, editText52, editText53, editText54, editText55, editText56, editText57, editText58, editText59, editText60, editText61,editText62,editText63, editText64,
-                editText65,editText66, editText67,editText68;
+                editText17, editText18, editText19,editText20, editText21, editText22, editText23, editText24, editText25, editText26, editText27,editText28, editText29, editText30, editText31, editText32, editText33, editText34, editText35,
+                editText36, editText37,editText38, editText39, editText40, editText41, editText42, editText43, editText44, editText45,editText46, editText47, editText48, editText49, editText50, editText51, editText52, editText53,
+                editText54, editText55, editText56, editText57, editText58, editText59, editText60, editText61,editText62, editText63, editText64, editText65, editText66, editText67, editText68, editText69,
+                editText70, editText71, editText72,editText73, editText74, editText75, editText76, editText77, editText78, editText79, editText80,editText81, editText82, editText83, editText84, editText85, editText86, editText87, editText88,
+                editText89, editText90,editText91, editText92, editText93, editText94, editText95, editText96, editText97, editText98,editText99, editText100, editText101, editText102, editText103, editText104, editText105, editText106,
+                editText107, editText108, editText109, editText110, editText111, editText112, editText113, editText114,editText115, editText116, editText117, editText118, editText119, editText120, editText121, editText122,
+                editText123, editText124, editText125,editText126, editText127, editText128, editText129, editText130, editText131, editText132, editText133,editText134, editText135, editText136, editText137, editText138, editText139,
+                editText140, editText141, editText142,editText143, editText144, editText145, editText146, editText147, editText148, editText149, editText150,editText151, editText152, editText153, editText154, editText155,
+                editText156, editText157, editText158,editText159, editText160, editText161, editText162, editText163, editText164, editText165;
 
         editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText2),
                 editText2 = (EditText) findViewById(R.id.editText3),
@@ -84,12 +89,12 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
                 editText25 = (EditText) findViewById(R.id.editText26),
                 editText26 = (EditText) findViewById(R.id.editText27),
                 editText27 = (EditText) findViewById(R.id.editText28),
-                editText28 = (EditText) findViewById(R.id.editText29),
-                editText29 = (EditText) findViewById(R.id.editText30),
+                editText28 =(EditText) findViewById(R.id.editText29),
+                editText29 =(EditText)  findViewById(R.id.editText30),
                 editText30 = (EditText) findViewById(R.id.editText31),
                 editText31 =(EditText)  findViewById(R.id.editText32),
                 editText32 = (EditText) findViewById(R.id.editText33),
-                editText33 =(EditText)  findViewById(R.id.editText34),
+                editText33 = (EditText) findViewById(R.id.editText34),
                 editText34 = (EditText) findViewById(R.id.editText35),
                 editText35 = (EditText) findViewById(R.id.editText36),
                 editText36 = (EditText) findViewById(R.id.editText37),
@@ -102,12 +107,12 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
                 editText43 = (EditText) findViewById(R.id.editText44),
                 editText44 = (EditText) findViewById(R.id.editText45),
                 editText45 = (EditText) findViewById(R.id.editText46),
-                editText46 = (EditText) findViewById(R.id.editText47),
-                editText47 = (EditText) findViewById(R.id.editText48),
+                editText46 =(EditText) findViewById(R.id.editText47),
+                editText47 =(EditText)  findViewById(R.id.editText48),
                 editText48 = (EditText) findViewById(R.id.editText49),
                 editText49 =(EditText)  findViewById(R.id.editText50),
                 editText50 = (EditText) findViewById(R.id.editText51),
-                editText51 =(EditText)  findViewById(R.id.editText52),
+                editText51 = (EditText) findViewById(R.id.editText52),
                 editText52 = (EditText) findViewById(R.id.editText53),
                 editText53 = (EditText) findViewById(R.id.editText54),
                 editText54 = (EditText) findViewById(R.id.editText55),
@@ -119,12 +124,109 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
                 editText60 = (EditText) findViewById(R.id.editText61),
                 editText61 = (EditText) findViewById(R.id.editText62),
                 editText62 = (EditText) findViewById(R.id.editText63),
-                editText63 = (EditText) findViewById(R.id.editText64),
-                editText64 = (EditText) findViewById(R.id.editText65),
+                editText63 =(EditText) findViewById(R.id.editText64),
+                editText64 =(EditText)  findViewById(R.id.editText65),
                 editText65 = (EditText) findViewById(R.id.editText66),
-                editText66 = (EditText) findViewById(R.id.editText67),
+                editText66 =(EditText)  findViewById(R.id.editText67),
                 editText67 = (EditText) findViewById(R.id.editText68),
-                editText68 = (EditText) findViewById(R.id.editText69)};
+                editText68 = (EditText) findViewById(R.id.editText69),
+                editText69 = (EditText) findViewById(R.id.editText70),
+                editText70 = (EditText) findViewById(R.id.editText71),
+                editText71 = (EditText) findViewById(R.id.editText72),
+                editText72 = (EditText) findViewById(R.id.editText73),
+                editText73 = (EditText) findViewById(R.id.editText74),
+                editText74 = (EditText) findViewById(R.id.editText75),
+                editText75 = (EditText) findViewById(R.id.editText76),
+                editText76 = (EditText) findViewById(R.id.editText77),
+                editText77 = (EditText) findViewById(R.id.editText78),
+                editText78 = (EditText) findViewById(R.id.editText79),
+                editText79 = (EditText) findViewById(R.id.editText80),
+                editText80 = (EditText) findViewById(R.id.editText81),
+                editText81 =(EditText) findViewById(R.id.editText82),
+                editText82 =(EditText)  findViewById(R.id.editText83),
+                editText83 = (EditText) findViewById(R.id.editText84),
+                editText84 =(EditText)  findViewById(R.id.editText85),
+                editText85 = (EditText) findViewById(R.id.editText86),
+                editText86 = (EditText) findViewById(R.id.editText87),
+                editText87 = (EditText) findViewById(R.id.editText88),
+                editText88 = (EditText) findViewById(R.id.editText89),
+                editText89 = (EditText) findViewById(R.id.editText90),
+                editText90 = (EditText) findViewById(R.id.editText91),
+                editText91 = (EditText) findViewById(R.id.editText92),
+                editText92 = (EditText) findViewById(R.id.editText93),
+                editText93 = (EditText) findViewById(R.id.editText94),
+                editText94 = (EditText) findViewById(R.id.editText95),
+                editText95 = (EditText) findViewById(R.id.editText96),
+                editText96 = (EditText) findViewById(R.id.editText97),
+                editText97 = (EditText) findViewById(R.id.editText98),
+                editText98 = (EditText) findViewById(R.id.editText99),
+                editText99 =(EditText) findViewById(R.id.editText100),
+                editText100 =(EditText)  findViewById(R.id.editText101),
+                editText101 = (EditText) findViewById(R.id.editText102),
+                editText102 =(EditText)  findViewById(R.id.editText103),
+                editText103 = (EditText) findViewById(R.id.editText104),
+                editText104 = (EditText) findViewById(R.id.editText105),
+                editText105 = (EditText) findViewById(R.id.editText106),
+                editText106 = (EditText) findViewById(R.id.editText107),
+                editText107 = (EditText) findViewById(R.id.editText108),
+                editText108 = (EditText) findViewById(R.id.editText109),
+                editText109 = (EditText) findViewById(R.id.editText110),
+                editText110 = (EditText) findViewById(R.id.editText111),
+                editText111 = (EditText) findViewById(R.id.editText112),
+                editText112 = (EditText) findViewById(R.id.editText113),
+                editText113 = (EditText) findViewById(R.id.editText114),
+                editText114 = (EditText) findViewById(R.id.editText115),
+                editText115 = (EditText) findViewById(R.id.editText116),
+                editText116 =(EditText) findViewById(R.id.editText117),
+                editText117 =(EditText)  findViewById(R.id.editText118),
+                editText118 = (EditText) findViewById(R.id.editText119),
+                editText119 =(EditText)  findViewById(R.id.editText120),
+                editText120 = (EditText) findViewById(R.id.editText121),
+                editText121 = (EditText) findViewById(R.id.editText122),
+                editText122 = (EditText) findViewById(R.id.editText123),
+                editText123 = (EditText) findViewById(R.id.editText124),
+                editText124 = (EditText) findViewById(R.id.editText125),
+                editText125 = (EditText) findViewById(R.id.editText126),
+                editText126 = (EditText) findViewById(R.id.editText127),
+                editText127 = (EditText) findViewById(R.id.editText128),
+                editText128 = (EditText) findViewById(R.id.editText129),
+                editText129 = (EditText) findViewById(R.id.editText130),
+                editText130 = (EditText) findViewById(R.id.editText131),
+                editText131 = (EditText) findViewById(R.id.editText132),
+                editText132 = (EditText) findViewById(R.id.editText133),
+                editText133 = (EditText) findViewById(R.id.editText134),
+                editText134 =(EditText) findViewById(R.id.editText135),
+                editText135 =(EditText)  findViewById(R.id.editText136),
+                editText136 = (EditText) findViewById(R.id.editText137),
+                editText137 =(EditText)  findViewById(R.id.editText138),
+                editText138 = (EditText) findViewById(R.id.editText139),
+                editText139 = (EditText) findViewById(R.id.editText140),
+                editText140 = (EditText) findViewById(R.id.editText141),
+                editText141 = (EditText) findViewById(R.id.editText142),
+                editText142 = (EditText) findViewById(R.id.editText143),
+                editText143 = (EditText) findViewById(R.id.editText144),
+                editText144 = (EditText) findViewById(R.id.editText145),
+                editText145 = (EditText) findViewById(R.id.editText146),
+                editText146 =(EditText) findViewById(R.id.editText147),
+                editText147 =(EditText)  findViewById(R.id.editText148),
+                editText148 = (EditText) findViewById(R.id.editText149),
+                editText149 =(EditText)  findViewById(R.id.editText150),
+                editText150 = (EditText) findViewById(R.id.editText151),
+                editText151 = (EditText) findViewById(R.id.editText152),
+                editText152 = (EditText) findViewById(R.id.editText153),
+                editText153 = (EditText) findViewById(R.id.editText154),
+                editText154 = (EditText) findViewById(R.id.editText155),
+                editText155 = (EditText) findViewById(R.id.editText156),
+                editText156 = (EditText) findViewById(R.id.editText157),
+                editText157 = (EditText) findViewById(R.id.editText158),
+                editText158 = (EditText) findViewById(R.id.editText159),
+                editText159 = (EditText) findViewById(R.id.editText160),
+                editText160 = (EditText) findViewById(R.id.editText161),
+                editText161 = (EditText) findViewById(R.id.editText162),
+                editText162 = (EditText) findViewById(R.id.editText163),
+                editText163 = (EditText) findViewById(R.id.editText164),
+                editText164 =(EditText) findViewById(R.id.editText165),
+                editText165 =(EditText)  findViewById(R.id.editText166)};
 
         //Define and Initialize all Switches serially here
 
@@ -225,15 +327,23 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
 
         Bitmap bmp,scaledbmp;
 
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.surmssrindraannualy1);
+        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.asmgcsru5sensisweekly1);
         scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {140,140,260,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450};
-        int[] editTextYPixel = {205,205,205,270,290,337,360,393,410,440,475,535,580,620,705,740,775,830,865,894};
+        int[] editTextXPixel = {85,220,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295
+                ,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295
+                ,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295
+                ,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,232,286,333,380,430,490,545,605,150,232,286,333,380,430,490,545,605,150,232,286
+                ,333,380,430,490,545,605,150,232,286,333,380,430,490,545,605,150,232,286,333,380,430,490,545,605};
+        int[] editTextYPixel = {190,190,315,315,315,315,315,315,315,315,315,335,335,335,335,335,335,335,335,335,360,360,360,360,360,360,360,360,360,385,385,385
+                ,385,385,385,385,385,385,410,410,410,410,410,410,410,410,410,433,433,433,433,433,433,433,433,433,457,457,457,457,457,457,457,457,457,480,480,480
+                ,480,480,480,480,480,480,505,505,505,505,505,505,505,505,505,530,530,530,530,530,530,530,530,530,554,554,554,554,554,554,554,554,554,577,577,577
+                ,577,577,577,577,577,577,600,600,600,600,600,600,600,600,600,705,705,705,705,705,705,705,705,705,733,733,733,733,733,733,733,733,733,760,760,760
+                ,760,760,760,760,760,760,790,790,790,790,790,790,790,790,790,820,820,820,820,820,820,820,820,820};
 
 
 
@@ -259,95 +369,31 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,490,205,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,425,190,titlePaint);//Printing Date on PDF
+
+        titlePaint.setTextSize(12);
+        paint.setTextAlign(Paint.Align.LEFT);
+
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,250, false), 445, 826, paint);
 
         myPdfdocument.finishPage(myPage1);
 
 
         //---------------------End of Page 1---------------
 
-        //----------------------Page 2---------------------
-
-        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(723, 1024, 2).create();
-
-        // start a page
-        PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
-
-        canvas = myPage2.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.surmssrindraannualy2);
-        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
-        canvas.drawBitmap(scaledbmp,0 , 0, paint);
-
-
-        titlePaint.setTextSize(12);
-
-        int[] editTextXPixel2 = {450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450};
-        int[] editTextYPixel2 = {193,213,232,269,289,308,382,401,420,457,476,495,531,550,570,627,645,663,700,719,738,776,795,813,869,888};
-
-
-
-        for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+20],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
-        }
-
-
-        /*titlePaint.setTextSize(12);
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 400, 590, paint);*/
-
-        myPdfdocument.finishPage(myPage2);
-
-        //-------------------------End of Page 2-----------------
-
-        //----------------------Page 3---------------------
-
-        PdfDocument.PageInfo myPageInfo3 = new PdfDocument.PageInfo.Builder(723, 1024, 3).create();
-
-        // start a page
-        PdfDocument.Page myPage3 = myPdfdocument.startPage(myPageInfo3);
-
-        canvas = myPage3.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.surmssrindraannualy3);
-        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
-        canvas.drawBitmap(scaledbmp,0 , 0, paint);
-
-
-        titlePaint.setTextSize(12);
-
-        int[] editTextXPixel3 = {450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,85};
-        int[] editTextYPixel3 = {140,187,207,225,300,318,337,374,393,412,487,505,523,561,580,599,655,675,692,730,749,768,800};
-
-
-
-        for(int i = 0; i < editTextXPixel3.length; i++){
-            canvas.drawText( editTextDataForPDF[i+46],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
-        }
-
-
-        titlePaint.setTextSize(12);
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,190,120, false), 110, 805, paint);
-
-        myPdfdocument.finishPage(myPage3);
-
-        //-------------------------End of Page 3-----------------
-
-
         ActivityCompat.requestPermissions(this, new String[]{
 
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
 
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/MSSR/Indra/Annually/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/ASMGCS/SENSIS/RU5/Weekly/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "Annually MSSR Indra " + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "Weekly ASMGCS SENSIS RU5 " + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -362,12 +408,12 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Annually",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Weekly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
         myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-                "Annually Maintenance of Indra MSSR done.",//Change Here-----------------------------
+                "Weekly Maintenance of SENSIS RU5 done.",//Change Here-----------------------------
                 "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
 
 

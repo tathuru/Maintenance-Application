@@ -35,7 +35,7 @@ package com.aaiaero.emaintenance;
         import java.util.Date;
         import java.util.Locale;
 
-public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
+public class AsmgcsSmrSensisMonthlyActivity extends AppCompatActivity {
 
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
     private MySignature mySignature = new MySignature(this);
@@ -44,15 +44,14 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
     private EditText[] editTextArray;//Copy
     private Switch[] switchArray={};//Copy
     private Spinner[] spinnerArray={};//Copy
-    private String thisActivityName = "SurveilanceMssrIndraSixMonthlyActivity"; //Change Here as per your class name
+    private String thisActivityName = "AsmgcsSmrSensisMonthlyActivity"; //Change Here as per your class name
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_surveilance_mssr_indra_six_monthly);
+        setContentView(R.layout.activity_asmgcs_smr_sensis_monthly);
         //Define and Initialize all EditTexts serially here
-        EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
-                editText17, editText18, editText19, editText20, editText21, editText22, editText23, editText24,editText25, editText26, editText27, editText28;
+        EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15;
 
         editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText2),
                 editText2 = (EditText) findViewById(R.id.editText3),
@@ -68,20 +67,7 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
                 editText12 = (EditText) findViewById(R.id.editText13),
                 editText13 =(EditText)  findViewById(R.id.editText14),
                 editText14 = (EditText) findViewById(R.id.editText15),
-                editText15 = (EditText) findViewById(R.id.editText16),
-                editText16 = (EditText) findViewById(R.id.editText17),
-                editText17 = (EditText) findViewById(R.id.editText18),
-                editText18 = (EditText) findViewById(R.id.editText19),
-                editText19 = (EditText) findViewById(R.id.editText20),
-                editText20 = (EditText) findViewById(R.id.editText21),
-                editText21 = (EditText) findViewById(R.id.editText22),
-                editText22 = (EditText) findViewById(R.id.editText23),
-                editText23 = (EditText) findViewById(R.id.editText24),
-                editText24 = (EditText) findViewById(R.id.editText25),
-                editText25 = (EditText) findViewById(R.id.editText26),
-                editText26 = (EditText) findViewById(R.id.editText27),
-                editText27 = (EditText) findViewById(R.id.editText28),
-                editText28 = (EditText) findViewById(R.id.editText29)};
+                editText15 = (EditText) findViewById(R.id.editText16)};
 
         //Define and Initialize all Switches serially here
 
@@ -182,15 +168,15 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
 
         Bitmap bmp,scaledbmp;
 
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.surmssrindrasixmonthly1);
+        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.asmgcssmrsensismonthly);
         scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {175,175,290,435,435,435,435,435,435,435,435,435,435,435,435,435,435,435};
-        int[] editTextYPixel = {205,205,205,280,345,380,465,490,520,585,615,650,740,760,785,835,864,885};
+        int[] editTextXPixel = {250,130,370,380,330,330,330,330,330,330,330,365,330,330};
+        int[] editTextYPixel = {205,205,259,276,403,440,471,505,528,574,606,649,680,705};
 
 
 
@@ -216,61 +202,31 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,560,205,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,400,220,titlePaint);//Printing Date on PDF
+
+        titlePaint.setTextSize(12);
+        paint.setTextAlign(Paint.Align.LEFT);
+
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 70, 715, paint);
 
         myPdfdocument.finishPage(myPage1);
 
 
         //---------------------End of Page 1---------------
 
-        //----------------------Page 2---------------------
-
-        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(723, 1024, 2).create();
-
-        // start a page
-        PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
-
-        canvas = myPage2.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.surmssrindrasixmonthly2);
-        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
-        canvas.drawBitmap(scaledbmp,0 , 0, paint);
-
-
-        titlePaint.setTextSize(12);
-
-        int[] editTextXPixel2 = {435,435,435,435,435,435,435,435,435,435,85};
-        int[] editTextYPixel2 = {165,200,230,285,320,355,420,450,515,545,620};
-
-
-
-        for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+18],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
-        }
-
-
-        titlePaint.setTextSize(12);
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,200,120, false), 70, 740, paint);
-
-        myPdfdocument.finishPage(myPage2);
-
-        //-------------------------End of Page 2-----------------
-
-
         ActivityCompat.requestPermissions(this, new String[]{
 
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
 
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/MSSR/Indra/SixMonthly/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/ASMGCS/SENSIS/SMR/Monthly/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "Six Monthly MSSR Indra " + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "Monthly ASMGCS SENSIS SMR " + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -285,12 +241,12 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","SixMonthly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Monthly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
         myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-                "SixMonthly Maintenance of Indra MSSR done.",//Change Here-----------------------------
+                "Monthly Maintenance of SENSIS SMR done.",//Change Here-----------------------------
                 "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
 
 

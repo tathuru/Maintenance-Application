@@ -270,7 +270,7 @@ public class SurveilanceMssrIndraMonthlyActivity extends AppCompatActivity {
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 80, 750, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,200,120, false), 80, 735, paint);
 
         myPdfdocument.finishPage(myPage2);
 
