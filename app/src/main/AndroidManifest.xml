@@ -24,6 +24,27 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".LlzAsiiQuarterly2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzAsiiQuarterly1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzAsiiAnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzAsiiMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzAsiiWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationLlzAsiiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LlzAsiiDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".DvrVoxtronicDynalogDailyActivity"
             android:exported="false" />
         <activity
