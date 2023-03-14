@@ -1,3 +1,4 @@
+
 package com.aaiaero.emaintenance;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +10,26 @@ import android.widget.Button;
 
 public class DmeMakeModelActivity extends AppCompatActivity {
 
-    public void asii1118 (View view){
+    public void thales (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DmeThalesActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void mopiens (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DmeMopiensActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void asii (View view){
+
 
         Intent intent = new Intent(getApplicationContext(),DMEASII1118AND1119.class);
         startActivity(intent);
@@ -17,7 +37,8 @@ public class DmeMakeModelActivity extends AppCompatActivity {
 
     }
 
-    public void selex1118 (View view){
+    public void selex (View view){
+
 
         Intent intent = new Intent(getApplicationContext(),DMESELEX1118AAND1119A.class);
         startActivity(intent);
@@ -25,52 +46,29 @@ public class DmeMakeModelActivity extends AppCompatActivity {
 
     }
 
+    public void gcel (View view){
 
 
+        Intent intent = new Intent(getApplicationContext(),DmeGcelActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void intelcan (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DMEIntelcanN9040.class);
+        startActivity(intent);
+
+
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dme_make_model);
 
-        Button thales, mopiens, gecl, other;
 
-        thales = (Button) findViewById(R.id.thales);
-        mopiens = (Button) findViewById(R.id.mopiens);
-        gecl = (Button) findViewById(R.id.gecl);
-        other = (Button) findViewById(R.id.other);
-
-        thales.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(getApplicationContext(),DmeThalesActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        mopiens.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(getApplicationContext(),DmeMopiensActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        gecl.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), DmeGcelActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        other.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
     }
 }
+

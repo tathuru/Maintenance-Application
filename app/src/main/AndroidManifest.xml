@@ -24,6 +24,30 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".NavAidsDMEINTELCANN9040MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DMEIntelcanN9040"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDMEINTELCANN9040WeeklyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDMEINTELCANN9040DailyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORGcel757SixMonthlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORGcel757MonthlyGroundChecksActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORGcel757MonthlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORGcel757WeeklyActivity"
+            android:exported="true" />
+        <activity
             android:name=".DvorGcel757Activity"
             android:exported="false" />
         <activity
@@ -85,7 +109,6 @@
             android:exported="false" />
         <activity
             android:name=".LlzIndra70WfrActivity"
-             android:exported="false"
             android:exported="false" />
         <activity
             android:name=".DMESELEX1118AAND1119A"
