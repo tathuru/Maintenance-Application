@@ -42,7 +42,7 @@ public class DvorGcel757Activity extends AppCompatActivity {
 
     }
 
-    /*public void weeklyClicked (View view){
+    public void weeklyClicked (View view){
 
 
         Intent intent = new Intent(getApplicationContext(),NavAidsDVORGcel757WeeklyActivity.class);
@@ -75,7 +75,7 @@ public class DvorGcel757Activity extends AppCompatActivity {
         startActivity(intent);
 
 
-    }*/
+    }
 
 
 

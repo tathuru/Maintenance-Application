@@ -1,125 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--suppress ALL -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_dme_make_model"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
     tools:context=".DmeMakeModelActivity">
-
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="© 2022-2023 Akshay Bele" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="70dp"
-        android:text="Select Make of DME to perform Maintenance."
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@android:color/holo_blue_bright"
-        android:textSize="16sp"
-        android:textStyle="normal|bold" />
-
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_below="@+id/textView3"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_margin="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp">
 
-        <Button
-            android:text="THALES 415/435"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/thales"
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
             android:layout_row="0"
+            android:layout_columnSpan="2"
             android:layout_column="0"
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="12sp" />
+            android:layout_height="wrap_content"
+            android:text="Select DME Make and Model"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
 
         <Button
-            android:text="ASII 1118/1119"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/thales"
-            android:layout_row="2"
-            android:onClick="asii1118"
-            android:layout_column="0"
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="12sp" />
-
-        <Button
-            android:text="SELEX 1119A/1118A"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/selex"
-            android:layout_row="2"
-            android:onClick="selex1118"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/teal_700"
+            android:layout_gravity="fill"
+            android:layout_row="3"
+            android:layout_margin="2dp"
             android:layout_column="1"
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="12sp" />
+            android:onClick="thales"
+            android:text="THALES 415/435" />
 
         <Button
-            android:text="MOPIANS&#10; MARU 310/320"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/mopiens"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:layout_gravity="fill"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:textSize="12sp" />
-        <Button
-            android:text="GECL 752"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/gecl"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:layout_gravity="fill"
+            android:backgroundTint="@color/teal_700"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="2dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:textSize="12sp" />
+            android:layout_gravity="fill"
+            android:onClick="mopiens"
+            android:text="MOPIENS MARU 310/320" />
 
         <Button
-            android:text="OTHERS"
+            android:id="@+id/asii"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/other"
-            android:layout_row="1"
-            android:layout_column="1"
-            android:layout_gravity="fill"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:textSize="12sp" />
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/teal_700"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="2dp"
+            android:onClick="asii"
+            android:layout_height="wrap_content"
+            android:text="ASII 1118/1119" />
+
+        <Button
+            android:id="@+id/selex"
+            android:layout_width="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:backgroundTint="@color/teal_700"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_margin="2dp"
+            android:onClick="selex"
+            android:layout_height="wrap_content"
+            android:text="SELEX 1119A/1118A" />
+
+
+
+
+        <Button
+            android:id="@+id/gcel755"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:onClick="gcel"
+            android:backgroundTint="@color/teal_700"
+            android:text="GECL 752" />
+
+
+
+
+
+        <Button
+            android:id="@+id/gcel757"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:onClick="intelcan"
+            android:backgroundTint="@color/teal_700"
+            android:text="INTELCAN SKYNAV N9040" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:text="© 2022-2023 Akshay Bele"
+            android:textAlignment="center"
+            android:textStyle="italic|bold"
+            android:textColor="@color/teal_700"
+            android:layout_columnSpan="2"
+            android:layout_column="0"
+            android:id="@+id/textView2" />
 
 
 
     </GridLayout>
 
-</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
