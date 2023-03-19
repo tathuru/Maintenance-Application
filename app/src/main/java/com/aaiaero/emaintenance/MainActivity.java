@@ -211,12 +211,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void scanCode(){
 
-        IntentIntegrator integrator = new IntentIntegrator(this);
+        /*IntentIntegrator integrator = new IntentIntegrator(this);
         integrator.setCaptureActivity(CaptureAct.class);
         integrator.setOrientationLocked(false);
         integrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
         integrator.setPrompt("Searching for Logging Details.");
-        integrator.initiateScan();
+        integrator.initiateScan();*/
+
+        Intent intent = new Intent(getApplicationContext(),UnitSelectionActivity.class);
+        startActivity(intent);
 
 
     }

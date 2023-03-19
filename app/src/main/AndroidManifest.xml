@@ -24,7 +24,52 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".DvrVoxtronicDynalogDailyActivity"
+            android:name=".NavAidsDMEINTELCANN9040MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DMEIntelcanN9040"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDMEINTELCANN9040WeeklyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDMEINTELCANN9040DailyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORGcel757SixMonthlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORGcel757MonthlyGroundChecksActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORGcel757MonthlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NavAidsDVORGcel757WeeklyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DvorGcel757Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel757QuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDVORGcel757DailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMESELEX1118Aand1119AYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMESELEX1118Aand1119AHalfYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMESELEX1118Aand1119AMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMESELEX1118Aand1119AWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavAidsDMESELEX1118Aand1119AQuarterlyActivity"
             android:exported="false" />
         <activity
             android:name=".DvrVoxtronicDynalogMonthlyActivity"
