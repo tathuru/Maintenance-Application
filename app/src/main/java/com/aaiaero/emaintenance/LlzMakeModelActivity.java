@@ -41,8 +41,8 @@ public class LlzMakeModelActivity extends AppCompatActivity {
         asii.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), NavigationLlzAsiiActivity.class);
-                startActivity(intent);
+                //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
+                //startActivity(intent);
             }
         });
 
