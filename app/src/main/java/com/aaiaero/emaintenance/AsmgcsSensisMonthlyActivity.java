@@ -14,7 +14,7 @@ import java.io.ByteArrayOutputStream;
 
 public class AsmgcsSensisMonthlyActivity extends AppCompatActivity {
 
-    Button smr, processor, ru6;
+    Button smr, processor, cwp, ru5, ru6;
 
 
     @Override
@@ -26,6 +26,8 @@ public class AsmgcsSensisMonthlyActivity extends AppCompatActivity {
 
         smr = (Button) findViewById(R.id.smr);
         processor = (Button) findViewById(R.id.processor);
+        cwp = (Button) findViewById(R.id.cwp);
+        ru5 = (Button) findViewById(R.id.ru5);
         ru6 = (Button) findViewById(R.id.ru6);
 
 
@@ -38,19 +40,24 @@ public class AsmgcsSensisMonthlyActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),AsmgcsSmrSensisMonthlyActivity.class);
         startActivity(intent);
 
-
     }
     public void processorClicked (View view){
         Intent intent = new Intent(getApplicationContext(),AsmgcsProcessorsSensisMonthlyActivity.class);
         startActivity(intent);
 
-
     }
-
-    public void ru6Clicked (View view){
-        Intent intent = new Intent(getApplicationContext(),AsmgcsRu6SensisWeeklyActivity.class);
+    public void cwpClicked (View view){
+        Intent intent = new Intent(getApplicationContext(),AsmgcsSensisCwpMonthlyActivity.class);
+        startActivity(intent);
+    }
+    public void ru5Clicked (View view){
+        Intent intent = new Intent(getApplicationContext(),AsmgcsSensisRu5MonthlyActivity.class);
         startActivity(intent);
 
+    }
+    public void ru6Clicked (View view){
+        Intent intent = new Intent(getApplicationContext(),AsmgcsSensisRu6MonthlyActivity.class);
+        startActivity(intent);
 
     }
 }

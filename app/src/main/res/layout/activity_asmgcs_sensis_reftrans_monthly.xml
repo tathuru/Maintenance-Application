@@ -497,7 +497,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint="  "
+                    android:hint=" G "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -528,7 +528,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint="  "
+                    android:hint=" V "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -559,7 +559,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint="  "
+                    android:hint=" Hz "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -590,7 +590,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint="  "
+                    android:hint=" V "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -621,7 +621,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint="  "
+                    android:hint=" A "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -652,7 +652,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint="  "
+                    android:hint=" Hz "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -683,7 +683,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint="  "
+                    android:hint=" V "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -714,7 +714,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint="  "
+                    android:hint=" A "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -902,14 +902,14 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight=".5"
-                    android:hint="  "
+                    android:hint=" A "
                     android:textSize="14sp" />
                 <EditText
                     android:id="@+id/editText22"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight=".5"
-                    android:hint="  "
+                    android:hint=" A "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -940,14 +940,14 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight=".5"
-                    android:hint="  "
+                    android:hint=" V "
                     android:textSize="14sp" />
                 <EditText
                     android:id="@+id/editText24"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight=".5"
-                    android:hint="  "
+                    android:hint=" V "
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -1309,7 +1309,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint=""
+                    android:hint="OK"
                     android:textSize="14sp" />
             </LinearLayout>
 
@@ -1339,7 +1339,7 @@
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
-                    android:hint=""
+                    android:hint="OK"
                     android:textSize="14sp" />
             </LinearLayout>
 

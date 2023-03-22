@@ -69,20 +69,20 @@ public class AsmgcsSensisActivity extends AppCompatActivity {
 
     public void quaterlyClicked (View view){
 
-
-
+        Intent intent = new Intent(getApplicationContext(),AsmgcsSmrSensisQuarterlyActivity.class);
+        startActivity(intent);
 
     }
 
     public void halfYearlyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(),SurveilanceMssrIndraSixMonthlyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),AsmgcsSmrSensisSixMonthlyActivity.class);
         startActivity(intent);
 
     }
 
     public void yearlyClicked (View view){
-        Intent intent = new Intent(getApplicationContext(),SurveilanceMssrIndraAnnualyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),AsmgcsSmrSensisYearlyActivity.class);
         startActivity(intent);
 
 

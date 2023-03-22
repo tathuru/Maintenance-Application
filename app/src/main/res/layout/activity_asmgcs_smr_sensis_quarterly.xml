@@ -381,7 +381,7 @@
                     android:textStyle="bold|italic" />
 
                 <EditText
-                    android:id="@+id/editText45"
+                    android:id="@+id/editText10"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"

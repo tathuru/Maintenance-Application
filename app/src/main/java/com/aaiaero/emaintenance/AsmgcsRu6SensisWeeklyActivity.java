@@ -410,10 +410,6 @@ public class AsmgcsRu6SensisWeeklyActivity extends AppCompatActivity {
 
         canvas.drawText(strData,425,190,titlePaint);//Printing Date on PDF
 
-        titlePaint.setTextSize(12);
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,250, false), 445, 826, paint);
 
         myPdfdocument.finishPage(myPage1);
 

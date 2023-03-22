@@ -464,7 +464,7 @@
                     android:text="UPS status indication"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText09"
+                    android:id="@+id/editText9"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"

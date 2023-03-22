@@ -25,6 +25,27 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".AsmgcsSmrSensisYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSmrSensisSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSmrSensisQuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisRu6MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisRu5MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisReftransMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisCwpMonthlyActivity"
+            android:exported="false" />
+        <activity
             android:name=".AsmgcsSensisMonthlyActivity"
             android:exported="false" />
         <activity
