@@ -56,7 +56,8 @@ public class LlzIndra70MonthlyActivity extends AppCompatActivity {
         EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
                 editText17, editText18, editText19, editText20, editText21, editText22, editText23, editText24,editText25, editText26, editText27, editText28, editText29, editText30, editText31, editText32,
                 editText33, editText34, editText35, editText36, editText37, editText38, editText39, editText40, editText41, editText42, editText43, editText44, editText45, editText46, editText47, editText48,
-                editText49, editText50, editText51, editText52, editText53, editText54, editText55, editText56, editText57;
+                editText49, editText50, editText51, editText52, editText53, editText54, editText55, editText56, editText57, editText58,editText59, editText60,editText61, editText62,editText63, editText64,
+                editText65;
 
         editTextArray = new EditText[]{
                 editText1 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyStation),
@@ -95,27 +96,37 @@ public class LlzIndra70MonthlyActivity extends AppCompatActivity {
                 editText34 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyCSBV21),
                 editText35 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyShutdown1),
                 editText36 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyCSBV1),
-                editText37 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevCL1),
-                editText38 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevCL2),
-                editText39 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevWP901),
-                editText40 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevWP902),
-                editText41 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevWP1501),
-                editText42 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevWP1502),
-                editText43 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevRF1),
-                editText44 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevRF2),
-                editText45 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevDDM901),
-                editText46 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevDDM902),
-                editText47 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevDDM1501),
-                editText48 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevDDM1502),
-                editText49 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyRackER),
-                editText50 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyAntER),
-                editText51 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyNFER),
-                editText52 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyFFMER),
-                editText53 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyENVolt),
-                editText54 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyTypeLP),
-                editText55 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyERLP),
-                editText56 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyERSPD),
-                editText57 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyRemarks)};
+
+                editText37 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyBatteryBD1),
+                editText38 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyBatteryBD2),
+                editText39 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyBatt10min1),
+                editText40 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyBatt10min2),
+                editText41 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyBatteryAD1),
+                editText42 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyBatteryAD2),
+                editText43 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyBatteryClean1),
+                editText44 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyBatteryClean2),
+
+                editText45 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevCL1),
+                editText46 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevCL2),
+                editText47 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevWP901),
+                editText48 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevWP902),
+                editText49 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevWP1501),
+                editText50 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevWP1502),
+                editText51 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevRF1),
+                editText52 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevRF2),
+                editText53 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevDDM901),
+                editText54 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevDDM902),
+                editText55 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevDDM1501),
+                editText56 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyDevDDM1502),
+                editText57 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyRackER),
+                editText58 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyAntER),
+                editText59 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyNFER),
+                editText60 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyFFMER),
+                editText61 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyENVolt),
+                editText62 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyTypeLP),
+                editText63 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyERLP),
+                editText64 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyERSPD),
+                editText65 = (EditText) findViewById(R.id.editTextLlzIndra70MonthlyRemarks)};
 
         //Define and Initialize all Switches serially here
         Switch switch1,switch2,switch3;
@@ -230,8 +241,8 @@ public class LlzIndra70MonthlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {93,573,67,152,279,452,467,545,467,545,467,545,467,545,467,545,467,545,425,425,425,425,};
-        int[] editTextYPixel = {137,137,153,153,153,153,270,270,345,345,423,423,480,480,600,600,675,675,772,795,818,840,};
+        int[] editTextXPixel = {146,568,122,199,315,462,446,507,446,507,446,507,446,507,446,507};
+        int[] editTextYPixel = {144,144,160,160,160,160,293,293,395,395,502,502,595,595,725,725};
 
 
 
@@ -252,7 +263,7 @@ public class LlzIndra70MonthlyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,565,152,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,562,161,titlePaint);//Printing Date on PDF
 
         myPdfdocument.finishPage(myPage1);
 
@@ -274,14 +285,14 @@ public class LlzIndra70MonthlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel2 = {505,505,505,505,505,505,470,470,470,470,470,470,470,470,475,595,475,595,475,595,475,595,475,595,475,595};
-        int[] editTextYPixel2 = {152,172,195,226,258,290,388,416,446,468,492,522,556,578,714,714,733,733,750,750,767,767,784,784,814,814};
+        int[] editTextXPixel2 = {446,507,420,420,420,420,450,450,450,450,450,450,450,450,450,450,450};
+        int[] editTextYPixel2 = {150,150,265,290,330,365,453,488,510,537,571,602,695,728,760,782,810};
 
 
 
 
         for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+22],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+16],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
         }
 
         myPdfdocument.finishPage(myPage2);
@@ -302,14 +313,39 @@ public class LlzIndra70MonthlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel3 = {455,455,455,455,455,525,525,525,50};
-        int[] editTextYPixel3 = {171,192,216,245,280,370,419,464,557};
-
-        int[] switchXPixel = {525,525,525};
-        int[] switchYPixel = {396,441,490};
+        int[] editTextXPixel3 = {440,440,440,337,447,337,447,337,447,337,447,402,535,402,535,402,535,402,535,402,535,402,535,405,405,405,405,405};
+        int[] editTextYPixel3 = {123,155,177,244,244,260,260,276,276,294,294,414,414,430,430,448,448,465,465,490,490,524,524,661,694,732,772,815};
 
         for(int i = 0; i < editTextXPixel3.length; i++){
-            canvas.drawText( editTextDataForPDF[i+48],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+33],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
+        }
+
+        myPdfdocument.finishPage(myPage3);
+
+        //-------------------------End of Page 3-----------------
+        //----------------------Page 4---------------------
+
+        PdfDocument.PageInfo myPageInfo4 = new PdfDocument.PageInfo.Builder(723, 1024, 4).create();
+
+        // start a page
+        PdfDocument.Page myPage4 = myPdfdocument.startPage(myPageInfo4);
+
+        canvas = myPage4.getCanvas();
+        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.llzindra70monthly4);
+        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
+        canvas.drawBitmap(scaledbmp,0 , 0, paint);
+
+
+        titlePaint.setTextSize(12);
+
+        int[] editTextXPixel4 = {490,490,490,95};
+        int[] editTextYPixel4 = {200,258,320,428};
+
+        int[] switchXPixel = {490,490,490};
+        int[] switchYPixel = {232,294,362};
+
+        for(int i = 0; i < editTextXPixel4.length; i++){
+            canvas.drawText( editTextDataForPDF[i+61],editTextXPixel4[i],editTextYPixel4[i],titlePaint);
         }
 
         for(int i = 0; i < switchXPixel.length; i++){
@@ -318,11 +354,11 @@ public class LlzIndra70MonthlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 75, 620, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 75, 540, paint);
 
-        myPdfdocument.finishPage(myPage3);
+        myPdfdocument.finishPage(myPage4);
 
-        //-------------------------End of Page 3-----------------
+        //-------------------------End of Page 4-----------------
 
 
         ActivityCompat.requestPermissions(this, new String[]{

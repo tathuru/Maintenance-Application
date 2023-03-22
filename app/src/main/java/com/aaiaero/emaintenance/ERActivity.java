@@ -29,6 +29,9 @@ public class ERActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
+        //Test
+        //test2
+
     }
 
     public void vhfClicked (View view){
@@ -42,7 +45,8 @@ public class ERActivity extends AppCompatActivity {
 
     public void dvrClicked (View view){
         // Launch the DVR Equipment Room Activity
-
+        Intent intent = new Intent(getApplicationContext(), DVRActivity.class);
+        startActivity(intent);
 
 
     }
@@ -50,7 +54,8 @@ public class ERActivity extends AppCompatActivity {
     public void datisClicked (View view){
         // Launch the DATISEquipment Room Activity
 
-
+        Intent intent = new Intent(getApplicationContext(), DatisMakeActivity.class);
+        startActivity(intent);
 
     }
 

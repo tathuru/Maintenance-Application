@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class NavigationLlzIndra70Activity extends AppCompatActivity {
 
-    Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
+    Button daily, weekly, wfr, monthly, quarterly, halfYearly, yearly, mfr;
 
 
     @Override
@@ -22,12 +22,12 @@ public class NavigationLlzIndra70Activity extends AppCompatActivity {
 
         daily = (Button) findViewById(R.id.daily);
         weekly = (Button) findViewById(R.id.weekly);
-        fortnightly = (Button) findViewById(R.id.fortnightly);
+        wfr = (Button) findViewById(R.id.wfr);
         monthly = (Button) findViewById(R.id.monthly);
         quarterly = (Button) findViewById(R.id.quarterly);
         halfYearly = (Button) findViewById(R.id.halfYearly);
         yearly = (Button) findViewById(R.id.yearly);
-        miscellaneous = (Button) findViewById(R.id.miscellaneous);
+        mfr = (Button) findViewById(R.id.mfr);
 
         Intent intent = getIntent();
 
@@ -49,9 +49,10 @@ public class NavigationLlzIndra70Activity extends AppCompatActivity {
 
     }
 
-    public void fortnightlyClicked (View view){
+    public void wfrClicked (View view){
 
-
+        Intent intent = new Intent(getApplicationContext(),LlzIndra70WfrActivity.class);
+        startActivity(intent);
 
 
     }
@@ -65,26 +66,31 @@ public class NavigationLlzIndra70Activity extends AppCompatActivity {
 
     public void quaterlyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(),GpThalesQuarterlyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),LlzIndra70QuarterlyActivity.class);
         startActivity(intent);
 
     }
 
     public void halfYearlyClicked (View view){
 
+        Intent intent = new Intent(getApplicationContext(),LlzIndra70SixActivity.class);
+        startActivity(intent);
 
 
     }
 
     public void yearlyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(),GpThalesAnnualActivity.class);
+        Intent intent = new Intent(getApplicationContext(),LlzIndra70AnnualActivity.class);
         startActivity(intent);
 
     }
 
-    public void miscellaneousClicked (View view){
+    public void mfrClicked (View view){
         // Launch the Others Equipment Room Activity
+        Intent intent = new Intent(getApplicationContext(),LlzIndra70MfrActivity.class);
+        startActivity(intent);
+
 
 
 

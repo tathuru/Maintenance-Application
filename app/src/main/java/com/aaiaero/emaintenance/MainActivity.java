@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     final String[] latLong = {""};
 
     Button scanButton;
+    TextView textViewReply;
 
     public static String a_log = "";
     public static String latLong1;
@@ -101,6 +102,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         locationFound = false;
+        textViewReply = (TextView) findViewById(R.id.textViewReply);
+        textViewReply.setVisibility(View.INVISIBLE);
 
         ParseUser.logOut();
 
@@ -208,12 +211,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void scanCode(){
 
-        IntentIntegrator integrator = new IntentIntegrator(this);
+        /*IntentIntegrator integrator = new IntentIntegrator(this);
         integrator.setCaptureActivity(CaptureAct.class);
         integrator.setOrientationLocked(false);
         integrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
         integrator.setPrompt("Searching for Logging Details.");
-        integrator.initiateScan();
+        integrator.initiateScan();*/
+
+        Intent intent = new Intent(getApplicationContext(),UnitSelectionActivity.class);
+        startActivity(intent);
 
 
     }
@@ -338,7 +344,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }*/
 
-                ParseUser.logInInBackground(usernameEditText.getText().toString() + "@aai.aero", passwordEditText.getText().toString(), new LogInCallback() {
+                //ParseUser.logInInBackground(usernameEditText.getText().toString() + "@gmail.com", passwordEditText.getText().toString(), new LogInCallback() {
+                ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
                     @Override
                     public void done(ParseUser user, ParseException e) {
 
@@ -351,6 +358,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         } else {
 
                             Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                            textViewReply.setVisibility(View.VISIBLE);
+                            textViewReply.setText(e.getMessage());
 
                         }
 

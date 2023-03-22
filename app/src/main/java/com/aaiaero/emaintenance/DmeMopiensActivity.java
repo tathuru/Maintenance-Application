@@ -9,7 +9,6 @@ package com.aaiaero.emaintenance;
 
 public class DmeMopiensActivity extends AppCompatActivity {
 
-    Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
 
 
     @Override
@@ -17,30 +16,18 @@ public class DmeMopiensActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dme_mopiens);
 
-        setTitle("MOPIENS DME  Maintenance");
-
-        daily = (Button) findViewById(R.id.daily);
-        weekly = (Button) findViewById(R.id.weekly);
-        fortnightly = (Button) findViewById(R.id.fortnightly);
-        monthly = (Button) findViewById(R.id.monthly);
-        quarterly = (Button) findViewById(R.id.quarterly);
-        halfYearly = (Button) findViewById(R.id.halfYearly);
-        yearly = (Button) findViewById(R.id.yearly);
-        miscellaneous = (Button) findViewById(R.id.miscellaneous);
-
-        Intent intent = getIntent();
 
     }
 
-    public void dailyClicked (View view){
+    public void daily (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435DailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEMaru310and320DailyActivity.class);
         startActivity(intent);
 
 
     }
 
-    public void weeklyClicked (View view){
+    public void weekly (View view){
 
         Intent intent = new Intent(getApplicationContext(), NavAidsDMEMaru310and320WeeklyActivity.class);
         startActivity(intent);
@@ -48,47 +35,29 @@ public class DmeMopiensActivity extends AppCompatActivity {
 
     }
 
-    public void fortnightlyClicked (View view){
-        // Launch the DATISEquipment Room Activity
 
 
-
-    }
-
-    public void monthlyClicked (View view){
+    public void monthly (View view){
 
         Intent intent = new Intent(getApplicationContext(), NavAidsDMEMaru310and320MonthlyActivity.class);
         startActivity(intent);
 
     }
 
-    public void quaterlyClicked (View view){
+    public void halfYearly (View view){
 
-
-
-
-    }
-
-    public void halfYearlyClicked (View view){
-
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435SixMonthlyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEMaru310and320SixMonthlyActivity.class);
         startActivity(intent);
 
     }
 
-    public void yearlyClicked (View view){
+    public void yearly (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEThales415and435AnnualActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEMaru310and320AnnualActivity.class);
         startActivity(intent);
 
 
 
     }
 
-    public void miscellaneousClicked (View view){
-        // Launch the Others Equipment Room Activity
-
-
-
-    }
 }

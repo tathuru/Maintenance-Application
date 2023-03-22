@@ -377,7 +377,7 @@ public class NavAidsDVORGcel755MonthlyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        myFunctions.saveToParse(targetPdf, fileName, "GCEL_DVOR_755", "Monthly", outputEditText, MyFunctions.specificCode("m"),outputSwitch, "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "DVOR", "Monthly", outputEditText, MyFunctions.specificCode("m"),outputSwitch, "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
