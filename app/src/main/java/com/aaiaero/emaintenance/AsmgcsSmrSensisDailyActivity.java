@@ -35,7 +35,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-public class AutomationIndraB2cMonthlyActivity extends AppCompatActivity {
+public class AsmgcsSmrSensisDailyActivity extends AppCompatActivity {
 
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
     private MySignature mySignature = new MySignature(this);
@@ -44,17 +44,17 @@ public class AutomationIndraB2cMonthlyActivity extends AppCompatActivity {
     private EditText[] editTextArray;//Copy
     private Switch[] switchArray={};//Copy
     private Spinner[] spinnerArray={};//Copy
-    private String thisActivityName = "AutomationIndraB2cMonthlyActivity"; //Change Here as per your class name
+    private String thisActivityName = "AsmgcsSmrSensisDailyActivity"; //Change Here as per your class name
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_automation_indra_b2c_monthly);
+        setContentView(R.layout.activity_asmgcs_smr_sensis_daily);
         //Define and Initialize all EditTexts serially here
-        EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16;
+        EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
+                editText17, editText18, editText19;
 
-        editTextArray = new EditText[]{
-                editText1 = (EditText) findViewById(R.id.editText2),
+        editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText2),
                 editText2 = (EditText) findViewById(R.id.editText3),
                 editText3 = (EditText) findViewById(R.id.editText4),
                 editText4 = (EditText) findViewById(R.id.editText5),
@@ -63,13 +63,17 @@ public class AutomationIndraB2cMonthlyActivity extends AppCompatActivity {
                 editText7 = (EditText) findViewById(R.id.editText8),
                 editText8 = (EditText) findViewById(R.id.editText9),
                 editText9 = (EditText) findViewById(R.id.editText10),
-                editText10 = (EditText) findViewById(R.id.editText11),
-                editText11 = (EditText) findViewById(R.id.editText12),
+                editText10 =(EditText) findViewById(R.id.editText11),
+                editText11 =(EditText)  findViewById(R.id.editText12),
                 editText12 = (EditText) findViewById(R.id.editText13),
-                editText13 = (EditText) findViewById(R.id.editText14),
+                editText13 =(EditText)  findViewById(R.id.editText14),
                 editText14 = (EditText) findViewById(R.id.editText15),
                 editText15 = (EditText) findViewById(R.id.editText16),
-                editText16 = (EditText) findViewById(R.id.editText17)};
+                editText16 = (EditText) findViewById(R.id.editText17),
+                editText17 = (EditText) findViewById(R.id.editText18),
+                editText18 = (EditText) findViewById(R.id.editText19),
+                editText19 = (EditText) findViewById(R.id.editText20)};
+
         //Define and Initialize all Switches serially here
 
 //Define and Initialize all Spinners serially here
@@ -85,7 +89,7 @@ public class AutomationIndraB2cMonthlyActivity extends AppCompatActivity {
         TextView textView9 = (TextView) findViewById(R.id.textView4);
         textView9.setText("Location: " + MainActivity.latLong1);
 
-        TextView textViewDate = (TextView) findViewById(R.id.textView5);
+        TextView textViewDate = (TextView) findViewById(R.id.textViewDate);
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("dd:MM:yyyy HH:mm");
         String strData = sdf.format(calendar.getTime());
@@ -169,15 +173,15 @@ public class AutomationIndraB2cMonthlyActivity extends AppCompatActivity {
 
         Bitmap bmp,scaledbmp;
 
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.automationindrab2cmonthly);
+        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.asmgcssmrsensisdaily1);
         scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {118,620,475,475,475,475,475,475,280,475,475,475,340,340,475,475};
-        int[] editTextYPixel = {190,190,275,340,380,410,450,500,485,550,600,660,670,685,720,750};
+        int[] editTextXPixel = {110,240,330,330,330,330,330,330,330,330,330,330,330};
+        int[] editTextYPixel = {245,245,455,490,525,590,625,660,695,730,770,835,869};
 
 
 
@@ -203,16 +207,46 @@ public class AutomationIndraB2cMonthlyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,570,208,titlePaint);//Printing Date on PDF
-        titlePaint.setTextSize(12);
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 20, 760, paint);
+        canvas.drawText(strData,420,245,titlePaint);//Printing Date on PDF
 
         myPdfdocument.finishPage(myPage1);
 
 
         //---------------------End of Page 1---------------
+
+        //----------------------Page 2---------------------
+
+        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(723, 1024, 2).create();
+
+        // start a page
+        PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
+
+        canvas = myPage2.getCanvas();
+        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.asmgcssmrsensisdaily2);
+        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1024,false);
+        canvas.drawBitmap(scaledbmp,0 , 0, paint);
+
+
+        titlePaint.setTextSize(12);
+
+        int[] editTextXPixel2 = {330,330,330,330,330,100};
+        int[] editTextYPixel2 = {155,215,250,417,485,505};
+
+
+
+        for(int i = 0; i < editTextXPixel2.length; i++){
+            canvas.drawText( editTextDataForPDF[i+13],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
+        }
+
+
+        titlePaint.setTextSize(12);
+        paint.setTextAlign(Paint.Align.LEFT);
+
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,250, false), 30, 660, paint);
+
+        myPdfdocument.finishPage(myPage2);
+
+        //-------------------------End of Page 2-----------------
 
 
         ActivityCompat.requestPermissions(this, new String[]{
@@ -220,14 +254,14 @@ public class AutomationIndraB2cMonthlyActivity extends AppCompatActivity {
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
 
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Automation/Indra/B2c/Monthly/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/ASMGCS/SENSIS/SMR/Daily/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "Monthly B2c Indra " + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "Daily ASMGCS SENSIS SMR " + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -242,12 +276,12 @@ public class AutomationIndraB2cMonthlyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Automation","Monthly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Daily",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
         myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-                "Monthly Maintenance of Indra B2c done.",//Change Here-----------------------------
+                "Daily Maintenance of SENSIS SMR done.",//Change Here-----------------------------
                 "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
 
 
