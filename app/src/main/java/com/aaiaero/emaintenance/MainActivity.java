@@ -211,15 +211,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void scanCode(){
 
-        /*IntentIntegrator integrator = new IntentIntegrator(this);
+        IntentIntegrator integrator = new IntentIntegrator(this);
         integrator.setCaptureActivity(CaptureAct.class);
         integrator.setOrientationLocked(false);
         integrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
         integrator.setPrompt("Searching for Logging Details.");
-        integrator.initiateScan();*/
+        integrator.initiateScan();
 
-        Intent intent = new Intent(getApplicationContext(),UnitSelectionActivity.class);
-        startActivity(intent);
+
 
 
     }
@@ -408,15 +407,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (locationPermission != PackageManager.PERMISSION_GRANTED) {
             listPermissionsNeeded.add(Manifest.permission.ACCESS_FINE_LOCATION);
         }
-        if (permissionCamera != PackageManager.PERMISSION_GRANTED) {
+       /* if (permissionCamera != PackageManager.PERMISSION_GRANTED) {
             listPermissionsNeeded.add(Manifest.permission.CAMERA);
-        }
-        if (externalStoragePermission != PackageManager.PERMISSION_GRANTED) {
+        }*/
+      /*  if (externalStoragePermission != PackageManager.PERMISSION_GRANTED) {
             listPermissionsNeeded.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
         }
         if (readexternalStoragePermission != PackageManager.PERMISSION_GRANTED) {
             listPermissionsNeeded.add(Manifest.permission.READ_EXTERNAL_STORAGE);
-        }
+        }*/
 
         if (!listPermissionsNeeded.isEmpty()) {
             ActivityCompat.requestPermissions(this, listPermissionsNeeded.toArray(new String[listPermissionsNeeded.size()]), REQUEST_ID_MULTIPLE_PERMISSIONS);
