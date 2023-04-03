@@ -25,14 +25,182 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".AutomationDrfNeptunoRecordingCheck"
+            android:name=".AsmgcsHittYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCmsSiteSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCpsSiteWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSmrSiteWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSmrSiteBiteMeasurementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSmrSiteSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSmrSiteQuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSmrSiteMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSmrSiteEvenWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSmrSiteOddWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittSmrSiteDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittMlatsMastSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittMlatsFaultSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittMlatsCabinetSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittMlatsAntennaSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittMlatsEmcSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCmsSiteMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCmsSiteWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCmsSiteDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCpsSiteYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCpsSiteSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCpsSiteEvenWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCpsSiteOddWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsHittCpsSiteDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSmrSensisYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSmrSensisSixMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSmrSensisQuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisRu6MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisRu5MonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisReftransMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisCwpMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSensisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SurAsmgcsMakeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsProcessorsSensisMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSmrSensisMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsRu6SensisWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsRu5SensisWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSmrSensisWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsRuReftransSensisDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsmgcsSmrSensisDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SurMssrIndraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SurveilanceMssrIndraAnnualyActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".AutomationUPS5kvaDailyActivity"
+            android:name=".SurveilanceMssrIndraSixMonthlyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SurveilanceMssrIndraMonthlyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SurveilanceMssrIndraDailyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AutomationDrfNeptunoRecordingCheck"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -134,9 +302,6 @@
             android:exported="false" />
         <activity
             android:name=".SignupActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DvorGcelActivity"
             android:exported="false" />
         <activity
             android:name=".DmeThalesActivity"

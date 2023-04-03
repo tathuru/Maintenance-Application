@@ -1599,6 +1599,206 @@ public class ListDataActivity extends AppCompatActivity {
                             startActivity(editScreenIntent);
                             break;
 
+                        case "AsmgcsHittCpsSiteDailyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittCpsSiteDailyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittCpsSiteOddWeeklyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittCpsSiteOddWeeklyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+                        case "AsmgcsHittCpsSiteEvenWeeklyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittCpsSiteEvenWeeklyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittCpsSiteSixMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittCpsSiteSixMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittCpsSiteYearlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittCpsSiteYearlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittCmsSiteDailyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittCmsSiteDailyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittCmsSiteWeeklyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittCmsSiteWeeklyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittCmsSiteMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittCmsSiteMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittMlatsEmcSixMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittMlatsEmcSixMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittMlatsAntennaSixMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittMlatsAntennaSixMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittMlatsCabinetSixMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittMlatsCabinetSixMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittMlatsFaultSixMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittMlatsFaultSixMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittMlatsMastSixMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittMlatsMastSixMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittSmrSiteDailyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittSmrSiteDailyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittSmrSiteOddWeeklyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittSmrSiteOddWeeklyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittSmrSiteEvenWeeklyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittSmrSiteEvenWeeklyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittSmrSiteMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittSmrSiteMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittSmrSiteQuarterlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittSmrSiteQuarterlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+
+                        case "AsmgcsHittSmrSiteSixMonthlyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittSmrSiteSixMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "AsmgcsHittSmrSiteBiteMeasurementActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, AsmgcsHittSmrSiteBiteMeasurementActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
                     }
                 }
                 else{
