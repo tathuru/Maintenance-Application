@@ -243,7 +243,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70AnnualCourse"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -251,7 +251,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70AnnualCourseShift"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -260,7 +260,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70AnnualRedPower"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -284,7 +284,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70AnnualDDMDist"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center"
                         android:textColor="@color/textViewColor"
@@ -292,7 +292,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70AnnualCourseShift1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center"
                         android:textColor="@color/textViewColor"
@@ -301,7 +301,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70AnnualRedPower1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center"
                         android:textColor="@color/textViewColor"
@@ -343,7 +343,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70AnnualFreqTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -351,7 +351,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70AnnualCarrFreqTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -359,7 +359,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70AnnualPhaseTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -383,7 +383,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70AnnualFreqTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -391,7 +391,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70AnnualCarrFreqTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -400,7 +400,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70AnnualPhaseTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""

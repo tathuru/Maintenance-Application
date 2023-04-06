@@ -9,23 +9,12 @@ import android.widget.Button;
 
 public class NavigationGpIndra70Activity extends AppCompatActivity {
 
-    Button daily, weekly, monthly, quarterly, halfYearly, yearly, miscellaneous;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_gp_indra70);
         setTitle("Indra (Normarc) 7000 GP Maintenance");
 
-        daily = (Button) findViewById(R.id.daily);
-        weekly = (Button) findViewById(R.id.weekly);
-        monthly = (Button) findViewById(R.id.monthly);
-        quarterly = (Button) findViewById(R.id.quarterly);
-        halfYearly = (Button) findViewById(R.id.halfYearly);
-        yearly = (Button) findViewById(R.id.yearly);
-        miscellaneous = (Button) findViewById(R.id.miscellaneous);
-
-        Intent intent = getIntent();
     }
     public void dailyClicked (View view){
 
@@ -50,31 +39,25 @@ public class NavigationGpIndra70Activity extends AppCompatActivity {
 
     }
 
-    public void quaterlyClicked (View view){
+    public void quarterlyClicked (View view){
 
         Intent intent = new Intent(getApplicationContext(),GpIndra70QuarterlyActivity.class);
         startActivity(intent);
 
     }
 
-    public void halfYearlyClicked (View view){
+    public void sixmonthlyClicked (View view){
 
         Intent intent = new Intent(getApplicationContext(),GpIndra70SixActivity.class);
         startActivity(intent);
 
     }
 
-    public void yearlyClicked (View view){
+    public void annualClicked (View view){
 
        Intent intent = new Intent(getApplicationContext(),GpIndra70AnnualActivity.class);
        startActivity(intent);
 
     }
 
-    public void miscellaneousClicked (View view){
-        // Launch the Others Equipment Room Activity
-
-
-
-    }
 }

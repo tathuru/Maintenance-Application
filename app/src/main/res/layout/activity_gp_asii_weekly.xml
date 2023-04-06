@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LlzAsiiWeeklyActivity">
+    tools:context=".GpAsiiWeeklyActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -98,13 +98,13 @@
 
 
             <TextView
-                android:id="@+id/textViewLlzAsiiWeekly"
+                android:id="@+id/textViewGpAsiiWeekly"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
-                android:text="PREVENTIVE MAINTENANCE SCHEDULE- WEEKLY (LOCALIZER)"
+                android:text="PREVENTIVE MAINTENANCE SCHEDULE- WEEKLY (GLIDE PATH)"
                 android:textStyle="bold"
                 android:textColor="@color/teal_700" />
 
@@ -115,22 +115,22 @@
                 android:orientation="horizontal"
                 android:layout_marginTop="20dp">
                 <TextView
-                    android:id="@+id/textViewLLlzAsiiWeeklyEquip"
+                    android:id="@+id/textViewLGpAsiiWeeklyEquip"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_weight="1"
                     android:textColor="@color/textViewColor"
-                    android:text="Equipment: LOCALIZER" />
+                    android:text="Equipment: G/Path" />
                 <TextView
-                    android:id="@+id/textViewLlzAsiiWeeklyMake"
+                    android:id="@+id/textViewGpAsiiWeeklyMake"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/textViewColor"
                     android:layout_marginStart="10dp"
                     android:textAlignment="viewEnd"
                     android:layout_weight="1"
-                    android:text="Make/Model: ASII/2100" />
+                    android:text="Make/Model: ASII/2110" />
                 <TextView
                     android:id="@+id/textViewDate1"
                     android:layout_width="match_parent"
@@ -156,7 +156,7 @@
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp">
                 <EditText
-                    android:id="@+id/editTextLlzAsiiWeeklyStation"
+                    android:id="@+id/editTextGpAsiiWeeklyStation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -167,7 +167,7 @@
                     android:minHeight="48dp"
                     android:textSize="14sp" />
                 <EditText
-                    android:id="@+id/editTextLlzAsiiWeeklyChOnAir"
+                    android:id="@+id/editTextGpAsiiWeeklyChOnAir"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -178,7 +178,7 @@
                     android:inputType="textPersonName"
                     android:minHeight="48dp" />
                 <EditText
-                    android:id="@+id/editTextLlzAsiiWeeklyCat"
+                    android:id="@+id/editTextGpAsiiWeeklyCat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -189,7 +189,7 @@
                     android:inputType="textPersonName"
                     android:minHeight="48dp" />
                 <EditText
-                    android:id="@+id/editTextLlzAsiiWeeklyFrequency"
+                    android:id="@+id/editTextGpAsiiWeeklyFrequency"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -201,7 +201,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textViewLlzAsiiWeeklyP1"
+                android:id="@+id/textViewGpAsiiWeeklyP1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -222,7 +222,7 @@
                     android:layout_marginStart="10dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklySNo"
+                        android:id="@+id/textViewGpAsiiWeeklySNo"
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:textColor="@color/teal_700"
@@ -232,7 +232,7 @@
                         android:layout_weight="0.2"
                         android:textStyle="bold"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly1"
+                        android:id="@+id/textViewGpAsiiWeekly1"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -241,7 +241,7 @@
                         android:text="1.1"/>
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly2"
+                        android:id="@+id/textViewGpAsiiWeekly2"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -249,7 +249,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="1.2" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly3"
+                        android:id="@+id/textViewGpAsiiWeekly3"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -257,7 +257,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="1.3" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly4"
+                        android:id="@+id/textViewGpAsiiWeekly4"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -265,7 +265,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="1.4" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly5"
+                        android:id="@+id/textViewGpAsiiWeekly5"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -273,7 +273,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="1.5" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly6"
+                        android:id="@+id/textViewGpAsiiWeekly6"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -281,7 +281,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="1.6" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly7"
+                        android:id="@+id/textViewGpAsiiWeekly7"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -289,7 +289,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="1.7" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly8"
+                        android:id="@+id/textViewGpAsiiWeekly8"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -297,7 +297,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="1.8" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly9"
+                        android:id="@+id/textViewGpAsiiWeekly9"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:gravity="center_vertical"
@@ -314,7 +314,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyPara1"
+                        android:id="@+id/textViewGpAsiiWeeklyPara1"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginTop="5dp"
@@ -323,7 +323,7 @@
                         android:text="Parameter"
                         android:textStyle="bold"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP5"
+                        android:id="@+id/textViewGpAsiiWeeklyP5"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -331,7 +331,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="+ 5 Volts DC" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP12"
+                        android:id="@+id/textViewGpAsiiWeeklyP12"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -339,7 +339,7 @@
                         android:text="+ 12 Volts DC"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP12V"
+                        android:id="@+id/textViewGpAsiiWeeklyP12V"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -347,7 +347,7 @@
                         android:text="- 12 Volts DC"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP24"
+                        android:id="@+id/textViewGpAsiiWeeklyP24"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -356,7 +356,7 @@
                         android:textColor="@color/textViewColor" />
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP24Tx1"
+                        android:id="@+id/textViewGpAsiiWeeklyP24Tx1"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -364,7 +364,7 @@
                         android:text="TX-1 24 Volts PS"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP24Tx2"
+                        android:id="@+id/textViewGpAsiiWeeklyP24Tx2"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -372,7 +372,7 @@
                         android:text="TX-2 24 Volts PS "
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyPBatt1"
+                        android:id="@+id/textViewGpAsiiWeeklyPBatt1"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -380,7 +380,7 @@
                         android:text="Battery-1"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyPBatt2"
+                        android:id="@+id/textViewGpAsiiWeeklyPBatt2"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -388,7 +388,7 @@
                         android:text="Battery-2"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyPAc"
+                        android:id="@+id/textViewGpAsiiWeeklyPAc"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -404,7 +404,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP1Mon1"
+                        android:id="@+id/textViewGpAsiiWeeklyP1Mon1"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginTop="5dp"
@@ -415,7 +415,7 @@
 
 
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon15DC"
+                        android:id="@+id/editTextGpAsiiWeeklyMon15DC"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -425,7 +425,7 @@
                         android:textSize="14sp" />
 
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon112DC"
+                        android:id="@+id/editTextGpAsiiWeeklyMon112DC"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -434,17 +434,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon112VDC"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="10"
-                        android:hint=""
-                        android:minHeight="48dp"
-                        android:textSize="14sp"/>
-
-                    <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon124DC"
+                        android:id="@+id/editTextGpAsiiWeeklyMon112VDC"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -454,7 +444,17 @@
                         android:textSize="14sp"/>
 
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon124DCTx1"
+                        android:id="@+id/editTextGpAsiiWeeklyMon124DC"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextGpAsiiWeeklyMon124DCTx1"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -463,7 +463,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon124DCTx2"
+                        android:id="@+id/editTextGpAsiiWeeklyMon124DCTx2"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -472,7 +472,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon1Batt1"
+                        android:id="@+id/editTextGpAsiiWeeklyMon1Batt1"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -481,7 +481,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon1Batt2"
+                        android:id="@+id/editTextGpAsiiWeeklyMon1Batt2"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -490,7 +490,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon1AcMains"
+                        android:id="@+id/editTextGpAsiiWeeklyMon1AcMains"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -507,7 +507,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP1Mon2"
+                        android:id="@+id/textViewGpAsiiWeeklyP1Mon2"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginTop="5dp"
@@ -518,7 +518,7 @@
 
 
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon25DC"
+                        android:id="@+id/editTextGpAsiiWeeklyMon25DC"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -528,7 +528,7 @@
                         android:textSize="14sp" />
 
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon212DC"
+                        android:id="@+id/editTextGpAsiiWeeklyMon212DC"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -537,17 +537,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon212VDC"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:ems="10"
-                        android:hint=""
-                        android:minHeight="48dp"
-                        android:textSize="14sp"/>
-
-                    <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon224DC"
+                        android:id="@+id/editTextGpAsiiWeeklyMon212VDC"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -557,7 +547,17 @@
                         android:textSize="14sp"/>
 
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon224DCTx1"
+                        android:id="@+id/editTextGpAsiiWeeklyMon224DC"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextGpAsiiWeeklyMon224DCTx1"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -566,7 +566,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon224DCTx2"
+                        android:id="@+id/editTextGpAsiiWeeklyMon224DCTx2"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -575,7 +575,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon2Batt1"
+                        android:id="@+id/editTextGpAsiiWeeklyMon2Batt1"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -584,7 +584,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon2Batt2"
+                        android:id="@+id/editTextGpAsiiWeeklyMon2Batt2"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -593,7 +593,7 @@
                         android:minHeight="48dp"
                         android:textSize="14sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyMon2AcMains"
+                        android:id="@+id/editTextGpAsiiWeeklyMon2AcMains"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -605,7 +605,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textViewLlzAsiiWeeklyP2"
+                android:id="@+id/textViewGpAsiiWeeklyP2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -625,7 +625,7 @@
                     android:layout_marginStart="10dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklySNo2"
+                        android:id="@+id/textViewGpAsiiWeeklySNo2"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:textColor="@color/teal_700"
@@ -634,7 +634,7 @@
                         android:gravity="center_vertical"
                         android:textStyle="bold"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly21"
+                        android:id="@+id/textViewGpAsiiWeekly21"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -642,53 +642,23 @@
                         android:textColor="@color/textViewColor"
                         android:text="2.1"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly22"
+                        android:id="@+id/textViewGpAsiiWeekly22"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="2.2" />
+
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly23"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                        android:id="@+id/textViewGpAsiiWeekly23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:textColor="@color/teal_700"
+                        android:textColor="@color/textViewColor"
                         android:text="2.3" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly24"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="2.3.1" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly25"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="2.3.2" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly26"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="2.3.3"/>
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly27"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="2.3.4" />
+
 
                 </LinearLayout>
 
@@ -699,7 +669,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyPara2"
+                        android:id="@+id/textViewGpAsiiWeeklyPara2"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:layout_marginTop="5dp"
@@ -707,32 +677,9 @@
                         android:textColor="@color/teal_700"
                         android:text="Parameter"
                         android:textStyle="bold"/>
+
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyMod90"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="(Mod Depth 90 Hz)\nField Reading with PIR" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyMod150"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:text="(Mod Depth 150 Hz)\nField Reading with PIR"
-                        android:textColor="@color/textViewColor" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyModSum"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/teal_700"
-                        android:text="Mod Sum\n(Measured AT)"/>
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyModInt"
+                        android:id="@+id/textViewGpAsiiWeeklyModInt"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -740,7 +687,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="Integral Monitor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyModSby"
+                        android:id="@+id/textViewGpAsiiWeeklyModSby"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -748,21 +695,14 @@
                         android:text="S/By Monitor"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyModFFM"
+                        android:id="@+id/textViewGpAsiiWeeklyModNFM"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="FFM Data" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyModField"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:text="Field Reading"
-                        android:textColor="@color/textViewColor" />
+                        android:text="NFM Data" />
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -771,7 +711,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP2Nom"
+                        android:id="@+id/textViewGpAsiiWeeklyP2Nom"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginTop="5dp"
@@ -789,7 +729,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyNomTx1"
+                                android:id="@+id/textViewGpAsiiWeeklyNomTx1"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="5dp"
@@ -797,60 +737,35 @@
                                 android:textStyle="bold"
                                 android:gravity="center"
                                 android:text="Tx-I" />
+
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx1Mod90"
+                                android:id="@+id/editTextGpAsiiWeeklyNomTx1ModInt"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:ems="4"
-                                android:hint="±1 %"
+                                android:hint="±4 %"
                                 android:textSize="14sp"/>
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx1Mod150"
+                                android:id="@+id/editTextGpAsiiWeeklyNomTx1ModSby"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:ems="4"
-                                android:hint="±1 %"
+                                android:hint="±4 %"
                                 android:textSize="14sp"/>
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx1ModInt"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="50dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx1ModSby"
+                                android:id="@+id/editTextGpAsiiWeeklyNomTx1ModNFM"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:ems="4"
-                                android:hint="±2 %"
+                                android:hint="±4 %"
                                 android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx1ModFFM"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx1ModField"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
+
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -858,7 +773,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyNomTx2"
+                                android:id="@+id/textViewGpAsiiWeeklyNomTx2"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="5dp"
@@ -866,61 +781,34 @@
                                 android:textStyle="bold"
                                 android:gravity="center"
                                 android:text="Tx-II" />
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx2Mod90"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±1 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx2Mod150"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±1 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx2ModInt"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="50dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx2ModSby"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx2ModFFM"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyNomTx2ModField"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
 
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyNomTx2ModInt"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyNomTx2ModSby"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyNomTx2ModNFM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
 
                         </LinearLayout>
                     </LinearLayout>
@@ -932,7 +820,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyObs"
+                        android:id="@+id/textViewGpAsiiWeeklyObs"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:gravity="center"
@@ -950,7 +838,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyObsTx1"
+                                android:id="@+id/textViewGpAsiiWeeklyObsTx1"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="5dp"
@@ -958,61 +846,34 @@
                                 android:textStyle="bold"
                                 android:gravity="center"
                                 android:text="Tx-I" />
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx1Mod90"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±1 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx1Mod150"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±1 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx1ModInt"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="50dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx1ModSby"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx1ModFFM"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx1ModField"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
 
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyObsTx1ModInt"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyObsTx1ModSby"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyObsTx1ModNFM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
 
                         </LinearLayout>
 
@@ -1022,7 +883,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyObsTx2"
+                                android:id="@+id/textViewGpAsiiWeeklyObsTx2"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="5dp"
@@ -1030,61 +891,34 @@
                                 android:textStyle="bold"
                                 android:gravity="center"
                                 android:text="Tx-II" />
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx2Mod90"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±1 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx2Mod150"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±1 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx2ModInt"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="50dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx2ModSby"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx2ModFFM"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyObsTx2ModField"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:gravity="center_vertical"
-                                android:ems="4"
-                                android:hint="±2 %"
-                                android:textSize="14sp"/>
 
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyObsTx2ModInt"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyObsTx2ModSby"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextGpAsiiWeeklyObsTx2ModNFM"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_vertical"
+                                android:ems="4"
+                                android:hint="±4 %"
+                                android:textSize="14sp"/>
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -1102,7 +936,7 @@
                     android:layout_marginStart="10dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklySNo3"
+                        android:id="@+id/textViewGpAsiiWeeklySNo3"
                         android:layout_width="match_parent"
                         android:layout_height="110dp"
                         android:textColor="@color/teal_700"
@@ -1111,7 +945,7 @@
                         android:text="S. No"
                         android:textStyle="bold"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly31"
+                        android:id="@+id/textViewGpAsiiWeekly31"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:textStyle="bold"
@@ -1120,7 +954,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="3"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly32"
+                        android:id="@+id/textViewGpAsiiWeekly32"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -1128,7 +962,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="3.1" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly33"
+                        android:id="@+id/textViewGpAsiiWeekly33"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -1136,7 +970,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="3.2" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly34"
+                        android:id="@+id/textViewGpAsiiWeekly34"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -1144,23 +978,16 @@
                         android:textColor="@color/textViewColor"
                         android:text="3.3" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly35"
+                        android:id="@+id/textViewGpAsiiWeekly35"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="3.4" />
+
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly36"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="3.5" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly40"
+                        android:id="@+id/textViewGpAsiiWeekly40"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:layout_marginTop="5dp"
@@ -1169,7 +996,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="4" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly41"
+                        android:id="@+id/textViewGpAsiiWeekly41"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -1177,39 +1004,16 @@
                         android:textColor="@color/textViewColor"
                         android:text="4.1" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly42"
+                        android:id="@+id/textViewGpAsiiWeekly42"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="4.2" />
+
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly43"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="3.3" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly44"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="4.4" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly45"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="4.5" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly46"
+                        android:id="@+id/textViewGpAsiiWeekly46"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -1227,7 +1031,7 @@
                     android:layout_weight="1.4"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyParameter2"
+                        android:id="@+id/textViewGpAsiiWeeklyParameter2"
                         android:layout_width="match_parent"
                         android:layout_height="110dp"
                         android:layout_marginTop="5dp"
@@ -1236,7 +1040,7 @@
                         android:text="Parameter"
                         android:textStyle="bold" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCRS"
+                        android:id="@+id/textViewGpAsiiWeeklyCRS"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_marginTop="5dp"
@@ -1246,42 +1050,33 @@
                         android:text="COURSE" />
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCRSRF"
+                        android:id="@+id/textViewGpAsiiWeeklyCRSRF"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
-                        android:text="C/ Line RF Level"
+                        android:text="Path RF Level"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor" />
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCRSDDM"
+                        android:id="@+id/textViewGpAsiiWeeklyCRSDDM"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:text="C/ Line DDM"
+                        android:text="Path DDM"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCRSSDM"
+                        android:id="@+id/textViewGpAsiiWeeklyCRSSDM"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="C/ Line SDM" />
+                        android:text="Path SDM" />
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCRSIdent"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:text="Ident MOD %"
-                        android:textColor="@color/textViewColor" />
-
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCRSWidth"
+                        android:id="@+id/textViewGpAsiiWeeklyCRSWidth"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -1290,7 +1085,7 @@
                         android:textColor="@color/textViewColor" />
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCLR"
+                        android:id="@+id/textViewGpAsiiWeeklyCLR"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_marginTop="5dp"
@@ -1300,50 +1095,25 @@
                         android:text="CLEARANCE" />
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCLRRF"
+                        android:id="@+id/textViewGpAsiiWeeklyCLRRF"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
-                        android:text="C/ Line RF Level"
+                        android:text="Path RF Level"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor" />
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCLRDDM"
+                        android:id="@+id/textViewGpAsiiWeeklyCLR150Mod"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:text="C/ Line DDM"
-                        android:textColor="@color/textViewColor" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCLRSDM"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="C/ Line SDM" />
-
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCLRIdent"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:text="Ident MOD %"
+                        android:text="150 Hz MOD %"
                         android:textColor="@color/textViewColor" />
 
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCLRWidth"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:text="Width DDM"
-                        android:textColor="@color/textViewColor" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyRFFreq"
+                        android:id="@+id/textViewGpAsiiWeeklyRFFreq"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -1360,7 +1130,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP3Mon1"
+                        android:id="@+id/textViewGpAsiiWeeklyP3Mon1"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginTop="5dp"
@@ -1378,7 +1148,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyMon1Int"
+                                android:id="@+id/textViewGpAsiiWeeklyMon1Int"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:gravity="center"
@@ -1396,7 +1166,7 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
                                     <TextView
-                                        android:id="@+id/textViewLlzAsiiWeeklyMon1IntNom"
+                                        android:id="@+id/textViewGpAsiiWeeklyMon1IntNom"
                                         android:layout_width="match_parent"
                                         android:layout_height="40dp"
                                         android:layout_marginTop="5dp"
@@ -1405,7 +1175,7 @@
                                         android:gravity="center"
                                         android:text="Nom Value" />
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomCrsRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntNomCrsRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1414,43 +1184,35 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomCrsDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntNomCrsDDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.0044"
+                                        android:hint="±0.02"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomCrsSDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntNomCrsSDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomCrsIdent"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntNomCrsWidth"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 20%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomCrsWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 10%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomClrRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntNomClrRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1459,43 +1221,17 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomClrDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntNomClr150Mod"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.020"
+                                        android:hint="±4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomClrSDM"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomClrIdent"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomClrWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 17%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntNomRFFreq"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntNomRFFreq"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
@@ -1512,7 +1248,7 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
                                     <TextView
-                                        android:id="@+id/textViewLlzAsiiWeeklyMon1IntObs"
+                                        android:id="@+id/textViewGpAsiiWeeklyMon1IntObs"
                                         android:layout_width="match_parent"
                                         android:layout_height="40dp"
                                         android:layout_marginTop="5dp"
@@ -1521,7 +1257,7 @@
                                         android:gravity="center"
                                         android:text="Obsvd Value" />
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsCrsRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntObsCrsRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1530,43 +1266,35 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsCrsDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntObsCrsDDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.0044"
+                                        android:hint="±0.02"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsCrsSDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntObsCrsSDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsCrsIdent"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntObsCrsWidth"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 20%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsCrsWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 10%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsClrRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntObsClrRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1575,43 +1303,17 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsClrDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntObsClr150Mod"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.020"
+                                        android:hint="±4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsClrSDM"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsClrIdent"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsClrWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 17%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1IntObsRFFreq"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1IntObsRFFreq"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
@@ -1630,7 +1332,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyMon1Sby"
+                                android:id="@+id/textViewGpAsiiWeeklyMon1Sby"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:gravity="center"
@@ -1648,7 +1350,7 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
                                     <TextView
-                                        android:id="@+id/textViewLlzAsiiWeeklyMon1SbyNom"
+                                        android:id="@+id/textViewGpAsiiWeeklyMon1SbyNom"
                                         android:layout_width="match_parent"
                                         android:layout_height="40dp"
                                         android:layout_marginTop="5dp"
@@ -1657,7 +1359,7 @@
                                         android:gravity="center"
                                         android:text="Nom Value" />
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomCrsRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyNomCrsRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1666,43 +1368,35 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomCrsDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyNomCrsDDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.0044"
+                                        android:hint="±0.02"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomCrsSDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyNomCrsSDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomCrsIdent"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyNomCrsWidth"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 20%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomCrsWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 10%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomClrRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyNomClrRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1711,43 +1405,17 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomClrDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyNomClr150Mod"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.020"
+                                        android:hint="±4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomClrSDM"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomClrIdent"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomClrWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 17%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyNomRFFreq"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyNomRFFreq"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
@@ -1755,7 +1423,6 @@
                                         android:ems="4"
                                         android:hint="± 500 Hz"
                                         android:textSize="12sp"/>
-
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -1764,7 +1431,7 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
                                     <TextView
-                                        android:id="@+id/textViewLlzAsiiWeeklyMon1SbyObs"
+                                        android:id="@+id/textViewGpAsiiWeeklyMon1SbyObs"
                                         android:layout_width="match_parent"
                                         android:layout_height="40dp"
                                         android:layout_marginTop="5dp"
@@ -1773,7 +1440,7 @@
                                         android:gravity="center"
                                         android:text="Obsvd Value" />
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsCrsRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyObsCrsRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1782,43 +1449,35 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsCrsDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyObsCrsDDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.0044"
+                                        android:hint="±0.02"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsCrsSDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyObsCrsSDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsCrsIdent"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyObsCrsWidth"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 20%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsCrsWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 10%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsClrRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyObsClrRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1827,43 +1486,17 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsClrDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyObsClr150Mod"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.020"
+                                        android:hint="±4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsClrSDM"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsClrIdent"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsClrWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 17%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon1SbyObsRFFreq"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon1SbyObsRFFreq"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
@@ -1885,7 +1518,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyP3Mon2"
+                        android:id="@+id/textViewGpAsiiWeeklyP3Mon2"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginTop="5dp"
@@ -1903,7 +1536,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyMon2Int"
+                                android:id="@+id/textViewGpAsiiWeeklyMon2Int"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:gravity="center"
@@ -1921,7 +1554,7 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
                                     <TextView
-                                        android:id="@+id/textViewLlzAsiiWeeklyMon2IntNom"
+                                        android:id="@+id/textViewGpAsiiWeeklyMon2IntNom"
                                         android:layout_width="match_parent"
                                         android:layout_height="40dp"
                                         android:layout_marginTop="5dp"
@@ -1930,7 +1563,7 @@
                                         android:gravity="center"
                                         android:text="Nom Value" />
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomCrsRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntNomCrsRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1939,43 +1572,35 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomCrsDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntNomCrsDDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.0044"
+                                        android:hint="±0.02"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomCrsSDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntNomCrsSDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomCrsIdent"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntNomCrsWidth"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 20%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomCrsWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 10%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomClrRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntNomClrRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -1984,43 +1609,17 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomClrDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntNomClr150Mod"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.020"
+                                        android:hint="±4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomClrSDM"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomClrIdent"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomClrWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 17%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntNomRFFreq"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntNomRFFreq"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
@@ -2037,7 +1636,7 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
                                     <TextView
-                                        android:id="@+id/textViewLlzAsiiWeeklyMon2IntObs"
+                                        android:id="@+id/textViewGpAsiiWeeklyMon2IntObs"
                                         android:layout_width="match_parent"
                                         android:layout_height="40dp"
                                         android:layout_marginTop="5dp"
@@ -2046,7 +1645,7 @@
                                         android:gravity="center"
                                         android:text="Obsvd Value" />
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsCrsRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntObsCrsRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -2055,43 +1654,35 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsCrsDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntObsCrsDDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.0044"
+                                        android:hint="±0.02"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsCrsSDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntObsCrsSDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsCrsIdent"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntObsCrsWidth"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 20%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsCrsWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 10%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsClrRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntObsClrRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -2100,43 +1691,17 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsClrDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntObsClr150Mod"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.020"
+                                        android:hint="±4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsClrSDM"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsClrIdent"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsClrWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 17%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2IntObsRFFreq"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2IntObsRFFreq"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
@@ -2155,7 +1720,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyMon2Sby"
+                                android:id="@+id/textViewGpAsiiWeeklyMon2Sby"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:gravity="center"
@@ -2173,7 +1738,7 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
                                     <TextView
-                                        android:id="@+id/textViewLlzAsiiWeeklyMon2SbyNom"
+                                        android:id="@+id/textViewGpAsiiWeeklyMon2SbyNom"
                                         android:layout_width="match_parent"
                                         android:layout_height="40dp"
                                         android:layout_marginTop="5dp"
@@ -2182,7 +1747,7 @@
                                         android:gravity="center"
                                         android:text="Nom Value" />
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomCrsRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyNomCrsRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -2191,43 +1756,35 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomCrsDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyNomCrsDDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.0044"
+                                        android:hint="±0.02"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomCrsSDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyNomCrsSDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomCrsIdent"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyNomCrsWidth"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 20%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomCrsWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 10%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomClrRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyNomClrRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -2236,43 +1793,17 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomClrDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyNomClr150Mod"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.020"
+                                        android:hint="±4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomClrSDM"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomClrIdent"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomClrWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 17%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyNomRFFreq"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyNomRFFreq"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
@@ -2280,7 +1811,6 @@
                                         android:ems="4"
                                         android:hint="± 500 Hz"
                                         android:textSize="12sp"/>
-
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -2289,7 +1819,7 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
                                     <TextView
-                                        android:id="@+id/textViewLlzAsiiWeeklyMon2SbyObs"
+                                        android:id="@+id/textViewGpAsiiWeeklyMon2SbyObs"
                                         android:layout_width="match_parent"
                                         android:layout_height="40dp"
                                         android:layout_marginTop="5dp"
@@ -2298,7 +1828,7 @@
                                         android:gravity="center"
                                         android:text="Obsvd Value" />
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsCrsRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyObsCrsRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -2307,43 +1837,35 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsCrsDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyObsCrsDDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.0044"
+                                        android:hint="±0.02"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsCrsSDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyObsCrsSDM"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsCrsIdent"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyObsCrsWidth"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="± 2%"
+                                        android:hint="± 20%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsCrsWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 10%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsClrRF"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyObsClrRF"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="50dp"
@@ -2352,43 +1874,17 @@
                                         android:hint="&gt; 80%"
                                         android:textSize="12sp"/>
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsClrDDM"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyObsClr150Mod"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
                                         android:gravity="center_vertical"
                                         android:ems="4"
-                                        android:hint="±0.020"
+                                        android:hint="±4 %"
                                         android:textSize="12sp"/>
+
                                     <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsClrSDM"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsClrIdent"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 2%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsClrWidth"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="48dp"
-                                        android:layout_marginTop="5dp"
-                                        android:gravity="center_vertical"
-                                        android:ems="4"
-                                        android:hint="± 17%"
-                                        android:textSize="12sp"/>
-                                    <EditText
-                                        android:id="@+id/editTextLlzAsiiWeeklyMon2SbyObsRFFreq"
+                                        android:id="@+id/editTextGpAsiiWeeklyMon2SbyObsRFFreq"
                                         android:layout_width="match_parent"
                                         android:layout_height="48dp"
                                         android:layout_marginTop="5dp"
@@ -2402,6 +1898,8 @@
 
                     </LinearLayout>
                 </LinearLayout>
+
+
 
             </LinearLayout>
 
@@ -2418,7 +1916,7 @@
                     android:layout_marginStart="5dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklySNo4"
+                        android:id="@+id/textViewGpAsiiWeeklySNo4"
                         android:layout_width="wrap_content"
                         android:layout_height="65dp"
                         android:textColor="@color/teal_700"
@@ -2427,7 +1925,7 @@
                         android:text="S.No."
                         android:textStyle="bold"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly60"
+                        android:id="@+id/textViewGpAsiiWeekly60"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:layout_marginTop="5dp"
@@ -2436,7 +1934,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="6"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly61"
+                        android:id="@+id/textViewGpAsiiWeekly61"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2444,7 +1942,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="6.1" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly62"
+                        android:id="@+id/textViewGpAsiiWeekly62"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2452,7 +1950,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="6.2" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly63"
+                        android:id="@+id/textViewGpAsiiWeekly63"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2460,7 +1958,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="6.3" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly64"
+                        android:id="@+id/textViewGpAsiiWeekly64"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2468,7 +1966,7 @@
                         android:textColor="@color/textViewColor"
                         android:text="7" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly65"
+                        android:id="@+id/textViewGpAsiiWeekly65"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2476,21 +1974,14 @@
                         android:textColor="@color/textViewColor"
                         android:text="8" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly66"
+                        android:id="@+id/textViewGpAsiiWeekly66"
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="9" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeekly67"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="10" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -2500,7 +1991,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyParameter4"
+                        android:id="@+id/textViewGpAsiiWeeklyParameter4"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:layout_marginTop="5dp"
@@ -2509,7 +2000,7 @@
                         android:text="Parameter"
                         android:textStyle="bold"/>
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyFFMCRS"
+                        android:id="@+id/textViewGpAsiiWeeklyFFMCRS"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:textStyle="bold"
@@ -2518,31 +2009,31 @@
                         android:textColor="@color/textViewColor"
                         android:text="COURSE" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyFFMCRSRF"
+                        android:id="@+id/textViewGpAsiiWeeklyFFMCRSRF"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:text="C/Line RF Level"
+                        android:text="Path RF Level"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyFFMCRSDDM"
+                        android:id="@+id/textViewGpAsiiWeeklyFFMCRSDDM"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:text="C/Line DDM"
+                        android:text="Path POS DDM"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyFFMCRSSDM"
+                        android:id="@+id/textViewGpAsiiWeeklyFFMCRSSDM"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:text="C/Line SDM"
+                        android:text="Path MODSUM"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyChange"
+                        android:id="@+id/textViewGpAsiiWeeklyChange"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2550,7 +2041,7 @@
                         android:text="Changeover from main to Standby Tx and Shut down due to Monitor alarm"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyOpsRemote"
+                        android:id="@+id/textViewGpAsiiWeeklyOpsRemote"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2558,21 +2049,14 @@
                         android:text="Verify Tx C/O Operation from Remote"
                         android:textColor="@color/textViewColor" />
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyCritical"
+                        android:id="@+id/textViewGpAsiiWeeklyCritical"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:text="Statu of Critical and Sensitive Area"
                         android:textColor="@color/textViewColor" />
-                    <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyField"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:text="LLZ Field Reading Noted (separate register)"
-                        android:textColor="@color/textViewColor" />
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2581,12 +2065,12 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewLlzAsiiWeeklyFFM"
+                        android:id="@+id/textViewGpAsiiWeeklyFFM"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
-                        android:text="FFM DATA"
+                        android:text="NFM DATA"
                         android:gravity="center"
                         android:textStyle="bold"/>
                     <LinearLayout
@@ -2599,7 +2083,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyFFMNom"
+                                android:id="@+id/textViewGpAsiiWeeklyNFMNom"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="5dp"
@@ -2608,7 +2092,7 @@
                                 android:gravity="center"
                                 android:text="Nom Value" />
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyFFMNomRF"
+                                android:id="@+id/editTextGpAsiiWeeklyNFMNomRF"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="50dp"
@@ -2617,22 +2101,22 @@
                                 android:hint="&gt; 80%"
                                 android:textSize="12sp"/>
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyFFMNomDDM"
+                                android:id="@+id/editTextGpAsiiWeeklyNFMNomDDM"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:ems="4"
-                                android:hint="±0.0044"
+                                android:hint="±0.02"
                                 android:textSize="12sp"/>
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyFFMNomSDM"
+                                android:id="@+id/editTextGpAsiiWeeklyNFMNomModSum"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:ems="4"
-                                android:hint="± 2%"
+                                android:hint="± 4%"
                                 android:textSize="12sp"/>
                         </LinearLayout>
 
@@ -2642,16 +2126,16 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewLlzAsiiWeeklyFFMObs"
+                                android:id="@+id/textViewGpAsiiWeeklyNFMObs"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
                                 android:textStyle="bold"
                                 android:gravity="center"
-                                android:text="OBSVD Value" />
+                                android:text="Obsvd Value" />
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyFFMObsRF"
+                                android:id="@+id/editTextGpAsiiWeeklyNFMObsRF"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="50dp"
@@ -2660,28 +2144,28 @@
                                 android:hint="&gt; 80%"
                                 android:textSize="12sp"/>
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyFFMObsDDM"
+                                android:id="@+id/editTextGpAsiiWeeklyNFMObsDDM"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:ems="4"
-                                android:hint="±0.0044"
+                                android:hint="±0.02"
                                 android:textSize="12sp"/>
                             <EditText
-                                android:id="@+id/editTextLlzAsiiWeeklyFFMObsSDM"
+                                android:id="@+id/editTextGpAsiiWeeklyNFMObsModSum"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:ems="4"
-                                android:hint="± 2%"
+                                android:hint="± 4%"
                                 android:textSize="12sp"/>
                         </LinearLayout>
                     </LinearLayout>
 
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklyChange"
+                        android:id="@+id/editTextGpAsiiWeeklyChange"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2690,7 +2174,7 @@
                         android:hint="&lt; 2 sec"
                         android:textSize="12sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklOpsRemote"
+                        android:id="@+id/editTextGpAsiiWeeklOpsRemote"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2699,7 +2183,7 @@
                         android:hint="Ok/Not OK"
                         android:textSize="12sp"/>
                     <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklCritical"
+                        android:id="@+id/editTextGpAsiiWeeklCritical"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
@@ -2707,15 +2191,7 @@
                         android:ems="4"
                         android:hint="Satisfactory/Unsatisfactory"
                         android:textSize="12sp"/>
-                    <EditText
-                        android:id="@+id/editTextLlzAsiiWeeklField"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:ems="4"
-                        android:hint="Yes/No"
-                        android:textSize="12sp"/>
+
                 </LinearLayout>
 
             </LinearLayout>
@@ -2723,7 +2199,7 @@
 
 
             <EditText
-                android:id="@+id/editTextLlzAsiiWeeklyRemarks"
+                android:id="@+id/editTextGpAsiiWeeklyRemarks"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="20dp"
@@ -2732,7 +2208,6 @@
                 android:hint="Remarks:"
                 android:inputType="textMultiLine"
                 android:textSize="14sp"/>
-
 
             <GridLayout
                 android:layout_width="match_parent"

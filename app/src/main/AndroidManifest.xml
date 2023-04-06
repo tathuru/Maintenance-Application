@@ -24,6 +24,27 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".LlzThalesWfrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiQuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiAnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationGpAsiiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".LlzAsiiQuarterly2Activity"
             android:exported="false" />
         <activity
