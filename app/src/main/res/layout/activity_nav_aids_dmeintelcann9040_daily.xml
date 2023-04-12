@@ -3187,7 +3187,7 @@
           <TextView
               android:id="@+id/textView14"
               android:layout_width="match_parent"
-              android:layout_height="170dp"
+              android:layout_height="220dp"
               android:gravity="center_vertical"
               android:text="4.13"
               android:textAlignment="center"
@@ -3319,7 +3319,7 @@
           <TextView
               android:id="@+id/textView209"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:textColor="@color/textViewColor"
               android:gravity="center_vertical"
               android:text="a.Independent"/>
@@ -3327,7 +3327,7 @@
           <TextView
               android:id="@+id/textView210"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:textColor="@color/textViewColor"
               android:gravity="center_vertical"
               android:text="b. Associated" />
@@ -3464,7 +3464,7 @@
           <TextView
               android:id="@+id/textView33"
               android:layout_width="match_parent"
-              android:layout_height="170dp"
+              android:layout_height="220dp"
               android:textColor="@color/textViewColor"
               android:gravity="center_vertical"
               android:text="a.Once every 40 sec. and total period shall not exceed 10 sec.,b. Associated\n(40 sec is divided into 4 or more equal periods, Ident in one period transmitted by Transponder and the associated facility transmit during the remaining periods." />
@@ -3608,7 +3608,7 @@
           <EditText
               android:id="@+id/editText53"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:ems="10"
               android:inputType="textPersonName"
               android:textSize="14sp"
@@ -3617,7 +3617,7 @@
           <EditText
               android:id="@+id/editText54"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:ems="10"
               android:inputType="textPersonName"
               android:textSize="14sp"
@@ -3757,9 +3757,9 @@
               android:layout_height="64dp"/>
 
           <EditText
-              android:id="@+id/editText63"
+              android:id="@+id/editText78"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:ems="10"
               android:inputType="textPersonName"
               android:textSize="14sp"
@@ -3768,7 +3768,7 @@
           <EditText
               android:id="@+id/editText64"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:ems="10"
               android:inputType="textPersonName"
               android:textSize="14sp"
@@ -3910,7 +3910,7 @@
           <EditText
               android:id="@+id/editText73"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:ems="10"
               android:inputType="textPersonName"
               android:textSize="14sp"
@@ -3919,7 +3919,7 @@
           <EditText
               android:id="@+id/editText74"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:ems="10"
               android:inputType="textPersonName"
               android:textSize="14sp"
@@ -4061,7 +4061,7 @@
           <EditText
               android:id="@+id/editText83"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:ems="10"
               android:inputType="textPersonName"
               android:textSize="14sp"
@@ -4070,7 +4070,7 @@
           <EditText
               android:id="@+id/editText84"
               android:layout_width="match_parent"
-              android:layout_height="53dp"
+              android:layout_height="78dp"
               android:ems="10"
               android:inputType="textPersonName"
               android:textSize="14sp"
