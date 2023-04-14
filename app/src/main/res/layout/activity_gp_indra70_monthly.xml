@@ -255,7 +255,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70MonthlyCourse"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:textStyle="bold"
@@ -264,7 +264,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70MonthlyDisSen"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:textStyle="bold"
@@ -273,7 +273,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70MonthlyCLRSig"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:textStyle="bold"
@@ -317,7 +317,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70MonthlyDDMDist"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -326,7 +326,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70MonthlyDisSen1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -335,7 +335,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70MonthlyCLRSig1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -395,7 +395,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70MonthlyPathTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-II"
@@ -404,7 +404,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70MonthlyDisSenTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-I/II"
@@ -412,7 +412,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70MonthlyCLRSigTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-I/II"
@@ -451,7 +451,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70MonthlyPathTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-II"
@@ -459,7 +459,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70MonthlyDisSenTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-I/II"
@@ -467,7 +467,7 @@
                             <EditText
                                 android:id="@+id/editTextGpIndra70MonthlyCLRSigTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-I/II"

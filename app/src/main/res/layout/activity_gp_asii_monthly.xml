@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GpIndra70QuarterlyActivity">
+    tools:context=".GpAsiiMonthlyActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,13 +15,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="5dp"
             android:orientation="vertical">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -33,9 +33,9 @@
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:layout_marginStart="20dp"
                     android:text="Airports Authority of India"
                     android:textSize="14sp"
                     android:textColor="@color/textViewColor" />
@@ -51,9 +51,9 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="10dp"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:layout_marginEnd="10dp"
                     android:text="CNS MANUAL VOL.VII Part 2"
                     android:textAlignment="textEnd"
                     android:textSize="14sp"
@@ -98,13 +98,13 @@
 
 
             <TextView
-                android:id="@+id/textViewGpIndra70Quarterly"
+                android:id="@+id/textViewGpAsiiMonthly"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
-                android:text="PREVENTIVE MAINTENANCE SCHEDULE- QUARTERLY (GLIDE PATH)"
+                android:text="PREVENTIVE MAINTENANCE SCHEDULE- MONTHLY (GLIDE PATH)"
                 android:textStyle="bold"
                 android:textColor="@color/teal_700" />
 
@@ -115,27 +115,27 @@
                 android:orientation="horizontal"
                 android:layout_marginTop="20dp">
                 <TextView
-                    android:id="@+id/textViewLGpIndra70QuarterlyEquip"
+                    android:id="@+id/textViewLGpAsiiMonthlyEquip"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_weight="1"
                     android:textColor="@color/textViewColor"
-                    android:text="Equipment: Glide Path" />
+                    android:text="Equipment: G/Path" />
                 <TextView
-                    android:id="@+id/textViewGpIndra70QuarterlyMake"
+                    android:id="@+id/textViewGpAsiiMonthlyMake"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/textViewColor"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="10dp"
                     android:textAlignment="viewEnd"
                     android:layout_weight="1"
-                    android:text="Make: INDRA (NORMARC)" />
+                    android:text="Make/Model: ASII/2110" />
                 <TextView
                     android:id="@+id/textViewDate1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="10dp"
                     android:layout_weight="1"
                     android:textAlignment="viewEnd"
                     android:textColor="@color/textViewColor"
@@ -144,7 +144,7 @@
                     android:id="@+id/textViewDate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="10dp"
                     android:layout_weight="1"
                     android:textColor="@color/textViewColor"
                     android:text="" />
@@ -156,7 +156,7 @@
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp">
                 <EditText
-                    android:id="@+id/editTextGpIndra70QuarterlyStation"
+                    android:id="@+id/editTextGpAsiiMonthlyStation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -167,59 +167,38 @@
                     android:minHeight="48dp"
                     android:textSize="14sp" />
                 <EditText
-                    android:id="@+id/editTextGpIndra70QuarterlyModel"
+                    android:id="@+id/editTextGpAsiiMonthlyChOnAir"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:ems="10"
-                    android:hint="Model: 70XX "
+                    android:hint="Channel on Air: Tx1/Tx2 "
                     android:layout_weight="1"
                     android:textSize="14sp"
                     android:inputType="textPersonName"
                     android:minHeight="48dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
                 <EditText
-                    android:id="@+id/editTextGpIndra70QuarterlyRWY"
+                    android:id="@+id/editTextGpAsiiMonthlyCat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:hint="Cat I/II/III "
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+                <EditText
+                    android:id="@+id/editTextGpAsiiMonthlyFrequency"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:hint="RWY"
-                    android:inputType="textPersonName"
                     android:minHeight="48dp"
-                    android:textSize="14sp" />
-
-                <EditText
-                    android:id="@+id/editTextGpIndra70QuarterlyCat"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:ems="10"
-                    android:hint="Cat "
-                    android:layout_weight="1"
-                    android:textSize="14sp"
-                    android:inputType="textPersonName"
-                    android:minHeight="48dp" />
-                <EditText
-                    android:id="@+id/editTextGpIndra70QuarterlyFrequency"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_weight="1"
-                    android:ems="10"
                     android:hint="Frequency (MHz) "
                     android:textSize="14sp" />
-
             </LinearLayout>
-
 
 
             <LinearLayout
@@ -227,191 +206,75 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlySNo"
+                        android:id="@+id/textViewGpAsiiMonthlySNo"
                         android:layout_width="wrap_content"
-                        android:layout_height="65dp"
+                        android:layout_height="30dp"
+                        android:textColor="@color/teal_700"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:textColor="@color/teal_700"
-                        android:text="S.No."
+                        android:text="S. No."
+                        android:layout_weight="0.2"
                         android:textStyle="bold"/>
                     <TextView
-                        android:id="@+id/textViewGpIndra70Quarterly11"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textViewGpAsiiMonthly1"
+                        android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
+                        android:textStyle="bold"
                         android:textColor="@color/textViewColor"
                         android:text="1.1"/>
-                    <TextView
-                        android:id="@+id/textViewGpIndra70Quarterly12"
-                        android:layout_width="wrap_content"
-                        android:layout_height="65dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="1.2"/>
-                    <TextView
-                        android:id="@+id/textViewGpIndra70Quarterly13"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="1.3"/>
-                    <TextView
-                        android:id="@+id/textViewGpIndra70Quarterly14"
-                        android:layout_width="wrap_content"
-                        android:layout_height="65dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="1.4"/>
-                    <TextView
-                        android:id="@+id/textViewGpIndra70Quarterly15"
-                        android:layout_width="wrap_content"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="1.5"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:layout_weight="1.2"
-                    android:orientation="vertical">
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyParameter11"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/teal_700"
-                        android:text="Parameter"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyPath"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
-                        android:gravity="center_vertical"
-                        android:text="Path Angle" />
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyDis"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
-                        android:gravity="center_vertical"
-                        android:text="Change in displacement sensitivity" />
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyTime"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
-                        android:gravity="center_vertical"
-                        android:text="Total time, out of tolerance radiation" />
 
                     <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyCourseCov"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
-                        android:gravity="center_vertical"
-                        android:text="Coverage \n(Usable Distance)" />
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyCarrBal"
+                        android:id="@+id/textViewGpAsiiMonthly2"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
-                        android:text="Carrier Modulation \n- Balance" />
+                        android:textColor="@color/textViewColor"
+                        android:text="1.1.1" />
                     <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyCarrDep"
+                        android:id="@+id/textViewGpAsiiMonthly3"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
-                        android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
-                        android:text="- Depth" />
+                        android:textColor="@color/textViewColor"
+                        android:text="1.1.2" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthly4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.2" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthly5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.2.1" />
 
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:layout_weight="1.2"
-                    android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyMeasured3"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/teal_700"
-                        android:text="Measured/ \nTolerance"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyNml1"
+                        android:id="@+id/textViewGpAsiiMonthly7"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="Cat-I, II &#952;=&#952;-0.075&#952; \nCat-III &#952;=&#952;+0.040&#952;" />
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyNml2"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="Monitor must alarm for change in dis. sen. by more than 25%" />
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyNml3"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="Cat-I 6 s \nCat-II &amp; Cat-III 2 s" />
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyNml31"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="Power (As commissioned or during last flight check) \nTolerance: ± 1dB" />
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyNml4"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="40%" />
-                    <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyNml5"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="5dp"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:text="(37.5% to 42.5% for each tone)" />
+                        android:text="2" />
+
 
                 </LinearLayout>
 
@@ -422,14 +285,76 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyMeasured4"
+                        android:id="@+id/textViewGpAsiiMonthlyPara1"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
                         android:textColor="@color/teal_700"
-                        android:text="Measured Value"
-                        android:gravity="center"
+                        android:text="Parameter"
                         android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyP5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="@color/textViewColor"
+                        android:text="Tone Frequency (Course)" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyCRS90"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="90 Hz"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyCRS150"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="150 Hz"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyCLR"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="@color/textViewColor"
+                        android:text="Tone Frequency (Clearance)" />
+
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyCLR150"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="150 Hz"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyTransfer"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Transfer from Syatem A to Syatem B (Nominal 1 sec)"
+                        android:textColor="@color/textViewColor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -440,208 +365,353 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewGpIndra70QuarterlyTx1"
+                                android:id="@+id/textViewGpAsiiMonthlyP1Tx1"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="5dp"
-                                android:textColor="@color/textViewColor"
+                                android:textColor="@color/teal_700"
                                 android:textStyle="bold"
                                 android:gravity="center"
-                                android:text="TX-I" />
+                                android:text="TX-1" />
+
+
                             <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyPathTx1"
+                                android:id="@+id/editTextGpAsiiMonthlyTx1CRS90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="58dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editTextGpAsiiMonthlyTx1CRS150"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I &amp; II ILS"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
                                 android:textSize="14sp"/>
+
+
                             <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyDisSenTx1"
-                                android:layout_width="match_parent"
-                                android:layout_height="65dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I &amp; II ILS"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyTimeTx1"
+                                android:id="@+id/editTextGpAsiiMonthlyTx1CLR150"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I &amp; II ILS"
+                                android:layout_marginTop="58dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
                                 android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyCovTx1"
-                                android:layout_width="match_parent"
-                                android:layout_height="65dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I, II &amp; III ILS"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyCarrBalTx1"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I, II &amp; III ILS"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyCarrDepTx1"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I, II &amp; III ILS"
-                                android:textSize="14sp"/>
+
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
                             android:layout_weight="1"
                             android:orientation="vertical">
                             <TextView
-                                android:id="@+id/textViewGpIndra70QuarterlyMSTx2"
+                                android:id="@+id/textViewGpAsiiMonthlyP1Tx2"
                                 android:layout_width="match_parent"
                                 android:layout_height="30dp"
                                 android:layout_marginTop="5dp"
-                                android:textColor="@color/textViewColor"
+                                android:textColor="@color/teal_700"
                                 android:textStyle="bold"
                                 android:gravity="center"
-                                android:text="TX-II" />
+                                android:text="TX-2" />
+
+
                             <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyPathTx2"
+                                android:id="@+id/editTextGpAsiiMonthlyTx2CRS90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="58dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editTextGpAsiiMonthlyTx2CRS150"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I &amp; II ILS"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
                                 android:textSize="14sp"/>
+
                             <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyDisSenTx2"
-                                android:layout_width="match_parent"
-                                android:layout_height="65dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I &amp; II ILS"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyTimeTx2"
+                                android:id="@+id/editTextGpAsiiMonthlyTx2CLR150"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I &amp; II ILS"
+                                android:layout_marginTop="58dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
                                 android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyCovTx2"
-                                android:layout_width="match_parent"
-                                android:layout_height="65dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I, II &amp; III ILS"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyCarrBalTx2"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I, II &amp; III ILS"
-                                android:textSize="14sp"/>
-                            <EditText
-                                android:id="@+id/editTextGpIndra70QuarterlyCarrDepTx2"
-                                android:layout_width="match_parent"
-                                android:layout_height="48dp"
-                                android:layout_marginTop="5dp"
-                                android:ems="6"
-                                android:hint="For Cat-I, II &amp; III ILS"
-                                android:textSize="14sp"/>
+
                         </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchGpAsiiMonthlyTransfer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            android:text="Not OK "
+                            tools:ignore="TouchTargetSizeCheck"/>
+                        <TextView
+                            android:id="@+id/textViewGpAsiiMonthlyTransferOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
-            <TextView
-                android:id="@+id/textViewGpIndra70QuarterlyParameter1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="10dp"
-                android:textSize="14sp"
-                android:textColor="@color/teal_700"
-                android:text="* Parameter to be checked by using appropriate Test Equipment." />
 
-            <TextView
-                android:id="@+id/textViewGpIndra70QuarterlyParameter2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="10dp"
-                android:textSize="14sp"
-                android:textColor="@color/teal_700"
-                android:text="2. BATTERY BANK REPLACEMENT DATE"
-                android:textStyle="bold"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
+
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:layout_weight="1"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlyUPSBat"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:id="@+id/textViewGpAsiiMonthlySNo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textColor="@color/teal_700"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:textColor="@color/textViewColor"
-                        android:textStyle="bold"
-                        android:text="(a) UPS Battery Bank Replacement Date" />
+                        android:text="5."
+                        android:layout_weight="0.2"
+                        android:textStyle="bold"/>
                     <TextView
-                        android:id="@+id/textViewGpIndra70QuarterlySystemBat"
+                        android:id="@+id/textViewGpAsiiMonthly12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.1"/>
+
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthly13"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:textStyle="bold"
-                        android:text="(b) System Battery Bank Replacement Date" />
+                        android:text="5.2" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthly14"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.3" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthly15"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.4" />
+
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
-                    <EditText
-                        android:id="@+id/editTextGpIndra70QuarterlyUPSBat"
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyPara2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="System Operation On Battery Back up"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyBattBD"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
-                        android:ems="6"
-                        android:hint=""
-                        android:textSize="15sp"/>
-                    <EditText
-                        android:id="@+id/editTextGpIndra70QuarterlySystemBat"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Battery Voltage Before Discharge (V)" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyBattOps10"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
-                        android:ems="6"
+                        android:gravity="center_vertical"
+                        android:text="Operation on batteries for 10 min (approx.)"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyBattAD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Battery Voltage after Discharge (V)"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyTerClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Terminals Cleaned/properly Tightened" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyTx1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="TX-1" />
+
+
+                    <EditText
+                        android:id="@+id/editTextGpAsiiMonthlyTx1BattBD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
                         android:hint=""
-                        android:textSize="15sp"/>
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextGpAsiiMonthlyTx1BattOps10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextGpAsiiMonthlyTx1BattAD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextGpAsiiMonthlyTx1TerClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1.1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewGpAsiiMonthlyTx2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="TX-2" />
+
+
+                    <EditText
+                        android:id="@+id/editTextGpAsiiMonthlyTx2BattBD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextGpAsiiMonthlyTx2BattOps10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextGpAsiiMonthlyTx2BattAD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextGpAsiiMonthlyTx2TerClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+
                 </LinearLayout>
             </LinearLayout>
 
+
+
+
             <EditText
-                android:id="@+id/editTextGpIndra70QuarterlyRemarks"
+                android:id="@+id/editTextGpAsiiMonthlyRemarks"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginStart="10dp"
                 android:ems="4"

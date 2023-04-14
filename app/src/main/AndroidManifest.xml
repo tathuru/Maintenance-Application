@@ -25,7 +25,6 @@
         android:usesCleartextTraffic="true">
 
         <activity
-
             android:name=".LlzAsiiQuarterly2Activity"
             android:exported="false" />
         <activity
@@ -673,6 +672,7 @@
         <activity
             android:name=".NavAidsNDBSAC100QuarterlyActivity"
             android:exported="true" />
+
         <activity
             android:name=".ADSBMakeModelActivity"
             android:exported="false" />
