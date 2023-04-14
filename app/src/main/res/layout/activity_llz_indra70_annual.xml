@@ -250,7 +250,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70AnnualCourse"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -258,7 +258,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70AnnualCourseShift"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -291,7 +291,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70AnnualDDMDist"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center"
                         android:textColor="@color/textViewColor"
@@ -299,7 +299,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70AnnualCourseShift1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center"
                         android:textColor="@color/textViewColor"
@@ -350,7 +350,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzIndra70AnnualFreqTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -358,7 +358,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzIndra70AnnualCarrFreqTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -390,7 +390,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzIndra70AnnualFreqTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -398,7 +398,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzIndra70AnnualCarrFreqTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -1090,7 +1090,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70Annual51"
                         android:layout_width="wrap_content"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="40dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -1115,7 +1115,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70AnnualMonDelay"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -1138,7 +1138,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70AnnualStatus11"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center"
                         android:textColor="@color/textViewColor"
@@ -1162,7 +1162,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70AnnualMonDelay"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""

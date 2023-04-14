@@ -889,7 +889,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70Daily21"
                         android:layout_width="wrap_content"
-                        android:layout_height="174dp"
+                        android:layout_height="184dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:text="2.1"/>
@@ -903,7 +903,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70Daily23"
                         android:layout_width="match_parent"
-                        android:layout_height="174dp"
+                        android:layout_height="184dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:text="2.3" />
@@ -917,7 +917,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70Daily25"
                         android:layout_width="wrap_content"
-                        android:layout_height="174dp"
+                        android:layout_height="184dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:text="2.5" />
@@ -950,7 +950,7 @@
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyCL"
                                 android:layout_width="match_parent"
-                                android:layout_height="174dp"
+                                android:layout_height="184dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
                                 android:text="CL " />
@@ -966,7 +966,7 @@
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyNF"
                                 android:layout_width="match_parent"
-                                android:layout_height="174dp"
+                                android:layout_height="184dp"
                                 android:layout_marginTop="5dp"
                                 android:text="NF"
                                 android:textColor="@color/textViewColor" />
@@ -981,7 +981,7 @@
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyFFM"
                                 android:layout_width="match_parent"
-                                android:layout_height="174dp"
+                                android:layout_height="184dp"
                                 android:layout_marginTop="5dp"
                                 android:text="FFM \n(if inst\nalled)"
                                 android:textColor="@color/textViewColor" />
@@ -995,7 +995,7 @@
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyCLDDM"
                                 android:layout_width="match_parent"
-                                android:layout_height="68dp"
+                                android:layout_height="78dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
                                 android:text="DDM % \nCat1 (0±1.54)%\nCat2 (0±1.1)% \nCat3 (0±0.88)% " />
@@ -1042,7 +1042,7 @@
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyNFDDM"
                                 android:layout_width="match_parent"
-                                android:layout_height="68dp"
+                                android:layout_height="78dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
                                 android:text="DDM % \nCat1 (0±1.54)%\nCat2 (0±1.1)% \nCat3 (0±0.88)% " />
@@ -1089,7 +1089,7 @@
                             <TextView
                                 android:id="@+id/textViewLlzIndra70DailyFFMDDM"
                                 android:layout_width="match_parent"
-                                android:layout_height="68dp"
+                                android:layout_height="78dp"
                                 android:layout_marginTop="5dp"
                                 android:text="DDM % \nCat1 (0±1.54)%\nCat2 (0±1.1)% \nCat3 (0±0.88)% "
                                 android:textColor="@color/textViewColor" />
@@ -1131,7 +1131,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyCLDDMMainMon1"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1179,7 +1179,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyNFDDMMainMon1"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1227,7 +1227,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyFFMDDMMainMon1"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1267,7 +1267,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyCLDDMMainMon2"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1315,7 +1315,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyNFDDMMainMon2"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1363,7 +1363,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyFFMDDMMainMon2"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1403,7 +1403,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyCLDDMStbMon"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1451,7 +1451,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyNFDDMStbMon"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1499,7 +1499,7 @@
                     <EditText
                         android:id="@+id/editTextLlzIndra70DailyFFMDDMStbMon"
                         android:layout_width="match_parent"
-                        android:layout_height="68dp"
+                        android:layout_height="78dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"

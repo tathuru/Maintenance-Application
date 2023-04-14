@@ -960,7 +960,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklySNo1"
                         android:layout_width="wrap_content"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:textColor="@color/teal_700"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
@@ -1107,7 +1107,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyParameter91"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/teal_700"
@@ -1254,7 +1254,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyTx3"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
                         android:textStyle="bold"
@@ -1398,7 +1398,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyTx4"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
                         android:textStyle="bold"
@@ -1543,7 +1543,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyTx5"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
                         android:textStyle="bold"
@@ -1687,7 +1687,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyTx6"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
                         android:textStyle="bold"
@@ -1847,7 +1847,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklySNo4"
                         android:layout_width="wrap_content"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:textColor="@color/teal_700"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
@@ -1976,7 +1976,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyParameter81"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/teal_700"
@@ -2106,7 +2106,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyTx7"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
                         android:textStyle="bold"
@@ -2235,7 +2235,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyTx8"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
                         android:textStyle="bold"
@@ -2364,7 +2364,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyTx9"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
                         android:textStyle="bold"
@@ -2493,7 +2493,7 @@
                     <TextView
                         android:id="@+id/textViewGpThalesWeeklyTx10"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/teal_700"
                         android:textStyle="bold"

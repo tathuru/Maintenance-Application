@@ -10,26 +10,12 @@ import android.widget.Button;
 
 public class NavigationLlzIndra70Activity extends AppCompatActivity {
 
-    Button daily, weekly, wfr, monthly, quarterly, halfYearly, yearly, mfr;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_llz_indra70);
 
         setTitle("INDRA LLZ Maintenance");
-
-        daily = (Button) findViewById(R.id.daily);
-        weekly = (Button) findViewById(R.id.weekly);
-        wfr = (Button) findViewById(R.id.wfr);
-        monthly = (Button) findViewById(R.id.monthly);
-        quarterly = (Button) findViewById(R.id.quarterly);
-        halfYearly = (Button) findViewById(R.id.halfYearly);
-        yearly = (Button) findViewById(R.id.yearly);
-        mfr = (Button) findViewById(R.id.mfr);
-
-        Intent intent = getIntent();
 
     }
 
@@ -54,7 +40,6 @@ public class NavigationLlzIndra70Activity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),LlzIndra70WfrActivity.class);
         startActivity(intent);
 
-
     }
 
     public void monthlyClicked (View view){
@@ -64,14 +49,14 @@ public class NavigationLlzIndra70Activity extends AppCompatActivity {
 
     }
 
-    public void quaterlyClicked (View view){
+    public void quarterlyClicked (View view){
 
         Intent intent = new Intent(getApplicationContext(),LlzIndra70QuarterlyActivity.class);
         startActivity(intent);
 
     }
 
-    public void halfYearlyClicked (View view){
+    public void sixmonthlyClicked (View view){
 
         Intent intent = new Intent(getApplicationContext(),LlzIndra70SixActivity.class);
         startActivity(intent);
@@ -79,7 +64,7 @@ public class NavigationLlzIndra70Activity extends AppCompatActivity {
 
     }
 
-    public void yearlyClicked (View view){
+    public void annualClicked (View view){
 
         Intent intent = new Intent(getApplicationContext(),LlzIndra70AnnualActivity.class);
         startActivity(intent);
@@ -90,8 +75,6 @@ public class NavigationLlzIndra70Activity extends AppCompatActivity {
         // Launch the Others Equipment Room Activity
         Intent intent = new Intent(getApplicationContext(),LlzIndra70MfrActivity.class);
         startActivity(intent);
-
-
 
 
     }

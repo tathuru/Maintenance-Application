@@ -824,7 +824,7 @@
                     <TextView
                         android:id="@+id/textViewGpIndra70Daily22"
                         android:layout_width="wrap_content"
-                        android:layout_height="154dp"
+                        android:layout_height="171dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:text="2.2" />
@@ -879,7 +879,7 @@
                             <TextView
                                 android:id="@+id/textViewGpIndra70DailyDS"
                                 android:layout_width="match_parent"
-                                android:layout_height="154dp"
+                                android:layout_height="171dp"
                                 android:layout_marginTop="5dp"
                                 android:text="DS"
                                 android:textColor="@color/textViewColor" />
@@ -932,7 +932,7 @@
                             <TextView
                                 android:id="@+id/textViewGpIndra70DailyDSDDM"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
                                 android:text="DDM %\nNominal(8.75%) ±2.2%" />
@@ -1045,7 +1045,7 @@
                     <EditText
                         android:id="@+id/editTextGpIndra70DailyDSDDMMainMon1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1158,7 +1158,7 @@
                     <EditText
                         android:id="@+id/editTextGpIndra70DailyDSDDMMainMon2"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
@@ -1273,7 +1273,7 @@
                     <EditText
                         android:id="@+id/editTextGpIndra70DailyDSDDMStbMon"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:ems="4"
                         android:hint="DDM %"
