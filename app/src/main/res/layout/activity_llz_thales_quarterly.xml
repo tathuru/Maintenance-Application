@@ -239,7 +239,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterly1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -255,7 +255,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterly3"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -263,8 +263,8 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterly4"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="53dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="58dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="4"/>
@@ -303,7 +303,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterly9"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -353,7 +353,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterlyPara1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -369,7 +369,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterlyPara3"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -385,7 +385,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterlyPara4"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -426,7 +426,7 @@
                         android:id="@+id/textViewLlzThalesQuarterlyPara9"
                         android:layout_width="match_parent"
                         android:layout_weight="1"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -476,7 +476,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterlyNml1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -492,7 +492,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterlyNml3"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -508,7 +508,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesQuarterlyNml4"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -553,7 +553,7 @@
                         android:id="@+id/textViewLlzThalesQuarterlyNml9"
                         android:layout_width="match_parent"
                         android:layout_weight="1"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -625,7 +625,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesQuarterlyFrequencyTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -641,7 +641,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesQuarterlyModBalTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -657,7 +657,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesQuarterlyModFreqTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -697,7 +697,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesQuarterlyCourseTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-I/II/III"
@@ -746,7 +746,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesQuarterlyFrequencyTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -762,7 +762,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesQuarterlyModBalTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -778,7 +778,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesQuarterlyModFreqTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -818,7 +818,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesQuarterlyCourseTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-I/II/III"

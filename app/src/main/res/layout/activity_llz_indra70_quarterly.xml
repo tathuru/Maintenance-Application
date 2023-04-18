@@ -251,7 +251,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70Quarterly12"
                         android:layout_width="wrap_content"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -333,7 +333,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70QuarterlyCourseCov"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -422,7 +422,7 @@
                     <TextView
                         android:id="@+id/textViewLlzIndra70QuarterlyNml2"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:text="Power (As commissioned or\n during last flight check)\n Tolerance ± 1dB " />
@@ -529,7 +529,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzIndra70QuarterlyCovTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -617,7 +617,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzIndra70QuarterlyCovTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""

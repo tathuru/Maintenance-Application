@@ -739,7 +739,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="RF %\n (100±20)% "
+                                android:text="RF % (100±20)% "
                                 android:textColor="@color/textViewColor" />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyCRSPosDDM"
@@ -747,20 +747,20 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
-                                android:text="DDM % \n(0±5.46)% " />
+                                android:text="DDM % (0±5.46)% " />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyCRSPosSDM"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="SDM %\n(80±4)%"
+                                android:text="SDM % (80±4)%"
                                 android:textColor="@color/textViewColor" />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyCRSWidthRF"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="RF %\n (100±20)%"
+                                android:text="RF % (100±20)%"
                                 android:textColor="@color/textViewColor" />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyCRSWidthDDM"
@@ -768,20 +768,20 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
-                                android:text="DDM %\n(17.5±4.37)%" />
+                                android:text="DDM % (17.5±4.37)%" />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyCRSWidthSDM"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="SDM %\n(80±4)%"
+                                android:text="SDM % (80±4)%"
                                 android:textColor="@color/textViewColor" />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyCLRRF"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="RF %\n(100±20)%"
+                                android:text="RF % (100±20)%"
                                 android:textColor="@color/textViewColor" />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyCLRDDM"
@@ -789,20 +789,20 @@
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
-                                android:text="DDM % \nNominal ±4% " />
+                                android:text="DDM % Nominal ±4% " />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyCLRSDM"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="SDM %\n(80±4)%"
+                                android:text="SDM % (80±4)%"
                                 android:textColor="@color/textViewColor" />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyNFMRF"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="RF %\n(100±20)%"
+                                android:text="RF % (100±20)%"
                                 android:textColor="@color/textViewColor" />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyNFMDDM"
@@ -810,13 +810,13 @@
                                 android:layout_height="68dp"
                                 android:layout_marginTop="5dp"
                                 android:textColor="@color/textViewColor"
-                                android:text="DDM % \n(0±0.546)% " />
+                                android:text="DDM % (0±0.546)% " />
                             <TextView
                                 android:id="@+id/textViewGpThalesDailyNFMSDM"
                                 android:layout_width="match_parent"
                                 android:layout_height="48dp"
                                 android:layout_marginTop="5dp"
-                                android:text="SDM %\n(80±4)%"
+                                android:text="SDM % (80±4)%"
                                 android:textColor="@color/textViewColor" />
 
                         </LinearLayout>
