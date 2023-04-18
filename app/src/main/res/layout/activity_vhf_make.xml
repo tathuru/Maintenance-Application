@@ -40,58 +40,60 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_above="@+id/textView2"
         android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="35dp">
 
         <Button
-            android:text="OTE/SELEX"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/ote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_column="0"
-            android:layout_gravity="fill"
             android:layout_rowWeight="1"
+            android:layout_column="0"
             android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="OTE/SELEX"
             android:textSize="12sp" />
 
         <Button
-            android:text="PAE"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/pae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_column="1"
-            android:layout_gravity="fill"
             android:layout_rowWeight="1"
+            android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="PAE"
             android:textSize="12sp" />
+
         <Button
-            android:text="JOTRON"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/jotron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_row="1"
-            android:layout_column="0"
-            android:layout_gravity="fill"
             android:layout_rowWeight="1"
+            android:layout_column="0"
             android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="JOTRON"
             android:textSize="12sp" />
 
         <Button
-            android:text="ECIL"
+            android:id="@+id/ecil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ecil"
             android:layout_row="1"
-            android:layout_column="1"
-            android:layout_gravity="fill"
             android:layout_rowWeight="1"
+            android:layout_column="1"
             android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:text="ECIL"
             android:textSize="12sp" />
-
 
 
     </GridLayout>
