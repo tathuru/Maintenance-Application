@@ -200,7 +200,7 @@ public class AsmgcsHittCmsSiteWeeklyActivity extends AppCompatActivity {
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 355, 661, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,300,250, false), 355, 661, paint);
 
         myPdfdocument.finishPage(myPage1);
 

@@ -196,7 +196,7 @@ public class AsmgcsProcessorsSensisMonthlyActivity extends AppCompatActivity {
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
-        titlePaint.setTextSize(12);
+        titlePaint.setTextSize(14);
 
         int[] editTextXPixel = {505,200,215,215,215,215,215,215,215,215,215,215,215,215,215,215,215,215,215,215,195,290,380,470,560,195,290,380,470,560,195,290,380,470,560};
         int[] editTextYPixel = {190,168,285,308,333,356,380,404,427,451,474,497,521,546,569,593,639,663,687,711,765,765,765,765,765,787,787,787,787,787,817,817,817,817,817};

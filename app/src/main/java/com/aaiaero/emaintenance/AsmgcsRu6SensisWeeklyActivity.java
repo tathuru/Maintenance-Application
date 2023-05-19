@@ -62,7 +62,9 @@ public class AsmgcsRu6SensisWeeklyActivity extends AppCompatActivity {
                 editText140, editText141, editText142,editText143, editText144, editText145, editText146, editText147, editText148, editText149, editText150,editText151, editText152, editText153, editText154, editText155,
                 editText156, editText157, editText158,editText159, editText160, editText161, editText162, editText163, editText164, editText165, editText166, editText167, editText168, editText169,
                 editText170, editText171, editText172,editText173, editText174, editText175, editText176, editText177, editText178, editText179, editText180,editText181, editText182, editText183, editText184, editText185,
-                editText186, editText187, editText188,editText189, editText190, editText191, editText192, editText193, editText194, editText195,editText196, editText197, editText198,editText199, editText200, editText201, editText202, editText203;
+                editText186, editText187, editText188,editText189, editText190, editText191, editText192, editText193, editText194, editText195,editText196, editText197, editText198,editText199, editText200, editText201, editText202, editText203, editText204, editText205, editText206,
+                editText207, editText208, editText209, editText210, editText211, editText212, editText213, editText214,editText215, editText216, editText217, editText218, editText219, editText220, editText221, editText222,
+                editText223;
 
         editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText2),
                 editText2 = (EditText) findViewById(R.id.editText3),
@@ -266,7 +268,27 @@ public class AsmgcsRu6SensisWeeklyActivity extends AppCompatActivity {
                 editText200 = (EditText) findViewById(R.id.editText201),
                 editText201 = (EditText) findViewById(R.id.editText202),
                 editText202 = (EditText) findViewById(R.id.editText203),
-                editText203 = (EditText) findViewById(R.id.editText204)};
+                editText203 = (EditText) findViewById(R.id.editText204),
+                editText204 = (EditText) findViewById(R.id.editText205),
+                editText205 = (EditText) findViewById(R.id.editText206),
+                editText206 = (EditText) findViewById(R.id.editText207),
+                editText207 = (EditText) findViewById(R.id.editText208),
+                editText208 = (EditText) findViewById(R.id.editText209),
+                editText209 = (EditText) findViewById(R.id.editText210),
+                editText210 = (EditText) findViewById(R.id.editText211),
+                editText211 = (EditText) findViewById(R.id.editText212),
+                editText212 = (EditText) findViewById(R.id.editText213),
+                editText213 = (EditText) findViewById(R.id.editText214),
+                editText214 = (EditText) findViewById(R.id.editText215),
+                editText215 = (EditText) findViewById(R.id.editText216),
+                editText216 = (EditText) findViewById(R.id.editText217),
+                editText217 = (EditText) findViewById(R.id.editText218),
+                editText218 = (EditText) findViewById(R.id.editText219),
+                editText219 = (EditText) findViewById(R.id.editText220),
+                editText220 = (EditText) findViewById(R.id.editText221),
+                editText221 = (EditText) findViewById(R.id.editText222),
+                editText222 = (EditText) findViewById(R.id.editText223),
+                editText223 = (EditText) findViewById(R.id.editText224)};
 
         //Define and Initialize all Switches serially here
 
@@ -372,13 +394,13 @@ public class AsmgcsRu6SensisWeeklyActivity extends AppCompatActivity {
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
-        titlePaint.setTextSize(12);
+        titlePaint.setTextSize(14);
 
-        int[] editTextXPixel = {85,220,95,140,188,239,279,343,384,445,476,516,547,588,628,668,95,140,188,239,279,343,384,445,476,516,547,588,628,668,95,140,188
+        int[] editTextXPixel = {565,645,95,140,188,239,279,343,384,445,476,516,547,588,628,668,95,140,188,239,279,343,384,445,476,516,547,588,628,668,95,140,188
                 ,239,279,343,384,445,476,516,547,588,628,668,95,140,188,239,279,343,384,445,476,516,547,588,628,668,95,140,188,239,279,343,384,445,476,516,547
                 ,588,628,668,95,140,188,239,279,343,384,445,476,516,547,588,628,668,95,140,188,239,279,343,384,445,476,516,547,588,628,668,95,140,188,239,279
                 ,343,384,445,476,516,547,588,628,668,95,140,188,239,279,343,384,445,476,516,547,588,628,668,95,140,188,239,279,343,384,445,476,516,547,588,628,668};
-        int[] editTextYPixel = {170,170,350,350,350,350,350,350,350,350,350,350,350,350,350,350,385,385,385,385,385,385,385,385,385,385,385,385,385,385,420,420
+        int[] editTextYPixel = {165,165,350,350,350,350,350,350,350,350,350,350,350,350,350,350,385,385,385,385,385,385,385,385,385,385,385,385,385,385,420,420
                 ,420,420,420,420,420,420,420,420,420,420,420,420,460,460,460,460,460,460,460,460,460,460,460,460,460,460,495,495,495,495,495,495,495,495,495
                 ,495,495,495,495,495,530,530,530,530,530,530,530,530,530,530,530,530,530,530,565,565,565,565,565,565,565,565,565,565,565,565,565,565,605,605
                 ,605,605,605,605,605,605,605,605,605,605,605,605,640,640,640,640,640,640,640,640,640,640,640,640,640,640,675,675,675,675,675,675,675,675,675
@@ -408,7 +430,7 @@ public class AsmgcsRu6SensisWeeklyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,425,190,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,575,188,titlePaint);//Printing Date on PDF
 
 
         myPdfdocument.finishPage(myPage1);
@@ -429,7 +451,7 @@ public class AsmgcsRu6SensisWeeklyActivity extends AppCompatActivity {
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
 
-        titlePaint.setTextSize(12);
+        titlePaint.setTextSize(14);
 
         int[] editTextXPixel2 = {135,193,253,305,365,410,518,575,135,193,253,305,365,410,518,575,135,193,253,305,365,410,518,575
                 ,135,193,253,305,365,410,518,575,135,193,253,305,365,410,518,575,135,193,253,305,365,410,518,575,135,193,253,305
@@ -448,7 +470,7 @@ public class AsmgcsRu6SensisWeeklyActivity extends AppCompatActivity {
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,250, false), 30, 660, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,250, false), 460, 562, paint);
 
         myPdfdocument.finishPage(myPage2);
 

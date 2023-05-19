@@ -53,7 +53,7 @@ public class AsmgcsHittCpsSiteEvenWeeklyActivity extends AppCompatActivity {
         //Define and Initialize all EditTexts serially here
         EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
                 editText17, editText18, editText19,editText20, editText21, editText22, editText23, editText24, editText25, editText26, editText27,editText28, editText29, editText30, editText31, editText32, editText33, editText34, editText35,
-                editText36,editText37,editText38, editText39, editText40, editText41, editText42, editText43;
+                editText36,editText37,editText38, editText39, editText40, editText41, editText42, editText43, editText44, editText45;
 
         editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText2),
                 editText2 = (EditText) findViewById(R.id.editText3),
@@ -97,7 +97,9 @@ public class AsmgcsHittCpsSiteEvenWeeklyActivity extends AppCompatActivity {
                 editText40 = (EditText) findViewById(R.id.editText41),
                 editText41 =(EditText)  findViewById(R.id.editText42),
                 editText42 = (EditText) findViewById(R.id.editText43),
-                editText43 = (EditText) findViewById(R.id.editText44)};
+                editText43 = (EditText) findViewById(R.id.editText44),
+                editText44 = (EditText) findViewById(R.id.editText45),
+                editText45 = (EditText) findViewById(R.id.editText46)};
 
         //Define and Initialize all Switches serially here
 
