@@ -41,6 +41,8 @@ public class SurAsmgcsMakeActivity extends AppCompatActivity {
         selex.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),AsmgcsSelexActivity.class);
+                startActivity(intent);
 
             }
         });
