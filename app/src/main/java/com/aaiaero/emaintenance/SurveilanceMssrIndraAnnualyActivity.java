@@ -232,8 +232,8 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {140,140,260,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450};
-        int[] editTextYPixel = {205,205,205,270,290,337,360,393,410,440,475,535,580,620,705,740,775,830,865,894};
+        int[] editTextXPixel = {140,260,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450,450};
+        int[] editTextYPixel = {205,205,270,295,337,360,393,410,440,475,535,580,620,705,740,775,830,865,894};
 
 
 
@@ -287,7 +287,7 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
 
 
         for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+20],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+19],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
         }
 
 
@@ -321,7 +321,7 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
 
 
         for(int i = 0; i < editTextXPixel3.length; i++){
-            canvas.drawText( editTextDataForPDF[i+46],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+45],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
         }
 
 
@@ -340,14 +340,14 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
 
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/MSSR/Indra/Annually/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/MSSR/Indra/Yearly/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "Annually MSSR Indra " + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "Yearly MSSR Indra " + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -362,12 +362,12 @@ public class SurveilanceMssrIndraAnnualyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Annually",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Yearly",outputEditText,MyFunctions.specificCode("y"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
         myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-                "Annually Maintenance of Indra MSSR done.",//Change Here-----------------------------
+                "Yearly Maintenance of Indra MSSR done.",//Change Here-----------------------------
                 "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
 
 

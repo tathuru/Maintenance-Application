@@ -173,10 +173,10 @@ public class AsmgcsSmrSensisMonthlyActivity extends AppCompatActivity {
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
-        titlePaint.setTextSize(12);
+        titlePaint.setTextSize(14);
 
-        int[] editTextXPixel = {250,130,370,380,330,330,330,330,330,330,330,365,330,330};
-        int[] editTextYPixel = {205,205,259,276,403,440,471,505,528,574,606,649,680,705};
+        int[] editTextXPixel = {130,130,370,380,330,330,330,330,330,330,330,365,330,330};
+        int[] editTextYPixel = {220,205,259,276,403,440,463,498,528,568,606,649,675,704};
 
 
 
@@ -241,7 +241,7 @@ public class AsmgcsSmrSensisMonthlyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Monthly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Monthly",outputEditText,MyFunctions.specificCode("m"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

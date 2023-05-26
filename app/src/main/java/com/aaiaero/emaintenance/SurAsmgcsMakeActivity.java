@@ -32,6 +32,8 @@ public class SurAsmgcsMakeActivity extends AppCompatActivity {
         hitt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),AsmgcsHittActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -39,6 +41,8 @@ public class SurAsmgcsMakeActivity extends AppCompatActivity {
         selex.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),AsmgcsSelexActivity.class);
+                startActivity(intent);
 
             }
         });

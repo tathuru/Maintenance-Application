@@ -332,9 +332,9 @@ public class AsmgcsRu5SensisWeeklyActivity extends AppCompatActivity {
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
-        titlePaint.setTextSize(12);
+        titlePaint.setTextSize(14);
 
-        int[] editTextXPixel = {85,220,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295
+        int[] editTextXPixel = {150,200,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295
                 ,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295
                 ,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,247,295
                 ,346,391,445,505,560,615,150,247,295,346,391,445,505,560,615,150,232,286,333,380,430,490,545,605,150,232,286,333,380,430,490,545,605,150,232,286
@@ -369,12 +369,12 @@ public class AsmgcsRu5SensisWeeklyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,425,190,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,545,175,titlePaint);//Printing Date on PDF
 
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,250, false), 445, 826, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,195, false), 445, 826, paint);
 
         myPdfdocument.finishPage(myPage1);
 
@@ -408,7 +408,7 @@ public class AsmgcsRu5SensisWeeklyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Weekly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Weekly",outputEditText,MyFunctions.specificCode("w"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

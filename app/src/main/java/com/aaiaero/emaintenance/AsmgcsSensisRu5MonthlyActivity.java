@@ -53,7 +53,7 @@ public class AsmgcsSensisRu5MonthlyActivity extends AppCompatActivity {
         //Define and Initialize all EditTexts serially here
         EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
                 editText17, editText18, editText19,editText20, editText21, editText22, editText23, editText24, editText25, editText26, editText27,editText28, editText29, editText30, editText31, editText32, editText33, editText34, editText35,
-                editText36, editText37,editText38, editText39, editText40, editText41, editText42, editText43, editText44, editText45,editText46, editText47, editText48, editText49, editText50, editText51, editText52;
+                editText36, editText37,editText38, editText39, editText40, editText41, editText42, editText43, editText44, editText45,editText46, editText47, editText48, editText49, editText50, editText51, editText52, editText53, editText54;
 
         editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText2),
                 editText2 = (EditText) findViewById(R.id.editText3),
@@ -106,7 +106,9 @@ public class AsmgcsSensisRu5MonthlyActivity extends AppCompatActivity {
                 editText49 =(EditText)  findViewById(R.id.editText50),
                 editText50 = (EditText) findViewById(R.id.editText51),
                 editText51 = (EditText) findViewById(R.id.editText52),
-                editText52 = (EditText) findViewById(R.id.editText53)};
+                editText52 = (EditText) findViewById(R.id.editText53),
+                editText53 = (EditText) findViewById(R.id.editText54),
+                editText54 = (EditText) findViewById(R.id.editText55)};
 
         //Define and Initialize all Switches serially here
 
@@ -344,7 +346,7 @@ public class AsmgcsSensisRu5MonthlyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Monthly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Monthly",outputEditText,MyFunctions.specificCode("m"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

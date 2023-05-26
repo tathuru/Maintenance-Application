@@ -169,7 +169,7 @@ public class AsmgcsSmrSensisQuarterlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {420,135,410,520,410,520,410,520,66};
+        int[] editTextXPixel = {330,135,410,520,410,520,410,520,66};
         int[] editTextYPixel = {185,185,275,275,340,340,390,390,730};
 
 
@@ -202,7 +202,7 @@ public class AsmgcsSmrSensisQuarterlyActivity extends AppCompatActivity {
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 85, 430, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 65, 430, paint);
 
         myPdfdocument.finishPage(myPage1);
 
@@ -236,7 +236,7 @@ public class AsmgcsSmrSensisQuarterlyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Quarterly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Quarterly",outputEditText,MyFunctions.specificCode("q"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

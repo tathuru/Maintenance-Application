@@ -189,8 +189,8 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {175,175,290,435,435,435,435,435,435,435,435,435,435,435,435,435,435,435};
-        int[] editTextYPixel = {205,205,205,280,345,380,465,490,520,585,615,650,740,760,785,835,864,885};
+        int[] editTextXPixel = {175,290,435,435,435,435,435,435,435,435,435,435,435,435,435,435,435};
+        int[] editTextYPixel = {205,205,280,345,380,465,490,520,585,615,650,740,760,785,835,864,885};
 
 
 
@@ -244,7 +244,7 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
 
 
         for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+18],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+17],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
         }
 
 
@@ -285,7 +285,7 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","SixMonthly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","SixMonthly",outputEditText,MyFunctions.specificCode("sm"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

@@ -306,7 +306,7 @@ public class AsmgcsSmrSensisWeeklyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {85,215,320,320,320,320,320,320,320,320,320,320,357,320,357,320,357,320,357,320,357,320,357,320,357,320,357,320,357,320,334,356,372,320,334,356,372};
+        int[] editTextXPixel = {140,200,320,320,320,320,320,320,320,320,320,320,357,320,357,320,357,320,357,320,357,320,357,320,357,320,357,320,357,320,334,356,372,320,334,356,372};
         int[] editTextYPixel = {120,120,260,275,290,305,337,354,368,385,400,520,520,550,550,565,565,590,590,625,625,650,650,680,680,710,710,745,773,870,870,870,870,895,895,895,895};
 
 
@@ -436,7 +436,7 @@ public class AsmgcsSmrSensisWeeklyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Weekly",outputEditText,MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"Surveillance","Weekly",outputEditText,MyFunctions.specificCode("w"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
