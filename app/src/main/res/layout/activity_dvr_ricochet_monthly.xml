@@ -232,7 +232,7 @@
                     <TextView
                         android:id="@+id/textViewDvrRicochetMonthly4"
                         android:layout_width="wrap_content"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -240,7 +240,7 @@
                     <TextView
                         android:id="@+id/textViewDvrRicochetMonthly5"
                         android:layout_width="wrap_content"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -314,7 +314,7 @@
                     <TextView
                         android:id="@+id/textViewDvrRicochetMonthlyP4"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -322,7 +322,7 @@
                     <TextView
                         android:id="@+id/textViewDvrRicochetMonthlyP10"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -372,7 +372,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:layout_weight="1"
+                    android:layout_weight="1.3"
                     android:orientation="vertical">
                     <TextView
                         android:id="@+id/textViewDvrRicochetMonthlyObs1"
@@ -410,7 +410,7 @@
                     <EditText
                         android:id="@+id/editTextDvrRicochetMonthlySByRestart"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -418,7 +418,7 @@
                     <EditText
                         android:id="@+id/editTextDvrRicochetMonthlySByH24"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -586,7 +586,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:layout_weight="1"
+                    android:layout_weight="1.3"
                     android:orientation="vertical">
                     <TextView
                         android:id="@+id/textViewDvrRicochetMonthlyObs2"

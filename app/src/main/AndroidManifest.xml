@@ -23,7 +23,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".VhfTxJotYearlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxJotWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxJotMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfTxJotDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VhfRxJotYearlyActivity"
+            android:exported="false" />
         <activity
             android:name=".LlzAsiiQuarterly2Activity"
             android:exported="false" />
@@ -40,10 +54,28 @@
             android:name=".LlzAsiiWeeklyActivity"
             android:exported="false" />
         <activity
+            android:name=".LlzAsiiDailyActivity"
+            android:exported="false" />
+        <activity
             android:name=".NavigationLlzAsiiActivity"
             android:exported="false" />
         <activity
-            android:name=".LlzAsiiDailyActivity"
+            android:name=".GpAsiiQuarterlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiAnnualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpAsiiDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationGpAsiiActivity"
             android:exported="false" />
         <activity
             android:name=".NavAidsDMEINTELCANN9040MonthlyActivity"
@@ -95,6 +127,9 @@
             android:exported="false" />
         <activity
             android:name=".DvrVoxtronicDynalogMonthlyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DvrVoxtronicDynalogDailyActivity"
             android:exported="false" />
         <activity
             android:name=".DvrVoxtronicAaeonMonthlyActivity"
@@ -190,7 +225,6 @@
             android:name=".NavAidsDVORThales432SixMonthlyActivity"
             android:exported="false" />
         <activity
-
             android:name=".SurveilanceMssrIndraSixMonthlyActivity"
             android:exported="false">
             <meta-data
@@ -252,8 +286,7 @@
             android:exported="false" />
         <activity
             android:name=".SurveilanceMssrIndraAnnualyActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
         <!--
 <activity
             android:name=".AutomationUPS5kvaDailyActivity"
@@ -493,6 +526,9 @@
             android:name=".LlzThalesWeeklyActivity"
             android:exported="false" />
         <activity
+            android:name=".LlzThalesWfrActivity"
+            android:exported="false" />
+        <activity
             android:name=".LlzThalesDailyActivity"
             android:exported="false" />
         <activity
@@ -622,6 +658,18 @@
             android:name=".AmssEcilWeeklyActivity"
             android:exported="false" />
         <activity
+            android:name=".AmssIpInhouseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmssIpInhouseDailyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmssIpInhouseWeeklyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmssIpInhouseMonthlyActivity"
+            android:exported="false" />
+        <activity
             android:name=".DVORMopiensDailyActivity"
             android:exported="false" />
         <activity
@@ -672,7 +720,6 @@
         <activity
             android:name=".NavAidsNDBSAC100QuarterlyActivity"
             android:exported="true" />
-
         <activity
             android:name=".ADSBMakeModelActivity"
             android:exported="false" />

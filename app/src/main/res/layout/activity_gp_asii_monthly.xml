@@ -343,7 +343,7 @@
                         android:layout_height="48dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
-                        android:text="Transfer from Syatem A to Syatem B (Nominal 1 sec)"
+                        android:text="Transfer from System A to System B (Nominal 1 sec)"
                         android:textColor="@color/textViewColor" />
 
                 </LinearLayout>
