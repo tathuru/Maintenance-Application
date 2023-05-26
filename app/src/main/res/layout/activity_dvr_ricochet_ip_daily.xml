@@ -424,7 +424,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="Recordimg on all channels (Check every channel)" />
+                        android:text="Recording on all channels (Check every channel)" />
                     <TextView
                         android:id="@+id/textViewDvrRicochetIPDailyP7"
                         android:layout_width="match_parent"
@@ -586,7 +586,7 @@
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="Recordimg on all channels (Check every channel)" />
+                        android:text="Recording on all channels (Check every channel)" />
                     <TextView
                         android:id="@+id/textViewDvrRicochetIPDailyP13"
                         android:layout_width="match_parent"

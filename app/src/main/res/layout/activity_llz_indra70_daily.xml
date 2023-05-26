@@ -2988,14 +2988,14 @@
             <TextView
                 android:id="@+id/textView68"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="20dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:layout_marginBottom="40dp"
-                android:textStyle="italic"
-                android:textColor="@color/teal_700"
+                android:layout_marginBottom="50dp"
                 android:text="Form Created by- Shubham Jain"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/teal_700"
+                android:textStyle="italic" />
 
         </LinearLayout>
     </ScrollView>
