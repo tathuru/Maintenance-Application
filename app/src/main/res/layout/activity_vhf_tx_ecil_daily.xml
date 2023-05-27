@@ -1,0 +1,1898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VhfTxEcilDailyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="Airports Authority of India"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/logoaai" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="CNS MANUAL VOL.VII Part 1"
+                    android:textAlignment="textEnd"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Name: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Desig: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Emp No.: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Location: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewVhfTxEcilDaily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:text="PREVENTIVE MAINTENANCE SCHEDULE- DAILY\n VHF TX (ECIL)"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/editTextVhfTxEcilDailyStation"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:hint="Station"
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/editTextVhfTxEcilDailyRegion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Region"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/textViewMake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:textColor="@color/textViewColor"
+                    android:gravity="center_vertical"
+                    android:text="Make/Model: ECIL 5350" />
+                <TextView
+                    android:id="@+id/textViewDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:text="Date:" />
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textViewColor"
+                    android:text="" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textViewVhfTxEcilDailyPg1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:text="Page 1:" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyTx"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="TX No."
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyFreq"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="Freq (MHz)"
+                        android:gravity="center_vertical" />
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="Location"
+                        android:gravity="center_vertical" />
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="Parameters" />
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="AC Power"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="DC Power"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Status"/>
+
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Bit Test"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Transmission Check"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Reception Check"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="AC/DC Change over"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="DC Voltage (PS)"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Modulation %"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara21"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Forward Power"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="1 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="1 (S/by)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="2 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="2 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="3 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="3 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/editTextVhfTxEcilDailyRemarks1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:ems="4"
+                android:inputType="textMultiLine"
+                android:hint="Remarks:"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/textViewVhfTxEcilDailyPg2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/teal_700"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:text="Page 2:" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyTx1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="TX No."
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyFreq1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="Freq (MHz)"
+                        android:gravity="center_vertical" />
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyStatus1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/textViewColor"
+                        android:text="Location"
+                        android:gravity="center_vertical" />
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara11"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="Parameters" />
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="AC Power"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara13"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="DC Power"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara14"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Status"/>
+
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara15"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Bit Test"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara16"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Transmission Check"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Reception Check"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara18"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="AC/DC Change over"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara19"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="DC Voltage (PS)"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara20"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Modulation %"/>
+                    <TextView
+                        android:id="@+id/textViewVhfTxEcilDailyPara22"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Forward Power"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="4 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="4 (S/by)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="5 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="5 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="6 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTx12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="6 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFreq12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyLoc12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACPow12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="6"
+                        android:hint="AC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCPow12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="DC lamp lit"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyStatus12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ready lamp lit"
+                        android:textSize="12sp"/>
+
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyBit12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/57"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyTxn12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/58"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyRxn12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 3/59"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyACDC12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyDCVolt12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="23-36 V"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyMod12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="30-85 %"
+                        android:textSize="12sp"/>
+                    <EditText
+                        android:id="@+id/editTextVhfTxEcilDailyFrw12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="25-50 W"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/editTextVhfTxEcilDailyRemarks2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:ems="4"
+                android:inputType="textMultiLine"
+                android:hint="Remarks:"
+                android:textSize="14sp"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Sign Document" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Submit Schedule" />
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:textStyle="italic"
+                android:textColor="@color/teal_700"
+                android:text="Form Created by- Naveen Singh Rana"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

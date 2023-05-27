@@ -1,0 +1,2831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VhfRxEcilMonthlyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="Airports Authority of India"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/logoaai" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="CNS MANUAL VOL.VII Part 1"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Name: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Desig: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Emp No.: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Location: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewVhfRxEcilMonthly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="PREVENTIVE MAINTENANCE SCHEDULE- MONTHLY\n VHF RX (ECIL)"
+                android:textAlignment="center"
+                android:textColor="@color/teal_700"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextVhfRxEcilMonthlyStation"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Station"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editTextVhfRxEcilMonthlyRegion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Region"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewMake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:text="Make/Model: ECIL 5100"
+                    android:textColor="@color/textViewColor" />
+
+                <TextView
+                    android:id="@+id/textViewDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="Date:"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor" />
+
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textColor="@color/textViewColor" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textViewVhfRxEcilMonthlyPg1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:text="Page 1:"
+                android:textColor="@color/teal_700"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyRx"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="RX No."
+                        android:textColor="@color/textViewColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyFreq"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Frequency (MHz)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyLoc"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Location"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Physical Cleaning"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="DC Voltages"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Unregulated Supply (TP 4)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Bit Unregulated Supply (TP 7)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="IF &amp; Audio Unregulated (TP 3)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Proportional VDC (DC LED) (TP 5)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Proportional VDC (AC LED) (TP 6)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Reg. +15V  (TP 1)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara8"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Synthesizer Unit"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Input DC +15V (TP 4)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Regulated +10V (TP 5)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Regulated +5V (TP 7)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Regulated +12V"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara13"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Synthesizer Alignment"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara14"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Frequency Check"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara15"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Sensitivity"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara16"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Mute"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Antenna &amp; Cable Physical Check"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara18"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Working Status in operation"
+                        android:textColor="@color/textViewColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="1 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg101"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg51"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg121"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="1 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg102"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg52"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg122"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="2 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg103"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg53"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg123"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="2 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg104"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg54"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg124"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="3 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg105"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg55"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg125"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="3 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg106"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg56"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg126"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextVhfRxEcilMonthlyRemarks1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="4"
+                android:hint="Remarks:"
+                android:inputType="textMultiLine"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textViewVhfRxEcilMonthlyPg2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:text="Page 2:"
+                android:textColor="@color/teal_700"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyRx1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="RX No."
+                        android:textColor="@color/textViewColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyFreq1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Frequency (MHz)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyLoc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Location"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyClean1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Physical Cleaning"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara21"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="DC Voltages"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara22"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Unregulated Supply (TP 4)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara23"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Bit Unregulated Supply (TP 7)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara24"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="IF &amp; Audio Unregulated (TP 3)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara25"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Proportional VDC (DC LED) (TP 5)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara26"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Proportional VDC (AC LED) (TP 6)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara27"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Reg. +15V  (TP 1)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara28"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Synthesizer Unit"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara29"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Input DC +15V (TP 4)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara30"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Regulated +10V (TP 5)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara31"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Regulated +5V (TP 7)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara32"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Regulated +12V"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara33"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Synthesizer Alignment"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara34"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Frequency Check"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara35"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Sensitivity"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara36"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Mute"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara37"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Antenna &amp; Cable Physical Check"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewVhfRxEcilMonthlyPara38"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Working Status in operation"
+                        android:textColor="@color/textViewColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="4 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg107"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg57"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg127"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="4 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg108"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg58"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg128"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="5 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg109"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg59"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg129"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="5 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg1010"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg510"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg1210"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="6 (Main)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg1011"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg511"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg1211"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyRx12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:text="6 (S/By)"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreq12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyLoc12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyClean12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Clean"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyUnreg12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyBit12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="19-35 V"
+                        android:textSize="12sp" />
+
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyIF12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 5/10a"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyDCLed12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyACLed12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyInput12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg1012"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 9"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg512"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 10"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyReg1212"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="IC 11"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySynth12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/81-84"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyFreqChk12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/85-86"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlySens12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyMute12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Ref T/M 6/32"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyAntChk12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                    <EditText
+                        android:id="@+id/editTextVhfRxEcilMonthlyStatus12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Normal"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextVhfRxEcilMonthlyRemarks2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:ems="4"
+                android:hint="Remarks:"
+                android:inputType="textMultiLine"
+                android:textSize="14sp" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:gravity="center"
+                    android:text="Sign Document" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:gravity="center"
+                    android:text="Submit Schedule" />
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:text="Form Created by- Naveen Singh Rana"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/teal_700"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
