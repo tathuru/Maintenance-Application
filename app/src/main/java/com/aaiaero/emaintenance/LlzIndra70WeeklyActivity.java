@@ -84,75 +84,66 @@ public class LlzIndra70WeeklyActivity extends AppCompatActivity {
                 editText23 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyUPSVolt2),
                 editText24 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyUPSFreq1),
                 editText25 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyUPSFreq2),
-                editText26 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatteryVolt1),
-                editText27 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatteryVolt2),
-                editText28 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatteryBD1),
-                editText29 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatteryBD2),
-                editText30 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatt10min1),
-                editText31 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatt10min2),
-                editText32 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatteryAD1),
-                editText33 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatteryAD2),
-                editText34 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatteryClean1),
-                editText35 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyBatteryClean2),
-                editText36 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevCL1),
-                editText37 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevCL2),
-                editText38 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevWP901),
-                editText39 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevWP902),
-                editText40 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevWP1501),
-                editText41 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevWP1502),
-                editText42 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevRF1),
-                editText43 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevRF2),
-                editText44 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevDDM901),
-                editText45 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevDDM902),
-                editText46 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevDDM1501),
-                editText47 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevDDM1502),
-                editText48 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSV1),
-                editText49 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSV2),
-                editText50 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCSB1),
-                editText51 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCSB2),
-                editText52 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBO1),
-                editText53 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBO2),
-                editText54 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCSBI1),
-                editText55 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCBSI2),
-                editText56 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCSBQ1),
-                editText57 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCBSQ2),
-                editText58 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBOI1),
-                editText59 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBOI2),
-                editText60 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBOQ1),
-                editText61 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBOQ2),
-                editText62 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRV1),
-                editText63 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRV2),
-                editText64 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSB1),
-                editText65 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSB2),
-                editText66 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBO1),
-                editText67 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBO2),
-                editText68 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBI1),
-                editText69 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBI2),
-                editText70 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBQ1),
-                editText71 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBQ2),
-                editText72 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOI1),
-                editText73 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOI2),
-                editText74 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOQ1),
-                editText75 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOQ2),
-                editText76 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyRMS1),
-                editText77 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyRMSB1),
-                editText78 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyPS11),
-                editText79 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly5PS11),
-                editText80 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly8PS11),
-                editText81 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly15PS11),
-                editText82 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyPS21),
-                editText83 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly5PS21),
-                editText84 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly8PS21),
-                editText85 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly15PS21),
-                editText86 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCOUCSB1),
-                editText87 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCOUCSB2),
-                editText88 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCOUSBO1),
-                editText89 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCOUSBO2),
-                editText90 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBA1),
-                editText91 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBA2),
-                editText92 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOA1),
-                editText93 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOA2),
-                editText94 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyRemarks),};
+
+                editText26 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevCL1),
+                editText27 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevCL2),
+                editText28 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevWP901),
+                editText29 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevWP902),
+                editText30 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevWP1501),
+                editText31 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevWP1502),
+                editText32 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevRF1),
+                editText33 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevRF2),
+                editText34 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevDDM901),
+                editText35 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevDDM902),
+                editText36 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevDDM1501),
+                editText37 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyDevDDM1502),
+                editText38 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSV1),
+                editText39 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSV2),
+                editText40 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCSB1),
+                editText41 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCSB2),
+                editText42 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBO1),
+                editText43 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBO2),
+                editText44 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCSBI1),
+                editText45 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCBSI2),
+                editText46 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCSBQ1),
+                editText47 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSCBSQ2),
+                editText48 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBOI1),
+                editText49 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBOI2),
+                editText50 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBOQ1),
+                editText51 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCRSSBOQ2),
+                editText52 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRV1),
+                editText53 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRV2),
+                editText54 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSB1),
+                editText55 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSB2),
+                editText56 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBO1),
+                editText57 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBO2),
+                editText58 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBI1),
+                editText59 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBI2),
+                editText60 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBQ1),
+                editText61 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBQ2),
+                editText62 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOI1),
+                editText63 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOI2),
+                editText64 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOQ1),
+                editText65 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOQ2),
+                editText66 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyRMS1),
+                editText67 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyRMSB1),
+                editText68 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyPS11),
+                editText69 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly5PS11),
+                editText70 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly8PS11),
+                editText71 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly15PS11),
+                editText72 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyPS21),
+                editText73 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly5PS21),
+                editText74 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly8PS21),
+                editText75 = (EditText) findViewById(R.id.editTextLlzIndra70Weekly15PS21),
+                editText76 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCOUCSB1),
+                editText77 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCOUCSB2),
+                editText78 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCOUSBO1),
+                editText79 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCOUSBO2),
+                editText80 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBA1),
+                editText81 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRCSBA2),
+                editText82 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOA1),
+                editText83 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyCLRSBOA2),
+                editText84 = (EditText) findViewById(R.id.editTextLlzIndra70WeeklyRemarks),};
 
         //Define and Initialize all Switches serially here
         Switch  switch1,switch2,switch3,switch4,switch5,switch6,switch7,switch8;
@@ -273,10 +264,8 @@ public class LlzIndra70WeeklyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {92,565,68,164,285,440,510,510,510,370,485,436,515,436,515,436,515,436,515,436,515,310,445,310,445,310,445};
-        int[] editTextYPixel = {112,112,145,145,145,145,203,222,245,365,365,510,510,575,575,625,625,705,705,760,760,820,820,838,838,853,853};
-
-
+        int[] editTextXPixel = {124,594,96,191,314,471,527,527,527,367,490,468,528,468,528,468,528,468,528};
+        int[] editTextYPixel = {137,137,170,170,170,170,235,254,277,375,375,540,540,620,620,690,690,780,780};
 
         // Change till here as per requirements ----------------------------------------------------
 
@@ -295,7 +284,7 @@ public class LlzIndra70WeeklyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,540,145,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,573,170,titlePaint);//Printing Date on PDF
 
         myPdfdocument.finishPage(myPage1);
 
@@ -317,17 +306,15 @@ public class LlzIndra70WeeklyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel2 = {315,450,315,450,315,450,315,450,465,560,465,560,465,560,465,560,465,560,465,560,
-                340,455,340,455,340,455,340,455,340,455,340,455,340,455,340,455,340,455};
-        int[] editTextYPixel2 = {116,116,133,133,150,150,168,168,479,479,497,497,513,513,530,530,547,547,565,565,
-                670,670,692,692,713,713,735,735,756,756,778,778,800,800,842,842,864,864};
+        int[] editTextXPixel2 = {467,530,355,480,355,480,487,582,487,582,487,582,487,582,487,582,487,582,368,465,368,465,368,465,368,465};
+        int[] editTextYPixel2 = {118,118,207,207,238,238,533,533,551,551,568,568,585,585,610,610,648,648,761,761,783,783,820,820,871,871};
 
-        int[] switchXPixel = {525,525,375,470,375,470,375,470};
-        int[] switchYPixel = {237,254,342,342,360,360,376,376};
+        int[] switchXPixel = {548,548,390,483,390,483,390,483};
+        int[] switchYPixel = {291,309,396,396,413,413,431,431};
 
 
         for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+27],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+19],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
         }
         for(int i = 0; i < switchXPixel.length; i++){
             canvas.drawText( switchDataForPDF[i],switchXPixel[i],switchYPixel[i],titlePaint);
@@ -350,17 +337,19 @@ public class LlzIndra70WeeklyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel3 = {340,460,340,460,340,460,340,460,340,460,360,360,360,360,360,360,360,360,360,360,325,420,325,420,325,420,325,420,60};
-        int[] editTextYPixel3 = {86,86,109,109,132,132,154,154,177,177,233,251,268,286,303,321,338,356,373,390,425,425,443,443,460,460,477,477,550};
+        int[] editTextXPixel3 = {370,465,370,465,370,465,370,465,370,465,360,472,360,472,360,472,360,472,360,472,375,375,375,375,375,375,375,375,375,375,
+                                340,433,340,433,340,433,340,433,70};
+        int[] editTextYPixel3 = {110,110,131,131,152,152,196,196,215,215,264,264,311,311,333,333,356,356,379,379,443,460,477,495,514,531,549,566,584,600,
+                                635,635,653,653,671,671,687,687,740};
 
 
         for(int i = 0; i < editTextXPixel3.length; i++){
-            canvas.drawText( editTextDataForPDF[i+65],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+45],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
         }
 
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 75, 620, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 75, 772, paint);
 
         myPdfdocument.finishPage(myPage3);
 

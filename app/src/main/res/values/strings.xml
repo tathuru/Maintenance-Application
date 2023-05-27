@@ -74,4 +74,43 @@
 
     </string-array>
 
+    <string-array name="AutomationDailyRadarLinkStatus">
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Red</item>
+    </string-array>
+
+    <string-array name="AutomationDailyLAN1">
+        <item>Black</item>
+        <item>Red</item>
+    </string-array>
+
+    <string-array name="AutomationDailyLAN2">
+        <item>Grey</item>
+        <item>Red</item>
+    </string-array>
+
+    <string-array name="AutomationDailyLAN3">
+        <item>White Vanilla</item>
+        <item>Red</item>
+    </string-array>
+
+    <string-array name="AutomationDailyRDCU_DRF_CMD">
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Red</item>
+    </string-array>
+
+    <string-array name="AutomationDailyNeptuno">
+        <item>Green</item>
+        <item>Red</item>
+    </string-array>
+
+    <string-array name="AutomationDailySDP_FDP_SNET">
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Red</item>
+    </string-array>
+
 </resources>

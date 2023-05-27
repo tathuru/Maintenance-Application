@@ -129,8 +129,8 @@ public class DVORMopiensDailyActivity extends AppCompatActivity  {
 
         //---------------------To Set View in Current Activity------------------
         // Fixed for all the activity---------------------------------------------------------------
-        ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
-        imageView2.setImageBitmap(PersonalDetailsActivity.photo);
+        //ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
+       // imageView2.setImageBitmap(PersonalDetailsActivity.photo);
         TextView textView3 = (TextView) findViewById(R.id.textView3);
         textView3.setText("Name: " + PersonalDetailsActivity.naam);
         TextView textView4 = (TextView) findViewById(R.id.textView4);

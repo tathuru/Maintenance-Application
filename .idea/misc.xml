@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dme_make_model.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dme_make_model.xml" value="0.33" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dme_mopiens.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dme_thales.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dmeasii1118_and1119.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dmeasii1118_and1119.xml" value="0.41944601469756926" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dmeselex1118_aand1119.xml" value="0.18333333333333332" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvor_gcel.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvor_make_model.xml" value="0.5" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvorasii1150.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvorasii1150_six_monthly.xml" value="0.5" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvormopiens_six_monthly.xml" value="0.55" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvorselex1150.xml" value="0.55" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvorthales432.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvorthalesmonthly.xml" value="0.5359375" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_dvrretia.xml" value="0.18333333333333332" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmeasii1118and1119_daily.xml" value="0.5" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmeasii1118and1119_monthly.xml" value="0.67" />
@@ -24,26 +29,35 @@
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmemaru310and320_annual.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmemaru310and320_daily.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmemaru310and320_six_monthly.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmeselex1118_aand1119_adaily.xml" value="0.25" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmethales415and435_annual.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmethales415and435_daily.xml" value="0.33" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dmethales432_daily.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorasii1150_monthly.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorasii1150_monthly.xml" value="0.48395967002749773" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorasii1150_quarterly.xml" value="0.5502866076081292" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorasii1150_six_monthly.xml" value="0.9" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorasii1150_six_monthly_vswractivity.xml" value="0.75" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorasii1150_weekly.xml" value="0.67" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorgcel755_daily.xml" value="0.5" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorgcel755_monthly_ground_checks.xml" value="0.6875" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorgcel755_quarterly.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorgcel755_six_monthly.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorgcel755_weekly.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorselex1150_annual.xml" value="0.67" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorselex1150_daily.xml" value="0.1" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorselex1150_half_yearly.xml" value="0.20118230358504957" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorselex1150_quarterly.xml" value="0.75" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorselex1150_weekly.xml" value="0.67" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorthales432_annual.xml" value="0.67" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorthales432_daily.xml" value="0.45084745762711864" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorthales432_monthly_annex1.xml" value="0.1" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorthales432_quarterly.xml" value="0.3550531914893617" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_dvorthales432_weekly.xml" value="0.9" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_ndbsac100_monthly.xml" value="0.5602536997885835" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_nav_aids_ndbsac100_weekly.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_ndbsac100.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/dksin/Downloads/Main Program Git/emaintenance/app/src/main/res/layout/activity_forgot_password.xml" value="0.2351851851851852" />
-        <entry key="..\:/Users/dksin/Downloads/Main Program Git/emaintenance/app/src/main/res/layout/activity_main.xml" value="0.2351851851851852" />
-        <entry key="..\:/Users/dksin/Downloads/Main Program Git/emaintenance/app/src/main/res/layout/activity_personal_details.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/dksin/Downloads/Main Program Git/emaintenance/app/src/main/res/layout/activity_signup.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_vhfdvrretiadaily_recording.xml" value="0.67" />
+        <entry key="..\:/Users/Project 2/AndroidStudioProjects/Maintenance-Application/app/src/main/res/layout/activity_vhfdvrretidaily.xml" value="0.55" />
         <entry key="..\:/Users/dksin/Downloads/New folder/emaintenance/app/src/main/res/layout/activity_personal_details.xml" value="0.1" />
       </map>
     </option>
