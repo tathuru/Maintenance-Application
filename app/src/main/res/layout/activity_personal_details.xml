@@ -51,6 +51,16 @@
                 android:layout_marginBottom="30dp"
                 android:textSize="14sp" />
 
+            <TextView
+                android:id="@+id/dateTimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/locationTextView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="30dp"
+                android:textSize="14sp" />
+
 
             <ImageView
                 android:id="@+id/imageViewSelf"
@@ -126,7 +136,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/locationTextView"
+                android:layout_below="@id/dateTimeTextView"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_marginBottom="27dp"

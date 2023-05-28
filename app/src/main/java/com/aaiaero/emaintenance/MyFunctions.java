@@ -29,6 +29,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.spec.InvalidKeySpecException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.LocalDate;
@@ -38,6 +41,10 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.IsoFields;
 import java.util.Date;
 import java.util.Locale;
+
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
 
 public class MyFunctions {
 
@@ -204,6 +211,8 @@ public class MyFunctions {
         test.put("SpecificCode", specificCode);
         test.put("Schedule_Type", Schedule_Type);
         test.put("EditTextData", EditTextData);
+
+        test.put("PersonalDetails", PersonalDetailsActivity.naam + "__XY__" + PersonalDetailsActivity.design + "__XY__" + PersonalDetailsActivity.EmpID + "__XY__" + MainActivity.latLong1 + "__XY__" + PersonalDetailsActivity.strDate);
 
         test.put("SwitchData", SwitchData);
         test.put("SpinnerData", SpinnerData);
@@ -434,6 +443,5 @@ public class MyFunctions {
 
         return output;
     }
-
 
 }

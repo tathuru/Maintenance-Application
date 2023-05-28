@@ -64,9 +64,24 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
+import java.security.InvalidAlgorithmParameterException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.spec.InvalidKeySpecException;
+import java.security.spec.InvalidParameterSpecException;
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.List;
 import java.util.Locale;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -204,7 +219,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void scanButtonClicked(View view){
 
-
         getCurrentLocation();
 
         if (locationFound || switch2.isChecked()){
@@ -225,8 +239,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         integrator.initiateScan();
 
 
-
-
     }
 
     @Override
@@ -236,7 +248,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (result.getContents() != null){
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 //a_log = "VEAT-Others";
-                a_log = result.getContents();
+                a_log = result.getContents(); // Scanned result in text form
 
                 builder.setMessage("Log in as " + usernameEditText.getText().toString());
 
@@ -246,14 +258,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 
-                        if( (usernameEditText.getText().toString() + "-Others").matches(a_log) ){
+                        try {
+                            if( encryptMsg(usernameEditText.getText().toString()).matches(a_log) ){
 
-                            toNextIntent();
+                                toNextIntent();
 
-                        } else {
+                            } else {
 
-                            Toast.makeText(MainActivity.this, "Code & Station didn't match. Rescan your QR Code!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "Code & Station didn't match. Rescan your QR Code!", Toast.LENGTH_SHORT).show();
 
+                            }
+                        } catch (InvalidKeyException e) {
+                            throw new RuntimeException(e);
+                        } catch (NoSuchPaddingException e) {
+                            throw new RuntimeException(e);
+                        } catch (NoSuchAlgorithmException e) {
+                            throw new RuntimeException(e);
+                        } catch (UnsupportedEncodingException e) {
+                            throw new RuntimeException(e);
+                        } catch (IllegalBlockSizeException e) {
+                            throw new RuntimeException(e);
+                        } catch (BadPaddingException e) {
+                            throw new RuntimeException(e);
                         }
 
                     }
@@ -668,5 +694,41 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return isEnabled;
 
     }
+
+
+    public static String encryptMsg(String message) throws InvalidKeyException, NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, IllegalBlockSizeException, BadPaddingException {
+
+        String encoded = "NoSuchPaddingException";
+        byte[] decodedKey = Base64.getDecoder().decode(encoded);
+        // rebuild key using SecretKeySpec
+        SecretKey original = new SecretKeySpec(decodedKey, 0, decodedKey.length, "AES");
+
+        Cipher cipher = null;
+        cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+        cipher.init(Cipher.ENCRYPT_MODE, original);
+        byte[] cipherText = cipher.doFinal(message.getBytes("UTF-8"));
+
+        String str = new String(cipherText, StandardCharsets.UTF_8);
+        return str;
+    }
+/*
+    public static String decryptMsg(byte[] cipherText)
+            throws NoSuchPaddingException, NoSuchAlgorithmException, InvalidParameterSpecException, InvalidAlgorithmParameterException, InvalidKeyException, BadPaddingException, IllegalBlockSizeException, UnsupportedEncodingException
+    {
+
+        // decode the base64 encoded string
+        String encoded = "NoSuchPaddingException,NoSuchAlgorithmException,InvalidParameterSpecException";
+        byte[] decodedKey = Base64.getDecoder().decode(encoded);
+        // rebuild key using SecretKeySpec
+        SecretKey original = new SecretKeySpec(decodedKey, 0, decodedKey.length, "AES");
+        /* Decrypt the message, given derived encContentValues and initialization vector.
+        Cipher cipher = null;
+        cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+        cipher.init(Cipher.DECRYPT_MODE, original);
+        String decryptString = new String(cipher.doFinal(cipherText), "UTF-8");
+        return decryptString;
+    }
+
+    */
 
 }
