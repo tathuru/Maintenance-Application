@@ -188,7 +188,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0.95"
                     android:orientation="vertical">
                     <TextView
                         android:id="@+id/textViewVhfRxOteSixmonthlyRx"
@@ -259,7 +259,7 @@
                     <TextView
                         android:id="@+id/textViewVhfRxOteSixmonthlyPara5"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -383,7 +383,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -488,7 +488,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc2"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -594,7 +594,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc3"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -700,7 +700,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc4"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -804,7 +804,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc5"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -909,7 +909,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc6"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -979,7 +979,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="0.95"
                     android:orientation="vertical">
                     <TextView
                         android:id="@+id/textViewVhfRxOteSixmonthlyRx2"
@@ -1050,7 +1050,7 @@
                     <TextView
                         android:id="@+id/textViewVhfRxOteSixmonthlyPara15"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -1174,7 +1174,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc7"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -1279,7 +1279,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc8"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -1385,7 +1385,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc9"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -1491,7 +1491,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc10"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -1595,7 +1595,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc11"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
@@ -1700,7 +1700,7 @@
                     <EditText
                         android:id="@+id/editTextVhfRxOteSixmonthlyRefOsc12"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""

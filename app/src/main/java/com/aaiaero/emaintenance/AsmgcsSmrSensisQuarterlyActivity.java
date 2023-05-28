@@ -169,7 +169,7 @@ public class AsmgcsSmrSensisQuarterlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {420,135,410,520,410,520,410,520,66};
+        int[] editTextXPixel = {330,135,410,520,410,520,410,520,66};
         int[] editTextYPixel = {185,185,275,275,340,340,390,390,730};
 
 
@@ -202,7 +202,7 @@ public class AsmgcsSmrSensisQuarterlyActivity extends AppCompatActivity {
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 85, 430, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 65, 430, paint);
 
         myPdfdocument.finishPage(myPage1);
 

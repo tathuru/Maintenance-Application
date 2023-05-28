@@ -529,7 +529,7 @@
                 <EditText
                     android:id="@+id/editText12"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:hint="If more than 2 years Change Oil/Grease the bearings"
                     android:textSize="14sp" />

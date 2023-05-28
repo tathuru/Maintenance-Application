@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AsmgcsHittSmrSiteOddWeeklyActivity">
+    tools:context=".AsmgcsHittSmrSiteEvenWeeklyActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -572,7 +572,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".2"
-                    android:text="9"
+                    android:text="8"
                     android:textColor="@color/black" />
                 <EditText
                     android:id="@+id/editText20"
@@ -605,7 +605,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".2"
-                    android:text="10"
+                    android:text="9"
                     android:textColor="@color/black" />
                 <EditText
                     android:id="@+id/editText22"
@@ -617,6 +617,39 @@
 
                 <EditText
                     android:id="@+id/editText23"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".9"
+                    android:hint=" V"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_marginStart="10dp"
+                android:ems="10"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:text="10"
+                    android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/editText24"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".9"
+                    android:hint=" V"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/editText25"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight=".9"
@@ -658,10 +691,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".5"
-                    android:text="Curently Active"
+                    android:text="Currently Active"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText24"
+                    android:id="@+id/editText26"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight=".5"
@@ -675,7 +708,7 @@
                     android:text="Changeover to"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText25"
+                    android:id="@+id/editText27"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight=".5"
@@ -720,7 +753,7 @@
                     android:text="A/C changeover in UPS HUT"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText26"
+                    android:id="@+id/editText28"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -745,7 +778,7 @@
                     android:text="A/C changeover in SMR HUT"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText27"
+                    android:id="@+id/editText29"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -771,7 +804,7 @@
                     android:textStyle="bold|italic" />
 
                 <EditText
-                    android:id="@+id/editText28"
+                    android:id="@+id/editText30"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"

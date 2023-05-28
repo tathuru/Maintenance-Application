@@ -167,8 +167,8 @@ public class AsmgcsSensisCwpMonthlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {540,260,225,495,180,510,80};
-        int[] editTextYPixel = {205,205,465,465,795,795,980};
+        int[] editTextXPixel = {540,260,285,505,240,520,80};
+        int[] editTextYPixel = {205,205,463,463,793,793,980};
 
 
 
