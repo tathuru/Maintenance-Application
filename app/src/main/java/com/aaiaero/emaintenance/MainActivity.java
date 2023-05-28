@@ -36,6 +36,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -83,6 +84,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     TextView locationTextView;
 
+    Switch switch2;
+
     final String[] latLong = {""};
 
     Button scanButton;
@@ -100,6 +103,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        switch2 = (Switch) findViewById(R.id.switch8);
 
         locationFound = false;
         textViewReply = (TextView) findViewById(R.id.textViewReply);
@@ -182,7 +188,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 return true;
             case R.id.checkSchedules:
                 Intent intent1 = new Intent(getApplicationContext(),CheckSchedules.class);
-                intent1.putExtra("siteName", "http://emaintenance.epizy.com/public_html/parse_login/?i=1");
+                intent1.putExtra("siteName", "http://cmsmis.epizy.com/public_html/parse_login/?i=1");
                 startActivity(intent1);
                 return true;
             case R.id.settings:
@@ -201,7 +207,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         getCurrentLocation();
 
-        if (locationFound){
+        if (locationFound || switch2.isChecked()){
             scanCode();
         } else Toast.makeText(this, "Wait for Location.", Toast.LENGTH_SHORT).show();
 
@@ -315,7 +321,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         getCurrentLocation();
 
-        if (locationFound) {
+        if (locationFound || switch2.isChecked()) {
 
             if (checkAndRequestPermissions()) {
 
