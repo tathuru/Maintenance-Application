@@ -1416,6 +1416,17 @@ public class ListDataActivity extends AppCompatActivity {
                             break;
                         case "GpIndra70QuarterlyActivity":
                             editScreenIntent = new Intent(ListDataActivity.this, GpIndra70QuarterlyActivity.class);
+
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "VccsDrakeDailyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, VccsDrakeDailyActivity.class);
                             editScreenIntent.putExtra("id",itemID);
                             editScreenIntent.putExtra("name",receivedData[0]);
                             editScreenIntent.putExtra("editTextData",receivedData[2]);
@@ -1546,6 +1557,16 @@ public class ListDataActivity extends AppCompatActivity {
 
                         case "SurveilanceMssrIndraMonthlyActivity":
                             editScreenIntent = new Intent(ListDataActivity.this, SurveilanceMssrIndraMonthlyActivity.class);
+                            editScreenIntent.putExtra("id",itemID);
+                            editScreenIntent.putExtra("name",receivedData[0]);
+                            editScreenIntent.putExtra("editTextData",receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+                        case "VccsDrakeWeeklyActivity":
+                            editScreenIntent = new Intent(ListDataActivity.this, VccsDrakeWeeklyActivity.class);
                             editScreenIntent.putExtra("id",itemID);
                             editScreenIntent.putExtra("name",receivedData[0]);
                             editScreenIntent.putExtra("editTextData",receivedData[2]);

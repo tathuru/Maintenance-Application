@@ -36,7 +36,7 @@ public class VhfEcilTxActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),VcsSittiDailyIPTBB.class);
+        Intent intent = new Intent(getApplicationContext(),VhfTxEcilDailyActivity.class);
         startActivity(intent);
 
 

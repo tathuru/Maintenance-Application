@@ -77,7 +77,7 @@ public class VhfJotronRxActivity extends AppCompatActivity {
     }
 
     public void yearlyClicked (View view){
-        // Launch the ADSB Equipment Room Activity
+
         Intent intent = new Intent(getApplicationContext(),VhfRxJotYearlyActivity.class);
         startActivity(intent);
 

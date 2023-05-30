@@ -36,7 +36,7 @@ public class VhfEcilRxActivity extends AppCompatActivity {
     public void dailyClicked (View view){
         // Launch the VHF Equipment Room Activity
 
-        Intent intent = new Intent(getApplicationContext(),VcsSittiDailyIPTBB.class);
+        Intent intent = new Intent(getApplicationContext(),VhfRxEcilDailyActivity.class);
         startActivity(intent);
 
 
@@ -60,9 +60,9 @@ public class VhfEcilRxActivity extends AppCompatActivity {
     public void monthlyClicked (View view){
         // Launch the VCS Equipment Room Activity
 
-        Log.i("Monthly ", "Clicked");
-        //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
-        //startActivity(intent);
+        //Log.i("Monthly ", "Clicked");
+        Intent intent = new Intent(getApplicationContext(),VhfRxEcilMonthlyActivity.class);
+        startActivity(intent);
 
     }
 
@@ -76,7 +76,8 @@ public class VhfEcilRxActivity extends AppCompatActivity {
     public void halfYearlyClicked (View view){
         // Launch the UAH Equipment Room Activity
 
-
+        Intent intent = new Intent(getApplicationContext(),VhfRxEcilSixMonthlyActivity.class);
+        startActivity(intent);
 
     }
 

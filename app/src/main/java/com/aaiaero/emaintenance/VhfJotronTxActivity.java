@@ -34,7 +34,6 @@ public class VhfJotronTxActivity extends AppCompatActivity {
     }
 
     public void dailyClicked (View view){
-        // Launch the VHF Equipment Room Activity
 
         Intent intent = new Intent(getApplicationContext(),VhfTxJotDailyActivity.class);
         startActivity(intent);
