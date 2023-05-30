@@ -306,7 +306,7 @@ public class NavAidsDMEINTELCANN9040WeeklyActivity extends AppCompatActivity {
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Weekly ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DME_INTELCAN_SKYNAV N9040_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DME_INTELCAN_SKYNAV_N9040_Weekly" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {

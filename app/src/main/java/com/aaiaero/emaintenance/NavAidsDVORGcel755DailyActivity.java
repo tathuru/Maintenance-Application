@@ -199,7 +199,7 @@ public class NavAidsDVORGcel755DailyActivity extends AppCompatActivity {
 
         // Change below as per requirement-----------------------------------------------------------
         // crate a page description
-        PdfDocument.PageInfo myPageInfo1 = new PdfDocument.PageInfo.Builder(723, 1023, 1).create();
+        PdfDocument.PageInfo myPageInfo1 = new PdfDocument.PageInfo.Builder(1240,1756, 1).create();
 
         // start a page
         PdfDocument.Page myPage1 = myPdfdocument.startPage(myPageInfo1);
@@ -211,12 +211,12 @@ public class NavAidsDVORGcel755DailyActivity extends AppCompatActivity {
 
 //--------------------------------------------------------------------------------------------
         bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorgcel755daily1);
-        scaledbmp = Bitmap.createScaledBitmap(bmp, 723, 1023, false);
+        scaledbmp = Bitmap.createScaledBitmap(bmp, 1240,1756, false);
 //--------------------------------------------------------------------------------------------
         canvas.drawBitmap(scaledbmp, 0, 0, paint);
 
 
-        titlePaint.setTextSize(13);
+        titlePaint.setTextSize(20);
         paint.setTextAlign(Paint.Align.LEFT);
         //canvas.drawText("Name: " + PersonalDetailsActivity.naam ,1500,32,titlePaint);
         //canvas.drawText("Desig: " + PersonalDetailsActivity.design ,1500,64,titlePaint);
@@ -227,13 +227,13 @@ public class NavAidsDVORGcel755DailyActivity extends AppCompatActivity {
         //--------------------------------Change as per your requirement------------------------------------------------------
 
         //canvas.drawBitmap(PersonalDetailsActivity.sigNature, 1325, 2720, paint);
-        titlePaint.setTextSize(13);
+        titlePaint.setTextSize(20);
 
-        int[] editTextXPixel1 = {207, 368,535,535,535};
-        int[] editTextYPixel1 = {174, 174, 372,419,450};
+        int[] editTextXPixel1 = {343,621,852,852,852};
+        int[] editTextYPixel1 = {300,300,653,750,798};
 
-        int[] switchXPixel1 = {530,530,530,530,530,530,530,530,530,530,530,530,530,530,530};
-        int[] switchYPixel1 = {290,320,352,393,477,507,538,564,591,622,650,678,704,730,749};
+        int[] switchXPixel1 = {852,852,852,852,852,852,852,852,852,852,852,852,852,852,852};
+        int[] switchYPixel1 = {515,565,612,700,846,892,938,995,1042,1088,1142,1190,1240,1290,1340};
 
 
         // Change till here as per requirements ----------------------------------------------------
@@ -257,31 +257,31 @@ public class NavAidsDVORGcel755DailyActivity extends AppCompatActivity {
         // Fixed till here--------------------------------------------------------------------------
 
         // Change as per your requirement-----------------------------------------------------------
-        titlePaint.setTextSize(13);
+        titlePaint.setTextSize(20);
 
-        canvas.drawText(Date, 493, 174, titlePaint);//Printing Date on PDF
+        canvas.drawText(Date, 986,300, titlePaint);//Printing Date on PDF
 
         myPdfdocument.finishPage(myPage1);
 
 
-        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(723, 1023, 2).create();
+        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(1240,1756, 2).create();
 
         // start a page
         PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
 
         canvas = myPage2.getCanvas();
         bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorgcel755daily2);
-        scaledbmp = Bitmap.createScaledBitmap(bmp, 723, 1023, false);
+        scaledbmp = Bitmap.createScaledBitmap(bmp, 1240,1756, false);
         canvas.drawBitmap(scaledbmp, 0, 0, paint);
 
-        titlePaint.setTextSize(13);  //Change here
+        titlePaint.setTextSize(20);  //Change here
         paint.setTextAlign(Paint.Align.LEFT);
 
-        int[] editTextXPixel2 = {530, 530, 70};
-        int[] editTextYPixel2 = {234, 260, 531};
+        int[] editTextXPixel2 = {860,860,127};
+        int[] editTextYPixel2 = {403,456,928};
 
-        int[] switchXPixel2 = {525,525,525,525,525,525};
-        int[] switchYPixel2 = {315,343,371,400,427,452};
+        int[] switchXPixel2 = {860,860,860,860,860,860};
+        int[] switchYPixel2 = {551,600,650,698,748,794};
 
 
         // Change till here as per requirements ----------------------------------------------------
@@ -297,7 +297,7 @@ public class NavAidsDVORGcel755DailyActivity extends AppCompatActivity {
         }
 
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 315, 780, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,350,370, false), 671,1200, paint);
         myPdfdocument.finishPage(myPage2);
 
 
@@ -313,7 +313,7 @@ public class NavAidsDVORGcel755DailyActivity extends AppCompatActivity {
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DVOR_GCEL_755_Daily_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DVOR_GCEL_755_Daily" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {

@@ -38,7 +38,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
+public class NavAidsDMEINTELCANN9040SixMonthlyActivity extends AppCompatActivity {
 
 
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
@@ -51,7 +51,7 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
 
     public  String Date;
 
-    private String thisActivityName = "NavAidsDMEINTELCANN9040DailyActivity"; //Change Here as per your class name
+    private String thisActivityName = "NavAidsDMEINTELCANN9040SixMonthlyActivity"; //Change Here as per your class name
 
 
     public void click(View view1) {
@@ -64,20 +64,17 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
     }
 
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nav_aids_dmeintelcann9040_daily);
+        setContentView(R.layout.activity_nav_aids_dmeintelcann9040_six_monthly);
 
         EditText editText1,editText2,editText3,editText4,editText5,editText6,editText7,editText8,editText9,editText10,
                 editText11,editText12,editText13,editText14,editText15,editText16,editText17,editText18,editText19,editText20,
                 editText21,editText22,editText23,editText24,editText25,editText26,editText27,editText28,editText29,editText30,
                 editText31,editText32,editText33,editText34,editText35,editText36,editText37,editText38,editText39,editText40,
-                editText41,editText42,editText43,editText44,editText45,editText46,editText47,editText48,editText49,editText50,
-                editText51,editText52,editText53,editText54,editText55,editText56,editText57,editText58,editText59,editText60,
-                editText61,editText62,editText63,editText64,editText65,editText66,editText67,editText68,editText69,editText70,
-                editText71,editText72,editText73,editText74,editText75,editText76,editText77,editText78,editText79,editText80,
-                editText81,editText82,editText83,editText84,editText85;
+                editText41,editText42;
 
         editTextArray =  new EditText[] {
                 editText1 = (EditText) findViewById(R.id.editText1),
@@ -121,81 +118,13 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
                 editText39 = (EditText) findViewById(R.id.editText39),
                 editText40 = (EditText) findViewById(R.id.editText40),
                 editText41 = (EditText) findViewById(R.id.editText41),
-                editText42 = (EditText) findViewById(R.id.editText42),
-                editText43 = (EditText) findViewById(R.id.editText43),
-                editText44 = (EditText) findViewById(R.id.editText44),
-                editText45 = (EditText) findViewById(R.id.editText45),
-                editText46 = (EditText) findViewById(R.id.editText46),
-                editText47 = (EditText) findViewById(R.id.editText47),
-                editText48 = (EditText) findViewById(R.id.editText48),
-                editText49 = (EditText) findViewById(R.id.editText49),
-                editText50 = (EditText) findViewById(R.id.editText50),
-                editText51 = (EditText) findViewById(R.id.editText51),
-                editText52 = (EditText) findViewById(R.id.editText52),
-                editText53 = (EditText) findViewById(R.id.editText53),
-                editText54 = (EditText) findViewById(R.id.editText54),
-                editText55 = (EditText) findViewById(R.id.editText55),
-                editText56 = (EditText) findViewById(R.id.editText56),
-                editText57 = (EditText) findViewById(R.id.editText57),
-                editText58 = (EditText) findViewById(R.id.editText58),
-                editText59 = (EditText) findViewById(R.id.editText59),
-                editText60 = (EditText) findViewById(R.id.editText60),
-                editText61 = (EditText) findViewById(R.id.editText61),
-                editText62 = (EditText) findViewById(R.id.editText62),
-                editText63 = (EditText) findViewById(R.id.editText63),
-                editText64 = (EditText) findViewById(R.id.editText64),
-                editText65 = (EditText) findViewById(R.id.editText65),
-                editText66 = (EditText) findViewById(R.id.editText66),
-                editText67 = (EditText) findViewById(R.id.editText67),
-                editText68 = (EditText) findViewById(R.id.editText68),
-                editText69 = (EditText) findViewById(R.id.editText69),
-                editText70 = (EditText) findViewById(R.id.editText70),
-                editText71 = (EditText) findViewById(R.id.editText71),
-                editText72 = (EditText) findViewById(R.id.editText72),
-                editText73 = (EditText) findViewById(R.id.editText73),
-                editText74 = (EditText) findViewById(R.id.editText74),
-                editText75 = (EditText) findViewById(R.id.editText75),
-                editText76 = (EditText) findViewById(R.id.editText76),
-                editText77 = (EditText) findViewById(R.id.editText77),
-                editText78 = (EditText) findViewById(R.id.editText78),
-                editText79 = (EditText) findViewById(R.id.editText79),
-                editText80 = (EditText) findViewById(R.id.editText80),
-                editText81 = (EditText) findViewById(R.id.editText81),
-                editText82 = (EditText) findViewById(R.id.editText82),
-                editText83 = (EditText) findViewById(R.id.editText83),
-                editText84 = (EditText) findViewById(R.id.editText84),
-                editText85 = (EditText) findViewById(R.id.editText85)};
+                editText42 = (EditText) findViewById(R.id.editText42)};
 
-        Switch switch1,switch2,switch3,switch4,switch5,switch6,switch7,switch8,switch9,switch10,
-                switch11,switch12,switch13,switch14,switch15,switch16,switch17,switch18,switch19,
-                switch20,switch21,switch22,switch23,switch24,switch25;
+        Switch switch1,switch2;
         switchArray = new Switch[]{
 
                 switch1 = (Switch) findViewById(R.id.switch1),
-                switch2 = (Switch) findViewById(R.id.switch2),
-                switch3 = (Switch) findViewById(R.id.switch3),
-                switch4 = (Switch) findViewById(R.id.switch4),
-                switch5 = (Switch) findViewById(R.id.switch5),
-                switch6 = (Switch) findViewById(R.id.switch6),
-                switch7 = (Switch) findViewById(R.id.switch7),
-                switch8 = (Switch) findViewById(R.id.switch8),
-                switch9 = (Switch) findViewById(R.id.switch9),
-                switch10 = (Switch) findViewById(R.id.switch10),
-                switch11 = (Switch) findViewById(R.id.switch11),
-                switch12 = (Switch) findViewById(R.id.switch12),
-                switch13 = (Switch) findViewById(R.id.switch13),
-                switch14 = (Switch) findViewById(R.id.switch14),
-                switch15 = (Switch) findViewById(R.id.switch15),
-                switch16 = (Switch) findViewById(R.id.switch16),
-                switch17 = (Switch) findViewById(R.id.switch17),
-                switch18 = (Switch) findViewById(R.id.switch18),
-                switch19 = (Switch) findViewById(R.id.switch19),
-                switch20 = (Switch) findViewById(R.id.switch20),
-                switch21 = (Switch) findViewById(R.id.switch21),
-                switch22 = (Switch) findViewById(R.id.switch22),
-                switch23 = (Switch) findViewById(R.id.switch23),
-                switch24 = (Switch) findViewById(R.id.switch24),
-                switch25 = (Switch) findViewById(R.id.switch25)};
+                switch2 = (Switch) findViewById(R.id.switch2)};
 
         TextView textViewN = (TextView) findViewById(R.id.textViewN);
         textViewN.setText("Name: " + PersonalDetailsActivity.naam);
@@ -297,7 +226,7 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
 
 
 //--------------------------------------------------------------------------------------------
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dmeintelcann9040daily1);
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dmeintelcansixmonthly1);
         scaledbmp = Bitmap.createScaledBitmap(bmp, 1384,1792, false);
 //--------------------------------------------------------------------------------------------
         canvas.drawBitmap(scaledbmp, 0, 0, paint);
@@ -307,11 +236,12 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
         paint.setTextAlign(Paint.Align.LEFT);
 
 
-        int[] editTextXPixel1 = {255,845,845,845,845,791,893,791,893,845,845};
-        int[] editTextYPixel1 = {249,660,710,770,830,912,912,955,955,1229,1289};
 
-        int[] switchXPixel1 = {379,651,845,845,845,845,845,845,845,845,845,845};
-        int[] switchYPixel1 = {365,365,551,606,990,1022,1068,1130,1170,1328,1388,1500};
+        int[] editTextXPixel1 = {245,304,606,856,797,797,797,797,797,893,893,893,893,893,968,968,968,968,968,1060,1060,1060,1060,1060,803,803,990,990};
+        int[] editTextYPixel1 = {261,345,345,345,726,809,932,1068,1257,726,809,932,1068,1257,726,809,932,1068,1257,726,809,932,1068,1257,1434,1554,1434,1554};
+
+        int[] switchXPixel1 = {358,635};
+        int[] switchYPixel1 = {386,386};
 
 
 
@@ -339,7 +269,7 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(20);
 
-        canvas.drawText(Date, 848, 249, titlePaint);//Printing Date on PDF
+        canvas.drawText(Date,  834,261, titlePaint);//Printing Date on PDF
 
         //canvas.drawBitmap(PersonalDetailsActivity.photo, 550, 21, paint);
 
@@ -352,28 +282,24 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
         PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
 
         canvas = myPage2.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dmeintelcann9040daily2);
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dmeintelcansixmonthly2);
         scaledbmp = Bitmap.createScaledBitmap(bmp, 1384,1792, false);
         canvas.drawBitmap(scaledbmp, 0, 0, paint);
 
         titlePaint.setTextSize(20);  //Change here
         paint.setTextAlign(Paint.Align.LEFT);
 
-        int[] editTextXPixel2 = {860};
-        int[] editTextYPixel2 = {1057};
+        int[] editTextXPixel2 = {803,990,840,803,803,803,990,990,990,803,803,990,990};
+        int[] editTextYPixel2 = {332,332,590,758,966,1196,758,966,1196,1350,1467,1350,1467};
 
 
-        int[] switchXPixel2 = {860,860,860,860,860,860,860,860,860,860,860};
-        int[] switchYPixel2 = {206,427,537,685,771,879,937,1161,1255,1383,1485};
 
 
         for (int i = 0; i < editTextXPixel2.length; i++) {
             canvas.drawText(editTextDataForPDF[i+editTextXPixel1.length], editTextXPixel2[i], editTextYPixel2[i], titlePaint);
         }
 
-        for (int i = 0; i < switchXPixel2.length; i++) {
-            canvas.drawText(switchDataForPDF[i+switchXPixel1.length], switchXPixel2[i], switchYPixel2[i], titlePaint);
-        }
+
         myPdfdocument.finishPage(myPage2);
 
         PdfDocument.PageInfo myPageInfo3 = new PdfDocument.PageInfo.Builder(1384,1792, 3).create();
@@ -382,18 +308,15 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
         PdfDocument.Page myPage3 = myPdfdocument.startPage(myPageInfo3);
 
         canvas = myPage3.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dmeintelcann9040daily3);
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dmeintelcansixmonthly3);
         scaledbmp = Bitmap.createScaledBitmap(bmp, 1384,1792, false);
         canvas.drawBitmap(scaledbmp, 0, 0, paint);
 
         titlePaint.setTextSize(20);  //Change here
         paint.setTextAlign(Paint.Align.LEFT);
 
-        int[] editTextXPixel3 = {805,805,805,805,805,903,903,903,903,805,903,903,903,903,903,903,645,645,645,645,760,760,760,760,880,880,880,880,990,990,990,990};
-        int[] editTextYPixel3 = {247,319,399,457,519,559,585,621,667,763,815,853,889,923,1065,1097,1324,1403,1473,1523,1324,1403,1473,1523,1324,1403,1473,1523,1324,1403,1473,1523};
-
-        int[] switchXPixel3 = {903,903};
-        int[] switchYPixel3 = {969,1025};
+        int[] editTextXPixel3 = {184};
+        int[] editTextYPixel3 =  {250};
 
 
 
@@ -405,41 +328,10 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
         for (int i = 0; i < editTextXPixel3.length; i++) {
             canvas.drawText(editTextDataForPDF[i + editTextXPixel1.length+editTextXPixel2.length], editTextXPixel3[i], editTextYPixel3[i], titlePaint);
         }
-        for (int i = 0; i < switchXPixel3.length; i++) {
-            canvas.drawText(switchDataForPDF[i+switchXPixel1.length+switchXPixel2.length], switchXPixel3[i], switchYPixel3[i], titlePaint);
-        }
+
+
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,320,360, false), 797,855, paint);
         myPdfdocument.finishPage(myPage3);
-
-        PdfDocument.PageInfo myPageInfo4 = new PdfDocument.PageInfo.Builder(1384,1792, 4).create();
-
-        // start a page
-        PdfDocument.Page myPage4 = myPdfdocument.startPage(myPageInfo4);
-
-        canvas = myPage4.getCanvas();
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dmeintelcann9040daily4);
-        scaledbmp = Bitmap.createScaledBitmap(bmp, 1384,1792, false);
-        canvas.drawBitmap(scaledbmp, 0, 0, paint);
-
-        titlePaint.setTextSize(20);  //Change here
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        int[] editTextXPixel4 = {645,645,645,645,645,645,645,645,645,645,760,760,760,760,760,760,760,760,760,760,880,880,880,880,880,880,880,880,880,880,990,990,990,990,990,990,990,990,990,990,253};
-        int[] editTextYPixel4 = {203,257,317,363,422,476,531,581,877,996,203,257,317,363,422,476,531,581,877,996,203,257,317,363,422,476,531,581,877,996,203,257,317,363,422,476,531,581,877,996,1079};
-
-
-
-        // Change till here as per requirements ----------------------------------------------------
-
-        //Fixed for all activity--------------------------------------------------------------------
-
-        for (int i = 0; i < editTextXPixel4.length; i++) {
-            canvas.drawText(editTextDataForPDF[i + editTextXPixel1.length+editTextXPixel2.length+editTextXPixel3.length], editTextXPixel4[i], editTextYPixel4[i], titlePaint);
-        }
-
-
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,320,360, false), 720,1130, paint);
-        myPdfdocument.finishPage(myPage4);
-
 
 
         ActivityCompat.requestPermissions(this, new String[]{
@@ -447,14 +339,14 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
         //----------------------Change-----------------------------------------------------------------------------
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Nav - Aids/DME/INTELCAN - SKYNAV N9040/Daily/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Nav - Aids/DME/INTELCAN - SKYNAV N9040/Six Monthly/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();
         }
         //String targetPdf = directory_path + "test.pdf";
-        //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DME_INTELCAN_SKYNAV_N9040_Daily" + strData + ".pdf"; // Change Here--------------------------
+        //String fileName = "Six Monthly ADSB " + dateFormat.format(dateObj) + ".pdf";
+        String fileName = "DME_INTELCAN_SKYNAV_N9040_Six Monthly" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -471,14 +363,14 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        myFunctions.saveToParse(targetPdf, fileName, "DME", "Daily", outputEditText, MyFunctions.specificCode("d"),outputSwitch, "outputSpinner");// Change Here-----------------------
+       myFunctions.saveToParse(targetPdf, fileName, "DME", "Six Monthly", outputEditText, MyFunctions.specificCode("sm"),outputSwitch, "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
 
 
         myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-                "Daily Maintenance of DME INTELCAN - SKYNAV N9040 done.",//Change Here-----------------------------
+                "Six Monthly Maintenance of DME INTELCAN - SKYNAV N9040 done.",//Change Here-----------------------------
                 "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
         //---------------------------------------------------------------------------------------------------------
 

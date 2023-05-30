@@ -73,6 +73,27 @@ public class ListDataActivity extends AppCompatActivity {
                     Intent editScreenIntent;
                     switch (receivedData[1]) {
 
+                        case "NavAidsDMEINTELCANN9040AnnualActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this,NavAidsDMEINTELCANN9040AnnualActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
+
+                        case "NavAidsDMEINTELCANN9040SixMonthlyActivity": //Add all activities here in the case
+                            editScreenIntent = new Intent(ListDataActivity.this,NavAidsDMEINTELCANN9040SixMonthlyActivity.class);
+                            editScreenIntent.putExtra("id", itemID);
+                            editScreenIntent.putExtra("name", receivedData[0]);
+                            editScreenIntent.putExtra("editTextData", receivedData[2]);
+                            editScreenIntent.putExtra("switchData", receivedData[3]);
+                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
+                            startActivity(editScreenIntent);
+                            break;
+
 
                         case "NavAidsDMEINTELCANN9040MonthlyActivity": //Add all activities here in the case
                             editScreenIntent = new Intent(ListDataActivity.this,NavAidsDMEINTELCANN9040MonthlyActivity.class);

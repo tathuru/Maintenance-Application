@@ -866,7 +866,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="52dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:text="4.2"
                         android:textAlignment="center"
@@ -891,7 +891,7 @@
                     <TextView
                         android:id="@+id/textView75"
                         android:layout_width="match_parent"
-                        android:layout_height="52dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="Press the switch (Accept ± 1 µs )\nPrimary &amp; Secondary fault LEDS off.All six green LEDS keep glowing.No alarm" />
@@ -940,7 +940,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:weightSum="2">
@@ -1017,7 +1017,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="52dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:weightSum="2">
@@ -1679,7 +1679,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:gravity="center_vertical"
-                        android:text="System Delay"
+                        android:text="System Delay\n50 ± 0.5µs (when associated with a landing aid)"
                         android:textColor="@color/textViewColor"/>
 
                     <TextView
@@ -2052,7 +2052,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:gravity="center_vertical"
-                        android:text="System Delay"
+                        android:text="System Delay\n50 ± 0.5µs (when associated with a landing aid)"
                         android:textColor="@color/textViewColor"/>
 
                     <TextView
@@ -2127,7 +2127,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:hint="50 ± 0.9µs"
+                        android:hint="50 ± 1µs"
                         android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
@@ -2220,7 +2220,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:hint="50 ± 0.9µs"
+                        android:hint="50 ± 1µs"
                         android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />

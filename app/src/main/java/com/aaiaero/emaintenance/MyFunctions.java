@@ -205,6 +205,8 @@ public class MyFunctions {
         test.put("Schedule_Type", Schedule_Type);
         test.put("EditTextData", EditTextData);
 
+        test.put("PersonalDetails", PersonalDetailsActivity.naam + "__XY__" + PersonalDetailsActivity.design + "__XY__" + PersonalDetailsActivity.EmpID + "__XY__" + MainActivity.latLong1 + "__XY__" + PersonalDetailsActivity.strDate);
+
         test.put("SwitchData", SwitchData);
         test.put("SpinnerData", SpinnerData);
         test.put("pdfFile", file1);

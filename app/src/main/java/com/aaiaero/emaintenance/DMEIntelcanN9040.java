@@ -33,12 +33,20 @@ public class DMEIntelcanN9040 extends AppCompatActivity {
 
     }
 
-    /*public void quarterly (View view){
+    public void sixmonthly (View view){
 
-        Intent intent = new Intent(getApplicationContext(), NavAidsDMEASII1118and1119QuarterlyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEINTELCANN9040SixMonthlyActivity.class);
         startActivity(intent);
 
-    }*/
+    }
+
+    public void annual (View view){
+
+        Intent intent = new Intent(getApplicationContext(), NavAidsDMEINTELCANN9040AnnualActivity.class);
+        startActivity(intent);
+
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

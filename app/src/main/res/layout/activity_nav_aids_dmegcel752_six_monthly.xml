@@ -820,7 +820,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:text="5.11"
                         android:textAlignment="center"
@@ -927,7 +927,7 @@
                     <TextView
                         android:id="@+id/textView75"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:text="Measure with the stop watch the Ident monitor to fail\n(75± 3 sec.)"
                         android:textColor="@color/textViewColor" />
@@ -1047,7 +1047,7 @@
                     <EditText
                         android:id="@+id/editText15"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"

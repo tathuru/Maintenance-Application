@@ -225,8 +225,8 @@ public class NavAidsDMEGcel752SixMonthlyActivity extends AppCompatActivity {
         //canvas.drawBitmap(PersonalDetailsActivity.sigNature, 1325, 2720, paint);
         titlePaint.setTextSize(13);
 
-        int[] editTextXPixel1 = {259,401,469,469,469,469,469,469,469,469,469,469,469,469,469,469,469,106};
-        int[] editTextYPixel1 = {139,139,342,362,396,413,430,447,468,498,524,558,577,596,616,652,678,757};
+        int[] editTextXPixel1 = {259,401,469,469,469,469,469,469,469,469,469,469,469,469,469,469,469,72};
+        int[] editTextYPixel1 = {139,139,342,362,396,413,430,447,468,498,524,558,577,596,616,652,678,710};
 
         int[] switchXPixel1 = {469,469,469,469,469};
         int[] switchYPixel1 = {205,222,240,257,279};
@@ -258,7 +258,7 @@ public class NavAidsDMEGcel752SixMonthlyActivity extends AppCompatActivity {
         canvas.drawText(Date, 569, 139, titlePaint);//Printing Date on PDF
 
         //canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.photo,210,270, false), 100, 800, paint);
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 350, 800, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,235,225, false), 393, 742, paint);
 
         myPdfdocument.finishPage(myPage1);
 

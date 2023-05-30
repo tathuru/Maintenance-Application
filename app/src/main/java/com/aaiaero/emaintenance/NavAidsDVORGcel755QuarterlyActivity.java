@@ -213,8 +213,8 @@ public class NavAidsDVORGcel755QuarterlyActivity extends AppCompatActivity {
         //canvas.drawBitmap(PersonalDetailsActivity.sigNature, 1325, 2720, paint);
         titlePaint.setTextSize(13);
 
-        int[] editTextXPixel1 = {74,74,444,444,444,444,444,444,110};
-        int[] editTextYPixel1 = {117,130,270,302,336,370,402,470,630};
+        int[] editTextXPixel1 = {74,74,444,444,444,444,444,444,69};
+        int[] editTextYPixel1 = {117,130,270,302,336,370,402,470,586};
 
         int[] switchXPixel = {430,430};
         int[] switchYPixel = {441,513};
@@ -267,7 +267,7 @@ public class NavAidsDVORGcel755QuarterlyActivity extends AppCompatActivity {
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DVOR_GCEL_755_Quarterly_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DVOR_GCEL_755_Quarterly" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {

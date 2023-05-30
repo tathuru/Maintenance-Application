@@ -316,7 +316,7 @@ public class NavAidsDMEMaru310and320DailyActivity extends AppCompatActivity {
         int[] switchXPixel2 = {845,845,845,845,845,845,845,1005,1005,1005,1005,1005,1005,1005};
         int[] switchYPixel2 = {716,764,814,861,912,961,1006,716,764,814,861,912,961,1006};
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(MySignature.sigNature, 400, 390 ,false), 654,1150, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(MySignature.sigNature, 400, 390 ,false), 654,1156, paint);
 
 
         // Change till here as per requirements ----------------------------------------------------
