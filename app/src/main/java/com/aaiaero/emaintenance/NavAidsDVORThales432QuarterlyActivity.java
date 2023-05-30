@@ -269,7 +269,7 @@ public class NavAidsDVORThales432QuarterlyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        myFunctions.saveToParse(targetPdf, fileName, "DVOR_THALES_432", "Quarterly", outputEditText, MyFunctions.specificCode("q"),outputSwitch, "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "DVOR", "Quarterly", outputEditText, MyFunctions.specificCode("q"),outputSwitch, "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

@@ -312,7 +312,7 @@
                         android:id="@+id/textViewLlzThalesMonthlyCourse"
                         android:layout_width="match_parent"
                         android:layout_weight="1"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -330,7 +330,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesMonthlyCourseShift"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:textStyle="bold"
@@ -366,7 +366,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesMonthlyTotalTime"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:textStyle="bold"
@@ -393,7 +393,7 @@
                         android:id="@+id/textViewLlzThalesMonthlyDDMDist"
                         android:layout_width="match_parent"
                         android:layout_weight="1"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -402,7 +402,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesMonthlyCourseShift1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="50dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -434,7 +434,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesMonthlyTotalTime1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -476,7 +476,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesMonthlyCourseTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-I/II/III"
@@ -484,7 +484,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesMonthlyCourseShiftTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="50dp"
                                 android:ems="6"
                                 android:hint="--do--"
@@ -516,7 +516,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesMonthlyTotalTimeTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="--do--"
@@ -539,7 +539,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesMonthlyCourseTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="only for Cat-I/II/III"
@@ -547,7 +547,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesMonthlyCourseShiftTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="50dp"
                                 android:ems="6"
                                 android:hint="--do--"
@@ -579,7 +579,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesMonthlyTotalTimeTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="--do--"

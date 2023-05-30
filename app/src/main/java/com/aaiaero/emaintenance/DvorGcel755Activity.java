@@ -50,6 +50,16 @@ public class DvorGcel755Activity extends AppCompatActivity {
 
     }
 
+    public void quarterly (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),NavAidsDVORGcel755QuarterlyActivity.class);
+        startActivity(intent);
+
+
+    }
+
+
 
 
     public void monthly (View view){

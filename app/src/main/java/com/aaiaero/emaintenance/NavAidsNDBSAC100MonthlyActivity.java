@@ -276,7 +276,7 @@ public class NavAidsNDBSAC100MonthlyActivity extends AppCompatActivity {
 
 
 
-        myFunctions.saveToParse(targetPdf, fileName, "NDB_SAC_100", "Monthly",  outputEditText, MyFunctions.specificCode("m"),outputSwitch, "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "NDB", "Monthly",  outputEditText, MyFunctions.specificCode("m"),outputSwitch, "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

@@ -26,7 +26,7 @@
             android:text="DME ASII 1118/1119 Schedules"
             android:textAlignment="center"
             android:textColor="@color/teal_700"
-            android:textSize="18sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
 

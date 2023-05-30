@@ -268,7 +268,7 @@ public class NavAidsDVORASII1150QuarterlyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        myFunctions.saveToParse(targetPdf, fileName, "DVOR_ASII_1150", "Quarterly", outputEditText, MyFunctions.specificCode("q"),"outputSwitch", "outputSpinner");
+        myFunctions.saveToParse(targetPdf, fileName, "DVOR", "Quarterly", outputEditText, MyFunctions.specificCode("q"),"outputSwitch", "outputSpinner");
 
     // Change Here-----------------------
 

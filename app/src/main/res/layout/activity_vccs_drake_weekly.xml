@@ -309,7 +309,7 @@
                             <TextView
                                 android:id="@+id/textViewVccsDrakeWeekly14"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="58dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:textColor="@color/textViewColor"
@@ -317,7 +317,7 @@
                             <TextView
                                 android:id="@+id/textViewVccsDrakeWeekly15"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="58dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center_vertical"
                                 android:textColor="@color/textViewColor"
@@ -334,7 +334,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
+                            android:layout_weight="1.4"
                             android:layout_marginStart="5dp"
                             android:orientation="vertical">
                             <TextView
@@ -1163,7 +1163,7 @@
                         android:id="@+id/textViewVccsDrakeWeeklyPara102"
                         android:layout_width="match_parent"
                         android:layout_weight="1"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -1171,7 +1171,7 @@
                     <TextView
                         android:id="@+id/textViewVccsDrakeWeeklyPara103"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -1743,7 +1743,7 @@
                         android:id="@+id/textViewVccsDrakeWeeklyNml62"
                         android:layout_width="match_parent"
                         android:layout_weight="1"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -1752,7 +1752,7 @@
                         android:id="@+id/textViewVccsDrakeWeeklyNml63"
                         android:layout_width="match_parent"
                         android:layout_weight="1"
-                        android:layout_height="48dp"
+                        android:layout_height="58dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -2237,7 +2237,7 @@
                             <EditText
                                 android:id="@+id/editTextVccsDrakeWeeklySysAPDU1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="58dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="ON/OFF"
@@ -2245,7 +2245,7 @@
                             <EditText
                                 android:id="@+id/editTextVccsDrakeWeeklySysAPDU2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="58dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="ON/OFF"
@@ -2719,7 +2719,7 @@
                             <EditText
                                 android:id="@+id/editTextVccsDrakeWeeklySysBPDU1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="58dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="ON/OFF"
@@ -2727,7 +2727,7 @@
                             <EditText
                                 android:id="@+id/editTextVccsDrakeWeeklySysBPDU2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="58dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint="ON/OFF"

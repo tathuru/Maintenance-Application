@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LlzAsiiMonthlyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:layout_marginStart="20dp"
+                    android:text="Airports Authority of India"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/logoaai" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:layout_marginEnd="10dp"
+                    android:text="CNS MANUAL VOL.VII Part 2"
+                    android:textAlignment="textEnd"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Name: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Desig: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Emp No.: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Location: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewLlzAsiiMonthly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:text="PREVENTIVE MAINTENANCE SCHEDULE- MONTHLY (LOCALIZER)"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/textViewLLlzAsiiMonthlyEquip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/textViewColor"
+                    android:text="Equipment: LOCALIZER" />
+                <TextView
+                    android:id="@+id/textViewLlzAsiiMonthlyMake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textViewColor"
+                    android:layout_marginStart="10dp"
+                    android:textAlignment="viewEnd"
+                    android:layout_weight="1"
+                    android:text="Make/Model: ASII/2100" />
+                <TextView
+                    android:id="@+id/textViewDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:text="Date:" />
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/textViewColor"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/editTextLlzAsiiMonthlyStation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:hint="Station"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/editTextLlzAsiiMonthlyChOnAir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:hint="Channel on Air: Tx1/Tx2 "
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+                <EditText
+                    android:id="@+id/editTextLlzAsiiMonthlyCat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:hint="Cat I/II/III "
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+                <EditText
+                    android:id="@+id/editTextLlzAsiiMonthlyFrequency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:minHeight="48dp"
+                    android:hint="Frequency (MHz) "
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlySNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="S. No."
+                        android:layout_weight="0.2"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.1"/>
+
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.1.1" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.1.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.2.1" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1.2.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="2" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="3" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:layout_marginTop="5dp"
+                        android:text="3.1" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="3.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="4" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyPara1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="Parameter"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyP5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="@color/textViewColor"
+                        android:text="Tone Frequency (Course)" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyCRS90"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="90 Hz"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyCRS150"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="150 Hz"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyCLR"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="@color/textViewColor"
+                        android:text="Tone Frequency (Clearance)" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyCLR90"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="90 Hz"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyCLR150"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="150 Hz"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyOffCRS"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Off Course Clearance (on either side of the course line.Substantial linear inc. in DDM to 0.18DDM)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyIdentMon"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="IDENT Monitoring"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyModDepth"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Modulation Depth (Ident Tone) "
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyIdentCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Ident Coding (Ident Code 'IPLM')"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyTransfer"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Transfer from Tx-1 to Tx-2 and Vice Versa (Nominal 1 sec)"
+                        android:textColor="@color/textViewColor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzAsiiMonthlyP1Tx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/teal_700"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="TX-1" />
+
+
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyTx1CRS90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="58dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyTx1CRS150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyTx1CLR90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="58dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyTx1CLR150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzAsiiMonthlyP1Tx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/teal_700"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:text="TX-2" />
+
+
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyTx2CRS90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="58dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyTx2CRS150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp"/>
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyTx2CLR90"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="58dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyTx2CLR150"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:ems="10"
+                                android:hint="±1.0 %"
+                                android:minHeight="48dp"
+                                android:textSize="14sp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyOffCRS"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint="Field Readings(In Field Reading Register)"
+                        android:minHeight="48dp"
+                        android:textSize="12sp" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzAsiiMonthlyModDepthTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Recorded Value With PIR TX-1"
+                                android:textColor="@color/textViewColor" />
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyModDeptTx1"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_weight="1"
+                                android:layout_marginTop="5dp"
+                                android:ems="10"
+                                android:hint="Tol: ±2 % Nom: 8 %"
+                                android:minHeight="48dp"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/textViewLlzAsiiMonthlyModDepthTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Recorded Value With PIR TX-2"
+                                android:textColor="@color/textViewColor" />
+                            <EditText
+                                android:id="@+id/editTextLlzAsiiMonthlyModDeptTx2"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_weight="1"
+                                android:layout_marginTop="5dp"
+                                android:ems="10"
+                                android:hint="Tol: ±2 % Nom: 8 %"
+                                android:minHeight="48dp"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzAsiiMonthlyIdentCode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            android:text="Not OK "
+                            tools:ignore="TouchTargetSizeCheck"/>
+                        <TextView
+                            android:id="@+id/textViewLlzAsiiMonthlyIdentCodeOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+                        <Switch
+                            android:id="@+id/switchLlzAsiiMonthlyTransfer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:textOn="OK"
+                            android:textOff="Not Ok"
+                            android:text="Not OK "
+                            tools:ignore="TouchTargetSizeCheck"/>
+                        <TextView
+                            android:id="@+id/textViewLlzAsiiMonthlyTransferOk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="3"
+                            android:text="OK"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlySNo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textColor="@color/teal_700"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="5."
+                        android:layout_weight="0.2"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.1"/>
+
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly13"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.2" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly14"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.3" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthly15"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5.4" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyPara2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700"
+                        android:text="System Operation On Battery Back up"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyBattBD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Battery Voltage Before Discharge (V)" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyBattOps10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Operation on batteries for 10 min (approx.)"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyBattAD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Battery Voltage after Discharge (V)"
+                        android:textColor="@color/textViewColor" />
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyTerClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Terminals Cleaned/properly Tightened" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyTx1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="TX-1" />
+
+
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyTx1BattBD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyTx1BattOps10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyTx1BattAD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyTx1TerClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1.1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewLlzAsiiMonthlyTx2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="TX-2" />
+
+
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyTx2BattBD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyTx2BattOps10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyTx2BattAD"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/editTextLlzAsiiMonthlyTx2TerClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:hint=""
+                        android:minHeight="48dp"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <EditText
+                android:id="@+id/editTextLlzAsiiMonthlyRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:ems="4"
+                android:hint="Remarks:"
+                android:inputType="textMultiLine"
+                android:textSize="14sp"/>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Sign Document" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Submit Schedule" />
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:textStyle="italic"
+                android:textColor="@color/teal_700"
+                android:text="Form Created by- Shubham Jain"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

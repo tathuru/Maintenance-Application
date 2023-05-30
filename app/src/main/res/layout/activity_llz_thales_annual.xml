@@ -239,7 +239,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesAnnual1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -247,7 +247,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesAnnual2"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -297,7 +297,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesAnnualPara1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -307,7 +307,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesAnnualPara4"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
@@ -357,7 +357,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesAnnualNml1"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -366,7 +366,7 @@
                     <TextView
                         android:id="@+id/textViewLlzThalesAnnualNml4"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="65dp"
                         android:layout_marginTop="5dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
@@ -436,7 +436,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesAnnualFrequencyTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -444,7 +444,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesAnnualModFreqTx1"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -493,7 +493,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesAnnualFrequencyTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""
@@ -501,7 +501,7 @@
                             <EditText
                                 android:id="@+id/editTextLlzThalesAnnualModFreqTx2"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="65dp"
                                 android:layout_marginTop="5dp"
                                 android:ems="6"
                                 android:hint=""

@@ -291,7 +291,7 @@ public class NavAidsDVORThales432AnnualActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName, "DVOR_Thales_432", "Annual", outputEditText, MyFunctions.specificCode("y"), "outputSwitch", "outputSpinner");// C// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName, "DVOR", "Annual", outputEditText, MyFunctions.specificCode("y"), "outputSwitch", "outputSpinner");// C// Change Here-----------------------
 
 
         // This function will send eMail using JavaMailAPI

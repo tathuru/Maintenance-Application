@@ -36,6 +36,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class PersonalDetailsActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -52,7 +55,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
     Spinner spinnerP;
     EditText email, empppID,airportName;
 
-    public static String naam, design;
+    public static String naam, design, strDate;
 
     private TextView textView;
     public static String emailTo, EmpID, airportNameICAO;
@@ -83,6 +86,12 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
 
         TextView locationTextView = (TextView) findViewById(R.id.locationTextView);
         locationTextView.setText("Location: " + MainActivity.latLong1);
+
+        Calendar c = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+        strDate = sdf.format(c.getTime());
+        TextView dateTimeTextView = (TextView) findViewById(R.id.dateTimeTextView);
+        dateTimeTextView.setText("Date Time: " + strDate);
 
         this.imageView = (ImageView)this.findViewById(R.id.imageViewSelf); // aai logo in hindi
         Button photoButton = (Button) this.findViewById(R.id.button1);

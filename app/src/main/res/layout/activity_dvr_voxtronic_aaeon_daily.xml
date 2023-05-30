@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DvrVoxtronicAaeonDailyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="Airports Authority of India"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/logoaai" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:text="CNS MANUAL VOL.VII Part 1"
+                    android:textAlignment="textEnd"
+                    android:textSize="14sp"
+                    android:textColor="@color/textViewColor" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Name: "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Desig: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Emp No.: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="Location: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewDvrVoxAaeonDaily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:text="PREVENTIVE MAINTENANCE SCHEDULE- DAILY\n (VOXTRONIC AAEON)"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/editTextDvrVoxAaeonDailyStation"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="10dp"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:hint="Station"
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/editTextDvrVoxAaeonDailyRegion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Region"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/editTextDvrVoxAaeonDailyChannel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="No. of Channels"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1.3"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textViewColor"
+                    android:text="Date:" />
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textViewColor"
+                    android:text="" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailySNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="S.No." />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="1"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="2"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="3"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="4"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyitem"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="Parameter" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Room Temperature/Humidity " />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Status of UPS" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Dual SMPS Status a) LED   b) FANs" />
+
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Replay Station" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyObs1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Observations" />
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyRoomTemp"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyStatusUPS"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySMPS"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="  "
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyReplayStation"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewDvrVoxAaeonDailyParameter2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/teal_700"
+                android:text="Main DVR Server (DVR 1/DVR A)"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailySNo3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="S.No." />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="5"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="6"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="7"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="8"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="9"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="10"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="11"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="12"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="13"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="14"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="15"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyPara2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="Parameter" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="General Cleanliness" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP6"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Date and UTC Time of Server" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP7"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Front Panel LED Status" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP8"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="FAN Status" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP9"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Module Status" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Recording on Channels (Check all channels)" />
+
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP11"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Live Monitoring of Channels" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP12"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Media Backup Status" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP13"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Significant Error/Warning" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP14"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="RAID-5 HDD" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP15"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Free space of hard disk partitions C,D,E etc (GB)" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyObs2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Observations" />
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Satisfactory/Not Satisfactory"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainFront"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainFan"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainModule"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainRecord"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainLive"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainMediaBackup"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainError"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainRAID"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailyMainSpace"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewDvrVoxAaeonDailyParameter8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/teal_700"
+                android:text="Standby DVR Server (DVR 2/DVR B)"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailySNo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="S.No." />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="16"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="17"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="18"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="19"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="20"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="21"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="22"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="23"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="24"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="25"/>
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDaily26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="26"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyPara3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:text="Parameter" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP16"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="General Cleanliness" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Date and UTC Time of Server" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP18"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Front Panel LED Status" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP19"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="FAN Status" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP20"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Module Status" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP21"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Recording on Channels (Check all channels)" />
+
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP22"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Live Monitoring of Channels" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP23"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Media Backup Status" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP24"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Significant Error/Warning" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP25"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="RAID-5 HDD" />
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyP26"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/textViewColor"
+                        android:text="Free space of hard disk partitions C,D,E etc (GB)" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textViewDvrVoxAaeonDailyObs3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="Observations" />
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyClean"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint="Satisfactory/Not Satisfactory"
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyFront"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyFan"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyModule"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyRecord"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyLive"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyMediaBackup"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyError"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbyRAID"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                    <EditText
+                        android:id="@+id/editTextDvrVoxAaeonDailySbySpace"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="6"
+                        android:hint=""
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <EditText
+                android:id="@+id/editTextDvrVoxAaeonDailyRemarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:ems="4"
+                android:inputType="textMultiLine"
+                android:hint="Remarks:"
+                android:textSize="14sp"/>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Sign Document" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/teal_700"
+                    android:text="Submit Schedule" />
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:textStyle="italic"
+                android:textColor="@color/teal_700"
+                android:text="Form Created by- Naveen Singh Rana"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

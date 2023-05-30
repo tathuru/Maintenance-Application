@@ -172,10 +172,14 @@ public class MySignature extends AppCompatActivity {
             Paint titlePaint = new Paint();
             titlePaint.setTextSize(40);
             titlePaint.setTypeface(Typeface.DEFAULT_BOLD);
-            canvas.drawText("Name : "+PersonalDetailsActivity.naam,10,450 ,titlePaint);
+            /*canvas.drawText("Name : "+PersonalDetailsActivity.naam,10,450 ,titlePaint);
             canvas.drawText("Designation : " +PersonalDetailsActivity.design,10,510 ,titlePaint);
             canvas.drawText("Emp. ID : " +PersonalDetailsActivity.EmpID,10,570 ,titlePaint);
-            canvas.drawText("Location : " +MainActivity.latLong1,10,630 ,titlePaint);
+            canvas.drawText("Location : " +MainActivity.latLong1,10,630 ,titlePaint);*/
+            canvas.drawText("Name : "+PersonalDetailsActivity.naam,10,250 ,titlePaint);
+            canvas.drawText("Designation : " +PersonalDetailsActivity.design,10,300 ,titlePaint);
+            canvas.drawText("Emp. ID : " +PersonalDetailsActivity.EmpID,10,350 ,titlePaint);
+            canvas.drawText("Location : " +MainActivity.latLong1,10,400 ,titlePaint);
         }
 
         @Override

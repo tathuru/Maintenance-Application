@@ -45,8 +45,8 @@ public class SurveillanceActivity extends AppCompatActivity {
 
     public void asmgcsClicked (View view){
 
-
-
+        Intent intent = new Intent(getApplicationContext(),SurAsmgcsMakeActivity.class);
+        startActivity(intent);
 
     }
 

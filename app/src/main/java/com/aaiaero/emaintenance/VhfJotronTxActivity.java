@@ -43,8 +43,8 @@ public class VhfJotronTxActivity extends AppCompatActivity {
 
     public void weeklyClicked (View view){
         // Launch the DVR Equipment Room Activity
-        //Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
-        // startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(),VhfTxJotWeeklyActivity.class);
+        startActivity(intent);
 
 
     }
@@ -59,9 +59,8 @@ public class VhfJotronTxActivity extends AppCompatActivity {
     public void monthlyClicked (View view){
         // Launch the VCS Equipment Room Activity
 
-        Log.i("Monthly ", "Clicked");
-        //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(),VhfTxJotMonthlyActivity.class);
+        startActivity(intent);
 
     }
 
@@ -81,8 +80,8 @@ public class VhfJotronTxActivity extends AppCompatActivity {
 
     public void yearlyClicked (View view){
         // Launch the ADSB Equipment Room Activity
-        //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(),VhfTxJotYearlyActivity.class);
+        startActivity(intent);
 
 
 

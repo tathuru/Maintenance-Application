@@ -260,7 +260,7 @@ public class NavAidsDMEASII1118and1119WeeklyActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         // myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-        myFunctions.saveToParse(targetPdf, fileName,"DME_ASII_1118/1119","Weekly",outputEditText,MyFunctions.specificCode("w"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"DME","Weekly",outputEditText,MyFunctions.specificCode("w"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
 

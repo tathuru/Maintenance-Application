@@ -10,61 +10,64 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class DvorMakeModelActivity extends AppCompatActivity {
 
+    public void thales (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DVORTHALES432.class);
+        startActivity(intent);
+
+
+    }
+
+    public void mopiens (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DvorMopiensActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void asii (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DVORASII1150.class);
+        startActivity(intent);
+
+
+    }
+
+    public void selex (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DVORSELEX1150.class);
+        startActivity(intent);
+
+
+    }
+
+    public void gcel755 (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DvorGcel755Activity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void gcel757 (View view){
+
+
+        Intent intent = new Intent(getApplicationContext(),DvorGcel757Activity.class);
+        startActivity(intent);
+
+
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dvor_make_model);
 
-        Button thales, selex, gecl, mopiens,asii1150;
 
-        thales = (Button) findViewById(R.id.thales);
-        selex = (Button) findViewById(R.id.selex);
-        gecl = (Button) findViewById(R.id.gecl);
-        mopiens = (Button) findViewById(R.id.mopiens);
-        asii1150 = (Button) findViewById(R.id.asii1150);
-
-        thales.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),DVORTHALES432.class);
-                startActivity(intent);
-            }
-        });
-
-        selex.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(getApplicationContext(), DVORSELEX1150.class);
-                startActivity(intent);
-
-            }
-        });
-
-        gecl.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), DvorGcel755Activity.class);
-                startActivity(intent);
-            }
-        });
-
-        mopiens.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),DvorMopiensActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        asii1150.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),DVORASII1150.class);
-                startActivity(intent);
-
-            }
-        });
     }
 }
