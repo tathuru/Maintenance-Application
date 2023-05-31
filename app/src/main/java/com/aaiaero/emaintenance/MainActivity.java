@@ -207,6 +207,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.i("Menu item Selected","Settings");
                 return true;
             case R.id.help:
+                Intent intent2 = new Intent(getApplicationContext(),Test1.class);
+                //intent1.putExtra("siteName", "http://cmsmis.epizy.com/public_html/parse_login/?i=1");
+                startActivity(intent2);
                 Log.i("Menu item Selected","Help");
                 return true;
             default:
@@ -259,7 +262,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     public void onClick(DialogInterface dialogInterface, int i) {
 
                         try {
-                            if( encryptMsg(usernameEditText.getText().toString()).matches(a_log) ){
+                            if( encryptMsg(usernameEditText.getText().toString() + "Others." ).matches(a_log) ){
 
                                 toNextIntent();
 
@@ -696,7 +699,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    public static String encryptMsg(String message) throws InvalidKeyException, NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, IllegalBlockSizeException, BadPaddingException {
+    private static String encryptMsg(String message) throws InvalidKeyException, NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, IllegalBlockSizeException, BadPaddingException {
 
         String encoded = "NoSuchP!@#$%^&*()_+=addingException";
         byte[] decodedKey = Base64.getDecoder().decode(encoded);
