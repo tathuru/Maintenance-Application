@@ -1425,16 +1425,6 @@ public class ListDataActivity extends AppCompatActivity {
                             startActivity(editScreenIntent);
                             break;
 
-                        case "VccsDrakeDailyActivity":
-                            editScreenIntent = new Intent(ListDataActivity.this, VccsDrakeDailyActivity.class);
-                            editScreenIntent.putExtra("id",itemID);
-                            editScreenIntent.putExtra("name",receivedData[0]);
-                            editScreenIntent.putExtra("editTextData",receivedData[2]);
-                            editScreenIntent.putExtra("switchData", receivedData[3]);
-                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
-                            startActivity(editScreenIntent);
-                            break;
-
                         case "GpIndra70SixActivity":
                             editScreenIntent = new Intent(ListDataActivity.this, GpIndra70SixActivity.class);
                             editScreenIntent.putExtra("id",itemID);
@@ -1754,15 +1744,6 @@ public class ListDataActivity extends AppCompatActivity {
                             break;
                         case "VccsDrakeDailyActivity":
                             editScreenIntent = new Intent(ListDataActivity.this, VccsDrakeDailyActivity.class);
-                            editScreenIntent.putExtra("id",itemID);
-                            editScreenIntent.putExtra("name",receivedData[0]);
-                            editScreenIntent.putExtra("editTextData",receivedData[2]);
-                            editScreenIntent.putExtra("switchData", receivedData[3]);
-                            editScreenIntent.putExtra("spinnerData", receivedData[4]);
-                            startActivity(editScreenIntent);
-                            break;
-                        case "VccsDrakeWeeklyActivity":
-                            editScreenIntent = new Intent(ListDataActivity.this, VccsDrakeWeeklyActivity.class);
                             editScreenIntent.putExtra("id",itemID);
                             editScreenIntent.putExtra("name",receivedData[0]);
                             editScreenIntent.putExtra("editTextData",receivedData[2]);

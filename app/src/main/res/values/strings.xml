@@ -112,5 +112,6 @@
         <item>Orange</item>
         <item>Red</item>
     </string-array>
+    <string name="title_activity_cipher">CipherActivity</string>
 
 </resources>
