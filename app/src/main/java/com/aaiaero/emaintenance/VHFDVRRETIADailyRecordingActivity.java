@@ -1046,7 +1046,7 @@ public class VHFDVRRETIADailyRecordingActivity extends AppCompatActivity {
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
 
-         myFunctions.saveToParse(targetPdf, fileName, "DVR_RETIA_Recordings", "Daily", outputEditText, MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
+         myFunctions.saveToParse(targetPdf, fileName, "DVR", "Daily", outputEditText, MyFunctions.specificCode("d"),"outputSwitch", "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
