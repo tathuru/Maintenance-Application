@@ -731,7 +731,47 @@
             android:name=".SurMssrNgoscoActivity"
             android:exported="false" />
         <activity
+            android:name=".mssr_ngosco_weekly"
+            android:exported="false" />
+        <activity
+            android:name=".mssr_ngosco_monthly"
+            android:exported="false" />
+        <activity
             android:name=".SurMssrMakeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sur_psr_make"
+            android:exported="false" />
+        <activity
+            android:name=".sur_psr_selex"
+            android:exported="false" />
+        <activity
+            android:name=".psr_selex_si_atcr33s_monthly"
+            android:exported="false" />
+        <activity
+            android:name=".psr_selex_si_atcr33_sdaily"
+            android:exported="false" />
+        <activity
+            android:name=".psr_selex_si_atcr33s_weekly"
+            android:exported="false" />
+        <activity
+            android:name=".sur_ssr_eldis4"
+            android:exported="false" />
+        <activity
+            android:name=".sur_psr_eldis4"
+            android:exported="false" />
+        <activity
+            android:name=".sur_eldis4ups_daily"
+            android:exported="false" />
+
+        <activity
+            android:name=".psr_eldis_4_rl200_daily"
+            android:exported="false" />
+        <activity
+            android:name=".surv_ssr_eldismssr1_daily"
+            android:exported="false" />
+        <activity
+            android:name=".sur_eldis4_psrssr_rl200mssr1_weekly"
             android:exported="false" />
         <activity
             android:name=".SurveillanceActivity"

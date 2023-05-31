@@ -70,11 +70,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+
 
         <TextView
             android:id="@+id/textView3"
@@ -477,7 +473,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_weight=".5"
                 android:text="Check if any fault Monitor Lamp is glowing" />
 
@@ -555,6 +551,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -579,6 +576,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -604,6 +602,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -629,6 +628,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_span="2"
                 android:layout_weight="1.5"
                 android:gravity="center"
+                android:hint="Enter"
                 tools:ignore="SpeakableTextPresentCheck" />
 
         </TableRow>
@@ -654,6 +654,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -679,6 +680,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -704,6 +706,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -729,6 +732,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -754,6 +758,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -779,6 +784,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -804,6 +810,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -829,6 +836,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -854,6 +862,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -879,6 +888,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -904,6 +914,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -929,6 +940,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -954,6 +966,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -979,6 +992,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1004,6 +1018,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1029,6 +1044,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1054,6 +1070,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1079,6 +1096,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1120,6 +1138,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1145,6 +1164,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1171,6 +1191,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1196,6 +1217,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -1222,6 +1244,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1247,6 +1270,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1272,7 +1296,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
-
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1298,7 +1322,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
-
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1324,6 +1348,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1348,6 +1373,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_span="2"
+                android:hint="Enter"
                 android:layout_weight="1.5"
                 android:gravity="center" />
 
@@ -1374,7 +1400,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
-
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1400,7 +1426,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
-
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1426,7 +1452,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
-
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1452,6 +1478,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1477,7 +1504,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
-
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1503,6 +1530,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1528,6 +1556,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1553,7 +1582,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
-
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1579,6 +1608,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1604,7 +1634,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
-
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1630,6 +1660,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>
@@ -1655,6 +1686,7 @@ tools:context=".SurMssrNgoscoDailyActivity">
                 android:layout_height="48dp"
                 android:layout_span="2"
                 android:layout_weight="1.5"
+                android:hint="Enter"
                 android:gravity="center" />
 
         </TableRow>

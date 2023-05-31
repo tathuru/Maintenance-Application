@@ -1,8 +1,6 @@
-
 package com.aaiaero.emaintenance;
 
 import android.Manifest;
-import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -37,38 +35,29 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
-
+public class mssr_ngosco_monthly extends AppCompatActivity {
     private MyFunctions myFunctions = new MyFunctions(this);//--1--//Add this
     private MySignature mySignature = new MySignature(this);
     private int selectedID;//Copy
     private String selectedName;//Copy
     private EditText[] editTextArray;//Copy
-    private Switch[] switchArray;//Copy
-    private Spinner[] spinnerArray;//Copy
+    private Switch[] switchArray ={};//Copy
+    private Spinner[] spinnerArray={};//Copy
 
-    private String thisActivityName = "SurMssrNgoscoDailyActivity"; //Change Here as per your class name
+    private String thisActivityName = "mssr_ngosco_monthly"; //Change Here as per your class name
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sur_mssr_ngosco_daily);
-
-
-        @SuppressLint("UseSwitchCompatOrMaterialCode")
-
-      /* All are serially numbered from 1. Total No.of, Edit texts = 49 (first 48 single line, 1 multiline), switches =10,
-            spinners = 7. ,  textviews = 71, Buttons = 2
+        setContentView(R.layout.activity_mssr_ngosco_monthly);
+    /* All are serially numbered from 1Total No.of, Edit texts = 31 (first 31 single line, 1 multiline), switches= 0,
+            spinners= 0. image view = 1,  textviews = 43, Buttons = 2
          */
 
-                //Define and Initialize all EditTexts serially here
-                EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10,
-                editText11,editText12,editText13,editText14,editText15,editText16,editText17,editText18,editText19,editText20,
-                editText21,editText22,editText23,editText24,editText25,editText26,editText27,editText28,editText29,editText30,
-                editText31,editText32,editText33,editText34,editText35,editText36,editText37,editText38,editText39,editText40,
-                editText41,editText42,editText43,editText44,editText45,editText46,editText47,editText48,editText49;
-
-
+        //Define and Initialize all EditTexts serially here
+        EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8, editText9,
+                editText10, editText11, editText12, editText13, editText14, editText15, editText16, editText17, editText18, editText19, editText20,
+                editText21, editText22, editText23, editText24, editText25, editText26, editText27, editText28, editText29, editText30, editText31;
 
 
         editTextArray = new EditText[]{
@@ -102,59 +91,11 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
                 editText28 = (EditText) findViewById(R.id.editText28),
                 editText29 = (EditText) findViewById(R.id.editText29),
                 editText30 = (EditText) findViewById(R.id.editText30),
-                editText31 = (EditText) findViewById(R.id.editText31),
-                editText32 = (EditText) findViewById(R.id.editText32),
-                editText33 = (EditText) findViewById(R.id.editText33),
-                editText34 = (EditText) findViewById(R.id.editText34),
-                editText35 = (EditText) findViewById(R.id.editText35),
-                editText36 = (EditText) findViewById(R.id.editText36),
-                editText37 = (EditText) findViewById(R.id.editText37),
-                editText38 = (EditText) findViewById(R.id.editText38),
-                editText39 = (EditText) findViewById(R.id.editText39),
-                editText40 = (EditText) findViewById(R.id.editText40),
-                editText41 = (EditText) findViewById(R.id.editText41),
-                editText42 = (EditText) findViewById(R.id.editText42),
-                editText43 = (EditText) findViewById(R.id.editText43),
-                editText44 = (EditText) findViewById(R.id.editText44),
-                editText45 = (EditText) findViewById(R.id.editText45),
-                editText46 = (EditText) findViewById(R.id.editText46),
-                editText47 = (EditText) findViewById(R.id.editText47),
-                editText48 = (EditText) findViewById(R.id.editText48),
-                editText49 = (EditText) findViewById(R.id.editText49)};
-
-
-        //Define and Initialize all Switches serially here
-        @SuppressLint("UseSwitchCompatOrMaterialCode") Switch switch1,switch2,switch3,switch4,switch5,switch6,switch7,switch8,switch9,switch10;
-
-        switchArray = new Switch[]{
-                switch1 = (Switch) findViewById(R.id.switch1),
-                switch2 = (Switch) findViewById(R.id.switch2),
-                switch3 = (Switch) findViewById(R.id.switch3),
-                switch4 = (Switch) findViewById(R.id.switch4),
-                switch5 = (Switch) findViewById(R.id.switch5),
-                switch6 = (Switch) findViewById(R.id.switch6),
-                switch7 = (Switch) findViewById(R.id.switch7),
-                switch8 = (Switch) findViewById(R.id.switch8),
-                switch9 = (Switch) findViewById(R.id.switch9),
-                switch10 = (Switch) findViewById(R.id.switch10)};
-
-
-
-        //Define and Initialize all Spinners serially here
-        Spinner spinner1,spinner2,spinner3,spinner4,spinner5,spinner6,spinner7;
-
-        spinnerArray = new Spinner[]{
-                spinner1 = (Spinner) findViewById(R.id.spinner1),
-                spinner2 = (Spinner) findViewById(R.id.spinner2),
-                spinner3 = (Spinner) findViewById(R.id.spinner3),
-                spinner4 = (Spinner) findViewById(R.id.spinner4),
-                spinner5 = (Spinner) findViewById(R.id.spinner5),
-                spinner6 = (Spinner) findViewById(R.id.spinner6),
-                spinner7 = (Spinner) findViewById(R.id.spinner7)};
+                editText31 = (EditText) findViewById(R.id.editText31)};
 
 
         //---------------------To Set View in Current Activity------------------
-
+        // Fixed for all the activity---------------------------------------------------------------
         TextView Name = (TextView) findViewById(R.id.textView3);
         Name.setText("Name: " + PersonalDetailsActivity.naam);
         TextView Desig = (TextView) findViewById(R.id.textView4);
@@ -189,7 +130,7 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
 
         }
 
-        Button signDocument = (Button) findViewById(R.id.button2) ;
+        Button signDocument = (Button) findViewById(R.id.button2);
         Button submitSchedule = (Button) findViewById(R.id.button1);
 
         submitSchedule.setVisibility(View.INVISIBLE);
@@ -210,10 +151,11 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
                 generatePDF();
             }
         });
+        // Fixed for all activity-------------------------------------------------------------------
+    } // End of On create
 
-    }// End of OnCreate
 
-    private void generatePDF(){
+    private void generatePDF() {
 
         // Fixed for all activity-------------------------------------------------------------------
 
@@ -221,13 +163,13 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
 
         String[] editTextDataForPDF = myFunctions.seperateEditText(outputEditText);
 
-        String outputSwitch = myFunctions.getSwitchStatusForPDF(switchArray);
+        //String outputSwitch = myFunctions.getSwitchStatusForPDF(switchArray);
 
-        String[] switchDataForPDF = myFunctions.seperateSwitchData(outputSwitch);
+        //String[] switchDataForPDF = myFunctions.seperateSwitchData(outputSwitch);
 
-        String outputSpinner = myFunctions.getSpinnerStatusForPDF(spinnerArray);
+        //String outputSpinner = myFunctions.getSpinnerStatusForPDF(spinnerArray);
 
-        String[] spinnerDataForPDF = myFunctions.seperateSpinnerData(outputSpinner);
+        //String[] spinnerDataForPDF = myFunctions.seperateSpinnerData(outputSpinner);
 
         PdfDocument myPdfdocument = new PdfDocument();
 
@@ -235,7 +177,8 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
         Paint titlePaint = new Paint();
 
         // Change below as per requirement-----------------------------------------------------------
-        // crate a page description
+        // ******************Code for Page 1****************
+        // create a page description
         PdfDocument.PageInfo myPageInfo1 = new PdfDocument.PageInfo.Builder(723, 1023, 1).create();
 
         // initialising canvas & bitmap and start of page 1
@@ -243,50 +186,42 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
         Canvas canvas = myPage1.getCanvas();
 
 
-        Bitmap bmp,scaledbmp;
-
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.mssrdaily1);
-
-        //Bitmap decoded1 = getResizedBitmap(bmp,1000);
-
-        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1023,false);
-
-        canvas.drawBitmap(scaledbmp,0 , 0, paint);
+        Bitmap bmp, scaledbmp; //only exists(i.e declaration) in page 1.
+//-------------------------change here and put correct image name as per drawable--------------------------------
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.mssrngoscomonthly);
+        scaledbmp = Bitmap.createScaledBitmap(bmp, 723, 1023, false);
+//--------------------------------------------------------------------------------------------
+        canvas.drawBitmap(scaledbmp, 0, 0, paint);
 
 
         titlePaint.setTextSize(13);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        //--------------------------------Change as per your requirement------------------------------------------------------
-        //canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,210, false), 1325, 2720, paint);
-        titlePaint.setTextSize(13);
+        //--------------------------------Change below as per your requirement------------------------------------------------------
 
-        int[] editTextXPixel1 = {378,400,400,400,400};
-        int[] editTextYPixel1 = {205,566,790,830,885};
+        //---------------select the type od data types used omit rest of them --------------------------------
+        int[] editTextXPixel1 = {573,386,457,386,457,386,457,386,457,386,457,410,410,410,410,410,410,410,410,410,410,386,457,390,390,390,390,390,390,390,175};
+        int[] editTextYPixel1 = {176,261,261,279,279,296,296,314,314,332,332,367,386,404,438,456,476,493,511,528,546,581,581,600,623,674,693,711,745,758,778};
 
-        int[] switchXPixel1 = {400,400,400,400,400,400,400,400,400,400};
-        int[] switchYPixel1 = {319,400,432,468,493,530,610,641,710,750};
 
-        int[] spinnerXPixel1 = {400};
-        int[] spinnerYPixel1 = {350};
 
         // Change till here as per requirements ----------------------------------------------------
 
         //Fixed for all activity--------------------------------------------------------------------
-
-        for(int i = 0; i < editTextXPixel1.length; i++){
-            canvas.drawText( editTextDataForPDF[i],editTextXPixel1[i],editTextYPixel1[i],titlePaint);
+        //---------------select the for loops of declared data types only, omit rest of them --------------------------------
+        for (int i = 0; i < editTextXPixel1.length; i++) {
+            canvas.drawText(editTextDataForPDF[i], editTextXPixel1[i], editTextYPixel1[i], titlePaint);
         }
 
-        for(int i = 0; i < switchXPixel1.length; i++){
-            canvas.drawText( switchDataForPDF[i],switchXPixel1[i],switchYPixel1[i],titlePaint);
-        }
+       /* for (int i = 0; i < switchXPixel1.length; i++) {
+            canvas.drawText(switchDataForPDF[i], switchXPixel1[i], switchYPixel1[i], titlePaint);
+        }*/
 
-        for(int i = 0; i < spinnerXPixel1.length; i++){
-            canvas.drawText( spinnerDataForPDF[i],spinnerXPixel1[i],spinnerYPixel1[i],titlePaint);
-        }
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,250, false), 415, 790, paint);  //  For signature printing used in the last page usually
 
 
+
+        // ******************not required other than page 1****************
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm");
         String strData = sdf.format(calendar.getTime());
@@ -295,135 +230,27 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(13);
 
-        canvas.drawText(strData,572,206,titlePaint);//Printing Date on PDF
+        //canvas.drawText(strData, 572, 206, titlePaint);//Printing Date on PDF
 
         myPdfdocument.finishPage(myPage1);
 
 
         //---------------------End of Page 1----------------
-
-        //---------------------start a Page 2---------------
-
-        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(723, 1023, 2).create();
-        PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
-        canvas = myPage2.getCanvas();
-
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.mssrdaily2);
-
-        //Bitmap decoded1 = getResizedBitmap(bmp,1000);
-
-        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1023,false);
-
-        canvas.drawBitmap(scaledbmp,0 , 0, paint);
-
-
-        titlePaint.setTextSize(13);
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        //--------------------------------Change as per your requirement------------------------------------------------------
-
-        titlePaint.setTextSize(13);
-
-        int[] editTextXPixel2 = {400,400,400,400,400,400,400,400,400,400,
-                400,400,400,400,400,400,400,400,400,400,
-                400,400,400,400,400,400,400,400,400};
-
-        int[] editTextYPixel2 = {130,150,174,198,222,246,273,304,325,350,
-                375,400,425,450,475,500,527,552,577,602,
-                627,679,710,740,770,800,832,870,900};
-
-
-        // Change till here as per requirements ----------------------------------------------------
-
-        //Fixed for all activity--------------------------------------------------------------------
-
-        for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+ editTextXPixel1.length],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
-        }
-
-
-
-
-        // Fixed till here--------------------------------------------------------------------------
-
-        // Change as per your requirement-----------------------------------------------------------
-        titlePaint.setTextSize(13);
-
-
-        myPdfdocument.finishPage(myPage2);
-
-
-        //---------------------End of Page 2---------------
-
-        //---------------------start a Page 3---------------
-
-        PdfDocument.PageInfo myPageInfo3 = new PdfDocument.PageInfo.Builder(723, 1023, 3).create();
-        PdfDocument.Page myPage3 = myPdfdocument.startPage(myPageInfo3);
-        canvas = myPage3.getCanvas();
-
-
-        bmp = BitmapFactory.decodeResource(getResources(),R.drawable.mssrdaily3);
-
-        //Bitmap decoded1 = getResizedBitmap(bmp,1000);
-
-        scaledbmp = Bitmap.createScaledBitmap(bmp,723,1023,false);
-
-        canvas.drawBitmap(scaledbmp,0 , 0, paint);
-
-
-        titlePaint.setTextSize(13);
-        paint.setTextAlign(Paint.Align.LEFT);
-
-        //--------------------------------Change as per your requirement------------------------------------------------------
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 366, 728, paint);
-        titlePaint.setTextSize(13);
-
-        int[] editTextXPixel3 = {400,400,400,400,400,400,400,400,400,400,
-                400,400,400,400,351};
-        int[] editTextYPixel3 = {122,150,175,200,227,250,277,305,330,357,
-                382,407,433,460,632};
-
-
-        int[] spinnerXPixel3 = {400,400,400,400,400,400};
-        int[] spinnerYPixel3 = {505,530,552,574,595,612};
-
-        // Change till here as per requirements ----------------------------------------------------
-
-        //Fixed for all activity--------------------------------------------------------------------
-
-        for(int i = 0; i < editTextXPixel3.length; i++){
-            canvas.drawText( editTextDataForPDF[i+editTextXPixel1.length+editTextXPixel2.length],editTextXPixel3[i],editTextYPixel3[i],titlePaint);
-        }
-
-
-        for(int i = 0; i < spinnerXPixel3.length; i++){
-            canvas.drawText( spinnerDataForPDF[i+spinnerXPixel1.length],spinnerXPixel3[i],spinnerYPixel3[i],titlePaint);
-        }
-
-        canvas.drawText(strData,400,713,titlePaint);//Printing Date on PDF
-
-        // Change as per your requirement-----------------------------------------------------------
-        titlePaint.setTextSize(13);
-
-        myPdfdocument.finishPage(myPage3);
-
-        //-------------------------End of Page 3-----------------
-
-
+        // ******************after writing all pages****************
 
         ActivityCompat.requestPermissions(this, new String[]{
 
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
 
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/MSSR/Daily/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/MSSR/Monthly/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "Daily MSSR " + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "Monthly_MSSR_NGOSCO " + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -435,21 +262,27 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
             Toast.makeText(this, "Something wrong: " + e.toString(), Toast.LENGTH_LONG).show();
         }
         myPdfdocument.close();
-        String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
+        String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());
+
+
+        // Change below Here----------------------------
 
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"MSSR","Daily",outputEditText,MyFunctions.specificCode("d"),outputSwitch, outputSpinner);
+        myFunctions.saveToParse(targetPdf, fileName,"MSSR","Monthly",outputEditText,MyFunctions.specificCode("m"),"outputSwitch","outputSpinner"); // Change Here------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)
         myFunctions.sendEmail(PersonalDetailsActivity.emailTo + "@aai.aero",
-              "Daily Maintenance of NGOSCO MSSR done.",//Change Here-----------------------------
-               "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
+                "Monthly Maintenance of NGOSCO MSSR done.",//Change Here-----------------------------
+                "Maintenance Schedule is attached. Please verify.", targetPdf, fileName);
+        //---------------------------------------------------------------------------------------------------------
 
 
-      myFunctions.toLogoutActivity();
-    }
+        myFunctions.toLogoutActivity();
+
+
+    }//-------------End of generatePDF-----------
 
     //Copy this function in your activity completely without any change
     @Override
@@ -464,14 +297,14 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         super.onOptionsItemSelected(item);
 
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
 
             case R.id.putInDB:
                 final AlertDialog.Builder alert = new AlertDialog.Builder(this);
-                View mView = getLayoutInflater().inflate(R.layout.custom_dialog,null);
-                final EditText desiredFormName = (EditText)mView.findViewById(R.id.txt_input);
-                Button btn_cancel = (Button)mView.findViewById(R.id.btn_cancel);
-                Button btn_okay = (Button)mView.findViewById(R.id.btn_okay);
+                View mView = getLayoutInflater().inflate(R.layout.custom_dialog, null);
+                final EditText desiredFormName = (EditText) mView.findViewById(R.id.txt_input);
+                Button btn_cancel = (Button) mView.findViewById(R.id.btn_cancel);
+                Button btn_okay = (Button) mView.findViewById(R.id.btn_okay);
                 alert.setView(mView);
                 final AlertDialog alertDialog = alert.create();
                 alertDialog.setCanceledOnTouchOutside(false);
@@ -486,7 +319,7 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         View view = findViewById(R.id.putInDB);
                         String formName = desiredFormName.getText().toString();
-                        myFunctions.addToDB(view ,editTextArray,switchArray,spinnerArray,formName, thisActivityName);
+                        myFunctions.addToDB(view, editTextArray, switchArray, spinnerArray, formName, thisActivityName);
                         alertDialog.dismiss();
                     }
                 });
@@ -503,7 +336,7 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 myFunctions.deleteFromDB(view1, selectedID, selectedName);
-                                Intent intent = new Intent(getApplicationContext(),ListDataActivity.class);
+                                Intent intent = new Intent(getApplicationContext(), ListDataActivity.class);
                                 startActivity(intent);
                             }
                         })
@@ -512,7 +345,7 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
                 return true;
 
             case R.id.showDB:
-                Intent intent = new Intent(getApplicationContext(),ListDataActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ListDataActivity.class);
                 startActivity(intent);
                 return true;
 
@@ -523,8 +356,7 @@ public class SurMssrNgoscoDailyActivity extends AppCompatActivity {
             default:
                 return false;
         }
+
     }
-
-
-
+//----At last don't forget to put an entry in Switch Case of ListDataActivity.java------------
 }

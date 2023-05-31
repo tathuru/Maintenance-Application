@@ -7,19 +7,18 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SurMssrNgoscoActivity extends AppCompatActivity {
+public class sur_ssr_eldis4 extends AppCompatActivity {
+
+
 
     Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sur_mssr_ngosco);
+        setContentView(R.layout.activity_sur_ssr_eldis4);//xml file name you want to bond with this java file
+        setTitle("ELDIS 4 SSR Maintenance");
 
-        setTitle("NGOSCO MSSR Maintenance");
-
-        daily = (Button) findViewById(R.id.daily);
+        daily = (Button) findViewById(R.id.dailypsr);
         weekly = (Button) findViewById(R.id.weekly);
         fortnightly = (Button) findViewById(R.id.fortnightly);
         monthly = (Button) findViewById(R.id.monthly);
@@ -34,15 +33,14 @@ public class SurMssrNgoscoActivity extends AppCompatActivity {
 
     public void dailyClicked (View view){
 
-        Intent intent = new Intent(getApplicationContext(),SurMssrNgoscoDailyActivity.class);
+        Intent intent = new Intent(getApplicationContext(),surv_ssr_eldismssr1_daily.class);
         startActivity(intent);
 
 
     }
 
     public void weeklyClicked (View view){
-        Intent intent = new Intent(getApplicationContext(),mssr_ngosco_weekly.class);
-        startActivity(intent);
+
 
 
     }
@@ -55,9 +53,6 @@ public class SurMssrNgoscoActivity extends AppCompatActivity {
     }
 
     public void monthlyClicked (View view){
-        Intent intent = new Intent(getApplicationContext(),mssr_ngosco_monthly.class);
-        startActivity(intent);
-
 
     }
 
