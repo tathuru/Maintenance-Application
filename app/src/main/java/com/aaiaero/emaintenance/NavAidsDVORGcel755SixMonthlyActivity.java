@@ -249,10 +249,10 @@ public class NavAidsDVORGcel755SixMonthlyActivity extends AppCompatActivity {
 
         int[] editTextXPixel1 = {145,348,335,335,335,335,335,335,335,335,335,335,335,335,335,
                 335,335,335,335,335,335,335,335,335,335,335,621,621,621,621,621,621,621,621,
-                621,621,621,621,621,621,621,621,621,621,621,621,621,621,621,621,238,110};
+                621,621,621,621,621,621,621,621,621,621,621,621,621,621,621,621,238,84};
         int[] editTextYPixel1 = {140,140,235,253,270,287,304,322,340,357,375,391,409,427,444,460,
                 479,495,514,531,547,565,583,599,617,635,235,253,271,287,304,322,340,357,375,391,409,427,444,460,
-                479,495,514,531,547,565,582,599,617,635,652,750};
+                479,495,514,531,547,565,582,599,617,635,652,695};
 
 
 
@@ -278,7 +278,7 @@ public class NavAidsDVORGcel755SixMonthlyActivity extends AppCompatActivity {
 
         //canvas.drawBitmap(PersonalDetailsActivity.photo, 550, 21, paint);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 429, 770, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,230, false), 429, 720, paint);
 
         myPdfdocument.finishPage(myPage1);
 
@@ -294,7 +294,7 @@ public class NavAidsDVORGcel755SixMonthlyActivity extends AppCompatActivity {
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DVOR_GCEL_755_Six_Monthly_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DVOR_GCEL_755_Six_Monthly" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {

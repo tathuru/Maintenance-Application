@@ -588,7 +588,7 @@ public class NavAidsDVORGcel755MonthlyGroundChecksActivity extends AppCompatActi
         }
 
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,300,253, false), 429, 740, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,220, false), 429, 740, paint);
         myPdfdocument.finishPage(myPage2);
 
 
@@ -604,7 +604,7 @@ public class NavAidsDVORGcel755MonthlyGroundChecksActivity extends AppCompatActi
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DVOR_GCEL_755_Monthly_Ground_Checks_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DVOR_GCEL_755_Monthly_Ground_Checks" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {

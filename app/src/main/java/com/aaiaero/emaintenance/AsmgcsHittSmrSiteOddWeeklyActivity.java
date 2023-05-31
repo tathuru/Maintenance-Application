@@ -52,7 +52,7 @@ public class AsmgcsHittSmrSiteOddWeeklyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_asmgcs_hitt_smr_site_odd_weekly);
         //Define and Initialize all EditTexts serially here
         EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
-                editText17, editText18, editText19,editText20, editText21, editText22, editText23, editText24, editText25, editText26, editText27, editText28, editText29;
+                editText17, editText18, editText19,editText20, editText21, editText22, editText23, editText24, editText25, editText26, editText27;
 
         editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText2),
                 editText2 = (EditText) findViewById(R.id.editText3),
@@ -80,9 +80,7 @@ public class AsmgcsHittSmrSiteOddWeeklyActivity extends AppCompatActivity {
                 editText24 = (EditText) findViewById(R.id.editText25),
                 editText25 = (EditText) findViewById(R.id.editText26),
                 editText26 = (EditText) findViewById(R.id.editText27),
-                editText27 = (EditText) findViewById(R.id.editText28),
-                editText28 = (EditText) findViewById(R.id.editText29),
-                editText29 = (EditText) findViewById(R.id.editText30)};
+                editText27 = (EditText) findViewById(R.id.editText28)};
 
         //Define and Initialize all Switches serially here
 

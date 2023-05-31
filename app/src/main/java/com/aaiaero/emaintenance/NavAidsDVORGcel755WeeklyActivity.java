@@ -208,7 +208,7 @@ public class NavAidsDVORGcel755WeeklyActivity extends AppCompatActivity {
 
         // Change below as per requirement-----------------------------------------------------------
         // crate a page description
-        PdfDocument.PageInfo myPageInfo1 = new PdfDocument.PageInfo.Builder(723, 1023, 1).create();
+        PdfDocument.PageInfo myPageInfo1 = new PdfDocument.PageInfo.Builder(1384, 1792, 1).create();
 
         // start a page
         PdfDocument.Page myPage1 = myPdfdocument.startPage(myPageInfo1);
@@ -219,13 +219,13 @@ public class NavAidsDVORGcel755WeeklyActivity extends AppCompatActivity {
 
 
 //--------------------------------------------------------------------------------------------
-        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorgcel755weekly);
-        scaledbmp = Bitmap.createScaledBitmap(bmp, 723, 1023, false);
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorgcel755weekly1);
+        scaledbmp = Bitmap.createScaledBitmap(bmp, 1384, 1792, false);
 //--------------------------------------------------------------------------------------------
         canvas.drawBitmap(scaledbmp, 0, 0, paint);
 
 
-        titlePaint.setTextSize(13);
+        titlePaint.setTextSize(20);
         paint.setTextAlign(Paint.Align.LEFT);
         //canvas.drawText("Name: " + PersonalDetailsActivity.naam ,1500,32,titlePaint);
         //canvas.drawText("Desig: " + PersonalDetailsActivity.design ,1500,64,titlePaint);
@@ -236,30 +236,27 @@ public class NavAidsDVORGcel755WeeklyActivity extends AppCompatActivity {
         //--------------------------------Change as per your requirement------------------------------------------------------
 
         //canvas.drawBitmap(PersonalDetailsActivity.sigNature, 1325, 2720, paint);
-        titlePaint.setTextSize(13);
+        titlePaint.setTextSize(20);
 
-        int[] editTextXPixel = {164,364,505,500,500,500,505,505,500,505,505,505,505,505,505,595,590,590,590,595,595,590,
-                595,595,595,595,595,595,106} ;
+        int[] editTextXPixel1 = {236,564,910,910,910,910,910,910,910,910,910,910,910,910,910,1030,1030,1030,1030,1030,1030,1030,1030,1030,1030,1030,1030,1030} ;
 
-        int[] editTextYPixel = {152,152,468,485,500,515,530,
-                546,561,577,592,608,623,639,660,468,485,500,515,530,
-                546,561,577,592,608,623,639,660,747};
+        int[] editTextYPixel1 = {306,306,1017,1045,1070,1096,1123,1151,1179,1204,1235,1259,1286,1313,1360,1017,1045,1070,1096,1123,1151,1179,1204,1235,1259,1286,1313,1360};
 
-        int[] switchXPixel = {520,520,520,520,520,520,520};
-        int[] switchYPixel = {250,272,311,342,373,406,435};
+        int[] switchXPixel1 = {945,945,945,945,945,945,945};
+        int[] switchYPixel1 = {536,565,648,720,775,860,928};
 
 
         // Change till here as per requirements ----------------------------------------------------
 
         //Fixed for all activity--------------------------------------------------------------------
 
-        for (int i = 0; i < editTextXPixel.length; i++) {
-            canvas.drawText(editTextDataForPDF[i], editTextXPixel[i], editTextYPixel[i], titlePaint);
+        for (int i = 0; i < editTextXPixel1.length; i++) {
+            canvas.drawText(editTextDataForPDF[i], editTextXPixel1[i], editTextYPixel1[i], titlePaint);
         }
 
 
-        for (int i = 0; i < switchXPixel.length; i++) {
-            canvas.drawText(switchDataForPDF[i], switchXPixel[i], switchYPixel[i], titlePaint);
+        for (int i = 0; i < switchXPixel1.length; i++) {
+            canvas.drawText(switchDataForPDF[i], switchXPixel1[i], switchYPixel1[i], titlePaint);
         }
 
 
@@ -269,15 +266,43 @@ public class NavAidsDVORGcel755WeeklyActivity extends AppCompatActivity {
         // Fixed till here--------------------------------------------------------------------------
 
         // Change as per your requirement-----------------------------------------------------------
-        titlePaint.setTextSize(13);
+        titlePaint.setTextSize(20);
 
-        canvas.drawText(Date, 485, 152, titlePaint);//Printing Date on PDF
-        canvas.drawBitmap(Bitmap.createScaledBitmap(MySignature.sigNature, 290, 270 ,false), 400, 760, paint);
+        canvas.drawText(Date,  909,306, titlePaint);//Printing Date on PDF
 
 
 
         //canvas.drawBitmap(PersonalDetailsActivity.sigNature, 490, 760, paint);
         myPdfdocument.finishPage(myPage1);
+
+
+        PdfDocument.PageInfo myPageInfo2 = new PdfDocument.PageInfo.Builder(1384,1792, 2).create();
+
+// start a page
+        PdfDocument.Page myPage2 = myPdfdocument.startPage(myPageInfo2);
+
+        canvas = myPage2.getCanvas();
+        bmp = BitmapFactory.decodeResource(getResources(), R.drawable.dvorgcel755weekly2);
+        scaledbmp = Bitmap.createScaledBitmap(bmp, 1384,1792, false);
+        canvas.drawBitmap(scaledbmp, 0, 0, paint);
+
+        titlePaint.setTextSize(20);  //Change here
+        paint.setTextAlign(Paint.Align.LEFT);
+
+        int[] editTextXPixel2 = {172};
+        int[] editTextYPixel2 = {281};
+
+        for (int i = 0; i < editTextXPixel2.length; i++) {
+            canvas.drawText(editTextDataForPDF[i + editTextXPixel1.length], editTextXPixel2[i], editTextYPixel2[i], titlePaint);
+        }
+
+
+
+
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,350,370, false), 697,907, paint);
+        myPdfdocument.finishPage(myPage2);
+
+
 
 
         ActivityCompat.requestPermissions(this, new String[]{
@@ -292,7 +317,7 @@ public class NavAidsDVORGcel755WeeklyActivity extends AppCompatActivity {
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DVOR_GCEL_755_Weekly_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DVOR_GCEL_755_Weekly" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
@@ -401,3 +426,4 @@ public class NavAidsDVORGcel755WeeklyActivity extends AppCompatActivity {
     // Fixed for all activity-------------------------------------------------------------------
 
 }
+

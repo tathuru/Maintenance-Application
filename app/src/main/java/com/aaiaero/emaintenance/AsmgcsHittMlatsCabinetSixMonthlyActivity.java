@@ -177,7 +177,7 @@ public class AsmgcsHittMlatsCabinetSixMonthlyActivity extends AppCompatActivity 
         titlePaint.setTextSize(12);
 
         int[] editTextXPixel = {95,200,120,120,120,120,120,120,120,120,120,120,120,120,120,145};
-        int[] editTextYPixel = {200,200,248,283,317,353,387,423,458,495,530,566,598,635,670,705};
+        int[] editTextYPixel = {200,200,248,283,317,353,387,423,458,495,530,566,600,635,670,705};
 
 
 
@@ -208,7 +208,7 @@ public class AsmgcsHittMlatsCabinetSixMonthlyActivity extends AppCompatActivity 
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,300,200, false), 348, 752, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 348, 752, paint);
 
         myPdfdocument.finishPage(myPage1);
 

@@ -463,7 +463,7 @@
                     <TextView
                         android:id="@+id/textView15"
                         android:layout_width="match_parent"
-                        android:layout_height="192dp"
+                        android:layout_height="199dp"
                         android:gravity="center_vertical"
                         android:text="1"
                         android:textAlignment="center"
@@ -474,7 +474,7 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="192dp"
+                        android:layout_height="206dp"
                         android:gravity="center_vertical"
                         android:text="2"
                         android:textAlignment="center"
@@ -514,7 +514,7 @@
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="ii.   Fwd Pwr"
                         android:textColor="@color/textViewColor" />
@@ -542,7 +542,7 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="i.    PA Volt"
                         android:textColor="@color/textViewColor" />
@@ -552,7 +552,7 @@
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="ii.   PA Current"
                         android:textColor="@color/textViewColor" />
@@ -596,7 +596,7 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:textAlignment="textStart"
                         android:text="100 % (no change in value set at the time of commissioning)"
@@ -609,7 +609,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:gravity="center_vertical"
-                        android:text="95 %  (85 % - 95%)"
+                        android:text="95 %  (85% - 95%)"
                         android:textAlignment="center"
                         android:textColor="@color/textViewColor" />
 
@@ -624,7 +624,7 @@
                     <TextView
                         android:id="@+id/textView15"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:textAlignment="textStart"
                         android:text="(Dependent on Fwd Pwr.) Set at the time of commissioning  &#xB1; 10%"
@@ -635,7 +635,7 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:textAlignment="textStart"
                         android:gravity="center_vertical"
                         android:text="(Dependent on Fwd Pwr.) Set at the time of commissioning &#xB1; 4A."
@@ -686,7 +686,7 @@
                     <EditText
                         android:id="@+id/editText6"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"
@@ -712,7 +712,7 @@
                     <EditText
                         android:id="@+id/editText11"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"
@@ -721,7 +721,7 @@
                     <EditText
                         android:id="@+id/editText12"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"
@@ -793,7 +793,7 @@
                     <EditText
                         android:id="@+id/editText9"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"
@@ -818,7 +818,7 @@
                     <EditText
                         android:id="@+id/editText13"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"
@@ -827,7 +827,7 @@
                     <EditText
                         android:id="@+id/editText14"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"

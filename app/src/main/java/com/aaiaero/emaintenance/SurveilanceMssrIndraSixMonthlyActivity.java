@@ -189,8 +189,8 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
 
         titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {175,290,435,435,435,435,435,435,435,435,435,435,435,435,435,435,435};
-        int[] editTextYPixel = {205,205,280,345,380,465,490,520,585,615,650,740,760,785,835,864,885};
+        int[] editTextXPixel = {175,175,290,435,435,435,435,435,435,435,435,435,435,435,435,435,435,435};
+        int[] editTextYPixel = {205,205,205,280,345,380,465,490,520,585,615,650,740,760,785,835,864,885};
 
 
 
@@ -244,7 +244,7 @@ public class SurveilanceMssrIndraSixMonthlyActivity extends AppCompatActivity {
 
 
         for(int i = 0; i < editTextXPixel2.length; i++){
-            canvas.drawText( editTextDataForPDF[i+17],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
+            canvas.drawText( editTextDataForPDF[i+18],editTextXPixel2[i],editTextYPixel2[i],titlePaint);
         }
 
 

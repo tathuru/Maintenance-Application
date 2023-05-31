@@ -1234,7 +1234,7 @@
                     android:textColor="@color/black" />
 
                 <EditText
-                    android:id="@+id/editText56"
+                    android:id="@+id/editText52"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1279,7 +1279,7 @@
                     android:textColor="@color/black" />
 
                 <EditText
-                    android:id="@+id/editText57"
+                    android:id="@+id/editText53"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1305,7 +1305,7 @@
                     android:textColor="@color/black" />
 
                 <EditText
-                    android:id="@+id/editText58"
+                    android:id="@+id/editText54"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1331,7 +1331,7 @@
                     android:textColor="@color/black" />
 
                 <EditText
-                    android:id="@+id/editText59"
+                    android:id="@+id/editText55"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1357,7 +1357,7 @@
                     android:textColor="@color/black" />
 
                 <EditText
-                    android:id="@+id/editText60"
+                    android:id="@+id/editText56"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1383,7 +1383,7 @@
                     android:textColor="@color/black" />
 
                 <EditText
-                    android:id="@+id/editText61"
+                    android:id="@+id/editText57"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1409,7 +1409,7 @@
                     android:textColor="@color/black" />
 
                 <EditText
-                    android:id="@+id/editText62"
+                    android:id="@+id/editText58"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1435,33 +1435,7 @@
                     android:textColor="@color/black" />
 
                 <EditText
-                    android:id="@+id/editText63"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:hint=" VALUE "
-                    android:textSize="14sp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="fill"
-                android:layout_marginStart="20dp"
-                android:ems="10"
-                android:orientation="horizontal"
-                android:weightSum="2">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="ACS Temperature"
-                    android:textColor="@color/black" />
-
-                <EditText
-                    android:id="@+id/editText64"
+                    android:id="@+id/editText59"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1487,7 +1461,7 @@
                     android:textStyle="bold|italic" />
 
                 <EditText
-                    android:id="@+id/editText65"
+                    android:id="@+id/editText60"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"

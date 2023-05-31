@@ -747,7 +747,7 @@
                         android:layout_height="52dp"
                         android:ems="10"
                         android:hint="22°C  &#xB1; 2°C"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -756,8 +756,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:hint="220V  &#xB1; 10%"
-                        android:inputType="number|numberDecimal"
+                        android:hint="230V  &#xB1; 10%"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -767,8 +767,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:hint="220V  &#xB1; 5V"
-                        android:inputType="number|numberDecimal"
+                        android:hint="230V  &#xB1; 5V"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -780,7 +780,7 @@
                         android:ems="10"
                         android:hint="24V"
                         android:textSize="14sp"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
                     <LinearLayout
@@ -1275,7 +1275,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:gravity="center_vertical"
-                        android:text="System Delay"
+                        android:text="System Delay\n50 ± 0.5µs (when associated with a landing aid)"
                         android:textColor="@color/textViewColor"/>
 
                     <TextView
@@ -1341,8 +1341,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:hint="50 ± 0.9 µs"
-                        android:inputType="number|numberDecimal"
+                        android:hint="50 ± 1 µs"
+                        android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
 
@@ -1353,7 +1353,7 @@
                         android:ems="10"
                         android:hint="12 ± 0.25 µs"
                         android:textSize="14sp"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 
@@ -1364,7 +1364,7 @@
                         android:ems="10"
                         android:hint=">70%"
                         android:textSize="14sp"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 
@@ -1375,7 +1375,7 @@
                         android:ems="10"
                         android:textSize="14sp"
                         android:hint=">83.3%"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 
@@ -1386,7 +1386,7 @@
                         android:ems="10"
                         android:hint="1KW"
                         android:textSize="14sp"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
                     <EditText
@@ -1396,7 +1396,7 @@
                         android:ems="10"
                         android:textSize="14sp"
                         android:hint="0.94 to 0.98"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
                     <EditText
@@ -1406,7 +1406,7 @@
                         android:ems="10"
                         android:textSize="14sp"
                         android:hint="2700 ± 90"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 
@@ -1424,8 +1424,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:ems="10"
-                        android:hint="50 ± 0.9 µs"
-                        android:inputType="number|numberDecimal"
+                        android:hint="50 ± 1 µs"
+                        android:inputType="textPersonName"
                         android:textAlignment="center"
                         android:textSize="14sp" />
 
@@ -1436,7 +1436,7 @@
                         android:ems="10"
                         android:hint="12 ± 0.25 µs"
                         android:textSize="14sp"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 
@@ -1447,7 +1447,7 @@
                         android:ems="10"
                         android:hint=">70%"
                         android:textSize="14sp"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 
@@ -1458,7 +1458,7 @@
                         android:ems="10"
                         android:textSize="14sp"
                         android:hint=">83.3%"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 
@@ -1469,7 +1469,7 @@
                         android:ems="10"
                         android:hint="1KW"
                         android:textSize="14sp"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
                     <EditText
@@ -1479,7 +1479,7 @@
                         android:ems="10"
                         android:textSize="14sp"
                         android:hint="0.94 to 0.98"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
                     <EditText
@@ -1489,7 +1489,7 @@
                         android:ems="10"
                         android:textSize="14sp"
                         android:hint="2700 ± 90"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 
@@ -1732,7 +1732,7 @@
                         android:layout_height="48dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
-                        android:text="System Delay " />
+                        android:text="System Delay" />
 
                     <TextView
                         android:id="@+id/textViewWatch"
@@ -2381,7 +2381,7 @@
                         android:layout_height="48dp"
                         android:ems="10"
                         android:hint="27 ± 2V"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center"
                         android:textSize="14sp"
                         tools:ignore="DuplicateIds" />
@@ -2394,7 +2394,7 @@
                         android:ems="10"
                         android:hint="5 Amps"
                         android:textSize="14sp"
-                        android:inputType="number|numberDecimal"
+                        android:inputType="textPersonName"
                         android:textAlignment="center" />
 
 

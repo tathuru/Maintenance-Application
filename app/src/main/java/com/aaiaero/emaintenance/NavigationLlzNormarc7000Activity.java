@@ -10,6 +10,9 @@ import android.widget.Button;
 
 public class NavigationLlzNormarc7000Activity extends AppCompatActivity {
 
+    Button daily, weekly, fortnightly, monthly, quarterly, halfYearly, yearly, miscellaneous;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,8 +20,17 @@ public class NavigationLlzNormarc7000Activity extends AppCompatActivity {
 
         setTitle("Normarc 7000 LLZ Maintenance");
 
+        daily = (Button) findViewById(R.id.daily);
+        weekly = (Button) findViewById(R.id.weekly);
+        fortnightly = (Button) findViewById(R.id.fortnightly);
+        monthly = (Button) findViewById(R.id.monthly);
+        quarterly = (Button) findViewById(R.id.quarterly);
+        halfYearly = (Button) findViewById(R.id.halfYearly);
+        yearly = (Button) findViewById(R.id.yearly);
+        miscellaneous = (Button) findViewById(R.id.miscellaneous);
 
         Intent intent = getIntent();
+
     }
 
     public void dailyClicked (View view){
@@ -32,8 +44,15 @@ public class NavigationLlzNormarc7000Activity extends AppCompatActivity {
 
     public void weeklyClicked (View view){
         // Launch the DVR Equipment Room Activity
-        //Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
-      //  startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(),ADSBDailyActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void fortnightlyClicked (View view){
+        // Launch the DATISEquipment Room Activity
+
 
 
     }
@@ -41,30 +60,39 @@ public class NavigationLlzNormarc7000Activity extends AppCompatActivity {
     public void monthlyClicked (View view){
         // Launch the VCS Equipment Room Activity
 
+        Log.i("Monthly ", "Clicked");
         //Intent intent = new Intent(getApplicationContext(),ADSBComsoftDailyActivity.class);
         //startActivity(intent);
 
     }
 
-    public void quarterlyClicked (View view){
+    public void quaterlyClicked (View view){
         // Launch the RCAG Equipment Room Activity
 
 
 
     }
 
-    public void sixmonthlyClicked (View view){
+    public void halfYearlyClicked (View view){
         // Launch the UAH Equipment Room Activity
 
 
 
     }
 
-    public void annualClicked (View view){
+    public void yearlyClicked (View view){
         // Launch the ADSB Equipment Room Activity
         //Intent intent = new Intent(getApplicationContext(),ADSBActivity.class);
         //startActivity(intent);
 
+
+
     }
 
+    public void miscellaneousClicked (View view){
+        // Launch the Others Equipment Room Activity
+
+
+
+    }
 }

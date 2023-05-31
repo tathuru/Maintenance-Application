@@ -199,7 +199,7 @@ public class AsmgcsHittSmrSiteSixMonthlyActivity extends AppCompatActivity {
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,300,250, false), 55, 570, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 60, 570, paint);
 
         myPdfdocument.finishPage(myPage1);
 

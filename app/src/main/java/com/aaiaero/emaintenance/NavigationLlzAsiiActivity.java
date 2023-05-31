@@ -46,8 +46,5 @@ public class NavigationLlzAsiiActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_llz_asii);
-
-        setTitle("ASII LLZ Maintenance");
-
     }
 }

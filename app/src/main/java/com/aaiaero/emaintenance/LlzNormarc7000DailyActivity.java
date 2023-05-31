@@ -191,8 +191,22 @@ public class LlzNormarc7000DailyActivity extends AppCompatActivity {
                 switch25 = (Switch) findViewById(R.id.switchLlzNormarcDailyMainTx2)};
 
         //Define and Initialize all Spinners serially here
+//        Spinner spinner1,spinner2,spinner3,spinner4,spinner5,spinner6,spinner7,spinner8,spinner9;
+//        spinnerArray = new Spinner[]{
+//                spinner9 = (Spinner) findViewById(R.id.spinner9),
+//                spinner6 = (Spinner) findViewById(R.id.spinner6),
+//                spinner8 = (Spinner) findViewById(R.id.spinner8),
+//                spinner5 = (Spinner) findViewById(R.id.spinner5),
+//                spinner7 = (Spinner) findViewById(R.id.spinner7),
+//                spinner4 = (Spinner) findViewById(R.id.spinner4),
+//                spinner3 = (Spinner) findViewById(R.id.spinner3),
+//                spinner2 = (Spinner) findViewById(R.id.spinner2),
+//                spinner1 = (Spinner) findViewById(R.id.spinner1)};
 
+        //---------------------To Set View in Current Activity------------------
         // Fixed for all the activity---------------------------------------------------------------
+        ImageView imageView10 = (ImageView) findViewById(R.id.imageView10);
+        imageView10.setImageBitmap(PersonalDetailsActivity.photo);
         TextView textView7 = (TextView) findViewById(R.id.textView7);
         textView7.setText("Name: " + PersonalDetailsActivity.naam);
         TextView textView8 = (TextView) findViewById(R.id.textView8);
@@ -201,11 +215,6 @@ public class LlzNormarc7000DailyActivity extends AppCompatActivity {
         textView10.setText("Emp No.: " + PersonalDetailsActivity.EmpID);
         TextView textView9 = (TextView) findViewById(R.id.textView9);
         textView9.setText("Location: " + MainActivity.latLong1);
-        TextView textViewDate = (TextView) findViewById(R.id.textViewDate);
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd:MM:yyyy HH:mm");
-        String strData = sdf.format(calendar.getTime());
-        textViewDate.setText(strData);
 
         Intent receivedIntent = getIntent();
         //now get the itemID we passed as an extra
@@ -454,7 +463,7 @@ public class LlzNormarc7000DailyActivity extends AppCompatActivity {
         String specificCode = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());// Change Here----------------------------
         //This function saves all the data to parse Server
         //myFunctions.saveToParse(String targetPdf, String fileName, String Equipment,String Schedule_Type,String EditTextData)
-        myFunctions.saveToParse(targetPdf, fileName,"ILS","Daily",outputEditText,MyFunctions.specificCode("d"),outputSwitch, "outputSpinner");// Change Here-----------------------
+        myFunctions.saveToParse(targetPdf, fileName,"LLZ Normarc","Daily",outputEditText,MyFunctions.specificCode("d"),outputSwitch, "outputSpinner");// Change Here-----------------------
 
         // This function will send eMail using JavaMailAPI
         //myFunctions.sendEmail(String To, String Subject, String Message,String targetPdf,String desired_Filename)

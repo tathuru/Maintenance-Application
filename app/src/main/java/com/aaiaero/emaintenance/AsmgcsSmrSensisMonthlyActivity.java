@@ -173,10 +173,10 @@ public class AsmgcsSmrSensisMonthlyActivity extends AppCompatActivity {
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
-        titlePaint.setTextSize(14);
+        titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {130,130,370,380,330,330,330,330,330,330,330,365,330,330};
-        int[] editTextYPixel = {220,205,259,276,403,440,463,498,528,568,606,649,675,704};
+        int[] editTextXPixel = {250,130,370,380,330,330,330,330,330,330,330,365,330,330};
+        int[] editTextYPixel = {205,205,259,276,403,440,471,505,528,574,606,649,680,705};
 
 
 

@@ -457,7 +457,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:layout_weight="1.45"
+                    android:layout_weight="1.5"
                     android:orientation="vertical">
                     <TextView
                         android:id="@+id/textViewLlzIndra70SixParameter"
@@ -2665,7 +2665,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:layout_weight="1.45"
+                    android:layout_weight="1.5"
                     android:orientation="vertical">
                     <TextView
                         android:id="@+id/textViewLlzIndra70SixParameter2"

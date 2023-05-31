@@ -204,10 +204,10 @@ public class AsmgcsSensisRu6MonthlyActivity extends AppCompatActivity {
 
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
-        titlePaint.setTextSize(14);
+        titlePaint.setTextSize(12);
 
-        int[] editTextXPixel = {470,470,423,423,423,423,423,423,423,423,423,423,423,423,423,423,423,423};
-        int[] editTextYPixel = {220,238,370,410,439,462,485,530,555,578,600,625,648,671,695,713,737,764};
+        int[] editTextXPixel = {480,480,423,423,423,423,423,423,423,423,423,423,423,423,423,423,423,423};
+        int[] editTextYPixel = {200,238,370,410,439,462,485,530,555,578,600,625,648,671,695,713,737,764};
 
 
 
@@ -233,7 +233,7 @@ public class AsmgcsSensisRu6MonthlyActivity extends AppCompatActivity {
         // Change as per your requirement-----------------------------------------------------------
         titlePaint.setTextSize(12);
 
-        canvas.drawText(strData,470,270,titlePaint);//Printing Date on PDF
+        canvas.drawText(strData,480,270,titlePaint);//Printing Date on PDF
 
         myPdfdocument.finishPage(myPage1);
 
@@ -253,7 +253,7 @@ public class AsmgcsSensisRu6MonthlyActivity extends AppCompatActivity {
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
 
-        titlePaint.setTextSize(14);
+        titlePaint.setTextSize(12);
 
         int[] editTextXPixel2 = {423,423,423,423,423,423,423,423,423,423,423,423,423,423,423,423,423,423};
         int[] editTextYPixel2 = {183,208,230,253,275,328,359,390,442,464,505,573,618,664,764,788,822,860};
@@ -287,7 +287,7 @@ public class AsmgcsSensisRu6MonthlyActivity extends AppCompatActivity {
         canvas.drawBitmap(scaledbmp,0 , 0, paint);
 
 
-        titlePaint.setTextSize(14);
+        titlePaint.setTextSize(12);
 
         int[] editTextXPixel3 = {423,423,423,423,423,423,75};
         int[] editTextYPixel3 = {145,185,206,256,281,303,445};
@@ -302,7 +302,7 @@ public class AsmgcsSensisRu6MonthlyActivity extends AppCompatActivity {
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,230, false), 30, 785, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,250, false), 30, 785, paint);
 
         myPdfdocument.finishPage(myPage3);
 

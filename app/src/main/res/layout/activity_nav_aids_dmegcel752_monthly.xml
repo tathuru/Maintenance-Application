@@ -628,7 +628,7 @@
                     <TextView
                         android:id="@+id/textView66"
                         android:layout_width="match_parent"
-                        android:layout_height="192dp"
+                        android:layout_height="199dp"
                         android:gravity="center_vertical"
                         android:text="2.1"
                         android:textAlignment="center"
@@ -673,7 +673,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="2.6"
                         android:textAlignment="center"
@@ -682,7 +682,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="2.6.1"
                         android:textAlignment="center"
@@ -709,7 +709,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="70dp"
+                        android:layout_height="75dp"
                         android:gravity="center_vertical"
                         android:text="2.6.4"
                         android:textAlignment="center"
@@ -749,7 +749,7 @@
                             <TextView
                                 android:id="@+id/textView74"
                                 android:layout_width="match_parent"
-                                android:layout_height="48dp"
+                                android:layout_height="55dp"
                                 android:gravity="center_vertical"
                                 android:text="Gaussian pulse pair pulse spacing"
                                 android:textColor="@color/textViewColor" />
@@ -973,7 +973,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="Reply rate \n(From the test interrogator Select reply rate on the test facility)"
                         android:textColor="@color/textViewColor" />
@@ -981,7 +981,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="Operate the switch on the receiver/ video module to the INHIBIT INTERROGATION Portion. Measure the squitter rate"
                         android:textColor="@color/textViewColor" />
@@ -1006,7 +1006,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="70dp"
+                        android:layout_height="75dp"
                         android:gravity="center_vertical"
                         android:text="Connect the oscilloscope probe to DETECTED LOG VIDEO jack and press MAXIMUM REPLY RATE\n(Interrogation Gaussian pulse of 3.0 V reduce to 0.5 ± .25 V Amplitude)"
                         android:textColor="@color/textViewColor" />
@@ -1026,7 +1026,7 @@
                     <EditText
                         android:id="@+id/editText13"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:hint="12µs"
                         android:inputType="textPersonName"
@@ -1155,7 +1155,7 @@
                     <EditText
                         android:id="@+id/editText26"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:inputType="textPersonName"
                         android:textAlignment="center"
@@ -1164,7 +1164,7 @@
                     <EditText
                         android:id="@+id/editText27"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:hint="0.92 to 0.96"
                         android:inputType="textPersonName"
@@ -1193,7 +1193,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="70dp"
+                        android:layout_height="75dp"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:weightSum="2">
@@ -1236,7 +1236,7 @@
                     <EditText
                         android:id="@+id/editText30"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:hint="12µs"
                         android:inputType="textPersonName"
@@ -1364,7 +1364,7 @@
                     <EditText
                         android:id="@+id/editText43"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:inputType="textPersonName"
                         android:textAlignment="center"
@@ -1373,7 +1373,7 @@
                     <EditText
                         android:id="@+id/editText44"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:hint="0.92 to 0.96"
                         android:inputType="textPersonName"
@@ -1402,7 +1402,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="70dp"
+                        android:layout_height="75dp"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:weightSum="2">
@@ -1586,7 +1586,7 @@
                     <TextView
                         android:id="@+id/textView66"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="4.4"
                         android:textAlignment="center"
@@ -1683,7 +1683,7 @@
                     <TextView
                         android:id="@+id/textView74"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="Transmitted pulse shape(after near linear detection)\n(Gaussian pulse pair Pulse width 3.5µs)"
                         android:textColor="@color/textViewColor" />
@@ -1794,7 +1794,7 @@
                     <EditText
                         android:id="@+id/editText54"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:hint="3.5µs"
                         android:inputType="textPersonName"
@@ -1883,7 +1883,7 @@
                     <EditText
                         android:id="@+id/editText62"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:hint="3.5µs"
                         android:inputType="textPersonName"
@@ -2549,7 +2549,7 @@
                     <TextView
                         android:id="@+id/textView66"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="7.2"
                         android:textAlignment="center"
@@ -2590,7 +2590,7 @@
                     <TextView
                         android:id="@+id/textView74"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="Adjust LDES threshold to 0.2V with R4 at test point X3 it has to be less than peak interrogation pulse at X2.Measure new Dead time"
                         android:textColor="@color/textViewColor" />
@@ -2633,7 +2633,7 @@
                     <EditText
                         android:id="@+id/editText92"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:hint="118-130µs"
                         android:inputType="textPersonName"
@@ -2705,7 +2705,7 @@
                     <EditText
                         android:id="@+id/editText95"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:hint="118-130µs"
                         android:inputType="textPersonName"
@@ -3250,7 +3250,7 @@
                     <TextView
                         android:id="@+id/textView66"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="12"
                         android:textAlignment="center"
@@ -3289,7 +3289,7 @@
                     <TextView
                         android:id="@+id/textView74"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="Power System low voltage trip (Ref 3-5.13.1 of vol.)\nTested O.K"
                         android:textColor="@color/teal_700"
@@ -3348,7 +3348,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:weightSum="2">
@@ -3435,7 +3435,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:weightSum="2">
@@ -3481,6 +3481,360 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/textViewWatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="14 System Operation on Battery Back‐up"
+                android:textColor="@color/teal_700"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <LinearLayout
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:text="S.No."
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/teal_700" />
+
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="14.1"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor" />
+
+
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="14.2"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="14.3"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="14.4"
+                        android:textAlignment="center"
+                        android:textColor="@color/textViewColor" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center"
+                        android:textColor="@color/teal_700"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="Parameters" />
+
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="Battery Voltage before discharge (V)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="Equipment Operation on batteries for 10 minutes Approx."
+                        android:textColor="@color/textViewColor" />
+
+
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="Equipment Battery Voltage (After 10 Min discharge)"
+                        android:textColor="@color/textViewColor" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="Terminals Cleaned/properly tightened
+"
+                        android:textColor="@color/textViewColor" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="TX - I"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/teal_700" />
+
+                    <EditText
+                        android:id="@+id/editText107"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:textAlignment="center"
+                        android:inputType="textPersonName"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:textAlignment="center"
+                        android:weightSum="2"
+                        tools:ignore="RtlCompat">
+
+
+                        <Switch
+                            android:id="@+id/switch13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textOn="Ok"
+                            android:textOff="Not Ok"
+                            android:text="Not Ok"
+                            android:textAlignment="center"
+                            android:textColor="@color/textViewColor"
+                            android:textSize="14sp"
+                            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+                        </Switch>
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Ok"
+                            android:textAlignment="center"
+                            android:textColor="@color/textViewColor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/editText108"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:textAlignment="center"
+                        android:inputType="textPersonName"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:textAlignment="center"
+                        android:weightSum="2"
+                        tools:ignore="RtlCompat">
+
+
+                        <Switch
+                            android:id="@+id/switch14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textOn="Ok"
+                            android:textOff="Not Ok"
+                            android:text="Not Ok"
+                            android:textAlignment="center"
+                            android:textColor="@color/textViewColor"
+                            android:textSize="14sp"
+                            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+                        </Switch>
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Ok"
+                            android:textAlignment="center"
+                            android:textColor="@color/textViewColor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:text="TX - II"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/teal_700" />
+
+
+
+                    <EditText
+                        android:id="@+id/editText109"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:textAlignment="center"
+                        android:inputType="textPersonName"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:textAlignment="center"
+                        android:weightSum="2"
+                        tools:ignore="RtlCompat">
+
+
+                        <Switch
+                            android:id="@+id/switch15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textOn="Ok"
+                            android:textOff="Not Ok"
+                            android:text="Not Ok"
+                            android:textAlignment="center"
+                            android:textColor="@color/textViewColor"
+                            android:textSize="14sp"
+                            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+                        </Switch>
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Ok"
+                            android:textAlignment="center"
+                            android:textColor="@color/textViewColor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+                    <EditText
+                        android:id="@+id/editText110"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:textAlignment="center"
+                        android:inputType="textPersonName"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:textAlignment="center"
+                        android:weightSum="2"
+                        tools:ignore="RtlCompat">
+
+
+                        <Switch
+                            android:id="@+id/switch16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textOn="Ok"
+                            android:textOff="Not Ok"
+                            android:text="Not Ok"
+                            android:textAlignment="center"
+                            android:textColor="@color/textViewColor"
+                            android:textSize="14sp"
+                            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+                        </Switch>
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Ok"
+                            android:textAlignment="center"
+                            android:textColor="@color/textViewColor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -3499,7 +3853,7 @@
                     android:layout_weight=".7" />
 
                 <EditText
-                    android:id="@+id/editText107"
+                    android:id="@+id/editText111"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.3"

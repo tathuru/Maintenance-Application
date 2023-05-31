@@ -16,79 +16,76 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="53dp"
-        android:layout_marginBottom="35dp">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <Button
+            android:text="PSR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/psr"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_rowWeight="1"
             android:layout_column="0"
-            android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:onClick="psrClicked"
-            android:text="PSR" />
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="psrClicked"/>
 
         <Button
+            android:text="MSSR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/mssr"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_rowWeight="1"
             android:layout_column="1"
-            android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:onClick="mssrClicked"
-            android:text="MSSR" />
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="mssrClicked"/>
 
         <Button
+            android:text="ASMGCS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/asmgcs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_row="1"
-            android:layout_rowWeight="1"
             android:layout_column="0"
-            android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:onClick="asmgcsClicked"
-            android:text="ASMGCS" />
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="asmgcsClicked"/>
 
         <Button
+            android:text="ADS-B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:id="@+id/adsb"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_row="1"
-            android:layout_rowWeight="1"
             android:layout_column="1"
-            android:layout_columnWeight="1"
             android:layout_gravity="fill"
-            android:onClick="adsbClicked"
-            android:text="ADS-B" />
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="adsbClicked"/>
 
 
         <Button
-            android:id="@+id/others1"
+            android:text="Others"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/others1"
             android:layout_row="3"
-            android:layout_rowWeight="1"
             android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_columnSpan="2"
             android:layout_gravity="fill"
-            android:onClick="othersClicked"
-            android:text="Others" />
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:onClick="othersClicked"/>
 
     </GridLayout>
 
     <TextView
-        android:text="© 2019-2020 Sunny Chaurasiya"
+        android:text="© 2019-2020 Deepak Singh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"

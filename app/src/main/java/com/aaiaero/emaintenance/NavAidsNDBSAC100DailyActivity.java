@@ -250,7 +250,7 @@ public class NavAidsNDBSAC100DailyActivity extends AppCompatActivity {
 
         canvas.drawText(Date, 144, 295, titlePaint);//Printing Date on PDF
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,350,360, false), 692,1280, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,350,360, false), 692,1290, paint);
 
         myPdfdocument.finishPage(myPage1);
 

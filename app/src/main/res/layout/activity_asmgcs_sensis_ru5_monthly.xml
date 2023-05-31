@@ -1319,7 +1319,7 @@
                     android:text="+12Vdc(TP3)"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText35"
+                    android:id="@+id/editText33"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1350,7 +1350,7 @@
                     android:text="+15Vdc(TP4)"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText36"
+                    android:id="@+id/editText34"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1381,7 +1381,7 @@
                     android:text="-5.2Vdc(TP5)"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText37"
+                    android:id="@+id/editText35"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1412,7 +1412,7 @@
                     android:text="-12Vdc(TP6)"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText38"
+                    android:id="@+id/editText36"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1443,7 +1443,7 @@
                     android:text="3.3 Vdc"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText39"
+                    android:id="@+id/editText37"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1501,7 +1501,7 @@
                     android:text="Door Switch"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText40"
+                    android:id="@+id/editText38"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1532,7 +1532,7 @@
                     android:text="Blower Assy."
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText41"
+                    android:id="@+id/editText39"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1563,7 +1563,7 @@
                     android:text="Input/Output Module"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText42"
+                    android:id="@+id/editText40"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1594,7 +1594,7 @@
                     android:text="Processor Module"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText43"
+                    android:id="@+id/editText41"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1625,7 +1625,7 @@
                     android:text="Receiver Module"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText44"
+                    android:id="@+id/editText42"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1656,7 +1656,7 @@
                     android:text="EMSD Module"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText45"
+                    android:id="@+id/editText43"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1686,7 +1686,7 @@
                     android:text="ADT"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText46"
+                    android:id="@+id/editText44"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1717,7 +1717,7 @@
                     android:text="Transmitter Module (For R/T only)"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText47"
+                    android:id="@+id/editText45"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1748,7 +1748,7 @@
                     android:text="LAN Status"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText48"
+                    android:id="@+id/editText46"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1779,7 +1779,7 @@
                     android:text="Switch Status"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText49"
+                    android:id="@+id/editText47"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1810,7 +1810,7 @@
                     android:text="Converter Status"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText50"
+                    android:id="@+id/editText48"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1841,7 +1841,7 @@
                     android:text="OFC Link Status"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText51"
+                    android:id="@+id/editText49"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1872,7 +1872,7 @@
                     android:text="Check Target Primitives"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText52"
+                    android:id="@+id/editText50"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1903,7 +1903,7 @@
                     android:text="Check Interrogations at R/T only"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText53"
+                    android:id="@+id/editText51"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1934,7 +1934,7 @@
                     android:text="RF Cable Connection"
                     android:textColor="@color/black" />
                 <EditText
-                    android:id="@+id/editText54"
+                    android:id="@+id/editText52"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
@@ -1995,7 +1995,7 @@
                     android:textStyle="bold|italic" />
 
                 <EditText
-                    android:id="@+id/editText55"
+                    android:id="@+id/editText53"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"

@@ -54,7 +54,7 @@ public class AsmgcsHittSmrSiteBiteMeasurementActivity extends AppCompatActivity 
         EditText editText1, editText2, editText3, editText4, editText5, editText6, editText7, editText8,editText9, editText10, editText11, editText12, editText13, editText14, editText15, editText16,
                 editText17, editText18, editText19,editText20, editText21, editText22, editText23, editText24, editText25, editText26, editText27,editText28, editText29, editText30, editText31, editText32, editText33, editText34, editText35,
                 editText36, editText37,editText38, editText39, editText40, editText41, editText42, editText43, editText44, editText45,editText46, editText47, editText48, editText49, editText50, editText51, editText52, editText53,
-                editText54, editText55, editText56, editText57, editText58, editText59, editText60, editText61, editText62, editText63,editText64;
+                editText54, editText55, editText56, editText57, editText58, editText59;
 
         editTextArray =  new EditText[] { editText1 = (EditText) findViewById(R.id.editText2),
                 editText2 = (EditText) findViewById(R.id.editText3),
@@ -114,12 +114,7 @@ public class AsmgcsHittSmrSiteBiteMeasurementActivity extends AppCompatActivity 
                 editText56 = (EditText) findViewById(R.id.editText57),
                 editText57 = (EditText) findViewById(R.id.editText58),
                 editText58 = (EditText) findViewById(R.id.editText59),
-                editText59 = (EditText) findViewById(R.id.editText60),
-                editText60 = (EditText) findViewById(R.id.editText61),
-                editText61 = (EditText) findViewById(R.id.editText62),
-                editText62 = (EditText) findViewById(R.id.editText63),
-                editText63 = (EditText) findViewById(R.id.editText64),
-                editText64 = (EditText) findViewById(R.id.editText65)};
+                editText59 = (EditText) findViewById(R.id.editText60)};
 
         //Define and Initialize all Switches serially here
 
@@ -289,7 +284,7 @@ public class AsmgcsHittSmrSiteBiteMeasurementActivity extends AppCompatActivity 
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 430, 800, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,250, false), 415, 800, paint);
 
         myPdfdocument.finishPage(myPage2);
 

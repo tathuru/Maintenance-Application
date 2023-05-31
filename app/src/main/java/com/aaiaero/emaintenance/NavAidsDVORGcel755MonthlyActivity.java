@@ -330,9 +330,9 @@ public class NavAidsDVORGcel755MonthlyActivity extends AppCompatActivity {
         paint.setTextAlign(Paint.Align.LEFT);
 
         int[] editTextXPixel2 = {420,515,420,420,420,420,515,515,515,515,420,420,515,515,420,420,515,515,420,420,515,
-                515,420,420,515,515,420,515,420,420,420,515,515,515,420,515,420,515,79};
+                515,420,420,515,515,420,515,420,420,420,515,515,515,420,420,515,515,78};
         int[] editTextYPixel2 = {132,132,165,180,195,210,165,180,195,210,240,272,240,272,330,380,330,380,
-                434,450,434,450,480,494,480,494,529,529,566,580,595,566,580,595,627,627,666,666,757};
+                434,450,434,450,480,494,480,494,529,529,566,580,595,566,580,595,627,666,627,666,699};
 
 
 
@@ -345,7 +345,7 @@ public class NavAidsDVORGcel755MonthlyActivity extends AppCompatActivity {
         }
 
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,290,270, false), 451, 700, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,230,210, false), 430,730, paint);
         myPdfdocument.finishPage(myPage2);
 
 
@@ -361,7 +361,7 @@ public class NavAidsDVORGcel755MonthlyActivity extends AppCompatActivity {
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DVOR_GCEL_755_Monthly_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DVOR_GCEL_755_Monthly" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {
