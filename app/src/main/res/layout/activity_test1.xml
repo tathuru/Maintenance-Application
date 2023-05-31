@@ -18,7 +18,15 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:hint="Enter Text Here"
+            android:hint="Enter Login Username"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Generated Code"
             android:minHeight="48dp" />
 
         <Button
@@ -26,7 +34,7 @@
             android:layout_width="fill_parent"
             android:layout_height="50dp"
             android:layout_below="@+id/editText"
-            android:text="Click Here TO generate qr code"
+            android:text="Click Here To generate Login Details"
             android:textAllCaps="false"
             android:textSize="16sp" />
 

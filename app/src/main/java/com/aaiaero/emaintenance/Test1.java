@@ -39,7 +39,7 @@ public class Test1 extends AppCompatActivity {
     ImageView imageView;
     Button button;
     Button btnScan;
-    EditText editText;
+    EditText editText,editText1;
     String EditTextValue ;
     Thread thread ;
     public final static int QRcodeWidth = 350 ;
@@ -55,6 +55,7 @@ public class Test1 extends AppCompatActivity {
 
         imageView = (ImageView)findViewById(R.id.imageView);
         editText = (EditText)findViewById(R.id.editText);
+        editText1 = (EditText)findViewById(R.id.editText1);
         button = (Button)findViewById(R.id.button);
         btnScan = (Button)findViewById(R.id.btnScan);
         tv_qr_readTxt = (TextView) findViewById(R.id.tv_qr_readTxt);
@@ -66,11 +67,23 @@ public class Test1 extends AppCompatActivity {
 
 
                 if(!editText.getText().toString().isEmpty()){
-                    EditTextValue = editText.getText().toString() + "Others." ;
+                    EditTextValue = editText.getText().toString();
+
+                    String str = null;
+                    try {
+                        str = encryptMsg(EditTextValue);
+                        Log.i("Encrypt",str);
+                    } catch (InvalidKeyException | NoSuchPaddingException |
+                             NoSuchAlgorithmException | UnsupportedEncodingException |
+                             IllegalBlockSizeException | BadPaddingException e) {
+                        throw new RuntimeException(e);
+                    }
+
 
                     try {
-                        bitmap = TextToImageEncode(EditTextValue);
+                        bitmap = TextToImageEncode(str);
 
+                        editText1.setText(str);
                         imageView.setImageBitmap(bitmap);
 
                     } catch (WriterException e) {
@@ -108,7 +121,7 @@ public class Test1 extends AppCompatActivity {
         try {
             bitMatrix = new MultiFormatWriter().encode(
                     Value,
-                    BarcodeFormat.DATA_MATRIX.QR_CODE,
+                    BarcodeFormat.QR_CODE,
                     QRcodeWidth, QRcodeWidth, null
             );
 
@@ -139,7 +152,7 @@ public class Test1 extends AppCompatActivity {
 
     private static String encryptMsg(String message) throws InvalidKeyException, NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, IllegalBlockSizeException, BadPaddingException {
 
-        String encoded = "NoSuchP!@#$%^&*()_+=addingException";
+        String encoded = "NoSuchPaddingException";
         byte[] decodedKey = Base64.getDecoder().decode(encoded);
         // rebuild key using SecretKeySpec
         SecretKey original = new SecretKeySpec(decodedKey, 0, decodedKey.length, "AES");

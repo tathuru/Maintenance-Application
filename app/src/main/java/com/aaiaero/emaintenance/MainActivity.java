@@ -262,7 +262,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     public void onClick(DialogInterface dialogInterface, int i) {
 
                         try {
-                            if( encryptMsg(usernameEditText.getText().toString() + "Others." ).matches(a_log) ){
+                            if( encryptMsg(usernameEditText.getText().toString()).matches(a_log) ){
 
                                 toNextIntent();
 
@@ -701,7 +701,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private static String encryptMsg(String message) throws InvalidKeyException, NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, IllegalBlockSizeException, BadPaddingException {
 
-        String encoded = "NoSuchP!@#$%^&*()_+=addingException";
+        String encoded = "NoSuchPaddingException";
         byte[] decodedKey = Base64.getDecoder().decode(encoded);
         // rebuild key using SecretKeySpec
         SecretKey original = new SecretKeySpec(decodedKey, 0, decodedKey.length, "AES");
