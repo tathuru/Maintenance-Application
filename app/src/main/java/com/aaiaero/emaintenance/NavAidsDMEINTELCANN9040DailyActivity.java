@@ -64,7 +64,6 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
     }
 
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -308,7 +307,6 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
         paint.setTextAlign(Paint.Align.LEFT);
 
 
-
         int[] editTextXPixel1 = {255,845,845,845,845,791,893,791,893,845,845};
         int[] editTextYPixel1 = {249,660,710,770,830,912,912,955,955,1229,1289};
 
@@ -456,7 +454,7 @@ public class NavAidsDMEINTELCANN9040DailyActivity extends AppCompatActivity {
         }
         //String targetPdf = directory_path + "test.pdf";
         //String fileName = "Daily ADSB " + dateFormat.format(dateObj) + ".pdf";
-        String fileName = "DME_INTELCAN_SKYNAV N9040_" + strData + ".pdf"; // Change Here--------------------------
+        String fileName = "DME_INTELCAN_SKYNAV_N9040_Daily" + strData + ".pdf"; // Change Here--------------------------
         String targetPdf = directory_path + fileName;
         File filePath = new File(targetPdf);
         try {

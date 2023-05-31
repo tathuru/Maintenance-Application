@@ -338,7 +338,7 @@
                     <TextView
                         android:id="@+id/textView67"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:text="1.3"
                         android:textAlignment="center"
@@ -400,7 +400,7 @@
                     <TextView
                         android:id="@+id/textView74"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:text="Fitting of radiating elements viz. field detectors carrier antenna\n(Firm on visual inspection)"
                         android:textColor="@color/textViewColor" />
@@ -512,7 +512,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:weightSum="2">
@@ -997,7 +997,7 @@
                     <TextView
                         android:id="@+id/textView66"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="3.1"
@@ -1015,7 +1015,7 @@
                     <TextView
                         android:id="@+id/textView74"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:gravity="center_vertical"
                         android:textColor="@color/textViewColor"
                         android:text="R.F. Level from Antenna\n(Level at the time of commissioning Nominal Value ± 10% (mV))" />
@@ -1036,9 +1036,9 @@
                     <EditText
                         android:id="@+id/editText17"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:ems="10"
-                        android:hint="Nominal Value ± 10% (mV)"
+                        android:hint="Nominal Value ± 10%\n(mV)"
                         android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
@@ -1057,9 +1057,9 @@
                     <EditText
                         android:id="@+id/editText18"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:ems="10"
-                        android:hint="Nominal Value ± 10% (mV)"
+                        android:hint="Nominal Value ± 10% \n(mV)"
                         android:inputType="textPersonName"
                         android:textSize="14sp"
                         android:textAlignment="center" />
@@ -1938,7 +1938,7 @@
                     <TextView
                         android:id="@+id/textView66"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
                         android:text="9.2"
@@ -1967,7 +1967,7 @@
                     <TextView
                         android:id="@+id/textView74"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:textColor="@color/textViewColor"
                         android:gravity="center_vertical"
                         android:text="Operation of test facilities\n(Gives alarm when switches are in abnormal positions)" />
@@ -1996,7 +1996,7 @@
                     <EditText
                         android:id="@+id/editText46"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:ems="10"
                         android:inputType="textPersonName"
                         android:textSize="14sp"
@@ -2026,7 +2026,7 @@
                     <EditText
                         android:id="@+id/editText48"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="60dp"
                         android:ems="10"
                         android:inputType="textPersonName"
                         android:textSize="14sp"

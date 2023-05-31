@@ -177,7 +177,7 @@ public class AsmgcsHittMlatsAntennaSixMonthlyActivity extends AppCompatActivity 
         titlePaint.setTextSize(12);
 
         int[] editTextXPixel = {95,200,120,120,120,120,120,120,120,120,120,120,120,120,120,145};
-        int[] editTextYPixel = {200,200,248,283,317,353,387,423,458,495,530,566,598,635,670,705};
+        int[] editTextYPixel = {200,200,248,283,317,353,387,423,458,495,530,566,600,635,670,705};
 
 
 
@@ -208,7 +208,7 @@ public class AsmgcsHittMlatsAntennaSixMonthlyActivity extends AppCompatActivity 
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,300,200, false), 348, 752, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 348, 752, paint);
 
         myPdfdocument.finishPage(myPage1);
 
@@ -220,7 +220,7 @@ public class AsmgcsHittMlatsAntennaSixMonthlyActivity extends AppCompatActivity 
                 Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
 
-        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/ASMGCS/HITT/MLATs/Six Monthly/ANTENNA/";// Change Here------------------
+        String directory_path = Environment.getExternalStorageDirectory().getPath() + "/Maintenance Schedules/Surveillance/ASMGCS/HITT/CMSSITE/Six Monthly/ANTENNA/";// Change Here------------------
         File file = new File(directory_path);
         if (!file.exists()) {
             file.mkdirs();

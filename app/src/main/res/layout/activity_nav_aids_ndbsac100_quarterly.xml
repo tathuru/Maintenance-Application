@@ -277,7 +277,7 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="2"
                         android:textAlignment="center"
@@ -323,7 +323,7 @@
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:gravity="center_vertical"
                         android:text="Check modulation frequency 1020 Hz ( &#xB1; 50 Hz) Tone Key PWB TP-1 Or 400 Hz ( &#xB1; 25 Hz) Tone Key PWB TP-2"
                         android:textColor="@color/textViewColor" />
@@ -409,7 +409,7 @@
                     <EditText
                         android:id="@+id/editText3"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"
@@ -493,7 +493,7 @@
                     <EditText
                         android:id="@+id/editText9"
                         android:layout_width="match_parent"
-                        android:layout_height="48dp"
+                        android:layout_height="55dp"
                         android:ems="10"
                         android:textAlignment="center"
                         android:inputType="textPersonName"

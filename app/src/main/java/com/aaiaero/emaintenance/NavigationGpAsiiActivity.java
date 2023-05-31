@@ -12,8 +12,6 @@ public class NavigationGpAsiiActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_gp_asii);
-
-        setTitle("ASII GP Maintenance");
     }
 
     public void dailyClicked (View view){

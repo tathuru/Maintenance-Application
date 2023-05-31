@@ -40,60 +40,58 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="100dp">
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <Button
-            android:id="@+id/sitti"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
             android:text="SITTI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sitti"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/schmid"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
             android:text="SCHMID"
-            android:textSize="12sp" />
-
-        <Button
-            android:id="@+id/drake"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_row="2"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
+            android:id="@+id/schmid"
+            android:layout_row="0"
+            android:layout_column="1"
             android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="12sp" />
+        <Button
             android:text="DRAKE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drake"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/frequentis"
+            android:text="FREQUENTIS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_row="3"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
+            android:id="@+id/frequentis"
+            android:layout_row="1"
+            android:layout_column="1"
             android:layout_gravity="fill"
-            android:text="FREQUENTIS"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
             android:textSize="12sp" />
+
 
 
     </GridLayout>

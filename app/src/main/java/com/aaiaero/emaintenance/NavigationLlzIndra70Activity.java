@@ -15,7 +15,7 @@ public class NavigationLlzIndra70Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_llz_indra70);
 
-        setTitle("INDRA (NORMARC) 70XX LLZ Maintenance");
+        setTitle("INDRA LLZ Maintenance");
 
     }
 

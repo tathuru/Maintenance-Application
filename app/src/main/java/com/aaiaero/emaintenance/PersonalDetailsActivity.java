@@ -12,6 +12,7 @@ import androidx.core.content.ContextCompat;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
@@ -39,6 +40,7 @@ import java.io.ByteArrayOutputStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 public class PersonalDetailsActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -51,6 +53,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
     //private static final String TAG = "PERMISSION_TAG";
     public static Bitmap photo, sigNature;
     EditText editText;
+    public  String Date;
     boolean imageTaken = true;
     Spinner spinnerP;
     EditText email, empppID,airportName;
@@ -61,10 +64,32 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
     public static String emailTo, EmpID, airportNameICAO;
     private final String TAG = "TextEditor";
 
+    public void click(View view) {
+
+        closeKeyBoard();
+
+    }
+
+
+    public void closeKeyBoard() {
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager)
+                    getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_details);
+
+        TextView textViewdate = (TextView) findViewById(R.id.dateTimeTextView1);
+
+        SimpleDateFormat date1 = new SimpleDateFormat("dd.MM.yyyy, HH:mm");
+        Date = date1.format(new Date());
+        textViewdate.setText("Date & Time   :   " + Date);
 
         Intent intent = getIntent();
 
@@ -85,13 +110,13 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
 
 
         TextView locationTextView = (TextView) findViewById(R.id.locationTextView);
-        locationTextView.setText("Location: " + MainActivity.latLong1);
+        locationTextView.setText("Location  :   " + MainActivity.latLong1);
 
         Calendar c = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
         strDate = sdf.format(c.getTime());
         TextView dateTimeTextView = (TextView) findViewById(R.id.dateTimeTextView);
-        dateTimeTextView.setText("Date Time: " + strDate);
+       // dateTimeTextView.setText("Date Time: " + strDate);
 
         this.imageView = (ImageView)this.findViewById(R.id.imageViewSelf); // aai logo in hindi
         Button photoButton = (Button) this.findViewById(R.id.button1);

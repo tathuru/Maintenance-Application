@@ -208,7 +208,7 @@ public class AsmgcsHittMlatsEmcSixMonthlyActivity extends AppCompatActivity {
         titlePaint.setTextSize(12);
         paint.setTextAlign(Paint.Align.LEFT);
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,300,200, false), 348, 752, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(PersonalDetailsActivity.sigNature,250,200, false), 348, 752, paint);
 
         myPdfdocument.finishPage(myPage1);
 

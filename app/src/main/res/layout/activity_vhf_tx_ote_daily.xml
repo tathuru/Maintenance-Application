@@ -156,7 +156,7 @@
                     android:ems="10"
                     android:layout_weight="1"
                     android:hint="Station"
-                    android:textSize="12sp" />
+                    android:textSize="14sp" />
                 <EditText
                     android:id="@+id/editTextVhfTxOteDailyRegion"
                     android:layout_width="match_parent"
@@ -165,7 +165,7 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="Region"
-                    android:textSize="12sp" />
+                    android:textSize="14sp" />
             </LinearLayout>
 
 
@@ -324,7 +324,7 @@
                         android:ems="6"
                         android:text="1 (Main)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq1"
                         android:layout_width="match_parent"
@@ -332,7 +332,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc1"
                         android:layout_width="match_parent"
@@ -340,7 +340,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower1"
                         android:layout_width="match_parent"
@@ -348,7 +348,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus1"
                         android:layout_width="match_parent"
@@ -356,7 +356,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans1"
                         android:layout_width="match_parent"
@@ -364,7 +364,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn1"
                         android:layout_width="match_parent"
@@ -372,7 +372,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC1"
                         android:layout_width="match_parent"
@@ -380,7 +380,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <TextView
                         android:id="@+id/textViewVhfTxOteDailyTx3"
                         android:layout_width="match_parent"
@@ -396,7 +396,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR1"
                         android:layout_width="match_parent"
@@ -404,7 +404,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop1"
                         android:layout_width="match_parent"
@@ -412,7 +412,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod1"
                         android:layout_width="match_parent"
@@ -420,7 +420,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -438,7 +438,7 @@
                         android:ems="6"
                         android:text="1 (S/By)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq2"
                         android:layout_width="match_parent"
@@ -446,7 +446,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc2"
                         android:layout_width="match_parent"
@@ -454,7 +454,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower2"
                         android:layout_width="match_parent"
@@ -462,7 +462,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus2"
                         android:layout_width="match_parent"
@@ -470,7 +470,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans2"
                         android:layout_width="match_parent"
@@ -478,7 +478,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn2"
                         android:layout_width="match_parent"
@@ -486,7 +486,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC2"
                         android:layout_width="match_parent"
@@ -494,7 +494,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp2"
@@ -503,7 +503,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR2"
                         android:layout_width="match_parent"
@@ -511,7 +511,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop2"
                         android:layout_width="match_parent"
@@ -519,7 +519,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod2"
                         android:layout_width="match_parent"
@@ -527,7 +527,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -545,7 +545,7 @@
                         android:ems="6"
                         android:text="2 (Main)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq3"
                         android:layout_width="match_parent"
@@ -553,7 +553,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc3"
                         android:layout_width="match_parent"
@@ -561,7 +561,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower3"
                         android:layout_width="match_parent"
@@ -569,7 +569,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus3"
                         android:layout_width="match_parent"
@@ -577,7 +577,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans3"
                         android:layout_width="match_parent"
@@ -585,7 +585,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn3"
                         android:layout_width="match_parent"
@@ -593,7 +593,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC3"
                         android:layout_width="match_parent"
@@ -601,7 +601,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp3"
@@ -610,7 +610,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR3"
                         android:layout_width="match_parent"
@@ -618,7 +618,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop3"
                         android:layout_width="match_parent"
@@ -626,7 +626,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod3"
                         android:layout_width="match_parent"
@@ -634,7 +634,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -652,7 +652,7 @@
                         android:ems="6"
                         android:text="2 (S/By)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq4"
                         android:layout_width="match_parent"
@@ -660,7 +660,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc4"
                         android:layout_width="match_parent"
@@ -668,7 +668,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower4"
                         android:layout_width="match_parent"
@@ -676,7 +676,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus4"
                         android:layout_width="match_parent"
@@ -684,7 +684,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans4"
                         android:layout_width="match_parent"
@@ -692,7 +692,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn4"
                         android:layout_width="match_parent"
@@ -700,7 +700,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC4"
                         android:layout_width="match_parent"
@@ -708,7 +708,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp4"
@@ -717,7 +717,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR4"
                         android:layout_width="match_parent"
@@ -725,7 +725,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop4"
                         android:layout_width="match_parent"
@@ -733,7 +733,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod4"
                         android:layout_width="match_parent"
@@ -741,7 +741,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -759,7 +759,7 @@
                         android:ems="6"
                         android:text="3 (Main)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq5"
                         android:layout_width="match_parent"
@@ -767,7 +767,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc5"
                         android:layout_width="match_parent"
@@ -775,7 +775,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower5"
                         android:layout_width="match_parent"
@@ -783,7 +783,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus5"
                         android:layout_width="match_parent"
@@ -791,7 +791,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans5"
                         android:layout_width="match_parent"
@@ -799,7 +799,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn5"
                         android:layout_width="match_parent"
@@ -807,7 +807,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC5"
                         android:layout_width="match_parent"
@@ -815,7 +815,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp5"
@@ -824,7 +824,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR5"
                         android:layout_width="match_parent"
@@ -832,7 +832,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop5"
                         android:layout_width="match_parent"
@@ -840,7 +840,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod5"
                         android:layout_width="match_parent"
@@ -848,7 +848,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -866,7 +866,7 @@
                         android:ems="6"
                         android:text="3 (S/By)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq6"
                         android:layout_width="match_parent"
@@ -874,7 +874,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc6"
                         android:layout_width="match_parent"
@@ -882,7 +882,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower6"
                         android:layout_width="match_parent"
@@ -890,7 +890,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus6"
                         android:layout_width="match_parent"
@@ -898,7 +898,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans6"
                         android:layout_width="match_parent"
@@ -906,7 +906,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn6"
                         android:layout_width="match_parent"
@@ -914,7 +914,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC6"
                         android:layout_width="match_parent"
@@ -922,7 +922,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp6"
@@ -931,7 +931,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR6"
                         android:layout_width="match_parent"
@@ -939,7 +939,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop6"
                         android:layout_width="match_parent"
@@ -947,7 +947,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod6"
                         android:layout_width="match_parent"
@@ -955,7 +955,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
             </LinearLayout>
             <EditText
@@ -967,7 +967,7 @@
                 android:ems="4"
                 android:inputType="textMultiLine"
                 android:hint="Remarks:"
-                android:textSize="12sp"/>
+                android:textSize="14sp"/>
             <TextView
                 android:id="@+id/textViewVhfTxOteDailyPg2"
                 android:layout_width="match_parent"
@@ -1123,7 +1123,7 @@
                         android:ems="6"
                         android:text="4 (Main)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq7"
                         android:layout_width="match_parent"
@@ -1131,7 +1131,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc7"
                         android:layout_width="match_parent"
@@ -1139,7 +1139,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower7"
                         android:layout_width="match_parent"
@@ -1147,7 +1147,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus7"
                         android:layout_width="match_parent"
@@ -1155,7 +1155,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans7"
                         android:layout_width="match_parent"
@@ -1163,7 +1163,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn7"
                         android:layout_width="match_parent"
@@ -1171,7 +1171,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC7"
                         android:layout_width="match_parent"
@@ -1179,7 +1179,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <TextView
                         android:id="@+id/textViewVhfTxOteDailyTx7"
                         android:layout_width="match_parent"
@@ -1195,7 +1195,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR7"
                         android:layout_width="match_parent"
@@ -1203,7 +1203,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop7"
                         android:layout_width="match_parent"
@@ -1211,7 +1211,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod7"
                         android:layout_width="match_parent"
@@ -1219,7 +1219,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -1237,7 +1237,7 @@
                         android:ems="6"
                         android:text="4 (S/By)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq8"
                         android:layout_width="match_parent"
@@ -1245,7 +1245,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc8"
                         android:layout_width="match_parent"
@@ -1253,7 +1253,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower8"
                         android:layout_width="match_parent"
@@ -1261,7 +1261,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus8"
                         android:layout_width="match_parent"
@@ -1269,7 +1269,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans8"
                         android:layout_width="match_parent"
@@ -1277,7 +1277,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn8"
                         android:layout_width="match_parent"
@@ -1285,7 +1285,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC8"
                         android:layout_width="match_parent"
@@ -1293,7 +1293,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp8"
@@ -1302,7 +1302,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR8"
                         android:layout_width="match_parent"
@@ -1310,7 +1310,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop8"
                         android:layout_width="match_parent"
@@ -1318,7 +1318,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod8"
                         android:layout_width="match_parent"
@@ -1326,7 +1326,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -1344,7 +1344,7 @@
                         android:ems="6"
                         android:text="5 (Main)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq9"
                         android:layout_width="match_parent"
@@ -1352,7 +1352,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc9"
                         android:layout_width="match_parent"
@@ -1360,7 +1360,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower9"
                         android:layout_width="match_parent"
@@ -1368,7 +1368,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus9"
                         android:layout_width="match_parent"
@@ -1376,7 +1376,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans9"
                         android:layout_width="match_parent"
@@ -1384,7 +1384,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn9"
                         android:layout_width="match_parent"
@@ -1392,7 +1392,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC9"
                         android:layout_width="match_parent"
@@ -1400,7 +1400,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp9"
@@ -1409,7 +1409,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR9"
                         android:layout_width="match_parent"
@@ -1417,7 +1417,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop9"
                         android:layout_width="match_parent"
@@ -1425,7 +1425,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod9"
                         android:layout_width="match_parent"
@@ -1433,7 +1433,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -1451,7 +1451,7 @@
                         android:ems="6"
                         android:text="5 (S/By)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq10"
                         android:layout_width="match_parent"
@@ -1459,7 +1459,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc10"
                         android:layout_width="match_parent"
@@ -1467,7 +1467,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower10"
                         android:layout_width="match_parent"
@@ -1475,7 +1475,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus10"
                         android:layout_width="match_parent"
@@ -1483,7 +1483,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans10"
                         android:layout_width="match_parent"
@@ -1491,7 +1491,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn10"
                         android:layout_width="match_parent"
@@ -1499,7 +1499,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC10"
                         android:layout_width="match_parent"
@@ -1507,7 +1507,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp10"
                         android:layout_width="match_parent"
@@ -1515,7 +1515,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR10"
                         android:layout_width="match_parent"
@@ -1523,7 +1523,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop10"
                         android:layout_width="match_parent"
@@ -1531,7 +1531,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod10"
                         android:layout_width="match_parent"
@@ -1539,7 +1539,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -1557,7 +1557,7 @@
                         android:ems="6"
                         android:text="6 (Main)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq11"
                         android:layout_width="match_parent"
@@ -1565,7 +1565,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc11"
                         android:layout_width="match_parent"
@@ -1573,7 +1573,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower11"
                         android:layout_width="match_parent"
@@ -1581,7 +1581,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus11"
                         android:layout_width="match_parent"
@@ -1589,7 +1589,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans11"
                         android:layout_width="match_parent"
@@ -1597,7 +1597,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn11"
                         android:layout_width="match_parent"
@@ -1605,7 +1605,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC11"
                         android:layout_width="match_parent"
@@ -1613,7 +1613,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp11"
@@ -1622,7 +1622,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR11"
                         android:layout_width="match_parent"
@@ -1630,7 +1630,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop11"
                         android:layout_width="match_parent"
@@ -1638,7 +1638,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod11"
                         android:layout_width="match_parent"
@@ -1646,7 +1646,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -1664,7 +1664,7 @@
                         android:ems="6"
                         android:text="6 (S/By)"
                         android:textAlignment="center"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyFreq12"
                         android:layout_width="match_parent"
@@ -1672,7 +1672,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyLoc12"
                         android:layout_width="match_parent"
@@ -1680,7 +1680,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint=""
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyAcPower12"
                         android:layout_width="match_parent"
@@ -1688,7 +1688,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="Green Lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyStatus12"
                         android:layout_width="match_parent"
@@ -1696,7 +1696,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Active/Offline"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTrans12"
                         android:layout_width="match_parent"
@@ -1704,7 +1704,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Trans. lamp lit"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTxn12"
                         android:layout_width="match_parent"
@@ -1712,7 +1712,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="Test Txn Nml"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyACDC12"
                         android:layout_width="match_parent"
@@ -1720,7 +1720,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="C/O Normal"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyTemp12"
@@ -1729,7 +1729,7 @@
                         android:layout_marginTop="40dp"
                         android:ems="6"
                         android:hint="&lt; 55 deg C"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyVSWR12"
                         android:layout_width="match_parent"
@@ -1737,7 +1737,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="1-2"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyRFop12"
                         android:layout_width="match_parent"
@@ -1745,7 +1745,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="25-50 W"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                     <EditText
                         android:id="@+id/editTextVhfTxOteDailyMod12"
                         android:layout_width="match_parent"
@@ -1753,7 +1753,7 @@
                         android:layout_marginTop="5dp"
                         android:ems="6"
                         android:hint="30-85 %"
-                        android:textSize="12sp"/>
+                        android:textSize="14sp"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -1767,7 +1767,7 @@
                 android:ems="4"
                 android:inputType="textMultiLine"
                 android:hint="Remarks:"
-                android:textSize="12sp"/>
+                android:textSize="14sp"/>
 
             <GridLayout
                 android:layout_width="match_parent"

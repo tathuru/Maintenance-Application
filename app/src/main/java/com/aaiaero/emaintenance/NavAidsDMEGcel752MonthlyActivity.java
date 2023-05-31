@@ -85,7 +85,7 @@ public class NavAidsDMEGcel752MonthlyActivity extends AppCompatActivity {
                 editText78,editText79,editText80,editText81, editText82,editText83,editText84,
                 editText85, editText86,editText87,editText88,editText89,editText90,editText91,editText92,
                 editText93,editText94,editText95,editText96,editText97,editText98, editText99,editText100,
-                editText101,editText102,editText103,editText104, editText105,editText106,editText107;
+                editText101,editText102,editText103,editText104, editText105,editText106,editText107,editText108,editText109,editText110,editText111;
 
         editTextArray = new EditText[]{
 
@@ -195,9 +195,13 @@ public class NavAidsDMEGcel752MonthlyActivity extends AppCompatActivity {
                 editText104 = (EditText) findViewById(R.id.editText104),
                 editText105 = (EditText) findViewById(R.id.editText105),
                 editText106 = (EditText) findViewById(R.id.editText106),
-                editText107 = (EditText) findViewById(R.id.editText107)};
+                editText107 = (EditText) findViewById(R.id.editText107),
+                editText108 = (EditText) findViewById(R.id.editText108),
+                editText109 = (EditText) findViewById(R.id.editText109),
+                editText110 = (EditText) findViewById(R.id.editText110),
+                editText111 = (EditText) findViewById(R.id.editText111)};
 
-        Switch switch1,switch2,switch3,switch4,switch5,switch6,switch7,switch8,switch9,switch10,switch11,switch12;
+        Switch switch1,switch2,switch3,switch4,switch5,switch6,switch7,switch8,switch9,switch10,switch11,switch12,switch13,switch14,switch15,switch16;
         switchArray = new Switch[]{
                 switch1 = (Switch) findViewById(R.id.switch1),
                 switch2 = (Switch) findViewById(R.id.switch2),
@@ -210,7 +214,11 @@ public class NavAidsDMEGcel752MonthlyActivity extends AppCompatActivity {
                 switch9 = (Switch) findViewById(R.id.switch9),
                 switch10 = (Switch) findViewById(R.id.switch10),
                 switch11 = (Switch) findViewById(R.id.switch11),
-                switch12 = (Switch) findViewById(R.id.switch12)};
+                switch12 = (Switch) findViewById(R.id.switch12),
+                switch13 = (Switch) findViewById(R.id.switch13),
+                switch14 = (Switch) findViewById(R.id.switch14),
+                switch15 = (Switch) findViewById(R.id.switch15),
+                switch16 = (Switch) findViewById(R.id.switch16)};
 
         TextView textViewN = (TextView) findViewById(R.id.textViewN);
         textViewN.setText("Name: " + PersonalDetailsActivity.naam);
@@ -410,11 +418,11 @@ public class NavAidsDMEGcel752MonthlyActivity extends AppCompatActivity {
         titlePaint.setTextSize(13);  //Change here
         paint.setTextAlign(Paint.Align.LEFT);
 
-        int[] editTextXPixel3 = {430,500,430,430,430,500,500,500,430,430,500,500,430,430,500,500,430,500,111};
-        int[] editTextYPixel3 = {132,132,195,232,285,195,232,285,324,335,324,335,358,373,358,372,512,512,628};
+        int[] editTextXPixel3 = {430,500,430,430,430,500,500,500,430,430,500,500,430,430,500,500,430,500,360,360,438,438,79};
+        int[] editTextYPixel3 = {132,132,195,232,285,195,232,285,324,335,324,335,358,373,358,372,512,512,582,644,582,644,705};
 
-        int[] switchXPixel3 = {430,500,430,430,500,500,430,430,500,500};
-        int[] switchYPixel3 = {309,309,395,420,395,420,445,480,445,480};
+        int[] switchXPixel3 = {430,500,430,430,500,500,430,430,500,500,360,360,438,438};
+        int[] switchYPixel3 = {309,309,395,420,395,420,445,480,445,480,607,675,607,675};
 
 
         // Change till here as per requirements ----------------------------------------------------
@@ -430,7 +438,7 @@ public class NavAidsDMEGcel752MonthlyActivity extends AppCompatActivity {
         }
 
 
-        canvas.drawBitmap(Bitmap.createScaledBitmap(MySignature.sigNature, 290, 270 ,false), 350, 782, paint);
+        canvas.drawBitmap(Bitmap.createScaledBitmap(MySignature.sigNature, 255, 245 ,false), 350, 752, paint);
 
         myPdfdocument.finishPage(myPage3);
 
